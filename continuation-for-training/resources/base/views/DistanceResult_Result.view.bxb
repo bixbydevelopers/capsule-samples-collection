@@ -1,0 +1,49 @@
+result-view {
+  match {
+    CompareDistanceResult (this) {
+      from-output: CompareDistance (action)
+    }
+  }
+
+  render {
+    if (action.planet.name == action.targetPlanet.name) {
+      layout-macro (planet-details-macro) {
+        param (planet) {
+          expression (action.planet)
+        }
+      }
+    } else {
+      layout-macro (planets-distance-macro) {
+        param (planet) {
+          expression (action.planet)
+        }
+        param (targetPlanet) {
+          expression (action.targetPlanet)
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("And to Pluto?")
+    }
+    conversation-driver {
+      template ("Compare the size to Neptune")
+    }
+    conversation-driver {
+      template ("Show #{value(action.planet)}")
+    }
+  }
+
+  message {
+    if (action.planet.name == action.targetPlanet.name) {
+      if (action.planet.name == 'Earth') {
+        template ("Let me calculate that... wait, it's 0 miles. You're already on Earth!")
+      } else {
+        template ("#{value(action.planet)} is 0 miles from itself, of course!")
+      }
+    }
+    template ("#{value(action.targetPlanet)} is #{value(this)} away from #{value(action.planet)}.")
+  }
+}

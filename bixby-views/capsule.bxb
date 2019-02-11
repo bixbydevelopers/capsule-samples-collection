@@ -1,0 +1,15 @@
+capsule {
+  id (example.commonLayouts)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.common) {as (common) version (3.22.16)}
+    import (viv.money) {as (money) version (2.16.14)}
+    import (viv.entity) {as (entity) version (3.7.34)}
+    import (viv.time) {as (time) version (2.61.12)}
+    import (viv.geo) {as (geo) version-from (entity)}
+  }
+}

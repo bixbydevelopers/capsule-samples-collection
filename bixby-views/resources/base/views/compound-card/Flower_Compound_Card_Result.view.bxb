@@ -1,0 +1,41 @@
+result-view {
+  match: Flower (flower) {
+    from-output: ShowFlowerCompoundCards
+  }
+
+  message {
+    template ("Here are flowers as compound cards:")
+  }
+
+  render {
+    if (size(flower) > 1) {
+      list-of (flower) {
+        has-details (true)
+        where-each (item) {
+          layout-macro (flower-compound-card) {
+            param (flower) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    else-if (size(flower) == 1) {
+      layout-match (flower) {
+        mode (Details)
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Show flowers as image cards")
+    }
+    conversation-driver {
+      template ("Show flowers as thumbnail cards")
+    }
+    conversation-driver {
+      template ("Show flowers as compound cards")
+    }
+  }
+}

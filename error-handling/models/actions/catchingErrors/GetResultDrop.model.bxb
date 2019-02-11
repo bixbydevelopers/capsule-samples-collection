@@ -1,0 +1,21 @@
+action (GetResultDrop) {
+  type (Search)
+  description (This demonstrates how to drop inputs.)
+  collect {
+    // Providing this input will cause this function to throw the ErrorWhichDrops error.
+    input (integer) {
+      type (Integer)
+      min (Optional) max (One)
+    }
+  }
+  output (Result) {
+    throws {
+      error (ErrorWhichDrops) {
+        // When this error is caught, it will 'drop' the integer input, and attempt to run the function again.
+        on-catch {
+          drop (integer) 
+        }
+      }
+    }
+  }
+}

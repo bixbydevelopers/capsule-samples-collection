@@ -1,0 +1,40 @@
+layout-macro-def(shoe-details-macro) {
+  params {
+    param (shoe) {
+      type (Shoe)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        title-area {
+          slot1 {
+            text {
+              value {
+                template ("#{value (shoe.name)}")
+              }
+            }
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (shoe.price)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (shoe.type)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (shoe.description)}")
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+dialog (Result) {
+  match {
+    Shoe(this)
+  }
+  template ("I found #{spell (size(this))}:")
+}

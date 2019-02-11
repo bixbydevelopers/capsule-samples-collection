@@ -1,0 +1,10 @@
+dialog (Concept) {
+  match: ProductType(this)
+  switch (plural(this)) {
+    case (One) {
+      template("Product Type") //singular
+    } default {
+      template("Product Types") //plural
+    }
+  }
+}

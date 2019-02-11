@@ -1,0 +1,10 @@
+selection-strategy {
+  id (prefer-pickup-eta)
+  match {
+    RideShare(this)
+  }
+  named-advice ("prefer-pickup-eta") {
+    advice ("${this.pickupETA}")
+    advise-for { lowerBoundOpen (0.0) }
+  }
+}

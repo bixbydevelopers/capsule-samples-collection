@@ -1,0 +1,24 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (FindPlanets) {
+      accepted-inputs (name, color, sortType)
+      local-endpoint (FindPlanets.js)
+    }
+    action-endpoint (FindThatPlanet) {
+      accepted-inputs (name, color)
+      local-endpoint (FindPlanets.js)
+    }
+    action-endpoint (CompareDistance) {
+      accepted-inputs (planet, targetPlanet)
+      local-endpoint (CompareDistance.js)
+    }
+    action-endpoint (CompareSize) {
+      accepted-inputs (planet, targetPlanet)
+      local-endpoint (CompareSize.js)
+    }
+  }
+}

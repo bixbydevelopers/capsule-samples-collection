@@ -1,0 +1,4 @@
+action (ShowHotelTitleArea) {
+  type (Search)
+  output (Hotel)
+}

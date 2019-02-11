@@ -1,0 +1,27 @@
+dialog (Result) {
+  match: Planet (this) {
+    from-output: FindPlanets (action)
+  }
+  
+  if (exists(action.sortType) && size(this) > 1) {
+    if (action.sortType == 'SizeDesc') {
+      if (exists(action.color)) {
+        template("Here are #{value(action.color)} planets sorted by diameter, descending:")
+      } else {
+        template("Here are the planets sorted by diameter, descending:")
+      }
+    }
+  }
+
+  if (size(this) == 1) {
+    template("Here is #{value(this)}:")
+  }
+
+  if (exists(action.color)) {
+    template("Here are #{value(action.color)} planets:")
+  }
+
+  if (size(this) > 1) {
+    template ("Here are the planets in the solar system:")
+  }
+}

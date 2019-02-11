@@ -1,0 +1,24 @@
+dialog (Value) {
+  match: ProductType(this)
+  switch (this) {
+    case (FlowerArrangement) {
+      template("Flower Arrangement")
+    }
+    case (Bouquet) {
+      template("Bouquet")
+    }
+    case (Plantable) {
+      template("Plantable")
+    }
+  }
+}
+
+// 
+// 
+// 
+// enum (ProductType) {
+//   description (Types of flower products.)
+//   symbol (FlowerArrangement)
+//   symbol (Bouquet)
+//   symbol (Plantable)
+// }

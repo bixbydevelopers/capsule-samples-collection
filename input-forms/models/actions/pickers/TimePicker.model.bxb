@@ -1,0 +1,15 @@
+// TimePicker.model.bxb
+action (TimePicker) {
+  type (Search)
+  collect {
+    input (time) {
+      type (MyTime)
+      min (Required) max (One)
+    }
+  }
+  output (MyTime) {
+    evaluate {
+      $expr (time)
+    }
+  }
+}

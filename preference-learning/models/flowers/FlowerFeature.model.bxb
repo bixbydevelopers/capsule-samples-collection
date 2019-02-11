@@ -1,0 +1,5 @@
+enum (FlowerFeature) {
+  description (Features for flowers.)
+  symbol (Ribbon)
+  symbol (Vase)
+}

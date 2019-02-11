@@ -1,0 +1,45 @@
+layout {
+  match: RideShare (rideShare)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        map-card {
+          size (XL)
+          title-area{
+            slot2 {
+              single-line {
+                spacer
+              }
+            }
+          }
+          markers {
+            marker {
+              geo ("rideShare.sourcePoint.point")
+              icon {
+                template (/images/icons/green-marker.png)
+              }
+              width (15)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+            marker {
+              geo ("rideShare.destinationPoint.point")
+              icon {
+                template (/images/icons/red-marker.png)
+              }
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+action (FindFlowers) {
+  type (Search)
+  description (Output flowers.)
+  output (FlowerProduct)
+}
+  

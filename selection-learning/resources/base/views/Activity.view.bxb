@@ -1,0 +1,22 @@
+result-view {
+  match: Activity (this)
+  
+  message {
+    template ("#{value (this)}")
+  }
+  
+  render{
+    layout {
+      section {
+        content {
+          paragraph{
+            value{
+              template ("Please be ready to meet your driver.")
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

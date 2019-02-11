@@ -1,0 +1,19 @@
+action (CheckRideShareStatus) {
+
+  type (RefreshActivity)
+
+  collect {
+    input(activity){
+      type (Activity)
+      min (Optional)
+      default-init {
+        intent {
+          goal: Activity
+          value: Countdown(20)
+        }
+      }
+    }
+  }
+
+  output (Activity)
+}

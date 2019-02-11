@@ -1,0 +1,4 @@
+train (t-oe10i00aofuud5ilw6v41sw9n) {
+  utterance ("[g:CompareSizeResult] compare the size to {[g:ThatPlanet] (Jupiter)[v:PlanetName]}")
+  plan (Y2BjUEutSMwtyEnVS87PK8nMK00syczP03POzy1ILEoNzqxKDUotLs0pYVAgpI5BHquKkIzEkoCcxLzUEgZlrArcMvNSkBRhNwUi6ZeYi9uazGKoCawMjAxMDMwMLEAWA5TNCIQMYAwCzEDMBJQHygEA)
+}

@@ -1,0 +1,95 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    // Image Card
+    action-endpoint (ShowHotelImageCards) {
+      accepted-inputs ()
+      local-endpoint (FindHotels.js)
+    }
+    action-endpoint (ShowRideShareImageCards) {
+      accepted-inputs ()
+      local-endpoint (FindRideShares.js)
+    }
+    action-endpoint (ShowFlowerImageCards) {
+      accepted-inputs ()
+      local-endpoint (FindFlowers.js)
+    }
+    // Compound Card
+    action-endpoint (ShowFlowerCompoundCards) {
+      accepted-inputs ()
+      local-endpoint (FindFlowers.js)
+    }
+    action-endpoint (ShowHotelCompoundCards) {
+      accepted-inputs ()
+      local-endpoint (FindHotels.js)
+    }
+    action-endpoint (ShowRideShareCompoundCards) {
+      accepted-inputs ()
+      local-endpoint (FindRideShares.js)
+    }
+    // Thumbnail Card
+    action-endpoint (ShowRideShareThumbnailCards) {
+      accepted-inputs ()
+      local-endpoint (FindRideShares.js)
+    }
+    action-endpoint (ShowHotelThumbnailCards) {
+      accepted-inputs ()
+      local-endpoint (FindHotels.js)
+    }
+    action-endpoint (ShowFlowerThumbnailCards) {
+      accepted-inputs ()
+      local-endpoint (FindFlowers.js)
+    }
+    // Map
+    action-endpoint (ShowRideShareMap) {
+      accepted-inputs ()
+      local-endpoint (FindRideShare.js)
+    }
+    // Carousel
+    action-endpoint (ShowHotelCarousel) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    // Input Cell
+    action-endpoint (ShowRideShareInputCells) {
+      accepted-inputs ()
+      local-endpoint (FindRideShare.js)
+    }
+    // Cell
+    action-endpoint (ShowFlowerCellCards) {
+      accepted-inputs ()
+      local-endpoint (FindFlowers.js)
+    }
+    action-endpoint (ShowFlowerCellAreas) {
+      accepted-inputs ()
+      local-endpoint (FindFlowers.js)
+    }
+    action-endpoint (ShowHotelPartitioned) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    action-endpoint (ShowHotelImageList) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    action-endpoint (ShowHotelTitleArea) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    action-endpoint (ShowHotelTitleCard) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    action-endpoint (ShowHotelHbox) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    action-endpoint (ShowFlowerCompoundCardsChin) {
+      accepted-inputs ()
+      local-endpoint (FindFlowers.js)
+    }
+  }
+}

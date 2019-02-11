@@ -1,0 +1,21 @@
+selection-strategy {
+  id (prefer-type)
+  match {
+    RideShare (this)
+  }
+
+  named-advice ("prefer-pool") {
+    advice ("${this.productType eq 'Pool' ? 1.0 : 0.0}")
+    advise-for { lowerBoundClosed (1.0) upperBoundClosed (1.0) }
+  }
+
+  named-advice ("prefer-standard") {
+    advice ("${this.productType eq 'Standard' ? 1.0 : 0.0}")
+    advise-for { lowerBoundClosed (1.0) upperBoundClosed (1.0) }
+  }
+
+  named-advice ("prefer-luxe") {
+    advice ("${this.productType eq 'Deluxe' ? 1.0 : 0.0}")
+    advise-for { lowerBoundClosed (1.0) upperBoundClosed (1.0) }
+  }
+}

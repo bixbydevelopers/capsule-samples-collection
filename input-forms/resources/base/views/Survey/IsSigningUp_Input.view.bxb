@@ -1,0 +1,29 @@
+input-view {
+  match {
+    IsSigningUp (isSigningUp) { 
+      to-input: SubmitSurvey
+    }
+  }
+
+  message {
+    template ("Sign up for the mailing list?")
+  }
+
+  render {
+    form {
+      elements {
+        checkbox {
+          id (isSigningUp)
+          type (IsSigningUp)
+          primary-text("Mailing List")
+          secondary-text("Receive monthly updates from our company")
+          value("{raw(survey.isSigningUp)}")
+        }
+      }
+      on-submit {
+        goal: IsSigningUp
+        value: viv.core.FormElement(isSigningUp)
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+input-view {
+  match: RideShare (this)
+  
+  message("Which of these?")
+  
+  render {
+    selection-of (this) {
+      where-each (one) {
+        
+        compound-card {
+          content {
+            title-area {
+              hAlign (Start)
+              slot1 {
+                text {
+                  value {
+                    template ("#{value (one.productType)}")
+                  }
+                }
+              }
+            }
+            cell-area {
+              slot2 {
+                content {
+                  primary {
+                    template ("Pickup in #{value (one.pickupETA)}")
+                  }
+                }
+              }
+            }
+            cell-area {
+              slot2 {
+                content {
+                  primary {
+                    template ("Arrive at destination in #{value (one.dropoffETA)}")
+                  }
+                }
+              }
+            }
+            cell-area {
+              slot2 {
+                content {
+                  secondary {
+                    template ("#{value (one.priceRange)}")
+                  }
+                }
+              }
+            }
+          }
+        }
+        
+        
+      }
+    }
+  }
+  
+}

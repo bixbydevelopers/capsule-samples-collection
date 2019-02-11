@@ -1,0 +1,4 @@
+train (t-td55hw5p5aedbcdsd3lp62j6h) {
+  utterance ([g:ShowHotelPartitioned] show a partition)
+  plan (Y2BikEzKrEiq1EvOz83Nz/NJrMwvLSnW88gvSc1h0MAmFZyRXw6WDkgsKsksyczPS01hYARCBigGkgA=)
+}

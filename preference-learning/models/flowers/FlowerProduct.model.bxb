@@ -1,0 +1,26 @@
+structure (FlowerProduct) {
+
+  property (name) {
+    type (ProductName)
+    min (Required) max (One)
+  }
+
+  property (features) {
+    type (FlowerFeature)
+    min(Optional) max (Many)
+  }
+
+  property (productTypes) {
+    type (ProductType)
+    min(Optional) max (Many)
+  }
+
+  // preferences
+  features {
+    preferable {
+      preference (name)
+      preference (productTypes)
+    }
+  }
+
+}

@@ -1,0 +1,43 @@
+layout-macro-def (flower-image-card) {
+  params {
+    param (flower) {
+      type (Flower)
+      min (Required) max (One)
+    }
+  }
+  content {
+    image-card {
+      size (L)
+      image-url ("#{value(flower.imageUrls[0])}")
+      title-area {
+        hAlign (Start)
+        slot1 {
+          text {
+            value {
+              template ("#{value(flower.name)}")
+            }
+            style (Title_M)
+          }
+        }
+        slot2 {
+          paragraph {
+            value {
+              template ("#{value(flower.priceRange)}")
+            }
+            style (Detail_L)
+          }
+        }
+        slot3 {
+          single-line {
+            text {
+              value {
+                template ("#{value(flower.deliveryType)}")
+              }
+              style (Detail_M)
+            }
+          }
+        }
+      }
+    }
+  }
+}

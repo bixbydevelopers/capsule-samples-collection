@@ -1,0 +1,23 @@
+action (SubmitSurvey) {
+  description (An action that takes a required survey as an input)
+  type (Calculation)
+  collect {
+    input (fullName) {
+      type (FullName)
+      min (Required) max (One)
+    }
+    input (email) {
+      type(Email)
+      min (Required) max(One)
+    }
+    input (comments) {
+      type (Comments)
+      min (Required) max (One)
+    }
+    input (isSigningUp) {
+      type (IsSigningUp)
+      min (Required) max (One)
+    }
+  }
+  output (Survey)
+}

@@ -1,0 +1,8 @@
+vocab (Type) {
+  "Athletic" {"Athletic" "Sports"}
+  "Boot" {"Boot"}
+  "Casual" {"Casual"}
+  "Dance" {"Dance"}
+  "Formal" {"Formal"}
+  "Sandals" {"Sandals"}
+}

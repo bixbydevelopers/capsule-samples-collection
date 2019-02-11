@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+    BusinessCategory (this) {
+      from-property: Business (business)
+    }
+  }
+  template("#{value(business.name)} has #{joinAs('value', this)}.")
+}

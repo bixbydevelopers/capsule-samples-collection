@@ -1,0 +1,25 @@
+action (FindPlanets) {
+  type (Search)
+  collect {
+    input (name) {
+      type (PlanetName)
+      min (Optional) max (One)
+    }
+    input (color) {
+      type (PlanetColor)
+      min (Optional) max (One)
+    }
+    input (sortType) {
+      type (PlanetSortType)
+      min (Optional) max (One)
+    }
+  }
+  output (ThisPlanet) {
+    on-empty {
+      ordered-effects {
+        drop (color)
+        drop (name)
+      }
+    }
+  }
+}

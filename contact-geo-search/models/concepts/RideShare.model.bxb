@@ -1,0 +1,11 @@
+structure (RideShare) {
+  description (A concept representing a RideShare from a SourcePoint to a DestinationPoint.)
+  property (sourcePoint) {
+    type (SourcePoint)
+    min (Optional) max (One)
+  }
+  property (destinationPoint) {
+    type (DestinationPoint)
+    min (Optional) max (One)
+  }
+}

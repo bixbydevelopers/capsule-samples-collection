@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: CompareSizeResult (this)
+  template("#{number (this, '#,#0.0')}")
+}

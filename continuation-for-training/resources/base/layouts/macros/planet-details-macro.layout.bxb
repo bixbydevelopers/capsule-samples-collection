@@ -1,0 +1,130 @@
+layout-macro-def(planet-details-macro) {
+  params {
+    param (planet) {
+      type (Planet)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        image-card {
+          size (L)
+          image-url {
+            template ("#{value (planet.imageSet.images[0].url)}")
+          }
+          title-area {
+            slot2 {
+              single-line {
+                text{
+                  value ("")
+                }
+              }
+            }
+          }
+        }
+        single-line {
+          spacer
+        }
+        single-line {
+          spacer
+        }
+        title-area {
+          slot1 {
+            text {
+              value {
+                template ("#{value (planet.name)}")
+              }
+              style (Title_L)
+            }
+          }
+        }
+        single-line {
+          spacer
+        }
+        single-line {
+          spacer
+        }
+        cell-area {
+          slot2 {
+            content {
+              order (SecondaryPrimary)
+              primary {
+                template ("#{value (planet.distance)} million miles from the Sun")
+              }
+              secondary {
+                template ("Distance")
+              }
+            }
+          }
+        }
+        single-line {
+          spacer
+        }
+        cell-area {
+          slot2 {
+            content {
+              order (SecondaryPrimary)
+              primary {
+                template ("#{value (planet.periodOfRevolution)} days")
+              }
+              secondary {
+                template ("Period of Revolution")
+              }
+            }
+          }
+        }
+        single-line {
+          spacer
+        }
+        cell-area {
+          slot2 {
+            content {
+              order (SecondaryPrimary)
+              primary {
+                template ("#{value (planet.size)} miles in diameter")
+              }
+              secondary {
+                template ("Size")
+              }
+            }
+          }
+        }
+        single-line {
+          spacer
+        }
+        cell-area {
+          slot2 {
+            content {
+              order (SecondaryPrimary)
+              primary {
+                template ("#{value (planet.atmosphere)}")
+              }
+              secondary {
+                template ("Atmosphere")
+              }
+            }
+          }
+        }
+        single-line {
+          spacer
+        }
+        cell-area {
+          slot2 {
+            content {
+              order (SecondaryPrimary)
+              primary {
+                template ("#{value (planet.moons)} moons")
+              }
+              secondary {
+                template ("Moons")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

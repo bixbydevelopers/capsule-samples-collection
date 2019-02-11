@@ -1,0 +1,5 @@
+structure (ThisPlanet) {
+  role-of (Planet)
+  //extends will allow projections as goals description
+  extends (Planet)
+}

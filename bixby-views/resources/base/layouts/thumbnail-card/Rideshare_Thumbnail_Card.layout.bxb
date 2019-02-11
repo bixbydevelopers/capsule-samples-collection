@@ -1,0 +1,41 @@
+layout-macro-def (rideshare-thumbnail-card) {
+  params {
+    param (rideShare) {
+      type (RideShare)
+      min (Required) max (One)
+    }
+  }
+  content {
+    thumbnail-card {
+      title-area {
+        hAlign (Start)
+        slot1 {
+          text {
+            style (Title_S)
+            value ("#{value(rideShare.productType)}")
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("Arrives in #{value(rideShare.pickupETA)}")
+              style (Detail_L)
+            }
+          }
+        }
+        slot3 {
+          single-line {
+            text {
+              value ("#{value(rideShare.priceRange)}")
+              style (Detail_M_Soft)
+            }
+          }
+        }
+      }
+      image-url {
+        template ("#{value(rideShare.imageSet.images[0].url)}")
+      }
+      image-position (End)
+    }
+  }
+}

@@ -1,0 +1,101 @@
+layout {
+  match: Flower (flower)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        compound-card {
+          content {
+            image-card {
+              size (L)
+              image-url ("#{value(flower.imageUrls[0])}")
+              title-area {
+                hAlign (Start)
+                slot1 {
+                  text {
+                    value ("")
+                    style (Title_M)
+                  }
+                }
+              }
+            }
+            single-line {
+              text {
+                value {
+                  template ("#{value(flower.name)}")
+                }
+                style (Title_M)
+              }
+            }
+            paragraph {
+              value {
+                template ("#{value(flower.priceRange)}")
+              }
+              style (Detail_L)
+            }
+            single-line {
+              text {
+                value {
+                  template ("#{value(flower.deliveryType)}")
+                }
+                style (Detail_M_Soft)
+              }
+            }
+          }
+        }
+      }
+    }
+    section {
+      title (Description)
+      content {
+        paragraph {
+          value ("A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing or trailing with stems that are often armed with sharp prickles. Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa. Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies.")
+          style (Detail_M)
+        }
+      }
+    }
+    section {
+      title (Product Specifications)
+      content {
+        partitioned {
+          content {
+            paragraph {
+              value ("The leaves are borne alternately on the stem. In most species they are 5 to 15 centimetres (2.0 to 5.9 in) long, pinnate, with (3–) 5–9 (–13) leaflets and basal stipules; the leaflets usually have a serrated margin, and often a few small prickles on the underside of the stem. Most roses are deciduous but a few (particularly from South east Asia) are evergreen or nearly so.")
+              style (Detail_M)
+            }
+            paragraph {
+              value ("The flowers of most species have five petals, with the exception of Rosa sericea, which usually has only four. Each petal is divided into two distinct lobes and is usually white or pink, though in a few species yellow or red. Beneath the petals are five sepals (or in the case of some Rosa sericea, four). These may be long enough to be visible when viewed from above and appear as green points alternating with the rounded petals. There are multiple superior ovaries that develop into achenes.[4] Roses are insect-pollinated in nature.")
+              style (Detail_M)
+            }
+            paragraph {
+              value ("The aggregate fruit of the rose is a berry-like structure called a rose hip. Many of the domestic cultivars do not produce hips, as the flowers are so tightly petalled that they do not provide access for pollination. The hips of most species are red, but a few (e.g. Rosa pimpinellifolia) have dark purple to black hips.")
+              style (Detail_M)
+            }
+          }
+        }
+      }
+    }
+    section {
+      title (Options)
+      content {
+        partitioned {
+          content {
+            paragraph {
+              value ("Large: $59.99")
+              style (Detail_M)
+            }
+            paragraph {
+              value ("Medium: $49.99")
+              style (Detail_M)
+            }
+            paragraph {
+              value ("Small: $39.99")
+              style (Detail_M)
+            }
+          }
+        }
+      }
+    }
+  }
+}

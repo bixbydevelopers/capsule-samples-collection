@@ -1,0 +1,7 @@
+action (FindRideShare) {
+  type (Search)
+  description (Find ride shares.)
+  collect {
+  }
+  output (RideShare)
+}

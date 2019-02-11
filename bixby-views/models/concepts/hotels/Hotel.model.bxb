@@ -1,0 +1,30 @@
+structure (Hotel) {
+  property (name) {
+    type (HotelName)
+    min (Required) max (One)
+  }
+  property (rating) {
+    type (HotelRating)
+    min (Required) max (One)
+  }
+  property (lowRate) {
+    type (HotelLowRate)
+    min (Required) max (One)
+  }
+  property (location) {
+    type (geo.GeoPoint)
+    min (Optional) max (One)
+  }
+  property (reviewCount) {
+    type (HotelReviewCount)
+    min (Optional) max (One)
+  }
+  property (images) {
+    type (HotelImages)
+    min (Optional) max (Many)
+  }
+  property (amenities) {
+    type (HotelAmenity)
+    min (Optional) max (Many)
+  }
+}

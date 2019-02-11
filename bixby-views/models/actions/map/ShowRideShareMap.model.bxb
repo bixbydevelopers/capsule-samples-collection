@@ -1,0 +1,4 @@
+action (ShowRideShareMap) {
+  type (Search)
+  output (RideShare)
+}

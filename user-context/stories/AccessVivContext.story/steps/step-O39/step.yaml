@@ -1,0 +1,4 @@
+data:
+  aligned: '[g:AccessVivContext] What is my locale?'
+label: Output
+type: intent

@@ -1,0 +1,8 @@
+train (t-n2jao2a9mxz4h8xmlinfnkyog) {
+  utterance ([g:FindPlanets,v:PlanetSortType:SizeDesc] show planets sorted by size)
+  plan (Y2BmkE+tSMwtyEnVS87PK8nMK00syczP0wvJyCwOyEnMSy1hUMCqwC0zLwWioJhBGasKiGxwflFJSGVBKgMTAyMQMwBJRgYQgPIB)
+}
+train (t-nqaokc0daf1kwsb0o63wvlugl) {
+  utterance ([g:Planet#size] what is the size)
+  plan (Y2BikE3KrEiq1EvOzyvJzCtNLMnMz9MLyEnMSy0JzqxKZZDEKc3ACIQMDExADGYBAA==)
+}

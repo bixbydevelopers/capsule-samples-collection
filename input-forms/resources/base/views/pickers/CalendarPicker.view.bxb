@@ -1,0 +1,17 @@
+input-view {
+  match: viv.core.BaseDateInterval (timeOff) {
+    to-input: RequestPTO (action)
+  }
+
+  message (When do you want to take PTO?)
+
+  render {
+    calendar {
+      initial-value (now().date) // today is the default, so this isn't required
+      allow-range (true) // support date-intervals
+      restrictions {
+        block-past-dates (true) // block selection of days before today
+      }
+    }
+  }
+}

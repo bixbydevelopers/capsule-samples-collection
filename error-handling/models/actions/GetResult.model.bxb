@@ -1,0 +1,5 @@
+action (GetResult) {
+  type (Search)
+  description (This action will always succeed.)
+  output (Result)
+}

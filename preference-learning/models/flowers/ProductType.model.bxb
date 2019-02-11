@@ -1,0 +1,6 @@
+enum (ProductType) {
+  description (Types of flower products.)
+  symbol (FlowerArrangement)
+  symbol (Bouquet)
+  symbol (Plantable)
+}

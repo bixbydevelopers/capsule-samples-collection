@@ -1,0 +1,36 @@
+action (ValidateInputs) {
+  type (Search)
+  description (Show how to use validate.)
+  collect {
+    input (integer) {
+      type (Integer) 
+      max (One)
+      min (Required)
+      
+      validate {
+        if ("exists(integer) && integer == 101") {
+          halt {
+            dialog("Halting because you entered 101.")
+            // Can't control what is displayed here?
+          } 
+        }
+        if ("exists(integer) && integer == 42") {
+          replan {
+            // The dialog doesn't show up?
+            dialog("Using replan to change integer to 0, because you entered 42.")
+            intent {
+              goal: Integer
+              value: Integer(0)
+            }
+          }
+        }
+        if ("exists(integer) && integer > 9") {
+          prompt {
+            dialog("Please provide an integer smaller than 10.")
+          }
+        }
+      }
+    }
+  }
+  output (Result)
+}

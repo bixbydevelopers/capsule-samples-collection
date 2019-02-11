@@ -1,0 +1,16 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (SubmitSurvey) {
+      accepted-inputs (fullName, email, comments, isSigningUp)
+      local-endpoint (submitSurvey.js)
+    }
+    action-endpoint (FindPersons) {
+      accepted-inputs ()
+      local-endpoint (findPersons.js)
+    }
+  }
+}

@@ -1,0 +1,23 @@
+result-view {
+  match: PlanetDistance (this) {
+    from-property: Planet (planet)
+  }
+  
+  render {
+    layout-macro (planet-distance-macro) {
+      param (planet) {
+        expression (planet)
+      }
+    }
+  }
+  
+  message {
+    template ("#{value(planet)} is #{value(this)} million miles from the sun.")
+  }
+  
+  conversation-drivers {
+    conversation-driver {
+      template ("Show #{value(planet)}")
+    }
+  }
+}

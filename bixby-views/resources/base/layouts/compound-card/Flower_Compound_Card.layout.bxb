@@ -1,0 +1,49 @@
+layout-macro-def (flower-compound-card) {
+  params {
+    param (flower) {
+      type (Flower)
+      min (Required) max (One)
+    }
+  }
+  content {
+    compound-card {
+      content {
+        image-card {
+          size (L)
+          image-url ("#{value(flower.imageUrls[0])}")
+          title-area {
+            hAlign (Start)
+            slot1 {
+              text {
+                value ("")
+                style (Title_M)
+              }
+            }
+          }
+        }
+        single-line {
+          text {
+            value {
+              template ("#{value(flower.name)}")
+            }
+            style (Title_M)
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value(flower.priceRange)}")
+          }
+          style (Detail_L)
+        }
+        single-line {
+          text {
+            value {
+              template ("#{value(flower.deliveryType)}")
+            }
+            style (Detail_M_Soft)
+          }
+        }
+      }
+    }
+  }
+}

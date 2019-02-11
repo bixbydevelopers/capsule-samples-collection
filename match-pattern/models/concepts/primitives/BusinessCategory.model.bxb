@@ -1,0 +1,6 @@
+enum (BusinessCategory) {
+  symbol (American)
+  symbol (Fast Food)
+  symbol (Mexican)
+  symbol (Sushi)
+}

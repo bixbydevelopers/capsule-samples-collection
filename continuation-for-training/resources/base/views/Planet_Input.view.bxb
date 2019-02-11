@@ -1,0 +1,17 @@
+input-view {
+  match {
+    Planet (this)
+  }
+
+  render {
+    selection-of (this) {
+      where-each (planet) {
+        layout-macro (planet-summary-macro) {
+          param (planet) {
+            expression (planet)
+          }
+        }
+      }
+    }
+  }
+}

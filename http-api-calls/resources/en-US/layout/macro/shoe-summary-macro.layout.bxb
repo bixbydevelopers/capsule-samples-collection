@@ -1,0 +1,38 @@
+layout-macro-def(shoe-summary-macro) {
+  params {
+    param (shoe) {
+      type (Shoe)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        compound-card {
+          content {
+            title-area {
+              slot1 {
+                text {
+                  value {
+                    template ("#{value (shoe.name)}")
+                  }
+                }
+              }
+            }
+            cell-area {
+              slot2 {
+                content {
+                  primary {
+                    template ("#{value (shoe.price)}")
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

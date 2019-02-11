@@ -1,0 +1,8 @@
+preference-support {
+  match: FlowerProduct (this)
+
+  bootstrap (productTypes) {
+    value (Bouquet)
+    value (FlowerArrangement)
+  }
+}

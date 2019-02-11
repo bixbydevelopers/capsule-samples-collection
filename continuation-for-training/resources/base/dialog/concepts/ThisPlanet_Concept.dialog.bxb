@@ -1,0 +1,11 @@
+dialog (Concept) {
+  match: ThisPlanet (this)
+  switch (plural(this)) {
+    case (One) {
+      template (planet)
+    }
+    default {
+      template (planets)
+    }
+  }
+}

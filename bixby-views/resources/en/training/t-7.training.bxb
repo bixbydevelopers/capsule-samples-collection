@@ -1,0 +1,8 @@
+train (t-7o0b288awlnznmd4cdb5e761g) {
+  utterance ([g:ShowHotelCompoundCards] show hotels as compound cards)
+  plan (Y2BikEzKrEiq1EvOz83Nz/NJrMwvLSnW88gvSc1h0MImFZyRXw6Wds7PLcgvzUtxTixKKWZgBEIGKAaSAA==)
+}
+train (t-7qwghh55a63nst5dr45129xcr) {
+  utterance ([g:ShowHotelImageList] show an image list)
+  plan (Y2BikEzKrEiq1EvOz83Nz/NJrMwvLSnW88gvSc1hUMMmFZyRXw6W9sxNTE/1ySwuYWAEQgYoBpIA)
+}

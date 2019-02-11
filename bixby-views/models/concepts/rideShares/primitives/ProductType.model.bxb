@@ -1,0 +1,10 @@
+enum (ProductType) {
+  description (Type of RideShare.)
+  symbol (Pool)
+  symbol (Standard)
+  symbol (Deluxe)
+  symbol (Super Deluxe)
+  symbol (Scooter)
+  symbol (Motorcycle)
+  symbol (Drone)
+}

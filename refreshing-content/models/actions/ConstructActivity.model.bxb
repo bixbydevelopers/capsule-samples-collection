@@ -1,0 +1,10 @@
+action (ConstructActivity) {
+  type (Constructor)
+  collect {
+    input (countdown) {
+      type (Countdown)
+      min (Required) max (One)
+    }
+  }
+  output (Activity)
+}

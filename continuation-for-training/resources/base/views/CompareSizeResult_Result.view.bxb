@@ -1,0 +1,46 @@
+result-view {
+  match {
+    CompareSizeResult (this) {
+      from-output: CompareSize (action)
+    }
+  }
+
+  render {
+    if (action.planet.name == action.targetPlanet.name) {
+      layout-macro (planet-details-macro) {
+        param (planet) {
+          expression (action.planet)
+        }
+      }
+    } else {
+      layout-macro (planets-size-macro) {
+        param (planet) {
+          expression (action.planet)
+        }
+        param (targetPlanet) {
+          expression (action.targetPlanet)
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("And to Mars?")
+    }
+    conversation-driver {
+      template ("How far is it to Saturn?")
+    }
+    conversation-driver {
+      template ("Show #{value(action.planet)}")
+    }
+  }
+
+  message {
+    if (action.planet.name == action.targetPlanet.name) {
+      template ("#{value(action.planet)}...is the same size as #{value(action.planet)}.")
+    } else {
+      template ("#{value(action.planet)} is #{value(this)} times the size of #{value(action.targetPlanet)}.")
+    }
+  }
+}

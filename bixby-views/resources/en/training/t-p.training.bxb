@@ -1,0 +1,4 @@
+train (t-pks5xzxz3c1hiktgt782drbyz) {
+  utterance ([g:ShowRideShareMap] show a map)
+  plan (Y2BikE3KrEiq1EvOz83Nz/NJrMwvLSnWC8pMSQ3OSCxKZVDBJh2ckV8OV+KbWMDACIQMUAwkAQ==)
+}

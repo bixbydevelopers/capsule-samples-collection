@@ -1,0 +1,40 @@
+result-view {
+  match: RideShare (rideShare) {
+    from-output: ShowRideShareCompoundCards
+  }
+
+  message {
+    template ("Here are rides as compound cards:")
+  }
+
+  render {
+    if (size(rideShare) > 1) {
+      list-of (rideShare) {
+        has-details (true)
+        where-each (item) {
+          layout-macro (rideshare-compound-card) {
+            param (rideShare) {
+              expression (item)
+            }
+          }
+        }
+      }
+    } else-if (size(rideShare) == 1) {
+      layout-match (rideShare) {
+        mode (Details)
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Show rides as image cards")
+    }
+    conversation-driver {
+      template ("Show rides as thumbnail cards")
+    }
+    conversation-driver {
+      template ("Show rides as compound cards")
+    }
+  }
+}

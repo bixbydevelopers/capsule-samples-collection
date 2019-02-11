@@ -1,0 +1,15 @@
+// Person.model.bxb
+structure (Person) {
+  property (firstName) {
+    type (FirstName)
+    min (Required) max (One)
+  }
+  property (lastName) {
+    type (LastName)
+    min (Required) max (One)
+  }
+  property (gender) {
+    type (Gender)
+    min (Required) max (One)
+  }
+}

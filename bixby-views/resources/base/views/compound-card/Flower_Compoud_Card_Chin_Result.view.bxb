@@ -1,0 +1,58 @@
+result-view {
+  match: Flower (flower) {
+    from-output: ShowFlowerCompoundCardsChin
+  }
+
+  message {
+    template ("Here are flowers as compound cards with chins:")
+  }
+
+  render {
+    if (size(flower) > 1) {
+      list-of (flower) {
+        where-each (item) {
+          compound-card {
+            content {
+              image-card {
+                size (L)
+                image-url ("#{value(item.imageUrls[0])}")
+                title-area {
+                  hAlign (Start)
+                  slot1 {
+                    text {
+                      value ("#{value(item.name)}")
+                      style (Title_M)
+                    }
+                  }
+                }
+              }
+              paragraph {
+                value {
+                  template ("#{value(item.priceRange)}")
+                }
+                style (Detail_L)
+              }
+            }
+            chin {
+              slot1 {
+                single-line {
+                  text {
+                    value {
+                      template ("#{value(item.deliveryType)}")
+                    }
+                    style (Detail_M_Soft)
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    else-if (size(flower) == 1) {
+      layout-match (flower) {
+        mode (Details)
+      }
+    }
+  }
+}

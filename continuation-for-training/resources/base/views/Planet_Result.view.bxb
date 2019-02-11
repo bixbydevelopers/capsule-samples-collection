@@ -1,0 +1,36 @@
+result-view {
+  match {
+    Planet (this)
+  }
+
+  render {
+    if (size(this) > 1) {
+      list-of (this) {
+        where-each (planet) {
+          layout-macro (planet-summary-macro) {
+            param (planet) {
+              expression (planet)
+            }
+          }
+        }
+      }
+    } else {
+      layout-macro (planet-details-macro) {
+        param (planet) {
+          expression (this)
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    if (size(this) == 1) {
+      conversation-driver {
+        template ("How far is it to Saturn?")
+      }
+      conversation-driver {
+        template ("Compare the size to Neptune")
+      }
+    }
+  }
+}

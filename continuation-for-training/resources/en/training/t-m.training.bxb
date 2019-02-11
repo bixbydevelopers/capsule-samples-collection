@@ -1,0 +1,4 @@
+train (t-mwcbz0s9zfonhydqku2cpr82i) {
+  utterance ("[g:CompareSizeResult:continue] and to {[g:ThatPlanet] (Jupiter)[v:PlanetName]}")
+  plan (Y2BjUEnKrEiq1EvOzyvJzCtNLMnMz9Nzzs8tSCxKDc6sSg1KLS7NKWGQw6+KQRaLfEhGYklATmJeagmDIhZpt8y8FCQl2EyASPkl5uKyILMYqpuVgZGBiYGZgQXIYoCyGYGQAYxBgBmImYDyQDkA)
+}

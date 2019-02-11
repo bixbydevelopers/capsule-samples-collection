@@ -1,0 +1,22 @@
+capsule {
+  id (bixby.preferenceLearning)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.entity) {
+      as (entity)
+      version (3.7.35)
+    }
+    import (viv.common) {
+      as (common) 
+      version-from (entity)
+    }
+    import (viv.image) {
+      as (image)
+      version-from (entity)
+    }
+  }
+}

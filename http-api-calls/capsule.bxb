@@ -1,0 +1,17 @@
+capsule {
+  id (example.http)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.common) { 
+      as (common) version (3.22.15)
+    }
+    import (viv.money) { 
+      as (money) 
+      version (2.16.14)
+    }
+  }
+}

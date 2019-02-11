@@ -1,0 +1,20 @@
+action (GetResultHalt) {
+  type (Search)
+  description (This will never succeed, and will always halt.)
+  collect {
+
+  }
+  output (Result) {
+    throws {
+      error (ErrorWhichHalts) {
+        on-catch {
+          halt {
+            dialog {
+              template ("Execution is halted because of the ErrorWhichHalts error.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

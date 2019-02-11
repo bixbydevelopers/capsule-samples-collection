@@ -1,0 +1,4 @@
+action (ShowRideShareImageCards) {
+  type (Search)
+  output (RideShare)
+}

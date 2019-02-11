@@ -1,0 +1,40 @@
+result-view {
+  match {
+    Hotel (hotel) {
+      from-output: ShowHotelHbox
+    }
+  }
+  
+  message ("Here is a hotel as an hbox and vbox:")
+  
+  render {
+    layout {
+      section {
+        content {
+          hbox {
+            content {
+              vbox {
+                content {
+                  single-line {
+                    text {
+                      value ("From #{value(hotel.lowRate)}")
+                    }
+                  }
+                }
+              }
+              vbox {
+                content {
+                  single-line {
+                    text {
+                      value ("#{value(hotel.rating)} stars")
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+dialog (NoResult) {
+  match: Planet (this) {
+    from-output: FindPlanets (action)
+  }
+  template("I couldn't find any [#{value(action.color)} ]planet[ named #{value(action.name)}].")
+}

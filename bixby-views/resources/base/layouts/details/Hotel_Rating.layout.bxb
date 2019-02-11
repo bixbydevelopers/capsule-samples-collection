@@ -1,0 +1,160 @@
+layout-macro-def (hotel-rating) {
+  params {
+    param (rating) {
+      type (HotelRating)
+      min (Required) max (One)
+    }
+    param (reviewCount) {
+      type (HotelReviewCount)
+      min (Required) max (One)
+    }
+  }
+  content {
+    single-line {
+      if (rating == 0) {
+        text {
+          value ("0 stars")
+        }
+      } else-if (rating <= 0.5) {
+        image {
+          url ("/images/icons/half-rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 1.0) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 1.5) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/half-rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 2.0) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 2.5) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/half-rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 3.0) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 3.5) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/half-rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 4.0) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 4.5) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/half-rating.png")
+          style (Detail_M)
+        }
+      } else-if (rating <= 5.0) {
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+        image {
+          url ("/images/icons/rating.png")
+          style (Detail_M)
+        }
+      } else {
+        text {
+          value ("No Rating")
+        }
+      }
+      spacer
+      text {
+        value ("[out of #{value(reviewCount)} reviews]")
+        style (Detail_M)
+      }
+    }
+  }
+}

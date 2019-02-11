@@ -1,0 +1,22 @@
+selection-strategy {
+  id (prefer-price-defined)
+  match {
+    RideShare (this)
+  }
+  named-advice ("less-than-10") {
+    advice ("${this.priceRange.min.value}")
+    advise-for { lowerBoundClosed(0.0) upperBoundOpen(10.0) }
+  }
+  named-advice ("10-to-50") {
+    advice ("${this.priceRange.min.value}")
+    advise-for { lowerBoundClosed(10.0) upperBoundOpen(50.0) }
+  }
+  named-advice ("50-to-100") {
+    advice ("${this.priceRange.min.value}")
+    advise-for { lowerBoundClosed(50.0) upperBoundOpen(100.0) }
+  }
+  named-advice ("more-than-100") {
+    advice ("${this.priceRange.min.value}")
+    advise-for { lowerBoundClosed(100) }
+  }
+}

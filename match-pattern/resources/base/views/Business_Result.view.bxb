@@ -1,0 +1,28 @@
+result-view {
+  match {
+    Business (business)
+  }
+
+  render {
+    layout-macro (business-summary-macro) {
+      param (business) {
+        expression (business)
+      }
+    }
+  }
+
+  message {
+    if (size(business) == 1) {
+      template("The business #{value(business.name)} is #{value(business.rating)} stars.")
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("What is the rating?")
+    }
+    conversation-driver {
+      template ("What are the categories?")
+    }
+  }
+}

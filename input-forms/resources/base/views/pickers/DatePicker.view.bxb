@@ -1,0 +1,22 @@
+input-view {
+
+  match: MyDate (this)
+
+  message {
+    template (Give me a date!)
+  }
+
+  render {
+    date-picker {
+      // if you wanted to specify a different sub-type of "viv.core.BaseDate" other than the MyDate that was matched on, you specify that in "type"
+      // type (MyOtherDate)
+      initial-value (now().date)
+      restrictions {
+        // allow selection of days from two days before today
+        min-allowed ("subtractDuration(now().date, 'P2D')")
+        // to two days after
+        max-allowed ("addDuration(now().date, 'P2D')")
+      }
+    }
+  }
+}

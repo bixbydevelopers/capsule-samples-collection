@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: PlanetDistance (this)
+  template("#{number (this, '#,###.#')}")
+}

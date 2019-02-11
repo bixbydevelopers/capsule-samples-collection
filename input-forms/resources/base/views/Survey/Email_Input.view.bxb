@@ -1,0 +1,29 @@
+input-view {
+  match {
+    Email (email) { 
+      to-input: SubmitSurvey
+    }
+  }
+  message {
+    template ("What is your email?")
+  }
+  render {
+    form {
+      elements {
+        text-input {
+          id (email)
+          label (Email)
+          type (Email)
+          max-length (50)
+          // Add client side validation on email field
+          pattern-type (email)
+          value ("#{raw(email)}")
+        }
+      }
+      on-submit {
+        goal: Email
+        value: viv.core.FormElement(email)
+      }
+    }
+  }
+}

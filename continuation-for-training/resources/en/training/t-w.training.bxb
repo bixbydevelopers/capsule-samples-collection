@@ -1,0 +1,4 @@
+train (t-w1zmg1d1qtvktfiblib8p7i63) {
+  utterance ("[g:CompareSizeResult] how large is {[g:ThisPlanet] (Saturn)[v:PlanetName]} compared to {[g:ThatPlanet] (Neptune)[v:PlanetName]}")
+  plan (Y+BgUEnKrEiq1EvOzyvJzCtNLMnMz9Nzzs8tSCxKDc6sSg1KLS7NKWGQw6+KQRaLfEhGYklATmJeagmDIhZpt8y8FCQl2EyASPkl5uKyILMYqlsOhwUQ6WJCprMzMDIwMTAzsDCwMrABeQxQPiOYzwjmM8BJViBmAqtlB9JMDKwA)
+}

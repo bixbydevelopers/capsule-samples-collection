@@ -1,0 +1,4 @@
+action (ShowRideShareThumbnailCards) {
+  type (Search)
+  output (RideShare)
+}

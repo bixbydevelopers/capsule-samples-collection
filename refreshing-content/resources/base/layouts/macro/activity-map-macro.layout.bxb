@@ -1,0 +1,51 @@
+layout-macro-def(activity-map-macro) {
+  params {
+    param (activity) {
+      type (Activity)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        map-card {
+          size (L)
+          //map-card requires a title-area component, 'spacer' is used because we don't have any title to show
+          title-area{
+            slot2 {
+              single-line {
+                spacer
+              }
+            }
+          }
+          markers {
+            marker {
+              geo ("activity.rideShare.sourcePoint")
+              icon {
+                template (/images/icons/green-marker.png)
+              }
+              width (15)
+              height (20)
+              anchorX (5)
+              anchorY (15)
+              rotation (0)
+            }
+            marker {
+              geo ("activity.rideShare.destinationPoint")
+              icon {
+                template (/images/icons/red-marker.png)
+              }
+              width (20)
+              height (20)
+              anchorX (5)
+              anchorY (15)
+              rotation (0)
+            }
+          }
+        }
+      }
+    }
+  }
+}

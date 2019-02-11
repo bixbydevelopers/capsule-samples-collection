@@ -1,0 +1,43 @@
+result-view {
+  match { 
+    Hotel (hotel) {
+      from-output: ShowHotelTitleArea
+    }
+  }
+  render {
+    layout {
+      section {
+        content {
+          title-area {
+            hAlign (Start)
+            slot1 {
+              text {
+                style (Title_S)
+                value ("#{value(hotel.name)}")
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  style (Title_XS)
+                  value ("From #{value(hotel.lowRate)}")
+                }
+              }
+            }
+            slot3 {
+              single-line {
+                text {
+                  style (Detail_M_Soft)
+                  value ("#{value(hotel.rating)} stars")
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver ("Show a title card")
+  }
+}

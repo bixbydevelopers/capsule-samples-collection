@@ -1,0 +1,23 @@
+action (FindRideShare) {
+  description (Finds a ride from source point to destination point.)
+  type (Constructor)
+  collect {
+    input (sourcePoint) {
+      type (SourcePoint)
+      min (Required) max (One)
+      default-init {
+        // Note: To enable current location access, in your capsule.bxb,
+        // add 'user-profile-access' to capsule.permissions
+        intent {
+          goal: SourcePoint
+          route: geo.CurrentLocation
+        }
+      }
+    }
+    input (destinationPoint) {
+      type (DestinationPoint)
+      min (Required) max (One)
+    }
+  }
+  output (RideShare)
+}

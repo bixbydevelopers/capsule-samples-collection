@@ -1,0 +1,4 @@
+// MyDate.model.bxb
+structure (MyDate) {
+  role-of (time.Date)
+}

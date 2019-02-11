@@ -1,0 +1,4 @@
+train (t-qx2ng7a195wq6bz7j9j0ph06i) {
+  utterance ("[g:CompareDistanceResult] how far is {[g:ThatPlanet] (Earth)[v:PlanetName]} from {[g:ThisPlanet] (Jupiter)[v:PlanetName]}")
+  plan (Y+Bg0EjKrEiq1EvOzyvJzCtNLMnMz9Nzzs8tSCxKdcksLknMS04NSi0uzSlhUCKskkEWi5qQjMSSgJzEvNQSBkUs0m6ZeSlISrCZAJHyS8zFZUFmMVS3HA4LINLFhExnZ2BkYGJgZmBhYGVgA/IYoHxGMJ8RzGeAk6xAzARWyw6kmRhYAQ==)
+}

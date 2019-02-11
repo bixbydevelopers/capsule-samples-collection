@@ -1,0 +1,36 @@
+layout-macro-def (hotel-compound-card) {
+  params {
+    param (hotel) {
+      type (Hotel)
+      min (Required) max (One)
+    }
+  }
+  content {
+    compound-card {
+      content {
+        image-card {
+          size (L)
+          title-area {
+            hAlign (Start)
+            slot1 {
+              text {
+                value ("")
+              }
+            }
+          }
+          image-url ("#{value(hotel.images[0].url)}")
+        }
+        paragraph {
+          value ("#{value(hotel.name)}")
+          style (Title_S)
+        }
+        single-line {
+          text {
+            value ("From #{value(hotel.lowRate)} • #{value(hotel.rating)} stars")
+            style (Detail_L_Soft)
+          }
+        }
+      }
+    }
+  }
+}

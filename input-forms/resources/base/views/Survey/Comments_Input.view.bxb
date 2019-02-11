@@ -1,0 +1,27 @@
+input-view {
+  match {
+    Comments (comments) { 
+      to-input: SubmitSurvey
+    }
+  }
+  message {
+    template ("What would you like to tell us?")
+  }
+  render {
+    form {
+      elements {
+        textarea {
+          id (comments)
+          type (Comments)
+          label (Comments)
+          max-length (500)
+          value ("#{raw(comments)}")
+        }
+      }
+      on-submit {
+        goal: Comments
+        value: viv.core.FormElement(comments)
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+layout-macro-def(planet-distance-macro) {
+  params {
+    param (planet) {
+      type (Planet)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    compound-card {
+      content {
+        image-card {
+          image-url {
+            template ("#{value (planet.imageSet.images[0].url)}")
+          }
+          title-area {
+            slot2 {
+              single-line {
+                spacer
+              }
+            }
+          }
+        }
+        title-area {
+          slot1 {
+            text {
+              value {
+                template ("#{value (planet.name)}")
+              }
+              style (Title_L)
+            }
+          }
+          slot2 {
+            paragraph {
+              value {
+                template ("#{value (planet.distance)} million miles from the sun")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

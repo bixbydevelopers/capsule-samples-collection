@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: PlanetPeriodOfRevolution (this)
+  template("#{number (this, '#,###.#')}")
+}

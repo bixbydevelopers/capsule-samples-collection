@@ -1,0 +1,18 @@
+structure (Survey) {
+  property (fullName) {
+    type (FullName)
+    min (Required) max (One)
+  }
+  property (email) {
+    type(Email)
+    min (Required) max(One)
+  }
+  property (comments) {
+    type (Comments)
+    min (Optional) max (One)
+  }
+  property (isSigningUp) {
+    type (IsSigningUp)
+    min (Required) max (One)
+  }
+}

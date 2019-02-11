@@ -1,0 +1,5 @@
+action (FindBusiness) {
+  description (Simulates finding a business. There are no input constraints for simplicity reasons.)
+  type (Search)
+  output (Business)
+}

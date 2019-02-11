@@ -1,0 +1,3 @@
+integer (Integer) {
+  description (A demo integer.)
+}

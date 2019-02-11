@@ -1,0 +1,4 @@
+action (ShowHotelCompoundCards) {
+  type (Search)
+  output (Hotel)
+}

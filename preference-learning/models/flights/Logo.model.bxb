@@ -1,0 +1,3 @@
+structure (Logo) {
+  role-of (image.Image)
+}

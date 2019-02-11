@@ -1,0 +1,34 @@
+structure (Planet) {
+  property (name) {
+    type (PlanetName)
+    min (Required)
+  }
+  property (distance) {
+    type (PlanetDistance)
+    min (Required)
+  }
+  property (periodOfRevolution) {
+    type (PlanetPeriodOfRevolution)
+    min (Required)
+  }
+  property (size) {
+    type (PlanetSize)
+    min (Required)
+  }
+  property (atmosphere) {
+    type (PlanetAtmosphere)
+    min (Required)
+  }
+  property (moons) {
+    type (PlanetMoons)
+    min (Required)
+  }
+  property (colors) {
+    type (PlanetColor)
+    min (Required) max (Many)
+  }
+  property (imageSet) {
+    type (entity.ImageSet)
+    min (Optional) max (One)
+  }
+}

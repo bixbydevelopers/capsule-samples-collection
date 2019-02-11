@@ -1,0 +1,15 @@
+action (CallBusiness) {
+  description (Simulates Calling a Business)
+  type (Search)
+  collect {
+    input (business) {
+      type (Business)
+      min (Required) max (One)
+    }
+  }
+  output (Business) {
+    evaluate {
+      $expr(business)
+    }
+  }
+}

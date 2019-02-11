@@ -1,0 +1,35 @@
+input-view {
+  match: DestinationPoint
+
+  message ("Where would you like to go?")
+
+  render {
+    auto-complete {
+      type (geo.NamedPoint)
+      no-result-text { template ("No results") }
+      placeholder { template ("Search for locations") }
+      source {
+        collect-with (query) {
+          intent {
+            goal: contact.Autosuggest
+            value: contact.SearchTerm$expr (query)
+            value: contact.IsFuzzyMatchAddressType(true)
+          }
+        }
+        label { template ("Search Results") }
+        where-each (place) { 
+          display {
+            primary-text { template ("[#{value(place.name)}]") }
+            secondary-text { template ("[#{value(place.address)}]") }
+          }
+          on-select {
+            intent {
+              goal: DestinationPoint
+              value: viv.core.FormElement(place)
+            }
+          }
+        }
+      }
+    }
+  }
+}

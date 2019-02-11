@@ -1,0 +1,4 @@
+action (ShowFlowerCompoundCardsChin) {
+  type (Search)
+  output (Flower)
+}

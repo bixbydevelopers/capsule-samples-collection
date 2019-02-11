@@ -1,0 +1,15 @@
+result-view {
+  match {
+    RideShare (rideShare)
+  }
+
+  message ("Here's your ride[ from #{value(rideShare.sourcePoint)}][ to #{value(rideShare.destinationPoint)}].")
+  
+  render {
+    if (size(rideShare) == 1) {
+      layout-match (rideShare) {
+        mode (Details)
+      }
+    }
+  }
+}

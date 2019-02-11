@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+    BusinessRating (rating) {
+      from-property: Business (business)
+    }
+  }
+  template("#{value(business.name)} is rated #{value(rating)}")
+}

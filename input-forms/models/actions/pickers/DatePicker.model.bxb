@@ -1,0 +1,16 @@
+// FindDate.model.bxb
+action (DatePicker) {
+  type (Search)
+  description (A test action)
+  collect {
+    input (myDate) {
+      type (MyDate)
+      min (Required) max (One)
+    }
+  }
+  output (MyDate) {
+    evaluate {
+      $expr (myDate)
+    }
+  }
+}

@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: CompareDistanceResult (this)
+  template("#{number (this, '#,###')} million miles")
+}

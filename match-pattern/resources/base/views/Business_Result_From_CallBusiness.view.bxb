@@ -1,0 +1,29 @@
+result-view {
+  match {
+    Business (business) {
+      from-output: CallBusiness
+    }
+  }
+
+  render {
+    layout-macro (business-details-macro) {
+      param (business) {
+        expression (business)
+      }
+    }
+  }
+  
+  message {
+    if (size(business) == 1) {
+      template ("Calling #{value(business.phoneNumber)}.")
+    }
+  }
+
+  conversation-drivers {
+    // In the real-world, call business would punch-out, but for this simulation,
+    // allow to navigate there from this screen
+    conversation-driver {
+      template ("Navigate there")
+    }
+  }
+}

@@ -1,0 +1,3 @@
+structure (DestinationPoint) {
+  role-of (geo.GeoPoint)
+}

@@ -1,0 +1,15 @@
+structure (Carrier) {
+  description (A flight carrier.)
+  property (code) {
+    type (Code)
+    min (Optional) max (One)
+  }
+  property (logo) {
+    type (Logo)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (CarrierName)
+    min (Required) max (One)
+  }
+}

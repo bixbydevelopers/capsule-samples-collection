@@ -1,0 +1,13 @@
+instantiation-strategy {
+  id (default-ride-share)
+  
+  match {
+    RideShare
+  }
+  // By default use FindRideShare to get a rideshare.
+  strategy {
+    intent {
+      goal: FindRideShare
+    }
+  }
+}

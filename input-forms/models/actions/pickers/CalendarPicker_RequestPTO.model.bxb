@@ -1,0 +1,14 @@
+action (RequestPTO) {
+  type (Search)
+  collect {
+    input (baseDateInterval) {
+      type (viv.core.BaseDateInterval)
+      min (Required)
+    }
+  }
+  output (viv.core.BaseDateInterval) {
+    evaluate {
+      .$expr (baseDateInterval)
+    }
+  }
+}

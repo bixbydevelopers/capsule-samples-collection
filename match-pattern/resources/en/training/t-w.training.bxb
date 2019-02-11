@@ -1,0 +1,4 @@
+train (t-wp2qxgzy66wmpsxzn7y4njs2z) {
+  utterance ([g:NavigateThere,r:FindBusiness] navigate there)
+  plan (Y2BhkEvKrEiq1MtNLEnOyMxLD0gsKUktytNzKi3OzEstLmZQxi7vl1iWmZ5YkhqSkVqUStAQJezybpl5KXA1zAyMDExAkgFMM4JpBjALKAYA)
+}

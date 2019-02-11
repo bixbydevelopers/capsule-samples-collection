@@ -1,0 +1,8 @@
+train (t-51z2hd9guidveo8aowd9h00ta) {
+  utterance ([g:ShowRideShareCompoundCards] show rides as compound cards)
+  plan (Y2BikE3KrEiq1EvOz83Nz/NJrMwvLSnWC8pMSQ3OSCxKZdDDJh2ckV8OV+Kcn1uQX5qX4pxYlFLMwAiEDFAMJAE=)
+}
+train (t-5exrgnu84kkeacvnb6fd7iuvr) {
+  utterance ([g:ShowHotelCarousel] show an image carousel)
+  plan (Y2BikEzKrEiq1EvOz83Nz/NJrMwvLSnW88gvSc1hUMUmFZyRXw6Wdk4syi8tBipjBEIGKAaSAA==)
+}

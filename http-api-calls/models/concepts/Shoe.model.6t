@@ -1,0 +1,18 @@
+structure (Shoe) {
+  property (name) {
+    type (Name)
+    min (Required)
+  }
+  property (description) {
+    type (Description)
+    min (Required)
+  }
+  property (type) {
+    type (Type)
+    min (Required)
+  }
+  property (price) {
+    type (money.Price)
+    min (Required)
+  }
+}

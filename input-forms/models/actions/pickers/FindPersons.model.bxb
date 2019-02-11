@@ -1,0 +1,4 @@
+action (FindPersons) {
+  type (Search)
+  output (Person)
+}

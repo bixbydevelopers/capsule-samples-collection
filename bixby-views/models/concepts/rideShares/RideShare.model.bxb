@@ -1,0 +1,31 @@
+structure (RideShare) {
+  description (A model representing a Rideshare.)
+  property (pickupETA) {
+    type (PickupETA)
+    min (Required) max (One)
+  }
+  property (dropoffETA) {
+    type (DropoffETA)
+    min (Required) max (One)
+  }
+  property (priceRange) {
+    type (PriceRange)
+    min (Required) max (One)
+  }
+  property (productType) {
+    type (ProductType)
+    min (Required) max (One)
+  }
+  property (imageSet) {
+    type (entity.ImageSet)
+    min (Optional) max (One)
+  }
+  property (sourcePoint) {
+    type (SourcePoint)
+    min (Optional) max (One)
+  }
+  property (destinationPoint) {
+    type (DestinationPoint)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,32 @@
+result-view {
+  match: Hotel (hotel) {
+    from-output: ShowHotelPartitioned
+  }
+
+  message {
+    template ("Here are partitioned hotel amenities:")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          partitioned {
+            content {
+              for-each (hotel.amenities) {
+                as (amenity) {
+                  single-line {
+                    text  {
+                      value ("#{value(amenity)}")
+                      style (Detail_L)
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

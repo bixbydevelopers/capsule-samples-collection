@@ -1,0 +1,4 @@
+structure (PriceRange) {
+  description (The price range of a RideShare.)
+  extends (money.PriceRange)
+}

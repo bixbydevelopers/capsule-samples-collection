@@ -1,0 +1,76 @@
+result-view {
+  match: RideShare (rideShare) {
+    from-output: ShowRideShareInputCells
+  }
+
+  message {
+    template ("Here are input cells:")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          input-cell {
+            label {
+              template ("Pickup")
+            }
+            value {
+              template ("60 S Market St, San Jose")
+            }
+            on-click {
+              intent {
+                goal: ShowRideShareInputCells
+              }
+            }
+          }
+          input-cell {
+            label {
+              template ("Dropoff")
+            }
+            value {
+              template ("San Francisco Int'l Airport, San Francisco")
+            }
+            on-click {
+              intent {
+                goal: ShowRideShareInputCells
+              }
+            }
+          }
+          split-input-cell {
+            left {
+              input-cell {
+                label {
+                  template ("Ride Type")
+                }
+                value {
+                  template ("#{value(rideShare.productType)}")
+                }
+                on-click {
+                  intent {
+                    goal: ShowRideShareInputCells
+                  }
+                }
+              }
+            }
+            right {
+              input-cell {
+                label {
+                  template ("Payment method")
+                }
+                value {
+                  template ("Visa ***88")
+                }
+                on-click {
+                  intent {
+                    goal: ShowRideShareInputCells
+                  }
+                }
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}

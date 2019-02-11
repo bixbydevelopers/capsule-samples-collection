@@ -1,0 +1,47 @@
+layout-macro-def(business-details-macro) {
+  params {
+    param (business) {
+      type (Business)
+      min (Required)
+      max (One)
+    }
+   }
+
+  content {
+    section {  // this macro returns a "section"
+      content{
+        single-line {
+          spacer {
+          }
+        }
+        cell-area {
+          slot2 {
+            content {
+              primary {
+                template ("#{value (business.name)}")
+              }
+            }
+          }
+        }
+        cell-area {
+          slot2 {
+            content {
+              secondary {
+                template ("#{value (business.address)}")
+              }
+            }
+          }
+        }
+        cell-area {
+          slot2 {
+            content {
+              secondary {
+                template ("#{value (business.categories)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

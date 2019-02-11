@@ -1,0 +1,4 @@
+train (t-1yv4gvzyu7u4shrf11cdy1o4s) {
+  utterance ([g:CallBusiness,r:FindBusiness] call business)
+  plan (Y2BhkEvKrEiq1MtNLEnOyMxLD0gsKUktytNzKi3OzEstLmZQwi7vnJiTA1dDphlumXkpcDXMDIwMTECSAUwzgmkGMAsoBgA=)
+}

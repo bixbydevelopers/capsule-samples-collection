@@ -1,0 +1,4 @@
+train (t-tadchjcrd6e0upwaf9ak6flqg) {
+  utterance ([g:FindShoeError] Find shoes but cause an error)
+  plan (Y2Bi4E/KrEiq1MsoKSnQC87IT2WQQBJwy8xLAQm6FhXlFzEwAiEDFANJAA==)
+}

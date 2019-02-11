@@ -1,0 +1,3 @@
+decimal (PlanetDistance) {
+  description (Planet's distance from the sun in millions of miles)
+}

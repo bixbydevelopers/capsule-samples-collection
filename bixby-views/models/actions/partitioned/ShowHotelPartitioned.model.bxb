@@ -1,0 +1,4 @@
+action (ShowHotelPartitioned) {
+  type (Search)
+  output (Hotel)
+}

@@ -1,0 +1,15 @@
+// TimePicker2.view.bxb
+// you can also specify a step size
+input-view {
+  match: MyTime (this)
+  message {
+    template (Give me the time!)
+  }
+  render {
+    time-picker {
+      initial-value (now().time)
+      // allow time to be changed in 10-minute increments
+      step (10)
+    }
+  }
+}

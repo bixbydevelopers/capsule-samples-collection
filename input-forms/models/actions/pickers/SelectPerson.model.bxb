@@ -1,0 +1,22 @@
+action (SelectPerson) {
+  type (Search)
+  collect {
+    input (person) {
+      type (Person)
+      min (Required) max (Many)
+      // force a selection prompt
+      prompt-behavior (AlwaysSelection)
+
+      default-init {
+        intent {
+          goal: FindPersons
+        }
+      }
+    }
+  }
+  output (Person) {
+    evaluate {
+      $expr (person)
+    }
+  }
+}

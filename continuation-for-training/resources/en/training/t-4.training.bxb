@@ -1,0 +1,4 @@
+train (t-44ogr33oh2n9m6m6wkodqv1ma) {
+  utterance ([g:Planet#distance] what is the distance)
+  plan (Y2BiUEzKrEiq1EvOzyvJzCtNLMnMz9MLyEnMSy1xySwuScxLTmWQxKmEgREIGRiYgBjMAgA=)
+}

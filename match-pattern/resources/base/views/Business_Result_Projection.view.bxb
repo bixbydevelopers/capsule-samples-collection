@@ -1,0 +1,27 @@
+result-view {
+  match {
+    _ (this) {
+      from-property: Business (business)
+    }
+  }
+
+  render {
+    layout-macro (business-details-macro) {
+      param (business) {
+        expression (business)
+      }
+    }
+  }
+
+  // No dialog in this result-view. Customize dialog using dialog matching patterns.
+  // See BusinessCategories.dialog.bxb and BusinessReview.dialog.bxb
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Navigate there")
+    }
+    conversation-driver {
+      template ("Call business")
+    }
+  }
+}

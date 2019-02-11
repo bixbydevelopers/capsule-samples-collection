@@ -1,0 +1,24 @@
+result-view {
+  match: Hotel (hotel) {
+    from-output: ShowHotelImageList
+  }
+
+  message {
+    template ("Here is a hotel as an image list:")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          image-list {
+            images (hotel.images)
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver ("Show an image carousel")
+  }
+}

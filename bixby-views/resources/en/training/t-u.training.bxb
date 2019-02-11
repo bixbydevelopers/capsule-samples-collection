@@ -1,0 +1,4 @@
+train (t-uw24s2l6sp3rkgy5rvn42j6mm) {
+  utterance ([g:ShowHotelImageCards] show an image card)
+  plan (Y2BikEzKrEiq1EvOz83Nz/NJrMwvLSnW88gvSc1hUMcmFZyRXw6W9sxNTE91TixKKWZgBEIGKAaSAA==)
+}

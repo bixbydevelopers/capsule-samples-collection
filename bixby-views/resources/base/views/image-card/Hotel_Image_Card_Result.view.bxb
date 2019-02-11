@@ -1,0 +1,41 @@
+result-view {
+  match: Hotel (hotel) {
+    from-output: ShowHotelImageCards
+  }
+
+  message {
+    template ("Here are hotels as cards:")
+  }
+
+  render {
+    if (size(hotel) > 1) {
+      list-of (hotel) {
+        has-details (true)
+        where-each (item) {
+          layout-macro (hotel-image-card) {
+            param (hotel) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    else-if (size(hotel) == 1) {
+      layout-match (hotel) {
+        mode (Details)
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Show hotels as image cards")
+    }
+    conversation-driver {
+      template ("Show hotels as thumbnail cards")
+    }
+    conversation-driver {
+      template ("Show hotels as compound cards")
+    }
+  }
+}

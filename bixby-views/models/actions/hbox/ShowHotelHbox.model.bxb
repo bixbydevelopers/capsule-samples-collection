@@ -1,0 +1,4 @@
+action (ShowHotelHbox) {
+  type (Search)
+  output (Hotel)
+}

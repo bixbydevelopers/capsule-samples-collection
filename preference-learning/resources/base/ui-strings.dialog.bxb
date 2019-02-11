@@ -1,0 +1,38 @@
+template-macro-def (product-name-dialog) {
+  params {
+    param (name) {
+      type (ProductName)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("#{value(name)}")
+  }
+}
+
+template-macro-def (carrier-name) {
+  params {
+    param (name) {
+      type (CarrierName)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("#{value(name)}")
+  }
+}
+
+template-macro-def (product-type-dialog) {
+  params {
+    param (flower) {
+      type (FlowerProduct)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("This flower product is #{value(flower.productTypes)}.")
+  }
+}

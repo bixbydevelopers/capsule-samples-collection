@@ -1,0 +1,33 @@
+result-view {
+  match {
+    Activity (this) {
+      from-output: CheckRideShareStatus (check)
+    }
+  }
+  message {
+    if (this.countdown != 0) {
+      template ("Your ride will arrive in #{value(this.countdown)} seconds.") 
+    } else {
+      template ("I hope you are enjoying your ride")
+    }
+  }
+  refresh {
+    condition (this.countdown != 0)
+    delay(5)
+    on-refresh {
+      intent {
+        goal: CheckRideShareStatus
+        value {
+          $expr (this)
+        }
+      }
+    }
+  }
+  render {
+    layout-macro (activity-map-macro) {
+      param (activity) {
+        expression (this)
+      }
+    }
+  }
+}

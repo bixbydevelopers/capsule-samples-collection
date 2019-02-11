@@ -1,0 +1,4 @@
+action (ShowRideShareCompoundCards) {
+  type (Search)
+  output (RideShare)
+}

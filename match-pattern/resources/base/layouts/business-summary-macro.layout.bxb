@@ -1,0 +1,47 @@
+layout-macro-def(business-summary-macro) {
+  params {
+    param (business) {
+      type (Business)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+        compound-card {
+          content {
+            title-area {
+              slot1 {
+                text {
+                  value {
+                    template ("#{value (business.name)}")
+                  }
+                }
+              }
+            }
+            cell-area {
+              slot2 {
+                content {
+                  primary {
+                    template ("#{value (business.categories)}")
+                  }
+                }
+              }
+            }
+            cell-area {
+              slot2 {
+                content {
+                  secondary {
+                    template ("#{value (business.address)}")
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+input-view {
+  match: Integer
+  render {
+    form {
+      on-submit {
+        goal: Integer
+        value {
+          viv.core.FormElement(integer) 
+          // This lets us submit the value from the
+          // element with the id transferAmount, which is defined below.
+        }
+      }
+      elements {
+        number-input {
+          id(integer)
+          type (Integer)
+          label {
+            template ("Provide an integer.")
+          }
+          allow-negative (false)         
+        }
+      }
+    }
+  }
+}

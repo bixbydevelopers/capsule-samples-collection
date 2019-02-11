@@ -1,0 +1,4 @@
+train (t-iek2zioosjsefw6irgq7j9oib) {
+  utterance ("[g:CompareDistanceResult] how far is it to {[g:ThatPlanet] (Saturn)[v:PlanetName]}")
+  plan (Y2Bj0EqtSMwtyEnVS87PK8nMK00syczP03POzy1ILEp1ySwuScxLTg1KLS7NKWFQIUYtgzxWVSEZiSUBOYl5qSUMylgVuGXmpSApwm4KRNIvMRe3NZnFUBNYGRgZmBiYGViALAYomxEIGcAYBJiBmAkoD5QDAA==)
+}

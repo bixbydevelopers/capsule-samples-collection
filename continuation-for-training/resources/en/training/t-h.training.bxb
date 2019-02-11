@@ -1,0 +1,8 @@
+train (t-hdz2fcgvjz4av82z8c2qs8rcz) {
+  utterance ([g:Planet#distance] what is the distance to the sun)
+  plan (Y2BiUE6tSMwtyEnVS87PK8nMK00syczP0wvIScxLLXHJLC5JzEtOZZDGo4iBEQgZGJiAGMwCAA==)
+}
+train (t-hzhwjibh4md90gacaqlvczff2) {
+  utterance ("[g:FindPlanets] show (green)[v:PlanetColor] planets")
+  plan (Y2BmkE3KrEiq1EvOzyvJzCtNLMnMz9MLycgsDshJzEstYZDDIu2WmZcCkS7GKg+Rc87PyS9iYGJgBGIGIMnIAAJQPgA=)
+}

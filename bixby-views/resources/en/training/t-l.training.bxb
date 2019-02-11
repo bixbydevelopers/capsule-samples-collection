@@ -1,0 +1,4 @@
+train (t-l5xixhthqvypngbwvbxqg39f5) {
+  utterance ([g:ShowRideShareThumbnailCards] show a thumbnail card)
+  plan (Y2BikE3KrEiq1EvOz83Nz/NJrMwvLSnWC8pMSQ3OSCxKZdDHJh2ckV8OVxKSUZqblJeYmeOcWJRSzMAIhAxQDCQB)
+}

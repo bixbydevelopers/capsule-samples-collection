@@ -1,0 +1,24 @@
+result-view {
+  match: Hotel (hotel) {
+    from-output: ShowHotelCarousel
+  }
+
+  message {
+    template ("Here is a hotel as a carousel:")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          image-carousel {
+            images (hotel.images)
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver ("Show an image list")
+  }
+}

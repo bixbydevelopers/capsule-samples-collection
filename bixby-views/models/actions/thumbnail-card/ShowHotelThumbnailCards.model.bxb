@@ -1,0 +1,4 @@
+action (ShowHotelThumbnailCards) {
+  type (Search)
+  output (Hotel)
+}

@@ -1,0 +1,36 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (FindShoe) {
+      accepted-inputs ()
+      local-endpoint (FindShoe.js)
+    }
+    
+    action-endpoint (FindShoeFiltering) {
+      accepted-inputs (type)
+      local-endpoint (FindShoeFiltering.js)
+    }
+    
+    action-endpoint (FindShoeRemoteEndpoint) {
+      accepted-inputs ()
+      remote-endpoint ("{remote.url}/shoes") {
+        method (GET)
+      }
+    }
+    
+    action-endpoint (FindShoeError) {
+      local-endpoint (FindShoeError.js)
+    }
+    
+    action-endpoint (FindShoeReturnHeaders) {
+      local-endpoint (FindShoeReturnHeaders.js)
+    }
+    
+    action-endpoint (CreateShoe) {
+      local-endpoint (CreateShoe.js)
+    }
+  }
+}

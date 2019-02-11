@@ -1,0 +1,16 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (FindFlowers) {
+      accepted-inputs ()
+      local-endpoint (FindFlowers.js)
+    }
+    action-endpoint (FindTripOptions) {
+      accepted-inputs ()
+      local-endpoint (FindTripOptions.js)
+    }
+  }
+}

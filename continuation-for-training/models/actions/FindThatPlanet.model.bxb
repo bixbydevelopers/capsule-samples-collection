@@ -1,0 +1,14 @@
+action (FindThatPlanet) {
+  type (Search)
+  collect {
+    input (name) {
+      type (PlanetName)
+      min (Optional) max (One)
+    }
+    input (color) {
+      type (PlanetColor)
+      min (Optional) max (One)
+    }
+  }
+  output (ThatPlanet)
+}

@@ -1,0 +1,20 @@
+action (CompareDistance) {
+  type (Calculation)
+  collect {
+    input (planet) {
+      type (ThisPlanet)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: FindPlanets
+          value: PlanetName(Earth)
+        }
+      }
+    }
+    input (targetPlanet) {
+      type (ThatPlanet)
+      min (Required) max (One)
+    }
+  }
+  output (CompareDistanceResult)
+}

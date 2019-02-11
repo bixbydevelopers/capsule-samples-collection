@@ -1,0 +1,3 @@
+integer (DummyInput) {
+  description (Used to demonstrate how to set up access to $vivContext.)
+}

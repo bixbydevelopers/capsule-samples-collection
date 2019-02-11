@@ -1,0 +1,4 @@
+structure (SourcePoint) {
+  description (The source geo NamedPoint)
+  role-of (geo.NamedPoint)
+}

@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: Activity(this)
+  template("Your #{value(this.rideShare.productType)} ride is on its way! 🚘")
+}

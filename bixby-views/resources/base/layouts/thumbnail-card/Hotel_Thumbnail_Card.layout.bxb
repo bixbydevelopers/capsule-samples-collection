@@ -1,0 +1,31 @@
+layout-macro-def (hotel-thumbnail-card) {
+  params {
+    param (hotel) {
+      type (Hotel)
+      min (Required) max (One)
+    }
+  }
+  content {
+    thumbnail-card {
+      image-position (End)
+      image-url ("#{value(hotel.images[0].url)}")
+      title-area {
+        hAlign (Start)
+        slot1 {
+          text {
+            value ("#{value(hotel.name)}")
+            style (Title_S)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("From #{value(hotel.lowRate)} • #{value(hotel.rating)} stars")
+              style (Detail_L_Soft)
+            }
+          }
+        }
+      }
+    }
+  }
+}

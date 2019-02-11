@@ -1,0 +1,11 @@
+structure (RideShare) {
+  description (A model representing a Rideshare.)
+  property (sourcePoint) {
+    type (SourcePoint)
+    min (Optional) max (One)
+  }
+  property (destinationPoint) {
+    type (DestinationPoint)
+    min (Optional) max (One)
+  }
+}

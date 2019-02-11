@@ -1,0 +1,16 @@
+structure (TripOption) {
+  property(carriers) {
+    type (Carrier)
+    min(Required) max (Many)
+    visibility (Private)
+  }
+
+  // carriers.code is recorded as a preference whenever carriers.logo is visible
+  features {
+    preferable {
+      preference (carriers.code) {
+        observation-alias (carriers.logo)
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+action (FindShoeRemoteEndpoint) {
+  type (Search)
+  description (Demonstrate how to use remote endpoints for a simple search.)
+  output (Shoe)
+}

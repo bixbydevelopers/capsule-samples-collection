@@ -1,0 +1,30 @@
+capsule {
+  id (example.selectionLearning)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    
+    import (viv.entity) {
+      as (entity)
+      version (3.7.32)
+    }
+    
+    import (viv.common) {
+      as (common)
+      version-from (entity)
+    }
+    
+    import (viv.time) {
+      as (time)
+      version-from (entity)
+    }
+    
+    import (viv.money) {
+      as (money)
+      version (2.16.14)
+    }
+  }
+}

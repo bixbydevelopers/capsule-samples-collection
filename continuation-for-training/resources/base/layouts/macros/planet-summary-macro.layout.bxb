@@ -1,0 +1,27 @@
+layout-macro-def (planet-summary-macro) {
+  params {
+    param (planet) {
+      type (Planet)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    image-card {
+      title-area {
+        slot1 {
+          text {
+            value {
+              template ("#{value (planet.name)}")
+            }
+            style (Title_L)
+          }
+        }
+      }
+      image-url {
+        template ("#{value (planet.imageSet.images[0].url)}")
+      }
+    }
+  }
+}

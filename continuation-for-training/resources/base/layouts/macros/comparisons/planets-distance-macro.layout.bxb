@@ -1,0 +1,31 @@
+layout-macro-def(planets-distance-macro) {
+  params {
+    param (planet) {
+      type (Planet)
+      min (Required)
+      max (One)
+    }
+    param (targetPlanet) {
+      type (Planet)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        layout-macro (planet-distance-macro) {
+          param (planet) {
+            expression (planet)
+          }
+        }
+        layout-macro (planet-distance-macro) {
+          param (planet) {
+            expression (targetPlanet)
+          }
+        }
+      }
+    }
+  }
+}

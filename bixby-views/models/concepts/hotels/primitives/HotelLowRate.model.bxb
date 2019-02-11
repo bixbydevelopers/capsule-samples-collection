@@ -1,0 +1,4 @@
+structure (HotelLowRate) {
+  extends (money.Price)
+  role-of (money.Price)
+}

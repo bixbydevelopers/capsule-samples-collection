@@ -1,0 +1,29 @@
+action (SelectImage) {
+  type (Search)
+  collect {
+    input (image) {
+      type (Image)
+      min (Required) max (One)
+
+      default-init {
+        intent {
+          goal: Image
+          value: Image {
+            url: viv.core.Url("http://via.placeholder.com/350x150")
+          }
+          value: Image {
+            url: viv.core.Url("http://via.placeholder.com/250x150")
+          }
+          value: Image {
+            url: viv.core.Url("http://via.placeholder.com/150x150")
+          }
+        }
+      }
+    }
+  }
+  output (Image) {
+    evaluate {
+      $expr (image)
+    }
+  }
+}

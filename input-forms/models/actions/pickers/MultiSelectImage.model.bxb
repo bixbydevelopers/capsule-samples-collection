@@ -1,0 +1,35 @@
+action (MultiSelectImage) {
+  type (Search)
+  collect {
+    input (images) {
+      type (Image)
+      min (Required) max (Many)
+      default-init {
+        intent {
+          goal: Image
+          value: Image {
+            url: viv.core.Url("http://via.placeholder.com/350x150")
+          }
+          value: Image {
+            url: viv.core.Url("http://via.placeholder.com/250x150")
+          }
+          value: Image {
+            url: viv.core.Url("http://via.placeholder.com/150x150")
+          }
+        }
+      }
+      validate {
+        if (size(images) > 2) {
+          prompt {
+            candidates (images)
+          }
+        }
+      }
+    }
+  }
+  output (Image) {
+    evaluate {
+      $expr (images)
+    }
+  }
+}

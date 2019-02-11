@@ -1,0 +1,15 @@
+action (BookRideShare) {
+  type (Search)
+  description (Simulate booking a ride share.)
+  collect {
+    input (rideShare) {
+      type (RideShare)
+      min (Required) max (One)
+      
+      default-select {
+        with-learning
+      }
+    }
+  }
+  output (Activity)
+}

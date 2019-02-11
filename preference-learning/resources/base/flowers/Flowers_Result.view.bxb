@@ -1,0 +1,62 @@
+result-view {
+  match: FlowerProduct (flower) {
+    from-output: FindFlowers
+  }
+
+  message {
+    template ("Here are some flowers:")
+  }
+
+  render {
+    if (size(flower) > 1) {
+      list-of (flower) {
+        has-details (true)
+        where-each (item) {
+          layout-macro (common:card) {
+            param (title) {
+              dialog-template {
+                template-macro (product-name-dialog) {
+                  param (name) {
+                    expression (item.name)
+                  }
+                }
+              }
+            }
+            param (titleSize) {
+              literal ("small")
+            }
+          }
+        }
+        default-sort-order {
+          sorting { 
+            by-preferences 
+          }
+        }
+      }
+    } else {
+      layout-macro (common:card) {
+        param (title) {
+          dialog-template {
+            template-macro (product-name-dialog) {
+              param (name) {
+                expression (flower.name)
+              }
+            }
+          }
+        }
+        param (bodyText) {
+          dialog-template {
+            template-macro (product-type-dialog) {
+              param (flower) {
+                expression (flower)
+              }
+            }
+          }
+        }
+        param (titleSize) {
+          literal ("medium")
+        }
+      }
+    }
+  }
+}

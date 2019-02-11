@@ -1,0 +1,14 @@
+result-view {
+  match {
+    Survey {
+      from-output: SubmitSurvey
+    }
+  }
+
+  message ("Thank you for your survey!")
+
+  render {
+    // Show nothing on the layout. You can customize the layout here.
+    nothing
+  }
+}

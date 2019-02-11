@@ -1,0 +1,37 @@
+result-view {
+  match: Flower (flower) {
+    from-output: ShowFlowerCellAreas
+  }
+
+  message {
+    template ("Here are flowers as cell areas:")
+  }
+
+  render {
+    if (size(flower) > 1) {
+      list-of (flower) {
+        has-details (false)
+        where-each (item) {
+          cell-area {
+            slot1 {
+              image {
+                url ("#{value(item.imageUrls[0])}")
+                shape (Square)
+              }
+            }
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("#{value(item.name)}")
+                secondary ("#{value(item.priceRange)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver ("Show a cell card")
+  }
+}

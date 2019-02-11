@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: Planet (this)
+  template("#{value(this.name)}")
+}

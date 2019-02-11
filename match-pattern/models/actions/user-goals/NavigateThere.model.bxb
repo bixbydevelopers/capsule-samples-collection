@@ -1,0 +1,14 @@
+action (NavigateThere) {
+  type (Search)
+  collect {
+    input (business) {
+      type (Business)
+      min (Optional) max (One)
+    }
+  }
+  output (Business) {
+    evaluate {
+      $expr(business)
+    }
+  }
+}

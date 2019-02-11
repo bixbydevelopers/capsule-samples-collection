@@ -1,0 +1,4 @@
+action (ShowFlowerThumbnailCards) {
+  type (Search)
+  output (Flower)
+}

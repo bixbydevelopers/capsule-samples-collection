@@ -1,0 +1,4 @@
+train (t-jrbvai6di7sbkh9gvadiyx7xf) {
+  utterance ("[g:Planet#size] what is the size of {[g:ThisPlanet] (Mars)[v:PlanetName]}")
+  plan (Y2BlkE3KrEiq1EvOzyvJzCtNLMnMz9MLyEnMSy0JzqxKZZDEKY1VZ0hGZjFUWg6LtFtmXgpEuhiPxX6JuakMLAyMDEwMzECaAcoCYUYGEGAGi4BVAAA=)
+}

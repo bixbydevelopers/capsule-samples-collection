@@ -1,0 +1,9 @@
+enum (Type) {
+  description (Type of a shoe.)
+  symbol (Athletic)
+  symbol (Boot)
+  symbol (Casual)
+  symbol (Dance)
+  symbol (Formal)
+  symbol (Sandals)
+}

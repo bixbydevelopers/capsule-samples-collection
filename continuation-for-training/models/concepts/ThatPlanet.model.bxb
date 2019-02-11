@@ -1,0 +1,3 @@
+structure (ThatPlanet) {
+  role-of (Planet)
+}

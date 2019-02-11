@@ -1,0 +1,15 @@
+action (FindShoeError) {
+  type (Search)
+  description (Show how to deal with HTTP errors.)
+  output (Shoe) {
+    throws {
+      error (ErrorWhichHalts) {
+        on-catch {
+          halt {
+            dialog("HTTP error was caught, and execution halted.")
+          }
+        }
+      }
+    }
+  }
+}

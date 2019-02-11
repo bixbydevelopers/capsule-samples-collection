@@ -1,0 +1,8 @@
+train (t-612mg1r0fm8wmrg7oz2a6dn2t) {
+  utterance ("[g:FindPlanets,v:PlanetSortType:SizeDesc] show (blue)[v:PlanetColor] planets sorted by size")
+  plan (Y2BhkE+tSMwtyEnVS87PK8nMK00syczP0wvJyCwOyEnMSy1hUMCqwC0zLwWioBiHCoisc35OfhGDMh4VwflFJSGVBakMzAyMDExAkgFIgyAEwEUB)
+}
+train (t-6dt1acru7sdxhf6y12gk9u6mu) {
+  utterance ("[g:FindPlanets:continue:Planet] how about (blue)[v:PlanetColor] planets")
+  plan (Y2BmkE+tSMwtyEnVS87PK8nMK00syczP0wvJyCwOyEnMSy1hUMCqwC0zLwWioBiHCoisc35OfhEDEwMjEDMASUYGEIDyAQ==)
+}

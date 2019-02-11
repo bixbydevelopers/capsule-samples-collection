@@ -1,0 +1,4 @@
+action (ShowHotelImageList) {
+  type (Search)
+  output (Hotel)
+}

@@ -1,0 +1,4 @@
+train (t-zumvpl8htq1rrn0zgwqib99gx) {
+  utterance ([g:ShowHotelTitleArea] show a title area)
+  plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWHQwC4ZnJFfDlYQklmSk+pYlJrIwAiEDFAMJAE=)
+}

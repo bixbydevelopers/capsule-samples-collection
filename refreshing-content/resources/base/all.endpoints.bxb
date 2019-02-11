@@ -1,0 +1,16 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (CheckRideShareStatus) {
+      accepted-inputs (activity)
+      local-endpoint (CheckRideShareStatus.js)
+    }
+    action-endpoint (ConstructActivity) {
+      accepted-inputs (countdown)
+      local-endpoint (ConstructActivity.js)
+    }
+  }
+}

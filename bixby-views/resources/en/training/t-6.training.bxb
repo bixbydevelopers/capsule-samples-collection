@@ -1,0 +1,8 @@
+train (t-6dsxqyekrffl8tmkik2qhezen) {
+  utterance ([g:ShowRideShareImageCards] show rides as image cards)
+  plan (Y2BikE3KrEiq1EvOz83Nz/NJrMwvLSnWC8pMSQ3OSCxKZdDGJh2ckV8OV+KZm5ie6pxYlFLMwAiEDFAMJAE=)
+}
+train (t-6g09r3lyg5so4wlbr6hkpwi03) {
+  utterance ([g:ShowFlowerImageCards] show flowers as compound cards)
+  plan (Y2BikErKrEiq1EvOz83Nz/NJrMwvLSnWc8vJL08tYtDAJheckV8OkffMTUxPdU4sSilmYARCBigGkgA=)
+}

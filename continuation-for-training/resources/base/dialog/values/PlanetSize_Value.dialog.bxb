@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: PlanetSize (this)
+  template("#{number (this, '#,###')}")
+}

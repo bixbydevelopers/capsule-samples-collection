@@ -1,0 +1,3 @@
+integer (PlanetMoons) {
+  description (The number of moons around a planet)
+}

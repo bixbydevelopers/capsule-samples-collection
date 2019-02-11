@@ -1,0 +1,21 @@
+action (GetResultReplan) {
+  type (Search)
+  description (This demonstrates how to replan on an error.)
+  output (Result) {
+    throws {
+      error (ErrorWhichCausesReplan) {
+        // When this error is caught, it will attempt to fulfill the goal for this action by 
+        // running the intent given in `replan` below.
+        on-catch {
+          replan {
+            dialog("An error was caught, and now, we will replan to another way to get a Result.")
+            intent {
+              goal: Result
+              route: GetResult
+            }
+          }
+        }
+      }
+    }
+  }
+}

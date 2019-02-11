@@ -1,0 +1,29 @@
+result-view {
+  match {
+    Business (business) {
+      from-output: NavigateThere
+    }
+  }
+
+  render {
+    layout-macro (business-details-macro) {
+      param (business) {
+        expression (business)
+      }
+    }
+  }
+  
+  message {
+    if (size(business) == 1) {
+      template ("Navigating to #{value(business.address)}.")
+    }
+  }
+
+  conversation-drivers {
+    // In the real-world, navigate there would punch-out, but for this simulation,
+    // allow calling from this screen
+    conversation-driver {
+      template ("Call business")
+    }
+  }
+}

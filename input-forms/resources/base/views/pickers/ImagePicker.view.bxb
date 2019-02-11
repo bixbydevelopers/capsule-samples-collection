@@ -1,0 +1,15 @@
+input-view {  
+  match: Image (this) {
+    to-input: SelectImage //This to-input will depend on which action you've implemented
+  }
+
+  message {
+    template (Pick an image!)
+  }
+
+  render {
+    image-picker (this) {
+      size (Small)
+    }
+  }
+}

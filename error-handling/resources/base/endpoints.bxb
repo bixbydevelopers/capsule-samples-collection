@@ -1,0 +1,27 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (GetResultHalt) {
+      local-endpoint (GetResultHalt.js)
+    }
+    
+    action-endpoint (GetResultDrop) {
+      local-endpoint (GetResultDrop.js)
+    }
+    
+    action-endpoint (GetResultReplan) {
+      local-endpoint (GetResultReplan.js)
+    }
+    
+    action-endpoint (GetResult) {
+      local-endpoint (GetResult.js)
+    }
+    
+    action-endpoint (ValidateInputs) {
+      local-endpoint (GetResult.js)
+    }
+  }
+}

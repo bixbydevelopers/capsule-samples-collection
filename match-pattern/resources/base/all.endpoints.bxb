@@ -1,0 +1,12 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (FindBusiness) {
+      accepted-inputs ()
+      local-endpoint (FindBusiness.js)
+    }
+  }
+}

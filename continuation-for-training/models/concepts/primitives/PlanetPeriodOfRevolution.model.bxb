@@ -1,0 +1,3 @@
+decimal (PlanetPeriodOfRevolution) {
+  description (Planet's length in days of a full revolution around the sun)
+}

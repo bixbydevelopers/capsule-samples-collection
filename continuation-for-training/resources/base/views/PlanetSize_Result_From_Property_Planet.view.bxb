@@ -1,0 +1,23 @@
+result-view {
+  match: PlanetSize (this) {
+    from-property: Planet (planet)
+  }
+
+  render {
+    layout-macro (planet-size-macro) {
+      param (planet) {
+        expression (planet)
+      }
+    }
+  }
+
+  message {
+    template ("#{value(planet)} is #{value(this)} miles in diameter.")
+  }
+  
+  conversation-drivers {
+    conversation-driver {
+      template ("Show #{value(planet)}")
+    }
+  }
+}

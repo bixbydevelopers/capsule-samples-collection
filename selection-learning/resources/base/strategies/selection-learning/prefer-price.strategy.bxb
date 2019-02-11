@@ -1,0 +1,12 @@
+selection-strategy {
+  id (prefer-price)
+  match {
+    RideShare (this)
+  }
+  // This named advice will always advise-for a value.
+  // Since advice-for is set to lowerBoundOpen 0.0, any price will match.
+  named-advice ("price") {
+    advice("${this.priceRange.min.value}")
+    advise-for { lowerBoundOpen(0.0) }
+  }
+}

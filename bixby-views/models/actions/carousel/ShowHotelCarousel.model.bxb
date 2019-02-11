@@ -1,0 +1,4 @@
+action (ShowHotelCarousel) {
+  type (Search)
+  output (Hotel)
+}

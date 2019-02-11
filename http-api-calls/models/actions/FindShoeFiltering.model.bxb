@@ -1,0 +1,11 @@
+action (FindShoeFiltering) {
+  description (Demonstrate a simple GET with the http library.)
+  type (Search)
+  collect {
+    input (type) {
+      type (Type)
+      min (Optional)
+    }
+  }
+  output (Shoe)
+}

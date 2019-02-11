@@ -1,0 +1,30 @@
+result-view {
+  match: TripOption (this)
+  message ("Here are some carriers for this trip.")
+  render {
+    list-of (this.carriers) {
+      where-each (item) {
+        layout-macro (common:card) {
+          param (title) {
+            dialog-template {
+              template-macro (carrier-name) { 
+                param (name) {
+                  expression (item.name)
+                }
+              }
+            }
+          }
+          param (image) {
+            expression (item.logo.url)
+          }
+          param (imageType) {
+            literal (thumbnail)
+          }
+          param (thumbnailPosition) {
+            literal (right)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    Shoe (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (shoe)
+    }
+    default {
+      template (shoes)
+    }
+  }
+}

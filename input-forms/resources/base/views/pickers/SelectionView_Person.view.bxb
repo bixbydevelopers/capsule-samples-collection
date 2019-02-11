@@ -1,0 +1,31 @@
+// PersonSelectionView.view.bxb
+input-view {
+  match: Person (this)
+
+  // optional selection dialog to overwrite any other default dialog
+  message (Select one or more persons)
+
+  render {
+    // used to iterate over the list of candidates
+    selection-of (this) {
+      where-each (one) {
+        // you can use conditional logic to control how candidates are displayed, using either a standard layout with a match pattern, or a layout macro
+
+        cell-card {
+
+          slot2 {
+            content {
+              primary {
+                template ("#{value (one.firstName)} #{value (one.lastName)}")
+              }
+              secondary {
+                template ("#{value (one.gender)}")
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

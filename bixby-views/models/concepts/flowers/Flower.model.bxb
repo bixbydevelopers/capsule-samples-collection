@@ -1,0 +1,18 @@
+structure (Flower) {
+  property (name) {
+    type (FlowerName)
+    min (Required) max (One)
+  }
+  property (priceRange) {
+    type (money.PriceRange)
+    min (Required) max (One)
+  }
+  property (deliveryType) {
+    type (FlowerDeliveryType)
+    min (Required) max (One)
+  }
+  property (imageUrls) {
+    type (FlowerImageUrl)
+    min (Required) max (Many)
+  }
+}

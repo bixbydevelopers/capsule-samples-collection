@@ -1,0 +1,4 @@
+action (ShowFlowerCellAreas) {
+  type (Search)
+  output (Flower)
+}

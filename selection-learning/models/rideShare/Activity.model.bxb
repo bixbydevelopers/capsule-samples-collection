@@ -1,0 +1,8 @@
+structure (Activity) {
+  description (Represents a booked ride.)
+  property (rideShare) {
+    type (RideShare)
+    max (One)
+    min (Required)
+  }
+}

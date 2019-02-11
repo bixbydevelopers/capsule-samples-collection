@@ -1,0 +1,4 @@
+train (t-g4cwh987ueftvnkb1atd4xexp) {
+  utterance ([g:ShowRideShareInputCells] show an input cell)
+  plan (Y2BikEzKrEiq1EvOz83Nz/NJrMwvLSnW88gvSc1h0MYmFZyRXx6UmZIanJFYlOqZV1Ba4pyak1PMwAiEDFAMJAE=)
+}

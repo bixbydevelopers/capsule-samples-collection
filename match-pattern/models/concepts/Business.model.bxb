@@ -1,0 +1,23 @@
+structure (Business) {
+  description (A Business object with properties that define a business)
+  property (name) {
+    type (BusinessName)
+    min (Required) max (One)
+  }
+  property (rating) {
+    type (BusinessRating)
+    min (Required) max (One)
+  }
+  property (categories) {
+    type (BusinessCategory)
+    min (Required) max (Many)
+  }
+  property (address) {
+    type (BusinessAddress)
+    min (Required) max (One)
+  }
+  property (phoneNumber) {
+    type (BusinessPhoneNumber)
+    min (Required) max(One)
+  }
+}

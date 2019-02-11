@@ -1,0 +1,4 @@
+train (t-2zyrrla9f4udkd6lnc8yu3u0r) {
+  utterance ("[g:Planet#distance] what is the distance of {[g:ThisPlanet] (Mars)[v:PlanetName]}")
+  plan (Y2BlUEzKrEiq1EvOzyvJzCtNLMnMz9MLyEnMSy1xySwuScxLTmWQxKmEQRaLVEhGZjFUWg6LtFtmXgpEuhirdoicX2JuKgMLAyMDEwMzkGaAskCYkQEEmMEiYBUA)
+}

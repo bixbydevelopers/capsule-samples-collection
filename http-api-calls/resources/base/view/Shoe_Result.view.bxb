@@ -1,0 +1,25 @@
+result-view {
+  match {
+    Shoe (this)
+  }
+  
+  render {
+    if ("size(this) > 1") {
+      list-of (this) {
+        where-each (shoe) {
+          layout-macro (shoe-summary-macro) {
+            param (shoe) {
+              expression (shoe)
+            }
+          }
+        }
+      }
+    } else-if ("size(this) == 1") {
+      layout-macro (shoe-details-macro) {
+        param (shoe) {
+          expression (this)
+        }
+      }
+    }
+  }
+}

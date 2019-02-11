@@ -1,0 +1,6 @@
+dialog (Value) {
+  match {
+    Shoe (shoe)
+  }
+  template ("#{value (shoe.name)}")
+}

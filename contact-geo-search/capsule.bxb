@@ -1,0 +1,15 @@
+capsule {
+  id (example.contactGeoSearch)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.contact) { as (contact) version (2.5125.7)}
+    import (viv.geo) { as (geo) version-from (contact)}
+  }
+  permissions {
+    user-profile-access
+  }
+}

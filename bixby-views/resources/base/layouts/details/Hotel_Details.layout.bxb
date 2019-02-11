@@ -1,0 +1,48 @@
+layout {
+  match: Hotel (hotel)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        image-carousel {
+          images (hotel.images)
+        }
+        title-area {
+          hAlign (Start)
+          slot1 {
+            text {
+              value ("#{value(hotel.name)}")
+              style (Title_L)
+            }
+          }
+          slot2 {
+            paragraph {
+              value ("From #{value(hotel.lowRate)} • #{value(hotel.rating)} stars")
+              style (Title_XS)
+            }
+          }
+          slot3 {
+            layout-macro (hotel-rating) {
+              param (rating) {
+                expression (hotel.rating)
+              }
+              param (reviewCount) {
+                expression (hotel.reviewCount)
+              }
+            }
+          }
+        }
+      }
+    }
+    section {
+      title ("Description")
+      content {
+        paragraph {
+          value ("It is a low-rise boutique hotel that features a pool in the back side of the building, although it's empty. The Generic also features an underground parking garage that can be accessed from Milton Road. In the enhanced version of GTA V, a bright purple lamp was added to illuminate the hotel.")
+          style (Detail_L)
+        }
+      }
+    }
+  }
+}

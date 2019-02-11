@@ -1,0 +1,4 @@
+enum (FlowerDeliveryType) {
+  symbol (Same Day Delivery)
+  symbol (Shipped in a Gift Box)
+}
