@@ -1,5 +1,5 @@
 capsule {
-  id (bixby.errorHandling)
+  id (example.errorHandling)
   version (1.0.0)
   format (3)
   targets {
