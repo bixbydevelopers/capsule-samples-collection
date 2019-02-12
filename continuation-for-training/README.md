@@ -98,7 +98,7 @@ For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/
 
 ## Additional Resources
 
-### Your Souce for Everything Bixby
+### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
 
 ### Guides & Best Practices
