@@ -1,5 +1,5 @@
 capsule {
-  id (bixby.vivContext)
+  id (example.vivContext)
   version (1.0.0)
   format (3)
   targets {
