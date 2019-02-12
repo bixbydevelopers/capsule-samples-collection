@@ -1,5 +1,5 @@
 capsule {
-  id (bixby.preferenceLearning)
+  id (example.preferenceLearning)
   version (1.0.0)
   format (3)
   targets {
