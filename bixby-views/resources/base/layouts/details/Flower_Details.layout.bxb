@@ -11,7 +11,7 @@ layout {
               size (L)
               image-url ("#{value(flower.imageUrls[0])}")
               title-area {
-                hAlign (Start)
+                halign (Start)
                 slot1 {
                   text {
                     value ("")

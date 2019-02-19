@@ -1,0 +1,33 @@
+activity-support {
+  match {
+    Activity (this)
+  }
+
+  //This file determines concept state after a transactional workflow is completed (meaning that the activity has started).
+  //Also determines how the system reacts during any user interactions for the given activity.
+  //It is not used in this example capsule because the transaction is being simulated and does not exist
+
+  time()
+
+  states {
+    state (Recent) {
+      detail-view {
+        layout-match (this){
+          mode (Details)
+        }
+      }
+      expires ()
+      summary-view {
+        message {
+          template ()
+        }
+        details {
+          template ()
+        }
+        title {
+          template ()
+        }
+      }
+    }
+  }
+}

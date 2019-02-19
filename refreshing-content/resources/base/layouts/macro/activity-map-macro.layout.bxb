@@ -28,8 +28,8 @@ layout-macro-def(activity-map-macro) {
               }
               width (15)
               height (20)
-              anchorX (5)
-              anchorY (15)
+              anchor-x (5)
+              anchor-y (15)
               rotation (0)
             }
             marker {
@@ -39,8 +39,8 @@ layout-macro-def(activity-map-macro) {
               }
               width (20)
               height (20)
-              anchorX (5)
-              anchorY (15)
+              anchor-x (5)
+              anchor-y (15)
               rotation (0)
             }
           }

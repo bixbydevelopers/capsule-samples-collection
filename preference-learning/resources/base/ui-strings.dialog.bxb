@@ -33,6 +33,9 @@ template-macro-def (product-type-dialog) {
     }
   }
   content {
-    template ("This flower product is #{value(flower.productTypes)}.")
+    if (exists(flower.productTypes)){
+      template ("This flower product is #{value(flower.productTypes)}.")
+    }
+    // Else Unexpected
   }
 }

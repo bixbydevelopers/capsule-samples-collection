@@ -1,7 +1,4 @@
 endpoints {
-  authorization {
-    none
-  }
 
   action-endpoints {
     action-endpoint (FindPlanets) {
@@ -10,7 +7,7 @@ endpoints {
     }
     action-endpoint (FindThatPlanet) {
       accepted-inputs (name, color)
-      local-endpoint (FindPlanets.js)
+      local-endpoint (FindThatPlanet.js)
     }
     action-endpoint (CompareDistance) {
       accepted-inputs (planet, targetPlanet)

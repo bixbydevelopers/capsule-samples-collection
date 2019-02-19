@@ -8,7 +8,7 @@ layout-macro-def (rideshare-thumbnail-card) {
   content {
     thumbnail-card {
       title-area {
-        hAlign (Start)
+        halign (Start)
         slot1 {
           text {
             style (Title_S)

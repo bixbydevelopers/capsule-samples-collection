@@ -10,7 +10,7 @@ layout-macro-def (flower-thumbnail-card) {
       image-position (End)
       image-url ("#{value(flower.imageUrls[0])}")
       title-area {
-        hAlign (Start)
+        halign (Start)
         slot1 {
           text {
             value ("#{value(flower.name)}")

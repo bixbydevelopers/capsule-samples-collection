@@ -9,7 +9,7 @@ layout {
           images (hotel.images)
         }
         title-area {
-          hAlign (Start)
+          halign (Start)
           slot1 {
             text {
               value ("#{value(hotel.name)}")

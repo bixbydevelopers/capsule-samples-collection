@@ -10,7 +10,7 @@ layout-macro-def (hotel-image-card) {
       size (L)
       
       title-area {
-        hAlign (Start)
+        halign (Start)
         slot1 {
           text {
             value ("#{value(hotel.name)}")
@@ -26,7 +26,7 @@ layout-macro-def (hotel-image-card) {
           }
         }
       }
-      image-url ("#{value(hotel.images[0].url)}")
+      image-url ("[#{value(hotel.images[0].url)}]")
     }
   }
 }

@@ -8,9 +8,9 @@ layout-macro-def (hotel-thumbnail-card) {
   content {
     thumbnail-card {
       image-position (End)
-      image-url ("#{value(hotel.images[0].url)}")
+      image-url ("[#{value(hotel.images[0].url)}]")
       title-area {
-        hAlign (Start)
+        halign (Start)
         slot1 {
           text {
             value ("#{value(hotel.name)}")
