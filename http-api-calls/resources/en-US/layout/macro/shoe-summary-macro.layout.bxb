@@ -8,26 +8,22 @@ layout-macro-def(shoe-summary-macro) {
   }
 
   content {
-    section {
+    compound-card {
       content {
-        compound-card {
-          content {
-            title-area {
-              slot1 {
-                text {
-                  value {
-                    template ("#{value (shoe.name)}")
-                  }
-                }
+        title-area {
+          slot1 {
+            text {
+              value {
+                template ("#{value (shoe.name)}")
               }
             }
-            cell-area {
-              slot2 {
-                content {
-                  primary {
-                    template ("#{value (shoe.price)}")
-                  }
-                }
+          }
+        }
+        cell-area {
+          slot2 {
+            content {
+              primary {
+                template ("#{value (shoe.price)}")
               }
             }
           }

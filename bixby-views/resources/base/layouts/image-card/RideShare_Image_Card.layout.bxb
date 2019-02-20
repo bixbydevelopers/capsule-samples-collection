@@ -12,7 +12,7 @@ layout-macro-def (rideshare-image-card) {
         template ("#{value(rideShare.imageSet.images[0].url)}")
       }
       title-area {
-        hAlign (Start)
+        halign (Start)
         slot1 {
           text {
             style (Title_M)

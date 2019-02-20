@@ -10,7 +10,7 @@ input-view {
         compound-card {
           content {
             title-area {
-              hAlign (Start)
+              halign (Start)
               slot1 {
                 text {
                   value {

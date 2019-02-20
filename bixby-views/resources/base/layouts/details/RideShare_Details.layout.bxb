@@ -19,8 +19,8 @@ layout {
               icon ("/images/icons/green-map-marker.png")
               width (15)
               height (20)
-              anchorX (5)
-              anchorY (15)
+              anchor-x (5)
+              anchor-y (15)
               rotation (0)
             }
             marker {
@@ -28,8 +28,8 @@ layout {
               icon ("/images/icons/red-map-marker.png")
               width (20)
               height (20)
-              anchorX (5)
-              anchorY (15)
+              anchor-x (5)
+              anchor-y (15)
               rotation (0)
             }
           }

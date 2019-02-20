@@ -11,14 +11,14 @@ layout-macro-def (hotel-compound-card) {
         image-card {
           size (L)
           title-area {
-            hAlign (Start)
+            halign (Start)
             slot1 {
               text {
                 value ("")
               }
             }
           }
-          image-url ("#{value(hotel.images[0].url)}")
+          image-url ("[#{value(hotel.images[0].url)}]")
         }
         paragraph {
           value ("#{value(hotel.name)}")
