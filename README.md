@@ -11,27 +11,27 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 ---
 ## Capsule Samples
 
-[Bixby Views](../../tree/master/bixby-views)
+[Bixby Views](../../tree/master/bixby-views) - Sample Result UI Views
 
-[Contact GeoSearch](../../tree/master/contactGeoSearch)
+[Contact GeoSearch](../../tree/master/contactGeoSearch) - Sample Use of Contact and Geo Locations
 
-[Continuation for Training](../../tree/master/continuation-for-training)
+[Continuation for Training](../../tree/master/continuation-for-training) - Sample Continuations
 
-[Error Handling](../../tree/master/error-handling)
+[Error Handling](../../tree/master/error-handling) - Sample Error Handling
 
-[HTTP API Calls](../../tree/master/http-api-calls)
+[HTTP API Calls](../../tree/master/http-api-calls) - Sample HTTP Calls
 
-[Input Forms](../../tree/master/input-forms)
+[Input Forms](../../tree/master/input-forms) - Sample Input Forms
 
-[Match Patterns](../../tree/master/match-pattern)
+[Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
 
-[Preference Learning](../../tree/master/preference-learning)
+[Preference Learning](../../tree/master/preference-learning) - Sample Preference Learning (Personalization)
 
-[Refreshing Content](../../tree/master/refreshing-content)
+[Refreshing Content](../../tree/master/refreshing-content) - Sample Content Refersh
 
-[Selection Learning](../../tree/master/selection-learning)
+[Selection Learning](../../tree/master/selection-learning) - Sample Selection Learning (Personalization)
 
-[User Context](../../tree/master/user-context)
+[User Context](../../tree/master/user-context) - Sample User Data Access
 
 ---
 
@@ -52,9 +52,3 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 ### Need Support?
 * Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.
 * Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
-
-
-
-
-
-
