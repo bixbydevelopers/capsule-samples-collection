@@ -27,7 +27,7 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Preference Learning](../../tree/master/preference-learning) - Sample Preference Learning (Personalization)
 
-[Refreshing Content](../../tree/master/refreshing-content) - Sample Content Refersh
+[Refreshing Content](../../tree/master/refreshing-content) - Sample Content Refresh
 
 [Selection Learning](../../tree/master/selection-learning) - Sample Selection Learning (Personalization)
 
