@@ -5,44 +5,8 @@ layout {
   content {
     section {
       content {
-        compound-card {
-          content {
-            image-card {
-              size (L)
-              image-url ("#{value(flower.imageUrls[0])}")
-              title-area {
-                halign (Start)
-                slot1 {
-                  text {
-                    value ("")
-                    style (Title_M)
-                  }
-                }
-              }
-            }
-            single-line {
-              text {
-                value {
-                  template ("#{value(flower.name)}")
-                }
-                style (Title_M)
-              }
-            }
-            paragraph {
-              value {
-                template ("#{value(flower.priceRange)}")
-              }
-              style (Detail_L)
-            }
-            single-line {
-              text {
-                value {
-                  template ("#{value(flower.deliveryType)}")
-                }
-                style (Detail_M_Soft)
-              }
-            }
-          }
+        layout-macro (flower-compound-card) {
+          param (flower) { expression (flower) }
         }
       }
     }
