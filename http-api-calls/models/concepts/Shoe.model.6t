@@ -15,4 +15,14 @@ structure (Shoe) {
     type (money.Price)
     min (Required)
   }
+  
+  //unused properties returned from API
+  property (id) {
+    type (Id)
+    min (Optional)
+  }
+  property (photo) {
+    type (Photo)
+    min (Optional)
+  }
 }

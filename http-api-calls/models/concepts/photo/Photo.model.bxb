@@ -1,0 +1,7 @@
+structure (Photo) {
+  description (photo property of shoe returned by API. Can have multiple images, each containing a URL)
+  property (images) {
+    type (Image)
+    min (Optional) max (Many)
+  }
+}

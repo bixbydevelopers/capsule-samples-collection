@@ -1,0 +1,3 @@
+integer (Id) {
+  description (Id for a shoe)
+}
