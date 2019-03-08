@@ -7,8 +7,7 @@ layout-macro-def (hotel-image-card) {
   }
   content {
     image-card {
-      size (L)
-      
+      aspect-ratio (4:3)
       title-area {
         halign (Start)
         slot1 {

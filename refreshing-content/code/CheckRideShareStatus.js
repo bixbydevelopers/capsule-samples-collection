@@ -1,3 +1,4 @@
+console = require('console')
 module.exports.function = function checkRideShareStatus (activity) {
   console.log("activity", activity)
   return {

@@ -1,3 +1,6 @@
+var http = require('http')
+var console = require('console')
+var config = require('config')
 module.exports.function = function findShoeReturnHeaders () {
 
   // This call will throw a 500, but since we are using returnHeaders: true,

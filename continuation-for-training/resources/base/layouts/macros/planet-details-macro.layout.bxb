@@ -11,7 +11,7 @@ layout-macro-def(planet-details-macro) {
     section {
       content {
         image-card {
-          size (L)
+          aspect-ratio (4:3)
           image-url {
             template ("#{value (planet.imageSet.images[0].url)}")
           }

@@ -1,3 +1,6 @@
+var http = require('http')
+var console = require('console')
+var config = require('config')
 module.exports.function = function findShoe (type) {
   console.log("FindShoe filter by a specific type")
   var options = { 
