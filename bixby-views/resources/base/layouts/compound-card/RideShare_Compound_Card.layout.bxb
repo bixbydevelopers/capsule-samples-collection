@@ -9,7 +9,7 @@ layout-macro-def (rideshare-compound-card) {
     compound-card {
       content {
         image-card {
-          size (M)
+          aspect-ratio (16:9)
           image-url {
             template ("#{value(rideShare.imageSet.images[0].url)}")
           }

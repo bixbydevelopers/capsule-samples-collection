@@ -9,7 +9,6 @@ result-view {
       section {
         content {
           title-card {
-            size (S)
             title-area {
               halign (Start)
               slot1 {

@@ -1,3 +1,4 @@
+var console = require('console')
 const planets = require('./lib/planets.js')
 
 module.exports.function = function findPlanets (name, color, sortType) {

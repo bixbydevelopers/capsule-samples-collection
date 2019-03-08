@@ -6,7 +6,7 @@ layout {
     section {
       content {
         map-card {
-          size (XL)
+          aspect-ratio (1:1)
           title-area{
             slot2 {
               single-line {
