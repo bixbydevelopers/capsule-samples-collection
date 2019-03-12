@@ -41,6 +41,8 @@ intent {
 
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/http
 
+If you want to see the contents of the endpoint this capsule uses (at https://bixby-http-demo.appspot.com/), but cannot access the link, you can view the data in endpointContents.zip. You can also see the data the endpoint returned in the Debug Console, if you click on the action (i.e. FindShoe), then click on 'requests'.
+
 ---
 
 ## Additional Resources
