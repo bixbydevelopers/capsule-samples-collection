@@ -11,6 +11,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 ---
 ## Capsule Samples
 
+[Audio Player](../../tree/master/audio) - Audio Player
+
 [Bixby Views](../../tree/master/bixby-views) - Sample Result UI Views
 
 [Contact GeoSearch](../../tree/master/contactGeoSearch) - Sample Use of Contact and Geo Locations
