@@ -1,0 +1,15 @@
+capsule {
+  id (viv.meow)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+    target (bixby-speaker-en-US)
+  }
+  capsule-imports {
+    import (bixby.audioPlayer) {
+      version (0.1.9)
+      as (audioPlayer)
+    }
+  }
+}

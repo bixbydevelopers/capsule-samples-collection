@@ -1,0 +1,5 @@
+action (BuildMeowAudioInfo) {
+  type (Search)
+  description (Makes a meow info to play.)
+  output (audioPlayer.AudioInfo)
+}

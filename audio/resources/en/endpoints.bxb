@@ -1,0 +1,10 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (PlayMeow) {
+      local-endpoint (PlayMeow.js)
+    }
+    action-endpoint (BuildMeowAudioInfo) {
+      local-endpoint (BuildMeowAudioInfo.js)
+    }
+  }
+}
