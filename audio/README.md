@@ -1,7 +1,7 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
     <br/>
-  <h1 align="Center">Bixby Views</h1>
+  <h1 align="Center">Audio Player</h1>
 </p>
 
 ## Usage
