@@ -1,41 +1,11 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
-  <br/>
-  <h1 align="Center">Bixby Sample Capsules Collection</h1>
+    <br/>
+  <h1 align="Center">Conversation Driver Punchout</h1>
 </p>
 
-## Overview
-
-A collection of sample Bixby capsules which are individual capsules that show how to use a single platform feature. See https://bixbydevelopers.com/dev/docs/sample-capsules/samples
-
----
-## Capsule Samples
-
-[Audio Player](../../tree/master/audio) - Audio Player
-
-[Bixby Views](../../tree/master/bixby-views) - Sample Result UI Views
-
-[Contact GeoSearch](../../tree/master/contactGeoSearch) - Sample Use of Contact and Geo Locations
-
-[Continuation for Training](../../tree/master/continuation-for-training) - Sample Continuations
-
-[Conversation Driver Punchout](../../tree/master/conversation-driver-punchout) - Punchout from Conversation Drivers
-
-[Error Handling](../../tree/master/error-handling) - Sample Error Handling
-
-[HTTP API Calls](../../tree/master/http-api-calls) - Sample HTTP Calls
-
-[Input Forms](../../tree/master/input-forms) - Sample Input Forms
-
-[Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
-
-[Preference Learning](../../tree/master/preference-learning) - Sample Preference Learning (Personalization)
-
-[Refreshing Content](../../tree/master/refreshing-content) - Sample Content Refresh
-
-[Selection Learning](../../tree/master/selection-learning) - Sample Selection Learning (Personalization)
-
-[User Context](../../tree/master/user-context) - Sample User Data Access
+## Usage
+nl (What is the status of my ride?)
 
 ---
 

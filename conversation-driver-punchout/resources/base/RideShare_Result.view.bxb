@@ -1,0 +1,26 @@
+result-view {
+  match {
+    RideShare (this)
+  }
+  message ("Here is your ride.")
+  
+  conversation-drivers {
+    // The conversation driver for punching out. Note you have to train this exact utterance.
+    conversation-driver ("Share ride")  
+  }
+  
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              value ("Click on the conversation driver to share your ride.")
+              style (Detail_L)
+            }
+          }
+        }
+      }
+    }
+  }
+}

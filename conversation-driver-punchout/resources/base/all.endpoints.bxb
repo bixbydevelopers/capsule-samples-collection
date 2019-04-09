@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetRideShare) {
+      local-endpoint (GetRideShare.js)
+      accepted-inputs ()
+    }
+  }
+}

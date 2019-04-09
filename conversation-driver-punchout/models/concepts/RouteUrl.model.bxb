@@ -1,0 +1,3 @@
+text (RouteUrl) {
+  description (A url of the current ride. Used for sharing the ride with others.)
+}

@@ -1,0 +1,5 @@
+train (t-tsiq3keadnzcyh0ras67cvwwo) {
+  utterance ([g:GetRideShare] what is the status of my ride)
+  plan (Y2Bi0EmtSMwtyEnVS87PK0stKk4syczPcynKBLIDSvOSM/JLS/SCMlNSgzMSi1IZ9IlQ7Z5agtDACIQMUAwkAQ==)
+  last-modified (1554761533894)
+}

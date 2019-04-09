@@ -1,0 +1,10 @@
+result-view {
+  match {
+    RouteUrl (this)
+  }
+  app-launch {
+    payload-uri {
+      template ("#{value(this)}")
+    }
+  }
+}
