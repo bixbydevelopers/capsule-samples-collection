@@ -1,0 +1,12 @@
+result-view {
+  match {
+    Information (this)
+  }
+  message ("I'm a virtual assistant developed by Samsung Electronics. For more information, click on the conversation driver.")
+
+  conversation-drivers {
+    // The conversation driver for punching out. Note you have to train this exact utterance.
+    // Note the training example should also be a continuation of Information.
+    conversation-driver ("See more on wikipedia")
+  }
+}

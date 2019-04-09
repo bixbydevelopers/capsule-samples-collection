@@ -5,7 +5,7 @@
 </p>
 
 ## Usage
-nl (What is the status of my ride?)
+nl (Tell me about yourself)
 
 ---
 

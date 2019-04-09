@@ -1,0 +1,15 @@
+action (SeeMoreOnWikipedia) {
+  description (An action for punching out to wikipedia.)
+  type (Calculation)
+  collect {
+    input (info) {
+      type (Information)
+      min (Required) max (One)
+    }
+  }
+  output (PunchoutUrl) {
+    evaluate {
+      $expr (info.url)
+    }
+  }
+}

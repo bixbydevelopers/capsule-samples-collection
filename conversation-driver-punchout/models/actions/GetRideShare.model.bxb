@@ -1,6 +1,0 @@
-action (GetRideShare) {
-  description (Gets a ride share. Used for demonstration purposes only.)
-  type (Search)
-
-  output (RideShare)
-}

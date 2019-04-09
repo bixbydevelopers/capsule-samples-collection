@@ -1,0 +1,7 @@
+structure (Information) {
+  description (An example structure for demonstration purposes only. Contains only the url to punch out to.)
+  property (url) {
+    type (PunchoutUrl)
+    min (Optional) max (One)
+  }
+}

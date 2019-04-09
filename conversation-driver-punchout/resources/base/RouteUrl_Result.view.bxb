@@ -1,6 +1,6 @@
 result-view {
   match {
-    RouteUrl (this)
+    PunchoutUrl (this)
   }
   app-launch {
     payload-uri {

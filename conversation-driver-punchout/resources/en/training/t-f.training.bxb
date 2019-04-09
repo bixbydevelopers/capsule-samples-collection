@@ -1,5 +1,5 @@
 train (t-ffnkqpfgl128htjo0u5dge2ad) {
-  utterance ([g:RouteUrl:continue:RideShare] Share ride)
-  plan (Y2Bk0EzKrEiq1EvOzytLLSpOLMnMz3MpygSyA0rzkjPyS0v0goBEamhRDgMIMIIIAA==)
-  last-modified (1554760989575)
+  utterance ([g:PunchoutUrl:continue:Information] see more on wikipedia)
+  plan (Y2Bk0EutSMwtyEnVS87PK0stKk4syczPcynKBLIDSvOSM/JLS/RgjNCiHAYQYAQRAA==)
+  last-modified (1554831967005)
 }

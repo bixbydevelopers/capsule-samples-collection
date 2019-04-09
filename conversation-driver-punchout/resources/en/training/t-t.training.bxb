@@ -1,5 +1,5 @@
 train (t-tsiq3keadnzcyh0ras67cvwwo) {
-  utterance ([g:GetRideShare] what is the status of my ride)
-  plan (Y2Bi0EmtSMwtyEnVS87PK0stKk4syczPcynKBLIDSvOSM/JLS/SCMlNSgzMSi1IZ9IlQ7Z5agtDACIQMUAwkAQ==)
-  last-modified (1554761533894)
+  utterance ([g:TellMeAboutYourself] tell me about yourself)
+  plan (Y2Bi0EutSMwtyEnVS87PK0stKk4syczPcynKBLIDSvOSM/JLS/Q889Lyi3LBMgxmRKgPSc3J8U11TAKyI/NLi4pTc9IYGIGQAYqBJAA=)
+  last-modified (1554831968624)
 }

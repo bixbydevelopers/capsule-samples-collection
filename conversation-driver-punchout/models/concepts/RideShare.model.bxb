@@ -1,7 +1,0 @@
-structure (RideShare) {
-  description (An example ride share for demonstration purposes only. Contains only the routeUrl, but a real ride share can have more properties.)
-  property (routeUrl) {
-    type (RouteUrl)
-    min (Optional) max (One)
-  }
-}

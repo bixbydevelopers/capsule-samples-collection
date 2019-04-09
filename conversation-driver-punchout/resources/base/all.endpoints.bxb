@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
-    action-endpoint (GetRideShare) {
-      local-endpoint (GetRideShare.js)
+    action-endpoint (TellMeAboutYourself) {
+      local-endpoint (TellMeAboutYourself.js)
       accepted-inputs ()
     }
   }
