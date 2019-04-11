@@ -16,7 +16,9 @@ input-view {
           type (Email)
           max-length (50)
           // Add client side validation on email field
-          pattern-type (email)
+          pattern {
+            email
+          }
           value ("#{raw(email)}")
         }
       }

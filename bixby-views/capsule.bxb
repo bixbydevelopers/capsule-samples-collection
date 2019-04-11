@@ -2,14 +2,17 @@ capsule {
   id (example.commonLayouts)
   version (0.1.0)
   format (3)
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+  }
   targets {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.common) {as (common) version (3.28.9)}
-    import (viv.money) {as (money) version (2.18.9)}
-    import (viv.entity) {as (entity) version (3.14.9)}
-    import (viv.time) {as (time) version (2.65.45)}
+    import (viv.common) {as (common) version (3.32.0)}
+    import (viv.money) {as (money) version (2.19.0)}
+    import (viv.entity) {as (entity) version (3.18.2)}
+    import (viv.time) {as (time) version (2.85.1)}
     import (viv.geo) {as (geo) version-from (entity)}
   }
 }
