@@ -1,0 +1,9 @@
+data:
+  geo:
+    latitude: '37.334502'
+    longitude: '-121.890654'
+  time: '2019-05-13T18:24:53.010Z'
+  tz: America/Los_Angeles
+steps:
+  step-AUA: ~
+version: 2
