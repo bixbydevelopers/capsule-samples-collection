@@ -11,9 +11,9 @@ input-view {
       source {
         collect-with (query) {
           intent {
-            goal: contact.Autosuggest
-            value: contact.SearchTerm$expr (query)
-            value: contact.IsFuzzyMatchAddressType(true)
+            goal: location.Autosuggest
+            value: location.SearchTerm$expr (query)
+            value: location.IsFuzzyMatchAddressType(true)
           }
         }
         label { template ("Search Results") }

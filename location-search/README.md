@@ -1,12 +1,12 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby Contact GeoSearch</h1>
+  <h1 align="Center">Bixby Location Search</h1>
 </p>
 
-A demo of using the `contact` library to suggest both contacts and geo locations inside `auto-complete`.
+A demo of using the `contact` library to suggest locations from profile, contacts and geo inside `auto-complete`.
 
-Entrypoint:
+Run Intent:
 
 ```
 intent {
@@ -15,6 +15,8 @@ intent {
 ```
 
 Or, Run NL: "find a ride"
+
+[Try this capsule using a device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device) to see your contact and profile locations.
 
 ---
 
