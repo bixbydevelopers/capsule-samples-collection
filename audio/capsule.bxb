@@ -5,9 +5,14 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+  }
   capsule-imports {
     import (bixby.audioPlayer) {
-      version (0.1.9)
+      version (0.3.3)
       as (audioPlayer)
     }
   }

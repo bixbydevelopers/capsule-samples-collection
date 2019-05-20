@@ -11,10 +11,10 @@ capsule {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.common) {as (common) version (3.32.0)}
-    import (viv.money) {as (money) version (2.20.8)}
-    import (viv.entity) {as (entity) version (3.18.7)}
-    import (viv.time) {as (time) version (2.85.1)}
+    import (viv.common) {as (common) version (3.32.3)}
+    import (viv.money) {as (money) version (2.20.9)}
+    import (viv.entity) {as (entity) version (3.18.11)}
+    import (viv.time) {as (time) version (2.87.7)}
     import (viv.geo) {as (geo) version-from (entity)}
   }
 }
