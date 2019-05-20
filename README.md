@@ -15,8 +15,6 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Bixby Views](../../tree/master/bixby-views) - Sample Result UI Views
 
-[Contact GeoSearch](../../tree/master/contactGeoSearch) - Sample Use of Contact and Geo Locations
-
 [Continuation for Training](../../tree/master/continuation-for-training) - Sample Continuations
 
 [Dialog Affirmation](../../tree/master/dialog-affirmation) - Dialog Variances
@@ -26,6 +24,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 [HTTP API Calls](../../tree/master/http-api-calls) - Sample HTTP Calls
 
 [Input Forms](../../tree/master/input-forms) - Sample Input Forms
+
+[Location Search](../../tree/master/location-search) - Sample Use of Locations
 
 [Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
 
