@@ -1,0 +1,26 @@
+result-view {
+  match {
+    Smile (smile) {
+      max (One)
+    }
+  }
+
+  message {
+    template-macro (SMILE_RESULT)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              value ("#{raw(smile)}")
+              style (Title_XXL)
+            }
+          }
+        }
+      }
+    }
+  }
+}

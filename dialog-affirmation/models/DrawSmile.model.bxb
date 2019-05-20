@@ -1,0 +1,10 @@
+action (DrawSmile) {
+  type (Constructor)
+  collect {
+  }
+  output (Smile) {
+    evaluate {
+      Smile("(◕‿◕)")
+    }
+  }
+}
