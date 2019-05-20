@@ -19,6 +19,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Continuation for Training](../../tree/master/continuation-for-training) - Sample Continuations
 
+[Dialog Affirmation](../../tree/master/dialog-affirmation) - Dialog Variances
+
 [Error Handling](../../tree/master/error-handling) - Sample Error Handling
 
 [HTTP API Calls](../../tree/master/http-api-calls) - Sample HTTP Calls
