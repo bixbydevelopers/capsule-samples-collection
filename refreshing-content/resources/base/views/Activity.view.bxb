@@ -12,17 +12,20 @@ result-view {
     }
   }
   refresh {
-    condition (this.countdown != 0)
-    delay(5)
-    on-refresh {
-      intent {
-        goal: CheckRideShareStatus
-        value {
-          $expr (this)
+  if (this.countdown != 0) {
+    spec {
+      delay-seconds (5)
+      with-request {
+        intent {
+          goal: CheckRideShareStatus
+          value {
+            $expr (this)
+          }
         }
       }
     }
   }
+}
   render {
     layout-macro (activity-map-macro) {
       param (activity) {
