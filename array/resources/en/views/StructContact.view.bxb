@@ -1,0 +1,16 @@
+result-view {
+  match: StructContact(this)
+  message {
+    template ("Found #{size(this)} contacts")
+  }
+  render {
+    list-of (this) {
+      where-each (item) {
+        layout-macro (MacroList) {
+          param (name) { expression (item.name) }
+          param (number) { expression (item.number)}
+        }
+      }
+    }
+  }
+}

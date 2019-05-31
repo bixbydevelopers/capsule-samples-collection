@@ -1,0 +1,15 @@
+capsule {
+  // Written by Min Cheng
+  // Last update May 21, 2019
+  id (example.array)
+  runtime-flags {
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    concepts-inherit-super-type-features
+  }
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+}

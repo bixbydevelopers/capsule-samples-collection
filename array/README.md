@@ -1,45 +1,26 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby Sample Capsules Collection</h1>
+  <h1 align="Center">Arrays and Modeling</h1>
 </p>
 
-## Overview
+**Purpose**
 
-A collection of sample Bixby capsules which are individual capsules that show how to use a single platform feature. See https://bixbydevelopers.com/dev/docs/sample-capsules/samples
+The purpose of this example is to demonstrate how Bixby actions and views handle array of objects (both primitive and structured concepts)
 
----
-## Capsule Samples
-
-[Array](../../tree/master/array) - Arrays and Modeling
-
-[Audio Player](../../tree/master/audio) - Audio Player
-
-[Bixby Views](../../tree/master/bixby-views) - Sample Result UI Views
-
-[Continuation for Training](../../tree/master/continuation-for-training) - Sample Continuations
-
-[Dialog Affirmation](../../tree/master/dialog-affirmation) - Dialog Variances
-
-[Error Handling](../../tree/master/error-handling) - Sample Error Handling
-
-[HTTP API Calls](../../tree/master/http-api-calls) - Sample HTTP Calls
-
-[Input Forms](../../tree/master/input-forms) - Sample Input Forms
-
-[Location Search](../../tree/master/location-search) - Sample Use of Locations
-
-[Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
-
-[Preference Learning](../../tree/master/preference-learning) - Sample Preference Learning (Personalization)
-
-[Refreshing Content](../../tree/master/refreshing-content) - Sample Content Refresh
-
-[Selection Learning](../../tree/master/selection-learning) - Sample Selection Learning (Personalization)
-
-[User Context](../../tree/master/user-context) - Sample User Data Access
-
----
+  - No actual API calls, only fixed lookup in /code/lib/lib.js
+  - max (One) or max (Many) determines the argument type in linked JS 
+  - ActionCallContact
+    - Takes a single `StructContact` object, and pass such object to JS as a single object
+    - Try an utterance like "call paul", and Bixby is able to feed "paul" as `TypeContactName` to `ActionGetContactByName` and then feed the output as `StructContact` to `ActionCallContact`
+    - Try an utterance like "call paul and sarah", and Bixby will ask for a selection since `ActionCallContact` is set to `max(One)`
+  - ActionConferenceCall
+    - It is very similar to `ActionCallContact`, except `max (Many)`
+    - Takes single or multiple objects of `StructContact`, and pass such object(s) to JS as an array of objects
+    - Try utterance like "conference call simon" and "conference call paul and simon"
+  - StructContact.view.bxb
+    - Although view is not the focus in this example, it is clear that `list-of` handles both a single object or an array of objects with NO additional coding required
+  - Good luck and have fun with Bixby
 
 ## Additional Resources
 
@@ -58,3 +39,7 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 ### Need Support?
 * Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.
 * Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
+
+
+
+

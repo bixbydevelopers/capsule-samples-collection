@@ -1,0 +1,15 @@
+result-view {
+  match: viv.core.Text(this)
+  render {
+    layout {
+      section {
+        content {
+          paragraph {
+            value("#{value(this)}")
+            style(Detail_L)
+          }
+        }
+      }
+    }
+  }
+}

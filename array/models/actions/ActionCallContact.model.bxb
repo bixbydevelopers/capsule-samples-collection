@@ -1,0 +1,11 @@
+action (ActionCallContact) {
+  description (call a single contact)
+  type (Search)
+  collect {
+    input (contact) {
+      type (StructContact)
+      min (Required) max (One)
+    }
+  }
+  output (viv.core.Text)
+}

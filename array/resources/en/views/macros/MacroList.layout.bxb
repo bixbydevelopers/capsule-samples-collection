@@ -1,0 +1,32 @@
+layout-macro-def (MacroList){
+  params {
+    param (name) {
+      type (TypeContactName)
+      min (Required) max (One)
+    }
+    param (number) {
+      type (TypeContactNumber) 
+      min (Required) max (One)
+    }
+  }
+  content {
+    title-card {
+      title-area {
+        slot1 {
+            text {
+              value ("Name: #{value(name)}")
+              style (Title_S)
+            }
+          }
+        slot2 {
+          single-line {
+            text {
+              value ("Number: #{value(number)}")
+              style (Title_XS)
+            }
+          }
+        }
+      }
+    }
+  }
+}

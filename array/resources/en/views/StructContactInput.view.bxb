@@ -1,0 +1,21 @@
+input-view {
+  match: StructContact(this)
+  render {
+    selection-of (this) {
+      where-each (item) {
+        title-card {
+          title-area {
+            slot2 {
+              single-line {
+                text {
+                  value ("Contact #{value(item.name)} #{value(item.number)}")
+                  style (Title_S)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

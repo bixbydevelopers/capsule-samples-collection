@@ -1,0 +1,3 @@
+integer (TypeContactNumber) {
+  description (must be a TEN DIGIT number and not starting at zero, xxx-xxx-xxxx)
+}

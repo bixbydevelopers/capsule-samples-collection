@@ -1,0 +1,16 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ActionGetContactByName) {
+      accepted-inputs (name)
+      local-endpoint ("GetContactByName.js")
+    }
+    action-endpoint (ActionCallContact) {
+      accepted-inputs (contact)
+      local-endpoint ("CallContact.js")
+    }
+    action-endpoint (ActionConferenceCall) {
+      accepted-inputs (contacts)
+      local-endpoint ("ConferenceCall.js")
+    }
+  }
+}
