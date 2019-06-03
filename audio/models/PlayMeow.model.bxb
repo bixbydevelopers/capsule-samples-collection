@@ -1,17 +1,22 @@
+// To play audio, there is a two step process
+// First create the playlist (done via mwowToPlay below)
+// Second, pass the playlist to the audioPlayer (done via meow below)
+
 action (PlayMeow) {
   type (Search)
   collect {
-    input (meowToPlay) {
+    computed-input (meowToPlay) {
+      description (Create the playlist to play)
       type (audioPlayer.AudioInfo)
       min (Required) max (One)
-      default-init {
+      compute {
         intent {
           goal: BuildMeowAudioInfo
         }
       }
-      hidden
+      hidden     
     }
-
+    
     computed-input (meow) {
       description (By passing in the AudioInfo object to the PlayAudio action, we ask the client to play our sound.)
       type (audioPlayer.Result)
