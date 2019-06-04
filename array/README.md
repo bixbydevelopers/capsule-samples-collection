@@ -6,17 +6,17 @@
 
 **Purpose**
 
-The purpose of this example is to demonstrate how Bixby actions and views handle array of objects (both primitive and structured concepts)
+The purpose of this sample capsule is to demonstrate how Bixby actions and views handle array of objects (both primitive and structured concepts)
 
   - No actual API calls, only fixed lookup in /code/lib/lib.js
   - max (One) or max (Many) determines the argument type in linked JS 
-  - ActionCallContact
-    - Takes a single `StructContact` object, and pass such object to JS as a single object
-    - Try an utterance like "call paul", and Bixby is able to feed "paul" as `TypeContactName` to `ActionGetContactByName` and then feed the output as `StructContact` to `ActionCallContact`
-    - Try an utterance like "call paul and sarah", and Bixby will ask for a selection since `ActionCallContact` is set to `max(One)`
-  - ActionConferenceCall
-    - It is very similar to `ActionCallContact`, except `max (Many)`
-    - Takes single or multiple objects of `StructContact`, and pass such object(s) to JS as an array of objects
+  - CallOneContact
+    - Takes a single `Contact` object, and pass such object to JS as a single object
+    - Try an utterance like "call paul", and Bixby is able to feed "paul" as `ContactName` to `GetContactByName` and then feed the output as `Contact` to `CallOneContact`
+    - Try an utterance like "call paul and sarah", and Bixby will ask for a selection since `CallOneContact` is set to `max (One)`
+  - CallManyContacts
+    - It is very similar to `CallOneContact`, except `max (Many)`
+    - Takes a single or multiple objects of `Contact`, and pass such object(s) to JS as an array of objects
     - Try utterance like "conference call simon" and "conference call paul and simon"
   - StructContact.view.bxb
     - Although view is not the focus in this example, it is clear that `list-of` handles both a single object or an array of objects with NO additional coding required

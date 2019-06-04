@@ -1,11 +1,11 @@
-action (ActionConferenceCall) {
+action (CallManyContacts) {
   description (make a conference call with multiple contacts)
   type (Search)
   collect {
     input (contacts) {
-      type (StructContact)
+      type (Contact)
       min (Required) max (Many)
     }
   }
-  output (viv.core.Text)
+  output (TextResult)
 }

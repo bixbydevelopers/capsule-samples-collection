@@ -1,5 +1,0 @@
-train (t-48adrx0hk3qbdpr7yxahkci0s) {
-  utterance ("[g:ActionGetContactByName] Get me contact info for (paul)[v:TypeContactName] (simon)[v:TypeContactName] and (jane)[v:TypeContactName]")
-  plan (Y2BjkE6tSMwtyEnVSywqSqzUCy4pKk0ucc7PK0lMLmFQQZV0TC7JzM9zT4XJO1X6JeamMsiiqgqpLEiFKqC9NCsDIwMTAzMDC5DFAGaDICOQzQOGDEAZRqA8K5BmAAA=)
-  last-modified (1559326578703)
-}

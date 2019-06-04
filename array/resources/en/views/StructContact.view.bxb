@@ -1,5 +1,5 @@
 result-view {
-  match: StructContact(this)
+  match: Contact(this)
   message {
     template ("Found #{size(this)} contacts")
   }

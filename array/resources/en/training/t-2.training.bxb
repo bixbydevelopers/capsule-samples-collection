@@ -1,5 +1,5 @@
 train (t-22osh3ydgx10mm1k227xof1yy) {
-  utterance ("[g:ActionCallContact] Call (simon)[v:TypeContactName] and (emily)[v:TypeContactName]")
-  plan (Y2Bn4C3LLNNLzi9K1QtJrShhkE+tSMwtyEnVSywqSqzUc0wuyczPc07MyXHOzytJTC5hkEZVEFxSVJpcApNUwabbPRUm71Tpl5ibyiCLqiqksiAVqoAK0mwMjAxMDMwMLAysQDYDnMcCZDGAMQ8QMgDFGCEqAA==)
-  last-modified (1555373243714)
+  utterance ("[g:CallOneContact] Call (simon)[v:ContactName] and (emily)[v:ContactName]")
+  plan (Y2BnkEitSMwtyEnVSywqSqzUC0mtKAlKLS7NKWGQQZVxTszJ8c9Ldc7PK0lMLmEQRZOFCsuhCrunlkBlnCr9EnNTGSSxaqNAio2BkYGJgZmBhYEVyGaA81iALAYw5gFCBqAYI0QFAA==)
+  last-modified (1559691211840)
 }

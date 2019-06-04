@@ -1,4 +1,4 @@
-module.exports.function = function callContact (contact) {
+module.exports.function = function callOneContact (contact) {
   // this handles only a single contact
   return 'Dialing ' + contact.number + ' for ' + contact.name;
   // when linked contact (input property in action) set max (One), the follow code does NOT work

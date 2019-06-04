@@ -1,5 +1,5 @@
 train (t-cr1vyax7dphkfuue8vq5qtp02) {
-  utterance ("[g:ActionConferenceCall] conference call (paul)[v:TypeContactName] (simon)[v:TypeContactName] (emily)[v:TypeContactName] and (sarah)[v:TypeContactName] ")
-  plan (xcxNCsJADAXgN/7UCnoCcSOu5w7ahTs39gIhRChMZ8oQS+f2DlqFgnsJWeS9j2CNbd/0lkMUW8ugOMhAbefEUoyU7Im1Cb4K/i5RPEtFzmE3NTeND9ZslFhx/PXgIp/+nK7UCvZTVadORvD3uoTBDHMssESBVb7xTd5jXgmwGQdZmrxl1gXwBA==)
-  last-modified (1555432320261)
+  utterance ("[g:CallManyContacts] conference call (paul)[v:ContactName] (simon)[v:ContactName] (emily)[v:ContactName] and (sarah)[v:ContactName] ")
+  plan (Y+BkkEitSMwtyEnVSywqSqzUC0mtKAlKLS7NKWGQQ5VxTszJ8U3Mq3TOzytJTC4pZhBFk4eIo2tzTy2ByjhV+iXmpjJIYtVGdykOBkYGJgZmBhYGVgY2BnYgnwEuAoGMYBEGBh4oZACqZARiDqBqNgYGAA==)
+  last-modified (1559691253015)
 }

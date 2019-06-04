@@ -1,10 +1,5 @@
-train (t-6atah1ev529yzv0trcjm3o0vj) {
-  utterance ("[g:ActionGetContactByName] Get me contact for (simon)[v:TypeContactName]")
-  plan (Y2BmkE6tSMwtyEnVSywqSqzUCy4pKk0ucc7PK0lMLmFQQZV0TC7JzM9zT4XJO1X6JeamMsiiqgqpLEiFKgBLMzEwAjEDkGRkAAEoHwA=)
-  last-modified (1559326594534)
-}
 train (t-6fcunmvcnonmy6tgcr0c2hjlo) {
-  utterance ("[g:ActionConferenceCall] conference call (simon)[v:TypeContactName]")
-  plan (Y2Bl4C3LLNNLzi9K1QtJrShhUEqtSMwtyEnVSywqSqzUc0wuyczPc87PS0stSs1LTnVOzMlhkEZVE1xSVJpcAlRTkphcwqCCzQD3VJi8U6VfYm4qgyyqqpDKglSoArA0CwMjAxMDM5BmgLIYwSwQYALSQHEA)
-  last-modified (1558472943426)
+  utterance ("[g:CallManyContacts] conference call (simon)[v:ContactName]")
+  plan (Y2BlkEitSMwtyEnVSywqSqzUC0mtKAlKLS7NKWGQQ5VxTszJ8U3Mq3TOzytJTC4pZhBFk4eIo2tzTy2ByjhV+iXmpjJIYtUGlmJhYGRgYmAG0gxQFiOYBQJMQBooDgA=)
+  last-modified (1559691225059)
 }

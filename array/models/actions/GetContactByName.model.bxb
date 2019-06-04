@@ -1,11 +1,11 @@
-action (ActionGetContactByName) {
+action (GetContactByName) {
   description (fetch contact structure by contact name)
-  type (Fetch)
+  type (Search)
   collect {
     input (name) {
-      type (TypeContactName)
+      type (ContactName)
       min (Optional) max (Many)
     }
   }
-  output (StructContact)
+  output (Contact)
 }

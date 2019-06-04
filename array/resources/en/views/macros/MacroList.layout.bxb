@@ -1,11 +1,11 @@
 layout-macro-def (MacroList){
   params {
     param (name) {
-      type (TypeContactName)
+      type (ContactName)
       min (Required) max (One)
     }
     param (number) {
-      type (TypeContactNumber) 
+      type (ContactNumber) 
       min (Required) max (One)
     }
   }

@@ -1,5 +1,5 @@
 input-view {
-  match: StructContact(this)
+  match: Contact(this)
   render {
     selection-of (this) {
       where-each (item) {
