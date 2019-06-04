@@ -1,5 +1,5 @@
 // To play audio, there is a two step process
-// First create the playlist (done via mwowToPlay below)
+// First create the playlist (done via meowToPlay below)
 // Second, pass the playlist to the audioPlayer (done via meow below)
 
 action (PlayMeow) {
