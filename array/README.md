@@ -18,7 +18,7 @@ The purpose of this sample capsule is to demonstrate how Bixby actions and views
     - It is very similar to `CallOneContact`, except `max (Many)`
     - Takes a single or multiple objects of `Contact`, and pass such object(s) to JS as an array of objects
     - Try utterance like "conference call simon" and "conference call paul and simon"
-  - StructContact.view.bxb
+  - Contact.view.bxb
     - Although view is not the focus in this example, it is clear that `list-of` handles both a single object or an array of objects with NO additional coding required
   - Good luck and have fun with Bixby
 
