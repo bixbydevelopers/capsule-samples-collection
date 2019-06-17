@@ -11,8 +11,8 @@ capsule {
     concepts-inherit-super-type-features
   }
   capsule-imports {
-    import (viv.common) {as (common) version (3.32.3)}
-    import (viv.entity) {as (entity) version (3.18.11)}
+    import (viv.common) {as (common) version (3.32.8)}
+    import (viv.entity) {as (entity) version (3.18.21)}
     import (viv.geo) {as (geo) version-from (entity)}
   }
 }
