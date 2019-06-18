@@ -1,0 +1,15 @@
+action (DurationPicker) {
+  description (An example action to display duration picker input view.)
+  type (Search)
+  collect {
+    input (duration) {
+      type (MyDuration)
+      min (Required) max (One)
+    }
+  }
+  output (MyDuration) {
+    evaluate {
+      $expr (duration)
+    }
+  }
+}
