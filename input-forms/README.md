@@ -40,11 +40,6 @@ intent: goal: SelectImage
 ```
 intent: goal: MultiSelectImage
 ```
-
-### Duration Picker
-```
-intent: goal: DurationPicker
-```
 ##
 
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/input-forms

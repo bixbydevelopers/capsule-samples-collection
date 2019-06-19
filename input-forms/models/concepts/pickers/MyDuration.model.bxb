@@ -1,4 +1,0 @@
-structure (MyDuration) {
-  description (Wrapper of viv.core.BasePeriod. Used to match the input-view, DurationPicker_Input)
-  role-of (viv.core.BasePeriod)
-}
