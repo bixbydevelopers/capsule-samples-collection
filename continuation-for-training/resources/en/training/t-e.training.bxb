@@ -8,5 +8,6 @@ train (t-e4s4b2dws43fsflre4tplw09e) {
 }
 train (t-eynrix61gvc6qr4owbwide6lq) {
   utterance ("[g:FindPlanets] show (red)[v:PlanetColor] planets")
-  plan (Y2BmkE3KrEiq1EvOzyvJzCtNLMnMz9MLycgsDshJzEstYZDDIu2WmZcCkS7GKg+Rc87PyS9iYGJgBGIGIMnIAAJQPgA=)
+  plan (Y2BmkE+tSMwtyEnVS87PK8nMK00syczP0wvJyCwOyEnMSy1hUMCqwC0zLwWioBiHCoisc35OfhEDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1562022039466)
 }

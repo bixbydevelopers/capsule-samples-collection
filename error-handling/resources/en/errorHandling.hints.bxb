@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("[g:GetResultDrop  ] Show drop input (1)[v:Integer] example")
+    utterance ("[g:GetResultReplan] Show replan example")
+    utterance ("[g:GetResultHalt] Show halt example")
+  }
+}

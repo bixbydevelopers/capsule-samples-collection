@@ -1,0 +1,5 @@
+train (t-es948hyc653s6w3tiwoj4y2xr) {
+  utterance ([g:Activity] Get me a ride)
+  plan (Y2BkUEqtSMwtyEnVK07NSU0uyczP80lNLMrLzEvXcwRyyzJLKhlAgBFEAAA=)
+  last-modified (1562087841248)
+}

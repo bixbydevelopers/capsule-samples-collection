@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Match Patterns Sample Capsule)
+  dispatch-name (Match Patterns Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate match patterns.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (match patterns)
+  }
+}

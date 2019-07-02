@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("[g:FindBusiness] find a business")
+    utterance ("[g:CallBusiness,r:FindBusiness] call business")
+    utterance ("[g:Business#categories] what are the categories?")
+  }
+}

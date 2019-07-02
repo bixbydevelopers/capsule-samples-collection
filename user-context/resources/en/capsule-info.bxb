@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (User Context Sample Capsule)
+  dispatch-name (User Context Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate using user context.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (user context)
+  }
+}

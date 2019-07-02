@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("[g:SelectImage] Show image picker")
+    utterance ("[g:RequestPTO] Show calendar picker")
+    utterance ("[g:DatePicker] Show date picker")
+  }
+}

@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Error Handling Sample Capsule)
+  dispatch-name (Error Handling Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate error handling.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (error handling)
+  }
+}
