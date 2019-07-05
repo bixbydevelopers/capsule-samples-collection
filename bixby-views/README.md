@@ -32,7 +32,6 @@ nl(Show a title card)
 
 nl(Show an hbox)
 
-nl(Show me a compound card with a chin)
 
 ##
 

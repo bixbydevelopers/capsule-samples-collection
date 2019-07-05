@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("[g:FindPlanets] show planets")
+    utterance ("[g:FindPlanets] show (red)[v:PlanetColor] planets")
+    utterance ("[g:FindPlanets] show (Venus)[v:PlanetName]")
+  }
+}

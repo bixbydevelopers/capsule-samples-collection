@@ -1,0 +1,5 @@
+train (t-tl78vghhck3gyu22hq6wbp9gx) {
+  utterance ([g:GetResultHalt] Show halt example)
+  plan (Y2BikEmtSMwtyEnVSy0qyi/ySMxLycnMS9cLSi0uzSlhUMYu655aAlHgkQhUxAiEDFAMJAE=)
+  last-modified (1562005921889)
+}

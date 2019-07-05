@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("[g:ShowFlowerThumbnailCards] show flowers as thumbnail cards")
+    utterance ("[g:ShowRideShareCompoundCards] show rides as compound cards")
+    utterance ("[g:ShowHotelCarousel] show an image carousel")
+  }
+}

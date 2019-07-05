@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("[g:FindShoeFiltering] Find (formal)[v:Type:Formal] shoes with an HTTP call")
+    utterance ("[g:FindShoeReturnHeaders] Find shoes and return headers")
+    utterance ("[g:FindShoe] Find shoes with a simple HTTP call")
+  }
+}

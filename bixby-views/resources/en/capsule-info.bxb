@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Bixby Views Sample Capsule)
+  dispatch-name (Bixby Views Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate using Bixby views.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (bixby views)
+  }
+}

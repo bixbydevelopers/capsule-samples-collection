@@ -84,9 +84,5 @@ endpoints {
       accepted-inputs ()
       local-endpoint (FindHotel.js)
     }
-    action-endpoint (ShowFlowerCompoundCardsChin) {
-      accepted-inputs ()
-      local-endpoint (FindFlowers.js)
-    }
   }
 }

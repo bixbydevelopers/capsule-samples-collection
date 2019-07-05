@@ -1,7 +1,3 @@
-train (t-v6okk04pdtii4418w403dhl7f) {
-  utterance ([g:ShowFlowerCompoundCardsChin] show a compound card with a chin)
-  plan (Y2BikEmtSMwtyEnVS87Pzc3P80mszC8tKdZzy8kvTy1iMMQuG5yRXw5R4ZyfW5BfmpfinFiUUuyckZnHwAiEDFAMJAE=)
-}
 train (t-vp3ht6cyn4pl3iyvv3vltrfun) {
   utterance ([g:ShowRideShareThumbnailCards] show rides as thumbnail cards)
   plan (Y2BikE3KrEiq1EvOz83Nz/NJrMwvLSnWC8pMSQ3OSCxKZdDHJh2ckV8OVxKSUZqblJeYmeOcWJRSzMAIhAxQDCQB)

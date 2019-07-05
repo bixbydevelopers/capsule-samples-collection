@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Content Refreshing Sample Capsule)
+  dispatch-name (Content Refreshing Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate content refreshing.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (content refreshing)
+  }
+}

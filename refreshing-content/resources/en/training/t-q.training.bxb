@@ -1,0 +1,5 @@
+train (t-qnkxsof4pt3f6bli4t493l4tw) {
+  utterance ([g:CheckRideShareStatus] Get ride status)
+  plan (Y2BikEitSMwtyEnVK0pNK0otztBzTC7JLMssqWRQQZdxzkhNzg7KTEkNzkgsSg0uSSwpLWZgBEIGKAaSAA==)
+  last-modified (1562087067200)
+}

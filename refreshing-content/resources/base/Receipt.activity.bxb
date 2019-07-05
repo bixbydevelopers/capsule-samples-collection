@@ -12,8 +12,10 @@ activity-support {
   states {
     state (Recent) {
       detail-view {
-        layout-match (this){
-          mode (Details)
+        render {
+          layout-match (this) {
+            mode (Details)
+          }
         }
       }
       expires ()

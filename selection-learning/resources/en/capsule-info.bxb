@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Selection Learning Sample Capsule)
+  dispatch-name (Selection Learning Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate selection learning.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (selection learning)
+  }
+}

@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Location Search Sample Capsule)
+  dispatch-name (Location Search Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate using the `location` library to suggest locations from profile, contacts and geo inside `auto-complete`.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (location search)
+  }
+}

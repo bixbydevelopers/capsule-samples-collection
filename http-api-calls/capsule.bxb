@@ -12,7 +12,7 @@ capsule {
   }
   capsule-imports {
     import (viv.common) { 
-      as (common) version (3.32.8)
+      as (common) version (3.32.13)
     }
     import (viv.money) { 
       as (money) 

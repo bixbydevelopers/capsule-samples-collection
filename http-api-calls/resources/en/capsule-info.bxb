@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (HTTP Requests Sample Capsule)
+  dispatch-name (HTTP Requests Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate making HTTP calls.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (http requests)
+  }
+}
