@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:PlayMeow] Meow at me")
-    utterance ("[g:PlayMeow] Meow")
-    utterance ("[g:PlayMeow] Say meow")
+    utterance ("Meow at me")
+    utterance ("Meow")
+    utterance ("Say meow")
   }
 }
