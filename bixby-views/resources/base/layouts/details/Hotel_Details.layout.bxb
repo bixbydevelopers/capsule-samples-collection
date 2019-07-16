@@ -28,7 +28,9 @@ layout {
                 expression (hotel.rating)
               }
               param (reviewCount) {
-                expression (hotel.reviewCount)
+                if (exists(hotel.reviewCount)) {
+                  expression (hotel.reviewCount) 
+                }
               }
             }
           }
