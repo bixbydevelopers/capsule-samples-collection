@@ -6,8 +6,6 @@ capsule {
     support-halt-effect-in-computed-inputs
     concepts-inherit-super-type-features
     modern-prompt-rejection
-    no-filtering-with-validation
-    modern-default-view-behavior
   }
   targets {
     target (bixby-mobile-en-US)
@@ -17,6 +15,6 @@ capsule {
     import (viv.money) {as (money) version (2.20.19)}
     import (viv.entity) {as (entity) version (3.18.29)}
     import (viv.time) {as (time) version (2.88.23)}
-    import (viv.geo) {as (geo) version-from (entity)} //geo deprecation warnings are being fixed soon. Import entity when it imports the updated geo
+    import (viv.geo) {as (geo) version-from (entity)}
   }
 }

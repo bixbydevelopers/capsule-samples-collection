@@ -1,10 +1,7 @@
 result-view {
   match {
     _ (this) {
-      from-property: Business (business) {
-        min (Required)
-        max (One)
-      }
+      from-property: Business (business)
     }
   }
 
