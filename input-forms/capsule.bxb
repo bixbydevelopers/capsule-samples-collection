@@ -6,6 +6,8 @@ capsule {
     support-halt-effect-in-computed-inputs
     modern-prompt-rejection
     concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
   targets {
     target (bixby-mobile-en-US)
