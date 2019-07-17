@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("Show user context")
-    utterance ("Access user context")
-    utterance ("Get user context")
+    utterance ("[g:AccessVivContext] Show user context")
+    utterance ("[g:AccessVivContext] Access user context")
+    utterance ("[g:AccessVivContext] Get user context")
   }
 }

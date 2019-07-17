@@ -1,9 +1,6 @@
 result-view {
   match {
-    Business (business) {
-      min (Required)
-      max (One)
-    }
+    Business (business)
   }
 
   render {

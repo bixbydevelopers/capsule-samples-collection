@@ -1,8 +1,6 @@
 result-view {
   match {
     Activity (this) {
-      min (Required)
-      max (One)
       from-output: CheckRideShareStatus (check)
     }
   }

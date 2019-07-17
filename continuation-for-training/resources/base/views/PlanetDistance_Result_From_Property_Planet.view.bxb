@@ -1,9 +1,6 @@
 result-view {
   match: PlanetDistance (this) {
-    from-property: Planet (planet) {
-      min (Required)
-      max (One)
-    }
+    from-property: Planet (planet)
   }
   
   render {
