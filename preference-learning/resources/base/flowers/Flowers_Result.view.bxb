@@ -1,5 +1,6 @@
 result-view {
   match: FlowerProduct (flower) {
+    min (Required)
     from-output: FindFlowers
   }
 
@@ -33,7 +34,7 @@ result-view {
           }
         }
       }
-    } else {
+    } else-if (size(flower) == 1) {
       layout-macro (common:card) {
         param (title) {
           dialog-template {
