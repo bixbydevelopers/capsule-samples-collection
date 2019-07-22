@@ -1,3 +1,8 @@
+train (t-uvxh8et77mckx0mwugcoxen0a) {
+  utterance ([g:ShowAttributionLink] show an attribution link)
+  plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWHQxC4ZnJFf7lhSUpSZVFqSCRTOzMtmYARCBigGkgA=)
+  last-modified (1563829500741)
+}
 train (t-uw24s2l6sp3rkgy5rvn42j6mm) {
   utterance ([g:ShowHotelImageCards] show an image card)
   plan (Y2BikEzKrEiq1EvOz83Nz/NJrMwvLSnW88gvSc1hUMcmFZyRXw6W9sxNTE91TixKKWZgBEIGKAaSAA==)

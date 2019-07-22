@@ -13,13 +13,13 @@ layout {
           slot1 {
             text {
               value ("#{value(hotel.name)}")
-              style (Title_L)
+              style (Title_S)
             }
           }
           slot2 {
             paragraph {
               value ("From #{value(hotel.lowRate)} • #{value(hotel.rating)} stars")
-              style (Title_XS)
+              style (Detail_L)
             }
           }
           slot3 {
@@ -39,8 +39,16 @@ layout {
       title ("Description")
       content {
         paragraph {
-          value ("It is a low-rise boutique hotel that features a pool in the back side of the building, although it's empty. The Generic also features an underground parking garage that can be accessed from Milton Road. In the enhanced version of GTA V, a bright purple lamp was added to illuminate the hotel.")
+          value ("It is a low-rise boutique hotel that features a pool in the back side of the building, although it's empty.")
           style (Detail_L)
+        }
+        attribution-link {
+          label {
+            template ("Open Bixby Developer Center")
+          }
+          url {
+            template ("https://bixbydevelopers.com/")
+          }
         }
       }
     }
