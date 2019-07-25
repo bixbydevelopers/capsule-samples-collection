@@ -84,5 +84,9 @@ endpoints {
       accepted-inputs ()
       local-endpoint (FindHotel.js)
     }
+    action-endpoint (ShowAttributionLink) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
   }
 }

@@ -1,0 +1,17 @@
+result-view {
+  match: Hotel (hotel) {
+    from-output: ShowAttributionLink
+  }
+
+  message {
+    template ("Here is an attribution-link:")
+  }
+
+  render {
+    if (size(hotel) == 1) {
+      layout-match (hotel) {
+        mode (Details)
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+action (ShowAttributionLink) {
+  type (Search)
+  output (Hotel)
+}
