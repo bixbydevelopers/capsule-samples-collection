@@ -1,6 +1,8 @@
 result-view {
   match {
-    Planet (this)
+    Planet (this) {
+      min (Required)
+    }
   }
 
   render {
@@ -14,7 +16,7 @@ result-view {
           }
         }
       }
-    } else {
+    } else-if (size(this) == 1) {
       layout-macro (planet-details-macro) {
         param (planet) {
           expression (this)
