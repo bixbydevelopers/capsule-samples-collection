@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:Activity] Find a ride")
-    utterance ("[g:Activity] Get me a ride")
-    utterance ("[g:Activity] I need a ride")
+    utterance ("Find a ride")
+    utterance ("Get me a ride")
+    utterance ("I need a ride")
   }
 }

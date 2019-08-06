@@ -1,6 +1,6 @@
 capsule {
   id (example.continuation)
-  version (0.1.0)
+  version (0.1.1) //remove warnings
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -9,6 +9,8 @@ capsule {
     support-halt-effect-in-computed-inputs
     modern-prompt-rejection
     concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
   capsule-imports {
     import (viv.entity) {

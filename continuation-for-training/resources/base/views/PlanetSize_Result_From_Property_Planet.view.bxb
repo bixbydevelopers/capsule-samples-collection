@@ -1,6 +1,9 @@
 result-view {
   match: PlanetSize (this) {
-    from-property: Planet (planet)
+    from-property: Planet (planet) {
+      min (Required)
+      max (One)
+    }
   }
 
   render {
