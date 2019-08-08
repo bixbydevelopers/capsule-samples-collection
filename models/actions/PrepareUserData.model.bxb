@@ -1,0 +1,16 @@
+action (PrepareUserData) {
+  description (Prepare user data based on your business logic)
+  type (Constructor)
+  collect {
+    input (previousUserData) {
+      type (UserData)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: GetUserData
+        }
+      }
+    }
+  }
+  output (UserData)
+}

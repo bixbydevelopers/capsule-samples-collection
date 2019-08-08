@@ -1,0 +1,10 @@
+structure (UserData) {
+  description (User data saved to remote db)
+  property (state) {
+    description (Unique status message)
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  // TODO: max (Many) with history
+}

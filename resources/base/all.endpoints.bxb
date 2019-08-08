@@ -1,0 +1,25 @@
+endpoints {
+  action-endpoints {
+
+    action-endpoint (DeleteUserData) {
+      accepted-inputs ($vivContext, userData)
+      local-endpoint (DeleteUserData.js)
+    }
+
+    action-endpoint (GetUserData) {
+      accepted-inputs ($vivContext)
+      local-endpoint (GetUserData.js)
+    }
+
+    action-endpoint (PrepareUserData) {
+      accepted-inputs ($vivContext, previousUserData)
+      local-endpoint (PrepareUserData.js)
+    }
+
+    action-endpoint (PutUserData) {
+      accepted-inputs ($vivContext, userData)
+      local-endpoint (PutUserData.js)
+    }
+
+  }
+}

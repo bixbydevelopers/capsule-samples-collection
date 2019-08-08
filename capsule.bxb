@@ -1,0 +1,20 @@
+capsule {
+  id (example.userDataPersistence)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+  }
+}
