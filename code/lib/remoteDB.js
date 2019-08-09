@@ -13,8 +13,8 @@
  * In the remote DB Collection, a UserData Document looks like this:
  * {
  *   _id: <dbUserId>
- *   user-id-field: <bixbyUserId>
- *   user-data-field: {
+ *   userIdField: <bixbyUserId>
+ *   userDataField: {
  *     <property1>: <bixbyConceptValue1>
  *     <property2>: <bixbyConceptValue2>
  *     ...
@@ -32,13 +32,13 @@ module.exports = {
 }
 
 function createUserData(bixbyUserId, userData) {
-  const url = properties.get("config", "base-url") + properties.get("config", "collection")
+  const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
   const query = {
-    apikey: properties.get("secret", "api-key")
+    apikey: properties.get("secret", "apiKey")
   }
   const body = {}
-  body[properties.get("config", "user-id-field")] = bixbyUserId
-  body[properties.get("config", "user-data-field")] = JSON.stringify(userData)
+  body[properties.get("config", "userIdField")] = bixbyUserId
+  body[properties.get("config", "userDataField")] = JSON.stringify(userData)
   const options = {
     format: "json",
     query: query,
@@ -46,7 +46,7 @@ function createUserData(bixbyUserId, userData) {
   }
   const response = http.postUrl(url, body, options)
   if (response) {
-    userData = response[properties.get("config", "user-data-field")]
+    userData = response[properties.get("config", "userDataField")]
     userData.$id = response["_id"]
     return userData
   }
@@ -56,9 +56,9 @@ function deleteUserData(userData) {
   const dbUserId = userData.$id
   if (dbUserId) {
     // Exists. Delete
-    const url = properties.get("config", "base-url") + properties.get("config", "collection") + "/" + dbUserId
+    const url = properties.get("config", "baseUrl") + properties.get("config", "collection") + "/" + dbUserId
     const query = {
-      apikey: properties.get("secret", "api-key")
+      apikey: properties.get("secret", "apiKey")
     }
     const options = {
       format: "json",
@@ -78,10 +78,10 @@ function deleteUserData(userData) {
 }
 
 function getUserData(bixbyUserId) {
-  const url = properties.get("config", "base-url") + properties.get("config", "collection")
+  const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
   const query = {
-    apikey: properties.get("secret", "api-key"),
-    q: "{\"" + properties.get("config", "user-id-field") + "\":\"" + bixbyUserId + "\"}"
+    apikey: properties.get("secret", "apiKey"),
+    q: "{\"" + properties.get("config", "userIdField") + "\":\"" + bixbyUserId + "\"}"
   }
   const options = {
     format: "json",
@@ -90,7 +90,7 @@ function getUserData(bixbyUserId) {
   }
   const response = http.getUrl(url, options)
   if (response && response.length === 1) {
-    const userData = response[0][properties.get("config", "user-data-field")]
+    const userData = response[0][properties.get("config", "userDataField")]
     userData.$id = response[0]["_id"]
     return userData
   } else {
@@ -113,13 +113,13 @@ function putUserData(bixbyUserId, userData) {
 }
 
 function updateUserData(bixbyUserId, dbUserId, userData) {
-  const url = properties.get("config", "base-url") + properties.get("config", "collection") + "/" + dbUserId
+  const url = properties.get("config", "baseUrl") + properties.get("config", "collection") + "/" + dbUserId
   const query = {
-    apikey: properties.get("secret", "api-key")
+    apikey: properties.get("secret", "apiKey")
   }
   const body = {}
-  body[properties.get("config", "user-id-field")] = bixbyUserId
-  body[properties.get("config", "user-data-field")] = JSON.stringify(userData)
+  body[properties.get("config", "userIdField")] = bixbyUserId
+  body[properties.get("config", "userDataField")] = JSON.stringify(userData)
   const options = {
     format: "json",
     query: query,
@@ -127,7 +127,7 @@ function updateUserData(bixbyUserId, dbUserId, userData) {
   }
   const response = http.putUrl(url, body, options)
   if (response) {
-    userData = response[properties.get("config", "user-data-field")]
+    userData = response[properties.get("config", "userDataField")]
     userData.$id = response["_id"]
     return userData
   }

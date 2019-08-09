@@ -1,5 +1,4 @@
 TODO:
-Properties only allow letters, numbers and periods. Remove dashes.
 Update db schema field names to match what's here
 
 # User Data Persistence
@@ -25,12 +24,12 @@ To setup with a real namespace and keep your data secure:
 - [Register your Team and Capsule](https://bixbydevelopers.com/dev/docs/dev-guide/developers/managing-caps.managing-your-team) in the Bixby Developer Center
 - [Add configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config#config-secrets) in the Bixby Developer Center as follows:
   - Configs:
-    - `base-url`=`https://tutorial-2c6e.restdb.io/rest/`: Update this to match the url provided at the top of your Collection Developer Tools panel
+    - `baseUrl`=`https://tutorial-2c6e.restdb.io/rest/`: Update this to match the url provided at the top of your Collection Developer Tools panel
     - `collection`=`userdata`: Collection name from above
-    - `user-id-field`=`bixbyUserId`: User id field from above
-    - `user-data-field`=`bixbyUserData`: User data field from above
+    - `userIdField`=`bixbyUserId`: User id field from above
+    - `userDataField`=`bixbyUserData`: User data field from above
   - Secrets:
-    - `api-key`=`260deba9fe8e454d9961a139e103b29e495c9`: Update this to match the Server API-key provided in your Database Settings
+    - `apiKey`=`260deba9fe8e454d9961a139e103b29e495c9`: Update this to match the Server apiKey provided in your Database Settings
 - Edit the capsule.bxb file to update the [`id` key](https://bixbydevelopers.com/dev/docs/reference/type/capsule.id) to match your registered capsule namespace and name
 - Edit the capsule.properties file to change the `capsule.config.mode` from `example` to `default`
 
