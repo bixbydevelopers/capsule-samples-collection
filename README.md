@@ -1,3 +1,7 @@
+TODO:
+Properties only allow letters, numbers and periods. Remove dashes.
+Update db schema field names to match what's here
+
 # User Data Persistence
 
 This is an example capsule that demonstrates how to persist user data across conversations using a remote database.
@@ -16,10 +20,10 @@ To create your own remote database, follow these simple steps:
 
 ## Dynamic Properties Setup
 
-Since this capsule is in the `example` namespace, it doesn't use dynamic configs and secrets (https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config).
+Since this capsule is in the `example` namespace, it doesn't use [dynamic configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config).
 To setup with a real namespace and keep your data secure:
-- Register your Team and Capsule in the Bixby Developer Center
-- Define the following configs & secrets in the Bixby Developer Center
+- [Register your Team and Capsule](https://bixbydevelopers.com/dev/docs/dev-guide/developers/managing-caps.managing-your-team) in the Bixby Developer Center
+- [Add configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config#config-secrets) in the Bixby Developer Center as follows:
   - Configs:
     - `base-url`=`https://tutorial-2c6e.restdb.io/rest/`: Update this to match the url provided at the top of your Collection Developer Tools panel
     - `collection`=`userdata`: Collection name from above
@@ -27,7 +31,7 @@ To setup with a real namespace and keep your data secure:
     - `user-data-field`=`bixbyUserData`: User data field from above
   - Secrets:
     - `api-key`=`260deba9fe8e454d9961a139e103b29e495c9`: Update this to match the Server API-key provided in your Database Settings
-- Open the capsule.bxb file and update the `id` field to match your registered capsule namespace and name
-- Open the capsule.properties file and change the `capsule.config.mode` from `example` to `default`
+- Edit the capsule.bxb file to update the [`id` key](https://bixbydevelopers.com/dev/docs/reference/type/capsule.id) to match your registered capsule namespace and name
+- Edit the capsule.properties file to change the `capsule.config.mode` from `example` to `default`
 
-Then define dynamic configs and secrets for the defined properties in the Dev Center
+NOTE: You may want to repeat this setup twice to have a Dev and a Prod environment.
