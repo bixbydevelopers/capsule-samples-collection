@@ -1,0 +1,42 @@
+result-view {
+  match: UserData(userData)
+  message {
+    template ("At your service.")
+  }
+  render {
+    layout {
+      section {
+        title {
+          template (Boss)
+        }
+        content {
+          single-line {
+            text {
+              value ("[#{value(userData.boss)}]")
+              style (Title_XL)
+              color (Red)
+            }
+          }
+        }
+      }
+      section {
+        title {
+          template (Minions)
+        }
+        content {
+          for-each (userData.minions) {
+            as (minion) {
+              single-line {
+                text {
+                  value ("[#{value(minion)}]")
+                  style (Title_M)
+                  color (Amber)
+                }
+              }
+            }
+          }
+        }
+      }    
+    }
+  }
+}

@@ -1,5 +1,5 @@
 action (GetUserData) {
-  description (Get user data from remote db)
+  description ("Get user data from remote db")
   type (Calculation)
   output (UserData)
 }

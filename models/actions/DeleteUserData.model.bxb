@@ -1,5 +1,5 @@
 action (DeleteUserData) {
-  description (Delete user data from remote db)
+  description ("Delete user data from remote db")
   type (Calculation)
   collect {
     input (userData) {

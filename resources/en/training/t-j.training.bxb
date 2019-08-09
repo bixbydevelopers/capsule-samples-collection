@@ -1,5 +1,5 @@
 train (t-jtyzxmkk58nu8j91f2hizeqzi) {
-  utterance ([g:GetUserData] Get user data)
+  utterance ([g:GetUserData] Summon my army)
   plan (Y2BiUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONT5Z5aAlfICIQMUAwkAQ==)
-  last-modified (1565298001484)
+  last-modified (1565371240368)
 }

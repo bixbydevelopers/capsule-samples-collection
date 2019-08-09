@@ -1,0 +1,8 @@
+result-view {
+  match: core.Boolean {
+    from-output: DeleteUserData
+  }
+  message {
+    template ("All traces swept clean.")
+  }
+}

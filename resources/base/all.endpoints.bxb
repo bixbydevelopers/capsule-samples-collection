@@ -12,7 +12,7 @@ endpoints {
     }
 
     action-endpoint (PrepareUserData) {
-      accepted-inputs ($vivContext, previousUserData)
+      accepted-inputs ($vivContext, previousUserData, boss, minions)
       local-endpoint (PrepareUserData.js)
     }
 
