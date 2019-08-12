@@ -34,7 +34,7 @@ To create your own remote database, follow these simple steps:
 - Click on the top right icon with 3 gears to enter Developer Mode. Add a new Collection called `<your-capsule-name>`. Example: `example-user-data` ![New Collection](./screenshots/new_collection.png)
 - Click on the new Collection to configure its Fields.
   - Add Field for user id of type Text with Requirements Required and Unique. Example: `bixby-user-id` ![Id Field](./screenshots/id_field.png)
-  - Add Field for user data of type json with Requirements Required and Unique. Example: `bixby-user-data` ![Data Field]()
+  - Add Field for user data of type json with Requirements Required and Unique. Example: `bixby-user-data` ![Data Field](./screenshots/data_field.png)
 - That's it! Your setup should now look like this. Next you will connect and authenticate to it from the capsule. ![Collection](./screenshots/collection.png)
 
 ### Dynamic Properties Setup
