@@ -18,7 +18,7 @@ This will update the user data if it exists, otherwise it will create it. We dem
 - A property with a single state that gets replaced with any incoming value. `nl("Crown Guru as the big boss")`
 - A property with multiple values that get appended with any incoming value(s). `nl("Enlist Kavin, Bobby and Stewart")` followed by `Conscript Norberto` will result in an army of 4 minions.
 
-### Delete
+### DELETE
 
 This will delete the user data. `nl("Disband my army")`
 
