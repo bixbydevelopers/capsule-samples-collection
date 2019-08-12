@@ -51,7 +51,7 @@ To setup with a real namespace and keep your data secure:
     - `userDataField`=`bixby-user-data`: User data field from above
   - Secrets:
     - `apiKey`=`678b16ce31cfef34e796dcefd81ea27072574`: Update this to match the Server apiKey provided in your Database Settings
-  - Hit the Save button ![Configs & Secrets](./screenshots/configs_and_secrets.png)
+  - Hit the Save button. Now your Configs & Secrets should look like this: ![Configs & Secrets](./screenshots/configs_and_secrets.png)
 - Edit the capsule.bxb file to update the [`id` key](https://bixbydevelopers.com/dev/docs/reference/type/capsule.id) to match your registered capsule namespace and name ![Capsule ID](./screenshots/capsule_id.png)
 - Edit the capsule.properties file to change the `capsule.config.mode` from `example` to `default` ![Capsule Config Mode](./screenshots/capsule_config_mode.png)
 
