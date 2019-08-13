@@ -17,6 +17,3 @@ module.exports.function = function findMeow(searchTerm) {
 
     return meowAudioFound
 }
-function checkMatch(audioItem, searchTerm) {
-    return (audioItem[])
-}
