@@ -3,7 +3,7 @@ module.exports.function = function buildMeowAudioInfo(meowAudio) {
 
   /* Since meowAudio are already in audioItem format this mapping is not necessary, but
   this demonstrates how to build the right structure for audioItem and audioInfo */
-  
+
   audioInfo.audioItem = meowAudio.map(function (audioItem) {
     let audioItemStructure = { //required properties of audioItem
       id: audioItem.id,
@@ -24,8 +24,6 @@ module.exports.function = function buildMeowAudioInfo(meowAudio) {
     }
     return audioItemStructure
   });
-
-  audioInfo.audioItem = meowAudio
 
   audioInfo.category = 'RADIO';
   audioInfo.displayName = 'Meow Capsule';
