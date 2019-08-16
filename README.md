@@ -16,7 +16,7 @@ This will get the user data if it exists, otherwise there will be no results. `n
 
 This will update the user data if it exists, otherwise it will create it. We demonstrate 2 types of persistence:
 - A property with a single state that gets replaced with any incoming value. `nl("Crown Guru as the big boss")`
-- A property with multiple values that get appended with any incoming value(s). `nl("Enlist Kavin, Bobby and Stewart")` followed by `Conscript Norberto` will result in an army of 4 minions.
+- A property with multiple values that get appended with any incoming value(s). `nl("Enlist Kavin, Bobby and Stewart")` followed by `nl("Conscript Norberto")` will result in an army of 4 minions.
 
 ### DELETE
 
@@ -58,3 +58,5 @@ To setup with a real namespace and keep your data secure:
 That's it! Now you can sync your capsule and try out some queries!
 
 NOTE: You may want to repeat the setup instructions twice to have a Dev and a Prod environment.
+
+NOTE: This is intended for non-sensitive user data.
