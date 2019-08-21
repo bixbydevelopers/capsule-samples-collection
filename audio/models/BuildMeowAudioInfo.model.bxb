@@ -1,5 +1,16 @@
 action (BuildMeowAudioInfo) {
   type (Search)
-  description (Makes a meow info to play.)
+  description (Makes a meow audio info, aka a playlist, to play.)
+  collect {
+    input (meowAudio) {
+      type (MeowAudio)
+      min (Required) max (Many)
+      default-init {
+        intent {
+          goal: FindMeow
+        }
+      }
+    }
+  }
   output (audioPlayer.AudioInfo)
 }
