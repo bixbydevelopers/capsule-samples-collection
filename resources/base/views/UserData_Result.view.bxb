@@ -1,42 +1,48 @@
 result-view {
   match: UserData(userData)
   message {
-    template ("At your service.")
+    if (exists(userData)) {
+      template ("At your service.")
+    } else {
+      template ("You have no army.")
+    }
   }
   render {
-    layout {
-      section {
-        title {
-          template (Boss)
-        }
-        content {
-          single-line {
-            text {
-              value ("[#{value(userData.boss)}]")
-              style (Title_XL)
-              color (Red)
-            }
+    if (exists(userData)) {
+      layout {
+        section {
+          title {
+            template (Boss)
           }
-        }
-      }
-      section {
-        title {
-          template (Minions)
-        }
-        content {
-          for-each (userData.minions) {
-            as (minion) {
-              single-line {
-                text {
-                  value ("[#{value(minion)}]")
-                  style (Title_M)
-                  color (Amber)
-                }
+          content {
+            single-line {
+              text {
+                value ("[#{value(userData.boss)}]")
+                style (Title_XL)
+                color (Red)
               }
             }
           }
         }
-      }    
+        section {
+          title {
+            template (Minions)
+          }
+          content {
+            for-each (userData.minions) {
+              as (minion) {
+                single-line {
+                  text {
+                    value ("[#{value(minion)}]")
+                    style (Title_M)
+                    color (Amber)
+                  }
+                }
+              }
+            }
+          }
+        }    
+      }
     }
   }
 }
