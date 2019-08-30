@@ -1,5 +1,15 @@
+train (t-j9d6wo00bkzxzxxaipybibdvm) {
+  utterance ("[g:PutUserData] Hire (Hank)[v:Minion]")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP4+BhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1567187749052)
+}
 train (t-jtyzxmkk58nu8j91f2hizeqzi) {
   utterance ([g:GetUserData] Summon my army)
   plan (Y2BiUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONT5Z5aAlfICIQMUAwkAQ==)
-  last-modified (1565371240368)
+  last-modified (1567186689742)
+}
+train (t-jus4yk5ygebzf46yrb35lfbrl) {
+  utterance ("[g:PutUserData] Change the boss to be (Scarletta)[v:Boss]")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bAp9gpv7iYgYWBkYGJgRlIM0BZjGAWCDABaaA4AA==)
+  last-modified (1567186789950)
 }
