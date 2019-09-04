@@ -4,33 +4,33 @@
   <h1 align="Center">Bixby User Data Persistence Sample Capsule</h1>
 </p>
 
-# Overview
+## Overview
 
 This is an example capsule that demonstrates how to persist user data across conversations by performing CRUD operations on a remote database.
 
 The scenario for this capsule is to allow each user to manage an "army". The user data is the army and consists of a single `Boss` Concept and any number of `Minion` Concepts.
 
-## Capsule Usage
+### Capsule Usage
 
-### READ
+#### READ
 
 This will get the user data if it exists, otherwise there will be no results. `nl("Summon my army")`
 
 ![Result View](./screenshots/army_result_view.png)
 
-### CREATE/UPDATE
+#### CREATE/UPDATE
 
 This will update the user data if it exists, otherwise it will create it. We demonstrate 2 types of persistence:
 - A property with a single state that gets replaced with any incoming value. `nl("Crown Guru as the big boss")`
 - A property with multiple values that get appended with any incoming value(s). `nl("Enlist Kavin, Bobby and Stewart")` followed by `nl("Conscript Norberto")` will result in an army of 4 minions.
 
-### DELETE
+#### DELETE
 
 This will delete the user data. `nl("Disband my army")`
 
-## Setup Instructions
+### Setup Instructions
 
-### Remote Database Setup
+#### Remote Database Setup
 
 We are using restDB, a service which allows developers to create a cloud hosted noSQL database exposed through a REST API.
 To create your own remote database, follow these simple steps:
@@ -43,7 +43,7 @@ To create your own remote database, follow these simple steps:
   - Add Field for user data of type json with Requirements Required and Unique. Example: `bixby-user-data` ![Data Field](./screenshots/data_field.png)
 - That's it! Your setup should now look like this. Next you will connect and authenticate to it from the capsule. ![Collection](./screenshots/collection.png)
 
-### Dynamic Properties Setup
+#### Dynamic Properties Setup
 
 Since this capsule is in the `example` namespace, it doesn't use [dynamic configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config).
 
@@ -65,7 +65,7 @@ That's it! Now you can sync your capsule and try out some queries!
 
 **Note:** You may want to repeat the setup instructions twice to have a Dev and a Prod environment.
 
-## Limitations
+### Limitations
 
 This is intended for non-sensitive user data.
 
