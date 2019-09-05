@@ -1,0 +1,10 @@
+train (t-s917cqevq265yjkik373zkach) {
+  utterance ("[g:PutUserData]Round up (Severino)[v:Minion], (Xavier)[v:Minion], (Queeny)[v:Minion], (Paula)[v:Minion] and (Rita)[v:Minion]")
+  plan (Y+BiUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP29IquFkYGRgYmBmYGFgZWBjYGfgAIowwMVgkBEsxsDAA4cMQNWMQD2cQB3sQDYDAA==)
+  last-modified (1567188179298)
+}
+train (t-swkmki2hf2s1k1xw0da5z3x66) {
+  utterance ("[g:PutUserData] Make (Swamp Man)[v:Boss] the overlord")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bAp9gpv7iYgYWBkYGJgRlIM0BZjGAWCDABaaA4AA==)
+  last-modified (1567186868540)
+}

@@ -1,0 +1,10 @@
+train (t-dfgum0582mqvu3gsv82ahihxd) {
+  utterance ("[g:PutUserData] Enroll (Hubert)[v:Minion]")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP4+BhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1567187722078)
+}
+train (t-docmgjohr9crenkxm9xw6o5c3) {
+  utterance ("[g:PutUserData] Volunteer (Kim)[v:Minion] as a minion")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP4+BhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1567187846007)
+}

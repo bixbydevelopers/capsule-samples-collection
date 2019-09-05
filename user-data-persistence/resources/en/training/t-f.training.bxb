@@ -1,0 +1,15 @@
+train (t-f6ez4lb8jnps9kv19px2sifrt) {
+  utterance ([g:GetUserData] Who is in my army?)
+  plan (Y2BiUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONT5Z5aAlfICIQMUAwkAQ==)
+  last-modified (1567186619573)
+}
+train (t-fp6eb6nwscz3lzqzqbms80g93) {
+  utterance ([g:DeleteUserData] Wipe my army clean)
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxj0EqtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtVzSc1JLUkNhcowqOBTC1fFxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567186676769)
+}
+train (t-fw0qlp57hj2jk7cft8hbpdnc4) {
+  utterance ([g:DeleteUserData] Reset my army)
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxj0EqtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtVzSc1JLUkNhcowqOBTC1fFxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567186667596)
+}
