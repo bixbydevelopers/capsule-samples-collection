@@ -1,0 +1,5 @@
+train (t-h15cw5g34v0mmsasz2j5kvps5) {
+  utterance ([g:GetUserData] Invoke my army)
+  plan (Y2BiUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONT5Z5aAlfICIQMUAwkAQ==)
+  last-modified (1567186577835)
+}

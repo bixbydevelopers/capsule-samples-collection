@@ -1,0 +1,15 @@
+train (t-2bb5w1rwk4ck3e98i37oxr1pc) {
+  utterance ([g:GetUserData] Show me my army)
+  plan (Y2BiUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONT5Z5aAlfICIQMUAwkAQ==)
+  last-modified (1567186562199)
+}
+train (t-2cp7xds41nt1k1zm9nt1idm8n) {
+  utterance ("[g:PutUserData] Add (Locaina)[v:Minion], (Rafika)[v:Minion] and (Pamplona)[v:Minion]")
+  plan (Y+BgUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP4+uatgZGBmYGJgZWBhYGdiAPAY4HwQZwXwGBh4wZACLsAJVsTEwAAA=)
+  last-modified (1567187610484)
+}
+train (t-2vwx5opnvix6bl4eqfva8zu28) {
+  utterance ("[g:PutUserData] Draft (Flaubert)[v:Minion]")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP4+BhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1567187816525)
+}

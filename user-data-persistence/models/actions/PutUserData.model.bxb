@@ -1,0 +1,16 @@
+action (PutUserData) {
+  description ("Save user data to remote db")
+  type (Calculation)
+  collect {
+    input (userData) {
+      type (UserData)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: PrepareUserData
+        }
+      }
+    }
+  }
+  output (UserData)
+}
