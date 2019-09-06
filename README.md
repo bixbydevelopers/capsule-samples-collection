@@ -37,6 +37,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [User Context](../../tree/master/user-context) - Sample User Data Access
 
+[User Data Persistence](../../tree/master/user-data-persistence) - Sample User Data Persistence
+
 ---
 
 ## Additional Resources
