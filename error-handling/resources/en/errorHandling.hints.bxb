@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("Show drop input 1 example")
-    utterance ("Show replan example")
-    utterance ("Show halt example")
+    hint ("In Error Handling Sample Capsule, show drop input 1 example")
+    hint ("In Error Handling Sample Capsule, show replan example")
+    hint ("In Error Handling Sample Capsule, show halt example")
   }
 }

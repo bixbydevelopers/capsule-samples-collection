@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("Show user context")
-    utterance ("Access user context")
-    utterance ("Get user context")
+    hint ("In User Context Sample Capsule, show user context")
+    hint ("In User Context Sample Capsule, access user context")
+    hint ("In User Context Sample Capsule, get user context")
   }
 }

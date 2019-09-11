@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("show planets")
-    utterance ("show red planets")
-    utterance ("show Venus")
+    hint ("In Continuation Training Sample Capsule, show planets")
+    hint ("With Continuation Training Sample Capsule, show red planets")
+    hint ("With Continuation Training Sample Capsule, show Venus")
   }
 }

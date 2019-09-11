@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("Show image picker")
-    utterance ("Show calendar picker")
-    utterance ("Show date picker")
+    hint ("In Input Forms Sample Capsule, show image picker")
+    hint ("In Input Forms Sample Capsule, show calendar picker")
+    hint ("In Input Forms Sample Capsule, show date picker")
   }
 }

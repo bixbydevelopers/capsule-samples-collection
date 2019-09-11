@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("Look for some flowers")
-    utterance ("Find flowers")
-    utterance ("Search for flowers")
+    hint ("In Preference Learning Sample Capsule, look for some flowers")
+    hint ("In Preference Learning Sample Capsule, find flowers")
+    hint ("In Preference Learning Sample Capsule, search for flowers")
   }
 }

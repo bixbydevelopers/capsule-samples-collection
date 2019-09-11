@@ -9,5 +9,8 @@ capsule {
     concepts-inherit-super-type-features
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
+    modern-default-view-behavior
+    no-filtering-with-validation
+    use-input-views-for-selection-list-detail
   }
 }

@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("Find formal shoes with an HTTP call")
-    utterance ("Find shoes and return headers")
-    utterance ("Find shoes with a simple HTTP call")
+    hint ("In HTTP Requests Sample Capsule, find formal shoes with an HTTP call")
+    hint ("In HTTP Requests Sample Capsule, find shoes and return headers")
+    hint ("In HTTP Requests Sample Capsule, find shoes with a simple HTTP call")
   }
 }

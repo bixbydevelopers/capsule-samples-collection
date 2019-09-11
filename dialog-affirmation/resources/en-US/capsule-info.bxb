@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Dialog Affirmation Sample Capsule)
+  dispatch-name (Dialog Affirmation Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate dialog affirmations.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (dialog)
+  }
+}
