@@ -1,0 +1,10 @@
+train (t-to68vk78ps5kjg33cwyys0lry) {
+  utterance ("[g:PutUserData] Sign on (Gustav)[v:Minion] and (Mildred)[v:Minion]")
+  plan (Y2BnUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP49qatgYGBmYGJgZWBhYgWwGOI8FyGIAYx4gZACKMUJUAAA=)
+  last-modified (1567187983385)
+}
+train (t-tt7wgwfoegs5b6o86r38369wd) {
+  utterance ("[g:PutUserData] Make (Diplodocus)[v:Boss] the dictator")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bAp9gpv7iYgYWBkYGJgRlIM0BZjGAWCDABaaA4AA==)
+  last-modified (1567187255507)
+}
