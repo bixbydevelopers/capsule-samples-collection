@@ -26,15 +26,8 @@ template-macro-def (AFFIRM) {
 template-macro-def (AFFIRMATION) {
   content {
     choose (Random) {
-      // We repeat some of the preferred affirmations to increase their probability of being selected
-      template (Okay) template (Okay) template (Okay) template (Okay) template (Okay) template (Okay)
-      template (Alright) template (Alright) template (Alright) template (Alright)
-      template (Sure) template (Sure)
-      template (Sure thing) template (Sure thing)
-      template (No problem) template (No problem)
-      template (Of course) template (Of course)
-      template (On it)
-      template (You got it)
+      template (Okay)
+      template (Alright)
     }
   }
 }
