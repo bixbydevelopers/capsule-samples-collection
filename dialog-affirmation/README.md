@@ -16,10 +16,8 @@ Bixby will respond with "`<affirmation>` smile is on!". For example, "Okay, smil
 
 Where the `<affirmation>` comes from a random bag of words. For example:
 - None - 50%
-- Okay - 15%
-- Alright - 10%
-- Of course, No problem, Sure thing, Sure - 5% each
-- On it, You got it - 2.5% each
+- Okay - 25%
+- Alright - 25%
 
 The final sentence will start with the capitalized affirmation followed by a comma and closing with the core text content in lower case. When there is no affirmation (None case), then the core text content will be capitalized to form a full sentence.
 
