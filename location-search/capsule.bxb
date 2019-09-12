@@ -6,8 +6,8 @@ capsule {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.location) { as (location) version (1.0.1)}
-    import (viv.geo) { as (geo) version-from (location)} //geo deprecations will be fixed soon
+    import (viv.location) { as (location) version (1.0.15)}
+    import (viv.geo) { as (geo) version-from (location)}
   }
   permissions {
     user-profile-access
@@ -18,5 +18,6 @@ capsule {
     concepts-inherit-super-type-features
     no-filtering-with-validation
     modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
 }

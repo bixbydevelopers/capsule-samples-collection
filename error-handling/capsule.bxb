@@ -11,5 +11,6 @@ capsule {
     concepts-inherit-super-type-features
     no-filtering-with-validation
     modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
 }

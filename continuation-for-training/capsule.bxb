@@ -11,11 +11,12 @@ capsule {
     concepts-inherit-super-type-features
     no-filtering-with-validation
     modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
   capsule-imports {
     import (viv.entity) {
       as (entity)
-      version (3.18.29)
+      version (3.19.8)
     }
     import (viv.common) {
       as (common)
