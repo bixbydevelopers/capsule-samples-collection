@@ -1,0 +1,11 @@
+capsule-info {
+  description (Dialog Affirmation)
+  developer-name (Bixby)
+  display-name (Dialog Affirmation)
+  dispatch-name (Dialog Affirmation)
+  icon-asset (bixby-logo.png)
+  search-keywords {
+    keyword (dialog)
+    keyword (affirmation)
+  }
+}
