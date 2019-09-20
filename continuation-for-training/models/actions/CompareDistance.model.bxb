@@ -14,6 +14,13 @@ action (CompareDistance) {
     input (targetPlanet) {
       type (ThatPlanet)
       min (Required) max (One)
+      default-init {
+        intent {
+          goal {
+            FindPlanets
+          }
+        }
+      }
     }
   }
   output (CompareDistanceResult)
