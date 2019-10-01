@@ -4,7 +4,12 @@ endpoints {
       local-endpoint (PlayMeow.js)
     }
     action-endpoint (BuildMeowAudioInfo) {
+      accepted-inputs (meowAudio)
       local-endpoint (BuildMeowAudioInfo.js)
+    }
+    action-endpoint (FindMeow) {
+      accepted-inputs (searchTerm)
+      local-endpoint (FindMeow.js)
     }
   }
 }

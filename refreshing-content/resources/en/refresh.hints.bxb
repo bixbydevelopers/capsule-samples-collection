@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:CheckRideShareStatus] Look up ride status")
-    utterance ("[g:CheckRideShareStatus] Check ride status")
-    utterance ("[g:CheckRideShareStatus] Get ride status")
+    hint ("In Content Refreshing Sample Capsule, look up ride status")
+    hint ("In Content Refreshing Sample Capsule, check ride status")
+    hint ("In Content Refreshing Sample Capsule, get ride status")
   }
 }

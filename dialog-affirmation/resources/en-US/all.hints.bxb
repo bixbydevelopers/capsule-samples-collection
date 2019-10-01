@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint (Ask Dialog Affirmation to turn on smile)
+    hint (Ask Dialog Affirmation to smile)
+    hint (Open Dialog Affirmation and give me a smile)
+  }
+}

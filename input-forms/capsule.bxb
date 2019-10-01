@@ -6,12 +6,15 @@ capsule {
     support-halt-effect-in-computed-inputs
     modern-prompt-rejection
     concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
   targets {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.common) {as (common) version (3.32.13)}
-    import (viv.time) {as (time) version (2.88.23)}
+    import (viv.common) {as (common) version (3.32.18)}
+    import (viv.time) {as (time) version (2.92.45)}
   }
 }

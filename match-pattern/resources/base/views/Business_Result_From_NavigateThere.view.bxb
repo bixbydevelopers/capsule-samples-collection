@@ -1,6 +1,8 @@
 result-view {
   match {
     Business (business) {
+      min (Required)
+      max (One)
       from-output: NavigateThere
     }
   }

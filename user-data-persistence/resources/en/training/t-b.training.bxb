@@ -1,0 +1,10 @@
+train (t-bmh2kiyc3886jwzke6svtzqre) {
+  utterance ("[g:PutUserData] Call (Dany)[v:Minion] to arms")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP4+BhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1567187887263)
+}
+train (t-buxa5hxl7qwhcw89a4ygfnbg9) {
+  utterance ([g:DeleteUserData] Delete my army)
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxj0EqtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtVzSc1JLUkNhcowqOBTC1fFxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567186661168)
+}

@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:FindRideShare] search for a ride")
-    utterance ("[g:FindRideShare] get me a ride")
-    utterance ("[g:FindRideShare] find a ride")
+    hint ("In Location Search Sample Capsule, search for a ride")
+    hint ("In Location Search Sample Capsule, get me a ride")
+    hint ("In Location Search Sample Capsule, find a ride")
   }
 }

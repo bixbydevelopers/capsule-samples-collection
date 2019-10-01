@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:FindBusiness] find a business")
-    utterance ("[g:CallBusiness,r:FindBusiness] call business")
-    utterance ("[g:Business#categories] what are the categories?")
+    hint ("With Match Patterns Sample Capsule, find a business")
+    hint ("In Match Patterns Sample Capsule, call business")
+    hint ("In Match Patterns Sample Capsule, what are the categories?")
   }
 }

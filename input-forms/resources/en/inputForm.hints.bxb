@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:SelectImage] Show image picker")
-    utterance ("[g:RequestPTO] Show calendar picker")
-    utterance ("[g:DatePicker] Show date picker")
+    hint ("In Input Forms Sample Capsule, show image picker")
+    hint ("In Input Forms Sample Capsule, show calendar picker")
+    hint ("In Input Forms Sample Capsule, show date picker")
   }
 }

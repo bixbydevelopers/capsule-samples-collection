@@ -6,31 +6,18 @@
 
 ## Usage
 
-nl(Show an image card)
+| nl(Show an image card) | nl(Show a thumbnail card) | nl(Show a compound card) | nl(Show an image carousel) |
+| --- | --- | --- | --- |
+| ![an image card screenshot](screenshots/Image_card_Bixby_Voice.jpg) | ![a thumbnail card screenshot](screenshots/Thumbnail_card_Bixby_Voice.jpg) | ![a compound card screenshot](screenshots/Compound_card_Bixby_Voice.jpg) | ![an image carousel screenshot](screenshots/Image_carousel_Bixby_Voice.jpg) |
 
-nl(Show a thumbnail card)
+| nl(Show an image list) | nl(Show a cell area) | nl(Show a cell card) | nl(Show an input cell) |
+| --- | --- | --- | --- |
+ | ![an image list screenshot](screenshots/Image_list_Bixby_Voice.jpg) | ![a cell area screenshot](screenshots/Cell_area_Bixby_Voice.jpg) | ![a cell card screenshot](screenshots/Cell_card_Bixby_Voice.jpg) | ![an input cell screenshot](screenshots/Input_cell_Bixby_Voice.jpg) |
 
-nl(Show a compound card)
 
-nl(Show an image carousel)
-
-nl(Show an image list)
-
-nl(Show a cell area)
-
-nl(Show a cell card)
-
-nl(Show an input cell)
-
-nl(Show a partition)
-
-nl(Show a map)
-
-nl(Show a title area)
-
-nl(Show a title card)
-
-nl(Show an hbox)
+| nl(Show a partition) | nl(Show a map) | nl(Show a title area) | nl(Show a title card) | nl(Show an hbox) |
+| --- | --- | --- | --- | --- |
+| ![a partition screenshot](screenshots/Partition_Bixby_Voice.jpg) | ![a map screenshot](screenshots/Map_Bixby_Voice.jpg) | ![a title area screenshot](screenshots/Title_area_Bixby_Voice.jpg) | ![a title card screenshot](screenshots/Title_card_Bixby_Voice.jpg) | ![an hbox screenshot](screenshots/Hbox_Bixby_Voice.jpg) |
 
 
 ##

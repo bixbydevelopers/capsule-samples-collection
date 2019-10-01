@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:Activity] Find a ride")
-    utterance ("[g:Activity] Get me a ride")
-    utterance ("[g:Activity] I need a ride")
+    hint ("In Selection Learning Sample Capsule, find a ride")
+    hint ("In Selection Learning Sample Capsule, get me a ride")
+    hint ("In Selection Learning Sample Capsule, I need a ride")
   }
 }

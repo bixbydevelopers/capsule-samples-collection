@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:PlayMeow] Meow at me")
-    utterance ("[g:PlayMeow] Meow")
-    utterance ("[g:PlayMeow] Say meow")
+    hint ("In Meow Audio Player Sample Capsule, meow at me")
+    hint ("In Meow Audio Player Sample Capsule, meow")
+    hint ("In Meow Audio Player Sample Capsule, say meow")
   }
 }

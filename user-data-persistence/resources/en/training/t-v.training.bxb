@@ -1,0 +1,10 @@
+train (t-v1btse8oc04ypsf9qi3x0nhov) {
+  utterance ("[g:PutUserData] Enlist (Gorgio)[v:Minion]")
+  plan (Y2BlUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP4+BhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1567187339342)
+}
+train (t-vghwqeryugrufs6qg3ups4dya) {
+  utterance ("[g:PutUserData] Register (Tim)[v:Minion] and (Jim)[v:Minion]")
+  plan (Y2BnUEmtSMwtyEnVKy1OLXJJLEkMSC0qziwuSc1LTtULhYoxqONTFVBaAldInHHaeI0rSi1ILEqFK1bCp9g3My8zP49qatgYGBmYGJgZWBhYgWwGOI8FyGIAYx4gZACKMUJUAAA=)
+  last-modified (1567188040062)
+}

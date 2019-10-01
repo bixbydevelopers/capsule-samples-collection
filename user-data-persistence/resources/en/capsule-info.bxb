@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (User Data Persistence Sample Capsule)
+  dispatch-name (User Data Persistence Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to demonstrate user data persistence.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (persistence)
+    keyword (content refreshing)
+  }
+}

@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("[g:FindPlanets] show planets")
-    utterance ("[g:FindPlanets] show (red)[v:PlanetColor] planets")
-    utterance ("[g:FindPlanets] show (Venus)[v:PlanetName]")
+    hint ("In Continuation Training Sample Capsule, show planets")
+    hint ("With Continuation Training Sample Capsule, show red planets")
+    hint ("With Continuation Training Sample Capsule, show Venus")
   }
 }
