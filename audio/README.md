@@ -10,8 +10,7 @@
 
 nl(Meow)
 
-**Note:** This sample capsule relies on native client apps being installed on the phone. Currently, Bixby Developer Studio will not actually invoke the client audio player to play the audio. As such, we recommend you test any capsule using the bixby.audioPlayer library with on-device testing using the latest Bixby Client.
-
+When testing capsules that import the audioPlayer library capsule, the Simulator will automatically display playback controls that simulate the device's implementation. 
 
 ##
 
