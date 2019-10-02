@@ -15,7 +15,7 @@ capsule {
   }
   capsule-imports {
     import (bixby.audioPlayer) {
-      version (0.3.3)
+      version (0.3.6)
       as (audioPlayer)
     }
   }
