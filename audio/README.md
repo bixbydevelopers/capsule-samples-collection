@@ -11,6 +11,9 @@
 nl(Meow)
 
 
+When testing capsules that import the audioPlayer library capsule, the Simulator will automatically display playback controls that simulate the device's implementation. 
+
+
 ##
 
 For more information, see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/audio
