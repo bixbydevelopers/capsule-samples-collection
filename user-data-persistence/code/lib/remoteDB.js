@@ -23,7 +23,7 @@
  *   <property2>: <bixbyConceptValue2>
  *   ...
  * }
- * The bixbyUserId resides in `$vivContext.userId=<bixbyUserId>`, so we pass it in as a separate param.
+ * The bixbyUserId resides in `$vivContext.bixbyUserId=<bixbyUserId>`, so we pass it in as a separate param.
  **/
 var http = require('http')
 var properties = require('./properties.js')

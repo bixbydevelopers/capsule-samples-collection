@@ -69,8 +69,6 @@ That's it! Now you can sync your capsule and try out some queries!
 
 This is intended for non-sensitive user data.
 
-The deprecated `$vivContext.userId` will soon be replaced with a different key that will give users a different user id. There will be a transition period to migrate user data.
-
 ---
 
 ## Additional Resources
