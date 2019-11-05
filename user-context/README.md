@@ -4,7 +4,7 @@
   <h1 align="Center">Bixby User Context</h1>
 </p>
 
-Execute the following query to see $vivContext in action: "Show user context"
+Execute the following query to see `$vivContext` in action: "Show user context"
 
 ##
 
