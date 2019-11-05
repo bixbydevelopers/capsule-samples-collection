@@ -1,0 +1,16 @@
+result-view {
+  match: VivContext(this) {
+    min (Required) max (One)
+  }
+  render {
+    layout {
+      section {
+        content {
+          paragraph {
+            value ("#{raw(this)}")
+          }
+        }
+      }
+    }
+  }
+}

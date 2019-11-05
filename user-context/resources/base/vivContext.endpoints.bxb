@@ -2,9 +2,6 @@ endpoints {
 
   action-endpoints {
     action-endpoint (AccessVivContext) {
-      
-      // $vivContext will be provided as input to the function in AccessVivContext.js
-      accepted-inputs (dummyInput, $vivContext)
       local-endpoint ("AccessVivContext.js")
     }
   }

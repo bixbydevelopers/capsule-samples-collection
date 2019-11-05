@@ -1,6 +1,10 @@
 capsule {
   id (example.vivContext)
   version (1.0.0)
+  // Request access permission to $vivContext.bixbyUserId, a secure user ID that is tied to a user's account and is the same across devices. The user has the ability to reset their user ID if they desire.
+  permissions {
+    bixby-user-id-access
+  }
   format (3)
   runtime-flags {
     support-halt-effect-in-computed-inputs
