@@ -1,3 +1,0 @@
-text (Locale) {
-  description (The locale value from $vivContext.)
-}

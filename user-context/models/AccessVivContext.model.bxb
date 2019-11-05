@@ -1,12 +1,5 @@
 action (AccessVivContext) {
   type (Search)
-  description (Shows how to access $vivContext in an action. Outputs the local as an example.)
-  collect {
-    input (dummyInput) {
-      type (DummyInput)
-      min (Optional) max (One)
-    }
-    // Although $vivContext is not part of this model, it will be passed in as defined in endpoints.6t
-  }
-  output (Locale)
+  description (Shows how to access $vivContext in an Action.)
+  output (VivContext)
 }

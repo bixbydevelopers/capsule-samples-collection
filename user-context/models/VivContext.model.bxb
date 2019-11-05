@@ -1,0 +1,3 @@
+text (VivContext) {
+  description (The value from $vivContext.)
+}
