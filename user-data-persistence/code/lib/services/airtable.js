@@ -1,14 +1,16 @@
 /**  
  * Airtable Implementation of Remote Database CRUD Interface
  * 
- * In the remote DB Collection, a UserData Document looks like this:
+ * In the remote DB Collection, a UserData Record looks like this:
  * {
- *   _id: <dbUserId>
- *   userIdField: <bixbyUserId>
- *   userDataField: {
- *     <property1>: <bixbyConceptValue1>
- *     <property2>: <bixbyConceptValue2>
- *     ...
+ *   id: <dbUserId>
+ *   createdTime: <timestamp>
+ *   fields: {
+ *     userIdField: <bixbyUserId>
+ *     userDataField: "{
+ *       <property1>: <bixbyConceptValue1>
+ *       <property2>: <bixbyConceptValue2>
+ *     ..."
  *   }
  * }
  **/
