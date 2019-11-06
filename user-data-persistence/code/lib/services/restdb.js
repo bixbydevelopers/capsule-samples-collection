@@ -34,7 +34,7 @@ module.exports = {
 }
 
 function createUserData(bixbyUserId, userData) {
-  const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
+  const url = properties.get("config", "baseUrl")
   const query = {
     apikey: properties.get("secret", "apiKey")
   }
@@ -58,7 +58,7 @@ function deleteUserData(userData) {
   const dbUserId = userData.$id
   if (dbUserId) {
     // Exists. Delete
-    const url = properties.get("config", "baseUrl") + properties.get("config", "collection") + "/" + dbUserId
+    const url = properties.get("config", "baseUrl") + "/" + dbUserId
     const query = {
       apikey: properties.get("secret", "apiKey")
     }
@@ -80,7 +80,7 @@ function deleteUserData(userData) {
 }
 
 function getUserData(bixbyUserId) {
-  const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
+  const url = properties.get("config", "baseUrl")
   const query = {
     apikey: properties.get("secret", "apiKey"),
     q: "{\"" + properties.get("config", "userIdField") + "\":\"" + bixbyUserId + "\"}"
@@ -115,7 +115,7 @@ function putUserData(bixbyUserId, userData) {
 }
 
 function updateUserData(bixbyUserId, dbUserId, userData) {
-  const url = properties.get("config", "baseUrl") + properties.get("config", "collection") + "/" + dbUserId
+  const url = properties.get("config", "baseUrl") + "/" + dbUserId
   const query = {
     apikey: properties.get("secret", "apiKey")
   }

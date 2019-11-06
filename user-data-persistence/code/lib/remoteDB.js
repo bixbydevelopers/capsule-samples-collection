@@ -16,7 +16,7 @@
  **/
 var http = require('http')
 var properties = require('./properties.js')
-var remoteDB = require('./services/restdb.js')
+var remoteDB = require('./services/' + properties.get("config", "service"))
 
 module.exports = {
   /**

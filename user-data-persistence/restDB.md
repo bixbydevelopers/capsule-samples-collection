@@ -19,8 +19,7 @@ To create your own remote database, follow these simple steps:
 
 
 - Configs:
-  - `baseUrl`=`https://bixby-25e7.restdb.io/rest/`: Update this to match the url provided at the top of your Collection Developer Tools panel, but without the collection name which we add separately on next step
-  - `collection`=`example-user-data`: Collection name from above
+  - `baseUrl`=`https://bixby-25e7.restdb.io/rest/example-user-data`: Update this to match the url provided at the top of your Collection Developer Tools panel
   - `userIdField`=`bixby-user-id`: User id field from above
   - `userDataField`=`bixby-user-data`: User data field from above
 - Secrets:

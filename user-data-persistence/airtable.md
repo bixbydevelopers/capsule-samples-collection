@@ -22,7 +22,6 @@ The ID for your Base is there.
 
 - Configs:
   - `baseUrl`=`https://api.airtable.com/v0/appj3vi1PtX4Q9CqP/Table%201`: Update this to match the url provided in the docs for your new Workspace and Base at https://airtable.com/api.
-  - `collection`=`example-user-data`: Collection name from above
   - `userIdField`=`bixby-user-id`: User id field from above
   - `userDataField`=`bixby-user-data`: User data field from above
 - Secrets:

@@ -34,22 +34,22 @@ module.exports = {
 }
 
 function createUserData(bixbyUserId, userData) {
-  const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
-  const query = {
-    apikey: properties.get("secret", "apiKey")
-  }
-  const body = {}
-  body[properties.get("config", "userIdField")] = bixbyUserId
-  body[properties.get("config", "userDataField")] = JSON.stringify(userData)
+  const url = properties.get("config", "baseUrl")
+  const body = {fields:{}}
+  body.fields[properties.get("config", "userIdField")] = bixbyUserId
+  body.fields[properties.get("config", "userDataField")] = JSON.stringify(userData)
   const options = {
     format: "json",
-    query: query,
-    cacheTime: 0
+    cacheTime: 0,
+    passAsJson: true,
+    headers: { 
+      Authorization: "Bearer " + properties.get("secret", "apiKey")
+    }
   }
   const response = http.postUrl(url, body, options)
   if (response) {
-    userData = response[properties.get("config", "userDataField")]
-    userData.$id = response["_id"]
+    userData = JSON.parse(response.fields[properties.get("config", "userDataField")])
+    userData.$id = response.id
     return userData
   }
 }
@@ -58,14 +58,13 @@ function deleteUserData(userData) {
   const dbUserId = userData.$id
   if (dbUserId) {
     // Exists. Delete
-    const url = properties.get("config", "baseUrl") + properties.get("config", "collection") + "/" + dbUserId
-    const query = {
-      apikey: properties.get("secret", "apiKey")
-    }
+    const url = properties.get("config", "baseUrl") + "/" + dbUserId
     const options = {
       format: "json",
-      query: query,
-      cacheTime: 0
+      cacheTime: 0,
+      headers: { 
+        Authorization: "Bearer " + properties.get("secret", "apiKey")
+      }
     }
     const response = http.deleteUrl(url, {}, options)
     if (response) {
@@ -80,20 +79,22 @@ function deleteUserData(userData) {
 }
 
 function getUserData(bixbyUserId) {
-  const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
+  const url = properties.get("config", "baseUrl")
   const query = {
-    apikey: properties.get("secret", "apiKey"),
-    q: "{\"" + properties.get("config", "userIdField") + "\":\"" + bixbyUserId + "\"}"
+    filterByFormula: "{" + properties.get("config", "userIdField") + "}=\"" + bixbyUserId + "\""
   }
   const options = {
     format: "json",
     query: query,
-    cacheTime: 0
+    cacheTime: 0,
+    headers: { 
+      Authorization: "Bearer " + properties.get("secret", "apiKey")
+    }
   }
   const response = http.getUrl(url, options)
-  if (response && response.length === 1) {
-    const userData = response[0][properties.get("config", "userDataField")]
-    userData.$id = response[0]["_id"]
+  if (response && response.records && response.records.length === 1) {
+    const userData = JSON.parse(response.records[0].fields[properties.get("config", "userDataField")])
+    userData.$id = response.records[0].id
     return userData
   } else {
     // Doesn't exist
@@ -115,22 +116,22 @@ function putUserData(bixbyUserId, userData) {
 }
 
 function updateUserData(bixbyUserId, dbUserId, userData) {
-  const url = properties.get("config", "baseUrl") + properties.get("config", "collection") + "/" + dbUserId
-  const query = {
-    apikey: properties.get("secret", "apiKey")
-  }
-  const body = {}
-  body[properties.get("config", "userIdField")] = bixbyUserId
-  body[properties.get("config", "userDataField")] = JSON.stringify(userData)
+  const url = properties.get("config", "baseUrl") + "/" + dbUserId
+  const body = {fields:{}}
+  body.fields[properties.get("config", "userIdField")] = bixbyUserId
+  body.fields[properties.get("config", "userDataField")] = JSON.stringify(userData)
   const options = {
     format: "json",
-    query: query,
-    cacheTime: 0
+    cacheTime: 0,
+    passAsJson: true,
+    headers: { 
+      Authorization: "Bearer " + properties.get("secret", "apiKey")
+    }
   }
   const response = http.putUrl(url, body, options)
   if (response) {
-    userData = response[properties.get("config", "userDataField")]
-    userData.$id = response["_id"]
+    userData = JSON.parse(response.fields[properties.get("config", "userDataField")])
+    userData.$id = response.id
     return userData
   }
 }
