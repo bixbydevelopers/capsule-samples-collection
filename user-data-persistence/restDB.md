@@ -2,9 +2,9 @@
 
 RestDB is a service which allows developers to create a cloud hosted noSQL database exposed through a REST API.
 
-#### Remote Database Setup
+To try it out using the an example account, edit the capsule.properties file to set the `capsule.config.mode` to `example`
 
-To create your own remote database, follow these simple steps:
+#### Remote Database Setup
 
 - Sign up for a free restDB account at https://restdb.io/
 - [Create a new Database](https://restdb.io/account/databases/) called `bixby`. Click on the database to go to its home page. Example: https://bixby-25e7.restdb.io/home/ ![Database](./screenshots/restdb/database.png)
@@ -16,9 +16,10 @@ To create your own remote database, follow these simple steps:
 
 #### Dynamic Properties Setup
 
-
+Follow the instructions in the [main README](./README.md) and insert the following values when requested.
 
 - Configs:
+  - `service`=`restdb.js`
   - `baseUrl`=`https://bixby-25e7.restdb.io/rest/example-user-data`: Update this to match the url provided at the top of your Collection Developer Tools panel
   - `userIdField`=`bixby-user-id`: User id field from above
   - `userDataField`=`bixby-user-data`: User data field from above

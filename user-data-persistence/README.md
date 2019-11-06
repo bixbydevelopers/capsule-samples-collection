@@ -6,7 +6,8 @@
 
 ## Overview
 
-This is an example capsule that demonstrates how to persist user data across conversations by performing CRUD operations on a remote database.
+This is an example Capsule that demonstrates how to save data for each user.
+It persist the user data across conversations by performing CRUD operations on a remote database.
 
 The scenario for this capsule is to allow each user to manage an "army". The user data is the army and consists of a single `Boss` Concept and any number of `Minion` Concepts.
 
@@ -30,24 +31,28 @@ This will delete the user data. `nl("Disband my army")`
 
 ### Setup Instructions
 
-This sample Capsule allows you to choose which service you would like to use to store your user data. It supports:
+This sample Capsule allows you to choose which service you would like to use to
+store your user data. The currently supported services are
+[restDB](https://restdb.io) and [Airtable](https://airtable.com). Both of these
+offer a generous free tier and are super easy to setup.
 
-- [restDB](./restDB.md)
-- [Airtable](./airtable.md)
+We have provide test accounts for you to try them out live. Simply update the
+capsule.properties file `capsule.config.mode` to `exampleRestDB` or
+`exampleAirtable` respectively. Then try some of the capsule queries defined
+above.
 
-#### Remote Database Setup
-
-Select a service from above and follow the provided instructions.
-
-#### Dynamic Properties Setup
-
-Since this capsule is in the `example` namespace, it doesn't use [dynamic configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config).
+Since this capsule is in the `example` namespace, it doesn't use [dynamic
+configs &
+secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config).
 
 To setup with a real namespace and keep your data secure:
+- Select a service and follow the corresponding instructions:
+  - [Integration walk-through for restDB](./restDB.md)
+  - [Integration walk-through for Airtable](./airtable.md)
 - [Register your Team and Capsule](https://bixbydevelopers.com/dev/docs/dev-guide/developers/managing-caps.managing-your-team) in the Bixby Developer Center
-- [Add configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config#config-secrets) in the Bixby Developer Center. Hit the Save button. Now your Configs & Secrets should look like this: ![Configs & Secrets](./screenshots/configs_and_secrets.png)
+- [Add configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config#config-secrets) in the Bixby Developer Center. Use the field names and values provided in the setup instructions from your selected service. Hit the Save button. Now your Configs & Secrets should look like this: ![Configs & Secrets](./screenshots/configs_and_secrets.png)
 - Edit the capsule.bxb file to update the [`id` key](https://bixbydevelopers.com/dev/docs/reference/type/capsule.id) to match your registered capsule namespace and name ![Capsule ID](./screenshots/capsule_id.png)
-- Edit the capsule.properties file to change the `capsule.config.mode` from `example` to `default` ![Capsule Config Mode](./screenshots/capsule_config_mode.png)
+- Edit the capsule.properties file to change the `capsule.config.mode` from example to `default` ![Capsule Config Mode](./screenshots/capsule_config_mode.png)
 
 That's it! Now you can sync your capsule and try out some queries!
 
