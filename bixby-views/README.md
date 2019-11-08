@@ -19,6 +19,9 @@
 | --- | --- | --- | --- | --- |
 | ![a partition screenshot](screenshots/Partition_Bixby_Voice.jpg) | ![a map screenshot](screenshots/Map_Bixby_Voice.jpg) | ![a title area screenshot](screenshots/Title_area_Bixby_Voice.jpg) | ![a title card screenshot](screenshots/Title_card_Bixby_Voice.jpg) | ![an hbox screenshot](screenshots/Hbox_Bixby_Voice.jpg) |
 
+| nl(Show an image) | nl(Show a video) | nl(Show a progress bar) | nl(Show a header) |
+| --- | --- | --- | --- |
+| ![an image screenshot](screenshots/Image_Bixby_Voice.png) | ![a video screenshot](screenshots/Video_Bixby_Voice.png) | ![a progress bar screenshot](screenshots/Progress_Bar_Bixby_Voice.png) | ![a header screenshot](screenshots/Header_Bixby_Voice.png) |
 
 ##
 
