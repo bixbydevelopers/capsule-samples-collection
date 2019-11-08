@@ -1,5 +1,5 @@
 action (ShowHotelsHeader) {
-  description (__DESCRIPTION__)
+  description (Shows a header with hotels.)
   type (Search)
   output (Hotel)
 }
