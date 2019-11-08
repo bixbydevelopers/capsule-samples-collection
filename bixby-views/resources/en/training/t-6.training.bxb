@@ -1,3 +1,8 @@
+train (t-634u98deaqcwlh7lhm4pcgipq) {
+  utterance ([g:ShowProgressBar] show a progress bar)
+  plan (Y2Bi4C3LLNNLzi9K1QtJrShhUE2tSMwtyEkFCuXm5uf5JFbml5YU6wVn5JcHFOWnF6UWFzslFjEwAiEDFANJAA==)
+  last-modified (1573236210154)
+}
 train (t-6dsxqyekrffl8tmkik2qhezen) {
   utterance ([g:ShowRideShareImageCards] show rides as image cards)
   plan (Y2BikE3KrEiq1EvOz83Nz/NJrMwvLSnWC8pMSQ3OSCxKZdDGJh2ckV8OV+KZm5ie6pxYlFLMwAiEDFAMJAE=)

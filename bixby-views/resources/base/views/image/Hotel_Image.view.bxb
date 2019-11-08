@@ -1,0 +1,23 @@
+result-view {
+  match {
+    Hotel (this) {
+      from-output: ShowHotelImage
+    }
+  }
+
+  message ("Here is an image:")
+
+  render {
+    layout {
+      section {
+        content {
+          image {
+            url ("[#{value(this.images[0].url)}]")
+            aspect-ratio (16:9)
+            object-fit (Contain)
+          }
+        }
+      }
+    }
+  }
+}

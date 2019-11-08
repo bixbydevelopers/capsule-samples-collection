@@ -1,0 +1,5 @@
+action (ShowProgressBar) {
+  description (Shows fake progress bars.)
+  type (Search)
+  output (viv.core.Text)
+}

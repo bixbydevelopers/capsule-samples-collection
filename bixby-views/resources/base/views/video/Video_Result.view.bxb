@@ -1,0 +1,19 @@
+result-view {
+  match {
+    Video (this)
+  }
+
+  message ("Here is a sample video:")
+
+  render {
+    layout {
+      section {
+        content {
+          video {
+            url ("#{value(this)}")
+          }
+        }
+      }
+    }
+  }
+}

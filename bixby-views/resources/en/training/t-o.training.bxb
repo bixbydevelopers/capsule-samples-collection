@@ -1,0 +1,5 @@
+train (t-oswi2iuy1s83sziagrqftzyok) {
+  utterance ([g:ShowHotelImage] show an image)
+  plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWFQwS4ZnJFfDlbgmZuYnsrACIQMUAwkAQ==)
+  last-modified (1573235750188)
+}

@@ -12,6 +12,9 @@ capsule {
   }
   targets {
     target (bixby-mobile-en-US)
+    target (bixby-tv-en-US)
+    target (bixby-watch-en-US)
+    target (bixby-fridge-en-US)
   }
   capsule-imports {
     import (viv.money) {as (money) version (2.22.3)}

@@ -1,0 +1,5 @@
+action (ShowVideo) {
+  description (Shows a sample video.)
+  type (Search)
+  output (Video)
+}
