@@ -1,4 +1,10 @@
 action (FindPersons) {
   type (Search)
+  collect {
+    input (searchTerm) {
+      type (SearchTerm)
+      min (Optional) max (One)
+    }
+  }
   output (Person)
 }

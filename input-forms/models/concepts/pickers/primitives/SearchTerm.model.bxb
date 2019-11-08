@@ -1,0 +1,3 @@
+text (SearchTerm) {
+  description (Search term for persons.)
+}

@@ -1,0 +1,5 @@
+action (ShowHotelsHeader) {
+  description (Shows a header with hotels.)
+  type (Search)
+  output (Hotel)
+}

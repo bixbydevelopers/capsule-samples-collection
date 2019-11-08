@@ -1,0 +1,52 @@
+result-view {
+  match {
+    Hotel (hotel) {
+      from-output: ShowHotelsHeader
+    }
+  }
+
+  message {
+    template ("Here are hotels with a header:")
+  }
+
+  render {
+    if (size(hotel) > 1) {
+      list-of (hotel) {
+        header {
+          title-area {
+            slot1 {
+              text {
+                value ("Hotels for you")
+              }
+            }
+          }
+        }
+        has-details (true)
+        where-each (item) {
+          layout-macro (hotel-image-card) {
+            param (hotel) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    else-if (size(hotel) == 1) {
+      layout-match (hotel) {
+        mode (Details)
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Show hotels as image cards")
+    }
+    conversation-driver {
+      template ("Show hotels as thumbnail cards")
+    }
+    conversation-driver {
+      template ("Show hotels as compound cards")
+    }
+  }
+}

@@ -1,5 +1,4 @@
-module.exports.function = function findPersons () {
-  return [
+const people = [
     {
       firstName: "Joe",
       lastName: "Smith",
@@ -11,4 +10,13 @@ module.exports.function = function findPersons () {
       gender: "Female"
     }
   ]
+
+module.exports.function = function findPersons (searchTerm) {
+  if (!searchTerm) {
+    return people;
+  }
+
+  return people.filter(person => {
+    return person.firstName.toLowerCase().includes(searchTerm) || person.lastName.toLowerCase().includes(searchTerm)
+  });
 }

@@ -1,0 +1,79 @@
+input-view {
+  match {
+    Person (this) {
+      to-input: SelectPersonAutocomplete
+    }
+  }
+
+  message ("Search for people using autocomplete:")
+
+  render {
+    auto-complete {
+      type (Person)
+      no-result-text ("No results")
+      placeholder ("Search for people")
+      source {
+        collect-with (query) {
+          intent {
+            goal {
+              FindPersons
+            }
+            value {
+              SearchTerm$expr(query)
+            }
+          }
+        }
+        label ("Search results")
+        where-each (person) {
+          display {
+            primary-text {
+              template ("#{value (person.firstName)} #{value (person.lastName)}")
+            }
+            secondary-text {
+              template ("#{value (person.gender)}")
+            }
+          }
+          on-select {
+            intent {
+              goal {
+                Person
+              }
+              value {
+                viv.core.FormElement(person)
+              }
+            }
+          }
+        }
+      }
+      default-source {
+        collect {
+          intent {
+            goal {
+              FindPersons
+            }
+          }
+        }
+        where-each (person) {
+          display {
+            primary-text {
+              template ("#{value (person.firstName)} #{value (person.lastName)}")
+            }
+            secondary-text {
+              template ("#{value (person.gender)}")
+            }
+          }
+          on-select {
+            intent {
+              goal {
+                Person
+              }
+              value {
+                viv.core.FormElement(person)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

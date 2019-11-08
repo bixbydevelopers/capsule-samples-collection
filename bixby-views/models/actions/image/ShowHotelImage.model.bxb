@@ -1,0 +1,5 @@
+action (ShowHotelImage) {
+  description (Shows a single image.)
+  type (Search)
+  output (Hotel)
+}

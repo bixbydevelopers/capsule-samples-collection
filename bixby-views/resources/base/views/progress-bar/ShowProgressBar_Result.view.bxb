@@ -1,0 +1,59 @@
+result-view {
+  match {
+    viv.core.Text {
+      from-output {
+        ShowProgressBar
+      }
+    }
+  }
+
+  message ("Here are some progress bars:")
+
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              value ("0%")
+              style (Detail_M)
+            }
+          }
+          progress-bar (0)
+
+          single-line {
+            text {
+              value ("25%")
+              style (Detail_M)
+            }
+          }
+          progress-bar (25)
+
+          single-line {
+            text {
+              value ("50%")
+              style (Detail_M)
+            }
+          }
+          progress-bar (50)
+
+          single-line {
+            text {
+              value ("75%")
+              style (Detail_M)
+            }
+          }
+          progress-bar (75)
+
+          single-line {
+            text {
+              value ("100%")
+              style (Detail_M)
+            }
+          }
+          progress-bar (100)
+        }
+      }
+    }
+  }
+}

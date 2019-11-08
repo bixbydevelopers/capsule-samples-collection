@@ -88,5 +88,25 @@ endpoints {
       accepted-inputs ()
       local-endpoint (FindHotel.js)
     }
+    // Video
+    action-endpoint (ShowVideo) {
+      accepted-inputs ()
+      local-endpoint (ShowVideo.js)
+    }
+    // Image
+    action-endpoint (ShowHotelImage) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    // Progress Bar
+    action-endpoint (ShowProgressBar) {
+      accepted-inputs ()
+      local-endpoint (DummyOutput.js)
+    }
+    // Header
+    action-endpoint (ShowHotelsHeader) {
+      accepted-inputs ()
+      local-endpoint (FindHotels.js)
+    }
   }
 }

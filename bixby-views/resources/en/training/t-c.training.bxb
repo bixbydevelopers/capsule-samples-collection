@@ -1,3 +1,8 @@
+train (t-c6k1pq0gemd3619sexukf0gwm) {
+  utterance ([g:ShowHotelsHeader] show a header)
+  plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWFQwy4ZnJFfDlZQ7JGamJJaxMAIhAxQDCQB)
+  last-modified (1573236673329)
+}
 train (t-cxc2yj7x765ckuhfqmdhtei1d) {
   utterance ([g:ShowFlowerCompoundCards] show a compound card)
   plan (Y2BikErKrEiq1EvOz83Nz/NJrMwvLSnWc8vJL08tYtDGJheckV8OkXfOzy3IL81LcU4sSilmYARCBigGkgA=)
