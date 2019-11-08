@@ -6,7 +6,7 @@ endpoints {
       local-endpoint (submitSurvey.js)
     }
     action-endpoint (FindPersons) {
-      accepted-inputs ()
+      accepted-inputs (searchTerm)
       local-endpoint (findPersons.js)
     }
   }

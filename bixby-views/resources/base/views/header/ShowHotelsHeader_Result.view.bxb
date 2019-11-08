@@ -38,7 +38,7 @@ result-view {
     }
   }
 
-    conversation-drivers {
+  conversation-drivers {
     conversation-driver {
       template ("Show hotels as image cards")
     }

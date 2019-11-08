@@ -15,6 +15,14 @@ result-view {
         content {
           single-line {
             text {
+              value ("0%")
+              style (Detail_M)
+            }
+          }
+          progress-bar (0)
+
+          single-line {
+            text {
               value ("25%")
               style (Detail_M)
             }

@@ -1,0 +1,15 @@
+action (SelectPersonAutocomplete) {
+  description (Search for a person using autocomplete.)
+  type (Search)
+  collect {
+    input (person) {
+      type (Person)
+      min (Required) max (One)
+    }
+  }
+  output (Person) {
+    evaluate {
+      $expr(person)
+    }
+  }
+}
