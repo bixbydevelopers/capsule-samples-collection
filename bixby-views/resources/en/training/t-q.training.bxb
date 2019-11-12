@@ -2,6 +2,11 @@ train (t-q2366jrytp2swvvokbwo7od5s) {
   utterance ([g:ShowFlowerImageCards] show flowers as image cards)
   plan (Y2BikErKrEiq1EvOz83Nz/NJrMwvLSnWc8vJL08tYtDAJheckV8OkffMTUxPdU4sSilmYARCBigGkgA=)
 }
+train (t-qb14kpohuttprn7h842gm4o2b) {
+  utterance ([g:ShowHotelPartitioned] show partitioned)
+  plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWHQwi4ZnJFfDlYQkFhUklmSmZ+XmsLACIQMUAwkAQ==)
+  last-modified (1573599272504)
+}
 train (t-qriae7xs1k5uhrlzgkm21321a) {
   utterance ([g:ShowHotelTitleCard] show a title card)
   plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWHQwC4ZnJFfDlYQklmSk+qcWJTCwAiEDFAMJAE=)
