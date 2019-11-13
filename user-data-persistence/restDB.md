@@ -15,7 +15,7 @@ to include `capsule.config.mode=exampleRestDB`.
   - Add Field for user id of type Text with Requirements Required and Unique. Example: `bixby-user-id` ![Id Field](./screenshots/restdb/id_field.png)
   - Add Field for user data of type json. Example: `bixby-user-data` ![Data Field](./screenshots/restdb/data_field.png)
 - Your setup should now look like this and is ready to be connected to the capsule. ![Collection](./screenshots/restdb/collection.png)
-- Follow the instructions in the [main README](./README.md) and insert the
+- Follow the instructions in the [main README](./README.md) and include the
 following values when requested.
   - Configs
   ```
