@@ -31,7 +31,7 @@ This will delete the user data. `nl("Disband my army")`
 
 ### Setup Instructions
 
-This sample Capsule allows you to choose which service you would like to use to
+This sample capsule allows you to choose the service you would like to use to
 store your user data. Currently, the supported services are
 [restDB](https://restdb.io) and [Airtable](https://airtable.com). Both of these
 offer a generous free tier and are easy to setup. We have test accounts
