@@ -47,7 +47,7 @@ Secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-confi
   - [Integration walk-through for restDB](./restDB.md)
   - [Integration walk-through for Airtable](./airtable.md)
 - [Register your Team and Capsule](https://bixbydevelopers.com/dev/docs/dev-guide/developers/managing-caps.managing-your-team) in the Bixby Developer Center
-- [Add configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config#config-secrets) in the Bixby Developer Center. Use the field names and values provided in the integration walk-throughs for your selected service. Hit the Save button. Now your Configs & Secrets should look like this: ![Configs & Secrets](./screenshots/configs_and_secrets.png)
+- [Add configs & secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config#config-secrets) in the Bixby Developer Center. Use the field names and values provided in the integration walk-throughs for your selected service. Click the **Save** button. Now your Configs & Secrets should look like this: ![Configs & Secrets](./screenshots/configs_and_secrets.png)
 - Edit the `capsule.bxb` file to update the [`id` key](https://bixbydevelopers.com/dev/docs/reference/type/capsule.id) to match your registered capsule namespace and name ![Capsule ID](./screenshots/capsule_id.png)
 - Edit the `capsule.properties` file to change the `capsule.config.mode` from example to `default` ![Capsule Config Mode](./screenshots/capsule_config_mode.png)
 
