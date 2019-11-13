@@ -34,7 +34,7 @@ This will delete the user data. `nl("Disband my army")`
 This sample Capsule allows you to choose which service you would like to use to
 store your user data. Currently, the supported services are
 [restDB](https://restdb.io) and [Airtable](https://airtable.com). Both of these
-offer a generous free tier and are super easy to setup. We have test accounts
+offer a generous free tier and are easy to setup. We have test accounts
 already up and running that you can use to try them out live. Simply update the
 `capsule.properties` file `capsule.config.mode` to `exampleRestDB` or
 `exampleAirtable` respectively. Then try some of the capsule queries defined
