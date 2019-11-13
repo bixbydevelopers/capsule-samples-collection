@@ -7,7 +7,7 @@
 ## Overview
 
 This is an example Capsule that demonstrates how to save data for each user.
-It persist the user data across conversations by performing CRUD operations on a remote database.
+It allows user data to persist across conversations by performing CRUD operations on a remote database.
 
 The scenario for this capsule is to allow each user to manage an "army". The user data is the army and consists of a single `Boss` Concept and any number of `Minion` Concepts.
 
