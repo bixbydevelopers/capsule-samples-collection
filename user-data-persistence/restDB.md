@@ -4,7 +4,7 @@ RestDB is a service which allows developers to create a cloud hosted noSQL
 database exposed through a REST API.
 
 To try it out using the provided test account, edit the `capsule.properties` file
-to say `capsule.config.mode=exampleRestDB`.
+to include `capsule.config.mode=exampleRestDB`.
 
 #### Remote Database Setup
 
