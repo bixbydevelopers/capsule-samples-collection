@@ -1,6 +1,6 @@
 # Airtable
 
-Airtable is a service which allows developers to create a cloud hosted spreadsheet exposed through a REST API.
+Airtable is a service which allows developers to create a cloud-hosted spreadsheet exposed through a REST API.
 
 To try it out using the provided test account, edit the `capsule.properties` file
 to say `capsule.config.mode=exampleAirtable`.
