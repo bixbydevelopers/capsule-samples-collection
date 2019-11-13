@@ -42,7 +42,7 @@ in the Capsule Usage section above.
 
 Since this capsule is in the `example` namespace, it doesn't use [dynamic
 Config &
-secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config). To setup with a real namespace and keep your data secure:
+Secrets](https://bixbydevelopers.com/dev/docs/reference/ref-topics/capsule-config). To setup with a real namespace and keep your data secure:
 - Select a service and follow the corresponding instructions:
   - [Integration walk-through for restDB](./restDB.md)
   - [Integration walk-through for Airtable](./airtable.md)
