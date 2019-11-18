@@ -19,11 +19,15 @@ This will get the user data if it exists, otherwise there will be no results. `n
 
 ![Result View](./screenshots/army_result_view.png)
 
+![READ Wireframe](./screenshots/wireframe_read.jpg)
+
 #### CREATE/UPDATE
 
 This will update the user data if it exists, otherwise it will create it. We demonstrate 2 types of persistence:
 - A property with a single state that gets replaced with any incoming value. `nl("Crown Guru as the big boss")`
 - A property with multiple values that get appended with any incoming value(s). `nl("Enlist Kavin, Bobby and Stewart")` followed by `nl("Conscript Norberto")` will result in an army of 4 minions.
+
+![CREATE/UPDATE Wireframe](./screenshots/wireframe_create_update.jpg)
 
 #### DELETE
 
