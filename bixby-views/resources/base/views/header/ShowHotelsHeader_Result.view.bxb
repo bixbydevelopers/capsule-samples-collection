@@ -16,7 +16,24 @@ result-view {
           title-area {
             slot1 {
               text {
-                value ("Hotels for you")
+                value ("Hotels")
+                style (Title_S)
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  value ("Hotels for you")
+                  style (Detail_L_Soft)
+                }
+              }
+            }
+            slot3 {
+              single-line {
+                text {
+                  value ("Our Best Hotels")
+                  style (Detail_M_Soft)
+                }
               }
             }
           }

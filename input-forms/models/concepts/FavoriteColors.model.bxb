@@ -1,0 +1,18 @@
+structure (FavoriteColors) {
+  property (isRed) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (isBlue) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (isGreen) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (isYellow) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+}

@@ -1,0 +1,28 @@
+result-view {
+  match: Hotel (hotel) {
+    from-output: ShowHotelSingleLine
+  }
+
+  message {
+    template ("Here is a single line:")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          layout-macro (hotel-rating) {
+            param (rating) {
+              expression (hotel.rating)
+            }
+            param (reviewCount) {
+              if (exists(hotel.reviewCount)) {
+                expression (hotel.reviewCount) 
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+input-view {
+  match {
+    FunMeter (funMeter) { 
+      to-input: SubmitSurvey
+    }
+  }
+
+  message {
+    template ("How much fun are you having?")
+  }
+
+  render {
+    form {
+      elements {
+        slider {
+          id (funMeter)
+          min-value (0)
+          max-value (10)
+          min-label (0 - Lowest)
+          max-label (10 - Highest)
+          step (1)
+          type (FunMeter)
+          value ("#{raw(funMeter)}")
+          
+        }
+      }
+      on-submit {
+        goal: FunMeter
+        value: viv.core.FormElement(funMeter)
+      }
+    }
+  }
+}

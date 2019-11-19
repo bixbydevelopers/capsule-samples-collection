@@ -1,0 +1,4 @@
+action (ShowHotelSingleLine) {
+  type (Search)
+  output (Hotel)
+}

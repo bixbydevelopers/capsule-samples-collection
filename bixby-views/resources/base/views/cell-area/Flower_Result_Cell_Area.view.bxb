@@ -4,11 +4,11 @@ result-view {
   }
 
   message {
-    template ("Here are flowers as cell areas:")
+    template ("Here is a flower as a cell area:")
   }
 
   render {
-    if (size(flower) > 1) {
+    // if (size(flower) > 1) {
       list-of (flower) {
         has-details (false)
         where-each (item) {
@@ -29,7 +29,7 @@ result-view {
           }
         }
       }
-    }
+    // }
   }
   conversation-drivers {
     conversation-driver ("Show a cell card")

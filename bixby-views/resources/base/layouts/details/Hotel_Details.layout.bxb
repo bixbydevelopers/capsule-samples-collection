@@ -44,6 +44,10 @@ layout {
           value ("It is a low-rise boutique hotel that features a pool in the back side of the building, although it's empty.")
           style (Detail_L)
         }
+        divider
+        paragraph {
+          value ("This is a great place to stay for your visit to San Andreas!")
+        }
         attribution-link {
           label {
             template ("Open Bixby Developer Center")

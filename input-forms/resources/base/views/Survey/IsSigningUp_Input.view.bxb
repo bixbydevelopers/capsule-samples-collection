@@ -12,7 +12,7 @@ input-view {
   render {
     form {
       elements {
-        checkbox {
+        switch-input {
           id (isSigningUp)
           type (IsSigningUp)
           primary-text("Mailing List")
