@@ -1,12 +1,12 @@
 capsule {
   id (example.locationSearch)
-  version (1.0.1) //remove warnings
+  version (1.0.2)
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.location) { as (location) version (1.0.18)}
+    import (viv.location) { as (location) version (1.0.23)}
     import (viv.geo) { as (geo) version-from (location)}
   }
   permissions {
@@ -19,5 +19,8 @@ capsule {
     no-filtering-with-validation
     modern-default-view-behavior
     use-input-views-for-selection-list-detail
+  }
+  store-sections {
+    section (TravelAndTransportation)
   }
 }

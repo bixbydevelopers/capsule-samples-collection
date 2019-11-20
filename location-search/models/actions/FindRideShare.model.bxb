@@ -17,6 +17,11 @@ action (FindRideShare) {
     input (destinationPoint) {
       type (DestinationPoint)
       min (Required) max (One)
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
     }
   }
   output (RideShare)

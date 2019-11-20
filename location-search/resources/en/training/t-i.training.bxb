@@ -1,0 +1,5 @@
+train (t-i3rb5mf8hgbshxaafsx0ubt80) {
+  utterance ("[g:DestinationPoint:prompt] (60 South Market Street San Jose Caliifornia)[v:geo.SearchTerm]")
+  plan (Y2BlUE+tSMwtyEnVy8lPTizJzM8LTk0sSs7Qc0ktLsnMA4sE5GfmlTAIlWWW6aWn5uv5JeampkDEhGFijqUl+cWl6elATQySWATryjNSi1IRZkAsCUktymVgYWBkYGJgBtIMYBYTWAQCmIAYKA4A)
+  last-modified (1574217317845)
+}
