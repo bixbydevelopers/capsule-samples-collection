@@ -17,6 +17,7 @@ action (FindRideShare) {
     input (destinationPoint) {
       type (DestinationPoint)
       min (Required) max (One)
+
     }
   }
   output (RideShare)
