@@ -1,0 +1,18 @@
+result-view {
+  match: Hotel (hotel) {
+    from-output: ShowHotelImageListOf
+  }
+
+  message {
+    template ("Here is a hotel using image-list-of:")
+  }
+
+  render {
+    if (size(hotel) == 1) {
+      image-list-of (hotel.images) {
+        size (Medium)
+        title ("Hotel")
+      }
+    }
+  }
+}

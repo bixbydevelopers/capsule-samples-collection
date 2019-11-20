@@ -1,0 +1,5 @@
+action (ShowHotelsHeaderImageArea) {
+  description (Shows a header with an image-area and hotels.)
+  type (Search)
+  output (Hotel)
+}

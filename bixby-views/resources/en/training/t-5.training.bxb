@@ -3,6 +3,11 @@ train (t-51z2hd9guidveo8aowd9h00ta) {
   plan (Y2BikE+tSMwtyEnVS87Pzc3P80mszC8tKdYLykxJDc5ILEplMMCuIDgjvxyuyDk/tyC/NC/FObEopZiBEQgZoBhIAgA=)
   last-modified (1562021210957)
 }
+train (t-59q78oizz4h850y3co3xeq5ol) {
+  utterance ([g:ShowHotelSingleLine] show a single line)
+  plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWHQxC4ZnJFfDlYQnJmXnpPqk5mXysAIhAxQDCQB)
+  last-modified (1574190994375)
+}
 train (t-5exrgnu84kkeacvnb6fd7iuvr) {
   utterance ([g:ShowHotelCarousel] show an image carousel)
   plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWFQxy4ZnJFfDlbgnFiUX1oMVMgIhAxQDCQB)

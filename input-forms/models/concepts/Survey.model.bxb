@@ -15,4 +15,16 @@ structure (Survey) {
     type (IsSigningUp)
     min (Required) max (One)
   }
+  property (favoriteColors) {
+    type (FavoriteColors)
+    min (Required) max (One)
+  }
+  property (funMeter) {
+    type (FunMeter)
+    min (Required) max (One)
+  }
+  property (age) {
+    type (Age)
+    min (Required) max (One)
+  }
 }

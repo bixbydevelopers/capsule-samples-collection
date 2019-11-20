@@ -18,6 +18,18 @@ action (SubmitSurvey) {
       type (IsSigningUp)
       min (Required) max (One)
     }
+    input (favoriteColors) {
+      type (FavoriteColors)
+      min (Required) max (One)
+    }
+    input (funMeter) {
+      type (FunMeter)
+      min (Required) max (One)
+    }
+    input (age) {
+      type (Age)
+      min (Required) max (One)
+    }
   }
   output (Survey)
 }

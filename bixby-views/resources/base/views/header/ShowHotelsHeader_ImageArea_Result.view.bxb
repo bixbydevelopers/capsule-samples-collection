@@ -1,0 +1,77 @@
+result-view {
+  match {
+    Hotel (hotel) {
+      from-output: ShowHotelsHeaderImageArea
+    }
+  }
+
+  message {
+    template ("Here are hotels with a header using image-area:")
+  }
+
+  render {
+    if (size(hotel) > 1) {
+      list-of (hotel) {
+        header {
+          image-area {
+            aria-label ("Hotels icon")
+            aspect-ratio (4:3)
+            image-object-fit (Contain)
+            image-object-position (Center)
+            image-background-color (Transparent)
+            image-url (images/icons/hotel-icon.png)
+            title-area {
+              slot1 {
+                text {
+                  value ("Hotels")
+                  style (Title_S)
+                }
+              }
+              slot2 {
+                single-line {
+                  text {
+                    value ("Hotels for you")
+                    style (Detail_L_Soft)
+                  }
+                }
+              }
+              slot3 {
+                single-line {
+                  text {
+                    value ("Based on your preferences")
+                    style (Detail_M_Soft)
+                  }
+                }
+              }
+            }
+          }
+        }
+        has-details (true)
+        where-each (item) {
+          layout-macro (hotel-image-card) {
+            param (hotel) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    else-if (size(hotel) == 1) {
+      layout-match (hotel) {
+        mode (Details)
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Show hotels as image cards")
+    }
+    conversation-driver {
+      template ("Show hotels as thumbnail cards")
+    }
+    conversation-driver {
+      template ("Show hotels as compound cards")
+    }
+  }
+}

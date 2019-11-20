@@ -15,18 +15,10 @@ layout-macro-def (flower-compound-card) {
             halign (Start)
             slot1 {
               text {
-                value ("")
+                value ("#{value(flower.name)}")
                 style (Title_M)
               }
             }
-          }
-        }
-        single-line {
-          text {
-            value {
-              template ("#{value(flower.name)}")
-            }
-            style (Title_M)
           }
         }
         paragraph {
@@ -40,6 +32,13 @@ layout-macro-def (flower-compound-card) {
             value {
               template ("#{value(flower.deliveryType)}")
             }
+            style (Detail_M_Soft)
+          }
+        }
+        divider
+        single-line {
+          text {
+            value ("In Stock")
             style (Detail_M_Soft)
           }
         }

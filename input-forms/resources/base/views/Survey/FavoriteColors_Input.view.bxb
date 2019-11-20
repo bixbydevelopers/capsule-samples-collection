@@ -1,0 +1,47 @@
+input-view {
+  match {
+    FavoriteColors (favoriteColors) { 
+      to-input: SubmitSurvey
+    }
+  }
+
+  message {
+    template ("What are your favorite colors?")
+  }
+
+  render {
+    form {
+      elements {
+        checkbox {
+          id (isRed)
+          type (viv.core.Boolean)
+          primary-text("Red")
+        }
+        checkbox {
+          id (isBlue)
+          type (viv.core.Boolean)
+          primary-text("Blue")
+        }
+        checkbox {
+          id (isGreen)
+          type (viv.core.Boolean)
+          primary-text("Green")
+        }
+        checkbox {
+          id (isYellow)
+          type (viv.core.Boolean)
+          primary-text("Yellow")
+        }
+      }
+      on-submit {
+        goal: FavoriteColors
+        value: FavoriteColors {
+          isRed: viv.core.FormElement(isRed)
+          isBlue: viv.core.FormElement(isBlue)
+          isGreen: viv.core.FormElement(isGreen)
+          isYellow: viv.core.FormElement(isYellow)
+        }
+      }
+    }
+  }
+}

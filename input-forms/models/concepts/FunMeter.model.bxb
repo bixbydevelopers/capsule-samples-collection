@@ -1,0 +1,3 @@
+integer (FunMeter) {
+  description (How much fun the user is having (from 0 to 10).)
+}

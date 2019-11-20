@@ -9,7 +9,6 @@ result-view {
       section {
         content {
           title-area {
-            halign (Start)
             slot1 {
               text {
                 style (Title_S)

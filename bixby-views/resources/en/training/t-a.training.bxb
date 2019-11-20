@@ -2,3 +2,8 @@ train (t-a2ocznxfwkgilwvvi88ky7410) {
   utterance ([g:ShowFlowerCellAreas] show a cell area)
   plan (Y2BikErKrEiq1EvOz83Nz/NJrMwvLSnWc8vJL08tYlDHJheckV8OkXdOzclxLEpNLGZgBEIGKAaSAA==)
 }
+train (t-a9fdyoj67w0ysb6azeokvu9v3) {
+  utterance ([g:ShowHotelsHeaderImageArea] show a header with an image area)
+  plan (Y2BikE6tSMwtyEnVS87Pzc3P80mszC8tKdbzyC9JzWHQxy4ZnJFfDlZQ7JGamJJa5JmbmJ7qWJSayMAIhAxQDCQB)
+  last-modified (1574187625518)
+}

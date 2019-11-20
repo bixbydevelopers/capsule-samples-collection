@@ -62,7 +62,7 @@ endpoints {
     }
     action-endpoint (ShowFlowerCellAreas) {
       accepted-inputs ()
-      local-endpoint (FindFlowers.js)
+      local-endpoint (FindFlower.js)
     }
     action-endpoint (ShowHotelPartitioned) {
       accepted-inputs ()
@@ -107,6 +107,20 @@ endpoints {
     action-endpoint (ShowHotelsHeader) {
       accepted-inputs ()
       local-endpoint (FindHotels.js)
+    }
+    action-endpoint (ShowHotelsHeaderImageArea) {
+      accepted-inputs ()
+      local-endpoint (FindHotels.js)
+    }
+    // image-list-of
+    action-endpoint (ShowHotelImageListOf) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
+    }
+    // Single line
+    action-endpoint (ShowHotelSingleLine) {
+      accepted-inputs ()
+      local-endpoint (FindHotel.js)
     }
   }
 }
