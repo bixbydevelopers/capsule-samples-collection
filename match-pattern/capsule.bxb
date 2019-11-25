@@ -14,6 +14,12 @@ capsule {
     use-input-views-for-selection-list-detail
   }
   capsule-imports {
-    import (viv.common) {as (common) version (3.32.18)}
+    import (viv.common) {as (common) version (4.0.0)}
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    section (EducationAndReference)
   }
 }

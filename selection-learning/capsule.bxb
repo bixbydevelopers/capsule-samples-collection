@@ -1,6 +1,6 @@
 capsule {
   id (example.selectionLearning)
-  version (1.0.1) //remove warnings
+  version (1.0.1)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -17,7 +17,7 @@ capsule {
     
     import (viv.entity) {
       as (entity)
-      version (3.21.4)
+      version (4.0.3)
     }
     
     import (viv.common) {
@@ -32,7 +32,13 @@ capsule {
     
     import (viv.money) {
       as (money)
-      version (2.22.17)
+      version (2.22.21)
     }
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    section (EducationAndReference)
   }
 }

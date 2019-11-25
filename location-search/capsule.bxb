@@ -23,4 +23,7 @@ capsule {
   store-sections {
     section (TravelAndTransportation)
   }
+  store-countries {
+    all
+  }
 }

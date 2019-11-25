@@ -20,5 +20,11 @@ capsule {
   }
   permissions {
     bixby-user-id-access
+  } 
+  store-countries {
+    all
+  }
+  store-sections {
+    section (EducationAndReference)
   }
 }

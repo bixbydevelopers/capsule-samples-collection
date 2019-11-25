@@ -1,0 +1,41 @@
+result-view {
+	match: Carrier (this)
+	
+	render {
+		layout {
+			section {
+				content {
+					thumbnail-card {
+						image-aspect-ratio (1:1)
+						image-position (End)
+						image-object-position (Center)
+						image-url {
+							template ("#{value (this.logo.url)}")
+						}
+						title-area{
+							slot1 {
+								text {
+									value {
+										template-macro (carrier-name) {
+											param (name) { expression (this.name) }
+										}
+									}
+                  style (Title_M)
+								}
+							}
+              slot2 {
+                paragraph {
+                  value {
+                    template ("[Code: #{value (this.code)}]")
+                  }
+                  style (Title_S)
+                }
+              }
+						}
+						image-background-color (Transparent)
+					}
+				}
+			}
+		}
+	}
+}
