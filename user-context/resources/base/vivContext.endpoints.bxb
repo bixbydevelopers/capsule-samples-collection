@@ -2,6 +2,7 @@ endpoints {
 
   action-endpoints {
     action-endpoint (AccessVivContext) {
+      accepted-inputs ($vivContext)
       local-endpoint ("AccessVivContext.js")
     }
   }

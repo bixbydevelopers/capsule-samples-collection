@@ -1,63 +1,67 @@
 result-view {
-  match: FlowerProduct (flower) {
-    min (Required)
-    from-output: FindFlowers
-  }
-
-  message {
-    template ("Here are some flowers:")
-  }
-
-  render {
-    if (size(flower) > 1) {
-      list-of (flower) {
-        has-details (true)
-        where-each (item) {
-          layout-macro (common:card) {
-            param (title) {
-              dialog-template {
-                template-macro (product-name-dialog) {
-                  param (name) {
-                    expression (item.name)
+	match: FlowerProduct (flower) {
+		min (Required)
+		from-output: FindFlowers
+	}
+	
+	message {
+		template ("Here are some flowers:")
+	}
+	
+	render {
+		if (size(flower) > 1) {
+			list-of (flower) {
+				has-details (true)
+				where-each (item) {
+					cell-card {
+						slot2 {
+							content {
+								order (PrimarySecondary)
+								primary {
+									template-macro (product-name-dialog) {
+										param (name) { expression (item.name) }
+									}
+								}
+							}
+						}
+					}
+				}
+				default-sort-order {
+					sorting {
+						by-preferences
+					}
+				}
+			}
+		} else-if (size(flower) == 1) {
+			layout {
+				section {
+					content {
+						title-card {
+							title-area {
+								slot1 {
+									text {
+										value {
+											template-macro (product-name-dialog) {
+												param (name) { expression (flower.name) }
+											}
+										}
+                    style (Title_M)
+									}
+								}
+                slot2 {
+                  paragraph {
+                    value {
+                      template-macro (product-type-dialog) {
+                        param (flower) { expression (flower) }
+                      }
+                    }
                   }
                 }
-              }
-            }
-            param (titleSize) {
-              literal ("small")
-            }
-          }
-        }
-        default-sort-order {
-          sorting { 
-            by-preferences 
-          }
-        }
-      }
-    } else-if (size(flower) == 1) {
-      layout-macro (common:card) {
-        param (title) {
-          dialog-template {
-            template-macro (product-name-dialog) {
-              param (name) {
-                expression (flower.name)
-              }
-            }
-          }
-        }
-        param (bodyText) {
-          dialog-template {
-            template-macro (product-type-dialog) {
-              param (flower) {
-                expression (flower)
-              }
-            }
-          }
-        }
-        param (titleSize) {
-          literal ("medium")
-        }
-      }
-    }
-  }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

@@ -4,25 +4,25 @@ result-view {
   render {
     list-of (this.carriers) {
       where-each (item) {
-        layout-macro (common:card) {
-          param (title) {
-            dialog-template {
-              template-macro (carrier-name) { 
-                param (name) {
-                  expression (item.name)
+        thumbnail-card {
+          image-aspect-ratio (1:1)
+          image-position (End)
+          image-object-position (Center)
+          image-url {
+            template ("#{value (item.logo.url)}")
+          }
+          title-area{
+            slot1 {
+              text {
+                value {
+                  template-macro (carrier-name) {
+                    param (name) { expression (item.name) }
+                  }
                 }
               }
             }
           }
-          param (image) {
-            expression (item.logo.url)
-          }
-          param (imageType) {
-            literal (thumbnail)
-          }
-          param (thumbnailPosition) {
-            literal (right)
-          }
+          image-background-color (Transparent)
         }
       }
     }

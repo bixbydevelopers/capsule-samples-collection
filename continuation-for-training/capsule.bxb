@@ -1,6 +1,6 @@
 capsule {
   id (example.continuation)
-  version (0.1.1) //remove warnings
+  version (0.1.1)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -16,11 +16,17 @@ capsule {
   capsule-imports {
     import (viv.entity) {
       as (entity)
-      version (3.20.5)
+      version (4.0.3)
     }
     import (viv.common) {
       as (common)
       version-from (entity)
     }
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    section (EducationAndReference)
   }
 }

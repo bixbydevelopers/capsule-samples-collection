@@ -17,10 +17,16 @@ capsule {
     target (bixby-fridge-en-US)
   }
   capsule-imports {
-    import (viv.money) {as (money) version (2.22.3)}
-    import (viv.entity) {as (entity) version (3.20.5)}
+    import (viv.money) {as (money) version (2.22.21)}
+    import (viv.entity) {as (entity) version (4.0.3)}
     import (viv.common) {as (common) version-from(entity)}
     import (viv.time) {as (time) version-from (entity)}
-    import (viv.geo) {as (geo) version-from (entity)} //geo deprecation warnings are being fixed soon. Import entity when it imports the updated geo
+    import (viv.geo) {as (geo) version-from (entity)}
+  }
+  store-countries {
+    all
+  }
+  store-sections{
+    section (ArtAndLifestyle)
   }
 }

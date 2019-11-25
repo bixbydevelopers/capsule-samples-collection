@@ -22,4 +22,7 @@ capsule {
   store-sections {
     section (MusicAndAudio)
   }
+  store-countries {
+    all
+  }
 }
