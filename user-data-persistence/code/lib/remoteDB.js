@@ -16,22 +16,38 @@
  **/
 var http = require('http')
 var properties = require('./properties.js')
-var remoteDB = require('./services/' + properties.get("config", "service"))
+var restDB = require('./services/restdb.js')
+var airtable = require('./services/airtable.js')
+// These may appear null at compile time because they are fetched dynamically at runtime
+var service = properties.get("config", "service")
+var remoteDB
+if (service) {
+  switch (service) {
+    case "restdb":
+      remoteDB = restDB
+      break;
+    case "airtable":
+      remoteDB = airtable
+      break;
+    default:
+      throw "Unrecognized service: " + service
+  }
+}
 
 module.exports = {
   /**
    * DELETE UserData
    * params: userData
    **/
-  deleteUserData: remoteDB.deleteUserData,
+  deleteUserData: remoteDB && remoteDB.deleteUserData,
   /**
    * READ UserData if exists, otherwise return nothing
    * params: bixbyUserId
    **/
-  getUserData: remoteDB.getUserData,
+  getUserData: remoteDB && remoteDB.getUserData,
   /**
    * UPDATE UserData if exists, otherwise CREATE UserData
    * params: bixbyUserId, userData
    */
-  putUserData: remoteDB.putUserData
+  putUserData: remoteDB && remoteDB.putUserData
 }
