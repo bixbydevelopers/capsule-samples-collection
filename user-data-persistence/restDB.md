@@ -19,7 +19,7 @@ to include `capsule.config.mode=exampleRestDB`.
 following values when requested.
   - Configs
   ```
-  service=restdb.js
+  service=restdb
   baseUrl=https://bixby-25e7.restdb.io/rest/example-user-data // Update this to match the url provided at the top of your Collection Developer Tools panel
   userIdField=bixby-user-id // User id field from above
   userDataField=bixby-user-data // User data field from above
