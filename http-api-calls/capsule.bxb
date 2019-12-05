@@ -18,9 +18,6 @@ capsule {
       as (money) 
       version (2.22.21)
     }
-    import (viv.common) { 
-      as (common) version-from (money)
-    }
   }
   store-countries {
     all
