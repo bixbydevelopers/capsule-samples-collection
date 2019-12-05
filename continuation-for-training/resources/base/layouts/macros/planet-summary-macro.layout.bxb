@@ -20,7 +20,7 @@ layout-macro-def (planet-summary-macro) {
         }
       }
       image-url {
-        template ("#{value (planet.imageSet.images[0].url)}")
+        template ("[#{value (planet.images[0].url)}]")
       }
     }
   }

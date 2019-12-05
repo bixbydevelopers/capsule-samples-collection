@@ -13,7 +13,7 @@ layout-macro-def(planet-details-macro) {
         image-card {
           aspect-ratio (4:3)
           image-url {
-            template ("#{value (planet.imageSet.images[0].url)}")
+            template ("[#{value (planet.images[0].url)}]")
           }
           title-area {
             slot2 {

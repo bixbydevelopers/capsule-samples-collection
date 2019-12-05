@@ -14,13 +14,8 @@ capsule {
     use-input-views-for-selection-list-detail
   }
   capsule-imports {
-    import (viv.entity) {
-      as (entity)
-      version (4.0.3)
-    }
-    import (viv.common) {
-      as (common)
-      version-from (entity)
+    import (viv.core) {
+      as (core)
     }
   }
   store-countries {
