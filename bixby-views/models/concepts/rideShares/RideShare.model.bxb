@@ -16,9 +16,9 @@ structure (RideShare) {
     type (ProductType)
     min (Required) max (One)
   }
-  property (imageSet) {
-    type (entity.ImageSet)
-    min (Optional) max (One)
+  property (images) {
+    type (core.BaseImage)
+    min (Optional) max (Many)
   }
   property (sourcePoint) {
     type (SourcePoint)

@@ -17,13 +17,11 @@ module.exports = [
         value: 30
       }
     },
-    imageSet: {
-      images: [
-        {
-          url: "/images/car-1.jpeg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/car-1.jpeg"
+      }
+    ],
     sourcePoint:  {
       longitude: -121.890735,
       latitude: 37.334282,
@@ -51,13 +49,11 @@ module.exports = [
         value: 10
       }
     },
-    imageSet: {
-      images: [
-        {
-          url: "/images/car-2.jpeg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/car-2.jpeg"
+      }
+    ],
     sourcePoint:  {
       longitude: -121.890735,
       latitude: 37.334282,
@@ -85,13 +81,11 @@ module.exports = [
         value: 100
       }
     },
-    imageSet: {
-      images: [
-        {
-          url: "/images/car-3.jpeg"
-        }
-      ]
-    }
+    images: [
+      {
+        url: "/images/car-3.jpeg"
+      }
+    ],
   },
   {
     productType: "Super Deluxe",
@@ -111,13 +105,11 @@ module.exports = [
         value: 100
       }
     },
-    imageSet: {
-      images: [
-        {
-          url: "/images/car-4.jpeg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/car-4.jpeg"
+      }
+    ],
     sourcePoint:  {
       longitude: -121.890735,
       latitude: 37.334282,
@@ -145,13 +137,11 @@ module.exports = [
         value: 15
       }
     },
-    imageSet: {
-      images: [
-        {
-          url: "/images/car-5.jpeg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/car-5.jpeg"
+      }
+    ],
     sourcePoint:  {
       longitude: -121.890735,
       latitude: 37.334282,
@@ -179,13 +169,11 @@ module.exports = [
         value: 4
       }
     },
-    imageSet: {
-      images: [
-        {
-          url: "/images/car-6.jpeg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/car-6.jpeg"
+      }
+    ],
     sourcePoint:  {
       longitude: -121.890735,
       latitude: 37.334282,
@@ -213,13 +201,11 @@ module.exports = [
         value: 250
       }
     },
-    imageSet: {
-      images: [
-        {
-          url: "/images/car-7.jpeg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/car-7.jpeg"
+      }
+    ],
     sourcePoint:  {
       longitude: -121.890735,
       latitude: 37.334282,

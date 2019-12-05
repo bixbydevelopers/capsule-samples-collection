@@ -10,13 +10,11 @@ module.exports = [
     atmosphere: "Virtually none",
     moons: 0,
     colors: "gray",
-    imageSet: {
-      images: [
-        {
-          url: "/images/mercury.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/mercury.jpg"
+      }
+    ]
   },
   {
     name: "Venus",
@@ -26,13 +24,11 @@ module.exports = [
     atmosphere: "Carbon dioxide",
     moons: 0,
     colors: "yellow",
-    imageSet: {
-      images: [
-        {
-          url: "/images/venus.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/venus.jpg"
+      }
+    ]
   },
   {
     name: "Earth",
@@ -42,13 +38,11 @@ module.exports = [
     atmosphere: "Nitrogen oxygen",
     moons: 1,
     colors: ["blue", "white"],
-    imageSet: {
-      images: [
-        {
-          url: "/images/earth.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/earth.jpg"
+      }
+    ]
   },
   {
     name: "Mars",
@@ -58,13 +52,11 @@ module.exports = [
     atmosphere: "Carbon dioxide",
     moons: 2,
     colors: ["red", "brown"],
-    imageSet: {
-      images: [
-        {
-          url: "/images/mars.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/mars.jpg"
+      }
+    ]
   },
   {
     name: "Jupiter",
@@ -74,13 +66,11 @@ module.exports = [
     atmosphere: "Hydrogen helium",
     moons: 63,
     colors: ["orange", "white"],
-    imageSet: {
-      images: [
-        {
-          url: "/images/jupiter.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/jupiter.jpg"
+      }
+    ]
   },
   {
     name: "Saturn",
@@ -90,13 +80,11 @@ module.exports = [
     atmosphere: "Hydrogen helium",
     moons: 56,
     colors: "gold",
-    imageSet: {
-      images: [
-        {
-          url: "/images/saturn.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/saturn.jpg"
+      }
+    ]
   },
   {
     name: "Uranus",
@@ -106,13 +94,11 @@ module.exports = [
     atmosphere: "Helium hydrogen methane",
     moons: 27,
     colors: "blue",
-    imageSet: {
-      images: [
-        {
-          url: "/images/uranus.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/uranus.jpg"
+      }
+    ]
   },
   {
     name: "Neptune",
@@ -122,13 +108,11 @@ module.exports = [
     atmosphere: "Hydrogen helium methane",
     moons: 13,
     colors: "blue",
-      imageSet: {
-      images: [
-        {
-          url: "/images/neptune.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/neptune.jpg"
+      }
+    ]
   },
   {
     name: "Pluto",
@@ -138,12 +122,11 @@ module.exports = [
     atmosphere: "None detected",
     moons: 3,
     colors: "brown",
-    imageSet: {
-      images: [
-        {
-          url: "/images/pluto.jpg"
-        }
-      ]
-    },
+    images: [
+      {
+        url: "/images/pluto.jpg"
+      }
+    ]
+  
   },
 ]

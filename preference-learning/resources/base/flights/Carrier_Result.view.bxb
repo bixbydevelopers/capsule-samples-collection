@@ -10,7 +10,7 @@ result-view {
 						image-position (End)
 						image-object-position (Center)
 						image-url {
-							template ("#{value (this.logo.url)}")
+							template ("[#{value (this.logo.url)}]")
 						}
 						title-area{
 							slot1 {

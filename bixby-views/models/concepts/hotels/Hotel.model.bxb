@@ -20,7 +20,7 @@ structure (Hotel) {
     min (Optional) max (One)
   }
   property (images) {
-    type (HotelImages)
+    type (core.BaseImage)
     min (Optional) max (Many)
   }
   property (amenities) {

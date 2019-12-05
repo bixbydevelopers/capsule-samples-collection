@@ -1,3 +1,0 @@
-text (FlowerImageUrl) {
-  extends (viv.core.Url)
-}

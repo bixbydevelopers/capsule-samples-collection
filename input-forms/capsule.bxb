@@ -17,7 +17,6 @@ capsule {
     target (bixby-watch-en-US)
   }
   capsule-imports {
-    import (viv.common) {as (common) version (4.0.0)}
     import (viv.time) {as (time) version (3.1.13)}
   }
   store-countries {

@@ -27,8 +27,8 @@ structure (Planet) {
     type (PlanetColor)
     min (Required) max (Many)
   }
-  property (imageSet) {
-    type (entity.ImageSet)
+  property (images) {
+    type (core.BaseImage)
     min (Optional) max (One)
   }
 }

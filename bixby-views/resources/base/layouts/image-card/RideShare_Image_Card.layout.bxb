@@ -9,7 +9,7 @@ layout-macro-def (rideshare-image-card) {
     image-card {
       aspect-ratio (16:9)
       image-url {
-        template ("#{value(rideShare.imageSet.images[0].url)}")
+        template ("[#{value(rideShare.images[0].url)}]")
       }
       title-area {
         halign (Start)

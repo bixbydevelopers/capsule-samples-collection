@@ -12,7 +12,7 @@ layout-macro-def(planet-size-macro) {
       content {
         image-card {
           image-url {
-            template ("#{value (planet.imageSet.images[0].url)}")
+            template ("[#{value (planet.images[0].url)}]")
           }
           title-area {
             slot2 {

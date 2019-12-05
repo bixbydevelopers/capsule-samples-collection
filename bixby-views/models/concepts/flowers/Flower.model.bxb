@@ -12,7 +12,7 @@ structure (Flower) {
     min (Required) max (One)
   }
   property (imageUrls) {
-    type (FlowerImageUrl)
+    type (core.Url)
     min (Required) max (Many)
   }
 }

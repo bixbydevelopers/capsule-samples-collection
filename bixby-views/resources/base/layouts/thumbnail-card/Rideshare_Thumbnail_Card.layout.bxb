@@ -33,7 +33,7 @@ layout-macro-def (rideshare-thumbnail-card) {
         }
       }
       image-url {
-        template ("#{value(rideShare.imageSet.images[0].url)}")
+        template ("[#{value(rideShare.images.url)}]")
       }
       image-position (End)
     }
