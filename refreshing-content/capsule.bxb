@@ -1,20 +1,13 @@
 capsule {
   id (example.refresh)
-  version (0.1.1) //remove warnings
+  version (0.1.1)
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-flags {
-    support-halt-effect-in-computed-inputs
-    modern-prompt-rejection
-    concepts-inherit-super-type-features
-    no-filtering-with-validation
-    modern-default-view-behavior
-    use-input-views-for-selection-list-detail
-  }
+  runtime-version (2)
   capsule-imports {
-    import (viv.geo) {as (geo) version (9.23.0)}
+    import (viv.geo) {as (geo) version (9.26.1)}
   }
   store-countries {
     all

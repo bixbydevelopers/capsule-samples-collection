@@ -2,14 +2,7 @@ capsule {
   id (example.inputForm)
   version (0.1.0)
   format (3)
-  runtime-flags {
-    support-halt-effect-in-computed-inputs
-    modern-prompt-rejection
-    concepts-inherit-super-type-features
-    no-filtering-with-validation
-    modern-default-view-behavior
-    use-input-views-for-selection-list-detail
-  }
+  runtime-version (2)
   targets {
     target (bixby-mobile-en-US)
     target (bixby-fridge-en-US)
@@ -17,7 +10,7 @@ capsule {
     target (bixby-watch-en-US)
   }
   capsule-imports {
-    import (viv.time) {as (time) version (3.1.13)}
+    import (viv.time) {as (time) version (3.1.48)}
   }
   store-countries {
     all
