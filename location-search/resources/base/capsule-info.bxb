@@ -9,4 +9,9 @@ capsule-info {
     keyword (sample capsule)
     keyword (location search)
   }
+  requested-permissions {
+    permission (user-profile-access) {
+      justification ("Bixby needs your permission to suggest addresses saved in your profile and contacts.")
+    }
+  }
 }
