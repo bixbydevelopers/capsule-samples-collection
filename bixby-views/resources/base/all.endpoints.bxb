@@ -122,5 +122,10 @@ endpoints {
       accepted-inputs ()
       local-endpoint (FindHotel.js)
     }
+    // Thumbnail Area
+    action-endpoint (ShowThumbnailAreas) {
+      accepted-inputs ()
+      local-endpoint (FindRideShares.js)
+    }
   }
 }

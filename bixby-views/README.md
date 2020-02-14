@@ -23,9 +23,9 @@
 | --- | --- | --- | --- | --- |
 | ![an image screenshot](screenshots/Image_Bixby_Voice.png) | ![a video screenshot](screenshots/Video_Bixby_Voice.png) | ![a progress bar screenshot](screenshots/Progress_Bar_Bixby_Voice.png) | ![a header screenshot](screenshots/Header_Bixby_Voice.png) | ![an image list of](screenshots/Image_List_Of_Bixby_Voice.png) |
 
-| nl(Show a header with an image area) | nl (Show a single line) |
-| --- | --- |
-| ![a header with image area screenshot](screenshots/Header_Image_Area_Bixby_Voice.png) | ![a single line screenshot](screenshots/Single_Line_Bixby_Voice.png)
+| nl(Show a header with an image area) | nl (Show a single line) | nl (Show a thumbnail area)
+| --- | --- | --- |
+| ![a header with image area screenshot](screenshots/Header_Image_Area_Bixby_Voice.png) | ![a single line screenshot](screenshots/Single_Line_Bixby_Voice.png) |  ![a thumbnail area screenshot](screenshots/Thumbnail_Area_Bixby_Voice.png)
 
 ##
 

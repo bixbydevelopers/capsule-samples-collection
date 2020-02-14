@@ -1,0 +1,51 @@
+result-view {
+  match: RideShare (rideShare) {
+    from-output: ShowThumbnailAreas
+  }
+
+  message {
+    template ("Here are rides as thumbnail areas:")
+  }
+
+  render {
+    if (size(rideShare) > 1) {
+      list-of (rideShare) {
+        has-details (true)
+        where-each (item) {
+          thumbnail-area {
+            image-url {
+              template ("[#{value(item.images.url)}]")
+            }
+            title-area {
+              halign (Start)
+              slot1 {
+                text {
+                  style (Title_S)
+                  value ("#{value(item.productType)}")
+                }
+              }
+              slot2 {
+                single-line {
+                  text {
+                    value ("Arrives in #{value(item.pickupETA)}")
+                    style (Detail_L)
+                  }
+                }
+              }
+              slot3 {
+                single-line {
+                  text {
+                    value ("#{value(item.priceRange)}")
+                    style (Detail_M_Soft)
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    } else-if (size(rideShare) == 1) {
+      // Shouldn't occur
+    }
+  }
+}
