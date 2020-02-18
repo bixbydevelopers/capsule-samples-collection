@@ -125,7 +125,7 @@ endpoints {
     // Thumbnail Area
     action-endpoint (ShowThumbnailAreas) {
       accepted-inputs ()
-      local-endpoint (FindRideShares.js)
+      local-endpoint (FindRideShare.js)
     }
   }
 }
