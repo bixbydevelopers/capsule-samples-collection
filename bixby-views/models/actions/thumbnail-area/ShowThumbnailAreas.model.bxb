@@ -1,0 +1,4 @@
+action (ShowThumbnailAreas) {
+  type (Search)
+  output (RideShare)
+}
