@@ -1,0 +1,3 @@
+text (Uri) {
+  description (Uri for AppLaunchResult)
+}

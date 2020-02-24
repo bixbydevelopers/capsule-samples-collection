@@ -1,0 +1,8 @@
+capsule-info {
+  display-name (Example Name)
+  developer-name (Example Developer)
+  description ("Example capsule description")
+  dispatch-name (Example Capsule)
+  // Create and set a path for your icon asset
+  // icon-asset (images/icons/example.png)
+}

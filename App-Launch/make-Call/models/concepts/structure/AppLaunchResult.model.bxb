@@ -1,0 +1,6 @@
+structure (AppLaunchResult) {
+  property (uri) {
+    type (Uri)
+    min (Required) max (One)
+  }
+}

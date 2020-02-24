@@ -1,0 +1,21 @@
+action (MakeCall) {
+  description (Action to create uri for app-launch (phone))
+  type (Constructor)
+  collect {
+    input (name) {
+      type (Name)
+      min (Required) max (One)
+    }
+    computed-input (callMode) {
+      type (CallMode)
+      min (Required) max (One)
+      compute {
+        intent {
+          goal : CallMode
+          value : CallMode("SPEAKER")
+        }
+      }
+    }
+  }
+  output (AppLaunchResult)
+}

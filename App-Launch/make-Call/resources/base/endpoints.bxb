@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+   action-endpoint (MakeCall) {
+      accepted-inputs (name, callMode)
+      local-endpoint (MakeCall.js)
+    }
+  }
+}
