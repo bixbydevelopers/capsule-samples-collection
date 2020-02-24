@@ -39,6 +39,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [User Data Persistence](../../tree/master/user-data-persistence) - Sample User Data Persistence
 
+[App - Launch/Make-Call(../../tree/master/App-Launch/make-Call) - Sample App Launch Make Call
+
 ---
 
 ## Additional Resources
