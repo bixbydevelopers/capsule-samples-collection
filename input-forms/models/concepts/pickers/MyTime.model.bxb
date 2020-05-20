@@ -1,4 +1,4 @@
 // MyTime.model.bxb
 structure (MyTime) {
-  role-of (time.Time)
+  role-of (viv.core.BaseTime)
 }

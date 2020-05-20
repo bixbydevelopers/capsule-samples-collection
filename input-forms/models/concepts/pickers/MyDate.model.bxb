@@ -1,4 +1,4 @@
 // MyDate.model.bxb
 structure (MyDate) {
-  role-of (time.Date)
+  role-of (viv.core.BaseDate)
 }
