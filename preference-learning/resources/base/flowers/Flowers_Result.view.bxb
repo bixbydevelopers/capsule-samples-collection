@@ -11,7 +11,6 @@ result-view {
 	render {
 		if (size(flower) > 1) {
 			list-of (flower) {
-				has-details (true)
 				where-each (item) {
 					cell-card {
 						slot2 {
@@ -23,6 +22,9 @@ result-view {
 									}
 								}
 							}
+						}
+						on-click {
+							view-for (item)
 						}
 					}
 				}
