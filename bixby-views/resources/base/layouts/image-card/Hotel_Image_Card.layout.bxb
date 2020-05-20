@@ -26,6 +26,9 @@ layout-macro-def (hotel-image-card) {
         }
       }
       image-url ("[#{value(hotel.images[0].url)}]")
+      on-click {
+        view-for (hotel)
+      }
     }
   }
 }

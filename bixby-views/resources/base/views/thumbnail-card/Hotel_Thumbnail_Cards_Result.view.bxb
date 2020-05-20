@@ -10,7 +10,6 @@ result-view {
   render {
     if (size(hotel) > 1) {
       list-of (hotel) {
-        has-details (true)
         where-each (item) {
           layout-macro (hotel-thumbnail-card) {
             param (hotel) {

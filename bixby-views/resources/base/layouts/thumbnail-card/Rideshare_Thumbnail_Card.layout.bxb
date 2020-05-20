@@ -36,6 +36,9 @@ layout-macro-def (rideshare-thumbnail-card) {
         template ("[#{value(rideShare.images.url)}]")
       }
       image-position (End)
+      on-click {
+        view-for (rideShare)
+      }
     }
   }
 }

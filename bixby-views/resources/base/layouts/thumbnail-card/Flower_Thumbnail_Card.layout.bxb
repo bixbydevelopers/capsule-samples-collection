@@ -36,6 +36,9 @@ layout-macro-def (flower-thumbnail-card) {
           }
         }
       }
+      on-click {
+        view-for (flower)
+      }
     }
   }
 }
