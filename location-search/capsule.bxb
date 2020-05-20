@@ -12,7 +12,7 @@ capsule {
   permissions {
     user-profile-access
   }
-  runtime-version (3)
+  runtime-version (7)
   store-sections {
     section (TravelAndTransportation)
   }
