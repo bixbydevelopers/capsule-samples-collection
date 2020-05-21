@@ -5,7 +5,7 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (2)
+  runtime-version (7)
   capsule-imports {
     import (viv.core) { as (core) }
   }

@@ -10,7 +10,6 @@ result-view {
   render {
     if (size(flower) > 1) {
       list-of (flower) {
-        has-details (true)
         where-each (item) {
           layout-macro (flower-compound-card) {
             param (flower) {

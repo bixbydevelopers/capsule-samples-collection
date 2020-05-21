@@ -36,6 +36,9 @@ layout-macro-def (rideshare-image-card) {
           }
         }
       }
+      on-click {
+        view-for (rideShare)
+      }
     }
   }
 }

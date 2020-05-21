@@ -31,6 +31,9 @@ layout-macro-def (hotel-compound-card) {
           }
         }
       }
+      on-click {
+        view-for (hotel)
+      }
     }
   }
 }

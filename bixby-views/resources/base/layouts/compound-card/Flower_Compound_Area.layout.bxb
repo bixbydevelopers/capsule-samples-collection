@@ -1,4 +1,4 @@
-layout-macro-def (flower-compound-card) {
+layout-macro-def (flower-compound-area) {
   params {
     param (flower) {
       type (Flower)
@@ -42,9 +42,6 @@ layout-macro-def (flower-compound-card) {
             style (Detail_M_Soft)
           }
         }
-      }
-      on-click {
-        view-for (flower)
       }
     }
   }

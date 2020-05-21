@@ -41,6 +41,9 @@ layout-macro-def (rideshare-compound-card) {
           }
         }
       }
+      on-click {
+        view-for (rideShare)
+      }
     }
   }
 }

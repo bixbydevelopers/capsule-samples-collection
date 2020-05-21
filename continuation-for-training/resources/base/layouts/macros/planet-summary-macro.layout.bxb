@@ -22,6 +22,9 @@ layout-macro-def (planet-summary-macro) {
       image-url {
         template ("[#{value (planet.images[0].url)}]")
       }
+      on-click {
+        view-for (planet)
+      }
     }
   }
 }

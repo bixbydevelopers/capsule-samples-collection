@@ -38,7 +38,6 @@ result-view {
             }
           }
         }
-        has-details (true)
         where-each (item) {
           layout-macro (hotel-image-card) {
             param (hotel) {

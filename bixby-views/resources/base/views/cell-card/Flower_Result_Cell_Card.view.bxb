@@ -10,7 +10,6 @@ result-view {
   render {
     if (size(flower) > 1) {
       list-of (flower) {
-        has-details (false)
         where-each (item) {
           cell-card {
             slot1 {
@@ -26,8 +25,15 @@ result-view {
                 secondary ("#{value(item.priceRange)}")
               }
             }
+            on-click {
+              view-for (item)
+            }
           }
         }
+      }
+    } else-if (size(flower) == 1) {
+      layout-match (flower) {
+        mode (Details)
       }
     }
   }
