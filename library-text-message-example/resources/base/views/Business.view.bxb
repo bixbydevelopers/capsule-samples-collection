@@ -1,0 +1,87 @@
+result-view {
+	match: Business (this)
+	
+	message{
+		template ("Tap on one of the following to text Bob's Burgers.")
+	}
+
+	render {
+		if (size(this) == 1){
+			layout {
+				section {
+					content {
+						paragraph {
+							value ("#{value(this.name)} ")
+							style (Title_L)
+						}
+						cell-card {
+							slot2 {
+								content {
+									order (PrimarySecondary)
+									primary {
+										template ("#{value (this.phoneNumber)}")
+									}
+									secondary {
+										template ("Tap to sign up for the SMS mailing list")
+									}
+								}
+							}
+							on-click {
+								intent {
+									goal: SendMessage
+									route: ComposeMessage
+									value: $expr(this)
+									value: MessageText(Sign me up for the mailing list)
+								}
+							}
+						}
+						cell-card {
+							slot2 {
+								content {
+									order (SecondaryPrimary)
+									primary {
+										template ("Send us feeback via text")
+									}
+									secondary {
+										template ("What did you think of us?")
+									}
+								}
+							}
+							on-click {
+								intent {
+									goal: SendMessage
+									route: BusinessFlowComposeMessage
+									value: $expr(this)
+								}
+							}
+						}
+					}
+				}
+			}
+		} else {
+			list-of (this) {
+				where-each (business) {
+					cell-card {
+						on-click: view-for (business)
+						slot2 {
+							content {
+								order (PrimarySecondary)
+								primary {
+									template ("#{value (business.name)}")
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	conversation-drivers {
+		if (size(this) == 1) {
+			conversation-driver {
+				template ("Send feedback")
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+capsule-info {
+  display-name (Call Bob's Burgers)
+  developer-name (Bob's Burgers)
+  description ("Example capsule description")
+  dispatch-name (Call Bob's Burgers)
+  icon-asset (images/burger.png)
+  search-keywords{
+    keyword (Call)
+  }
+}

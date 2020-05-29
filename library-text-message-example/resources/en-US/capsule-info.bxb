@@ -1,0 +1,11 @@
+//This is a test capsule that will never be published to the marketplace, this file is not needed
+capsule-info {
+  display-name (Text Bob's Burgers)
+  developer-name (Text Bob's Burgers)
+  description ("Sample capsule where you can text Bob's Burgers")
+  dispatch-name (Text Bob's Burgers)
+  search-keywords{
+    keyword (Text)
+  }
+  icon-asset (images/burger.png)
+}

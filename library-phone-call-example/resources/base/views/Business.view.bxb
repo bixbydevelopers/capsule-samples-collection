@@ -1,0 +1,74 @@
+result-view {
+	match: Business (this)
+	
+	message{
+		template ("Tap to call Bob's Burgers")
+	}
+
+	conversation-drivers {
+		if (size(this) == 1){
+			conversation-driver {
+				template ("Call this business")
+			}
+		}
+	}
+	
+	render {
+		if (size(this) == 1){
+			layout {
+				section {
+					content {
+						paragraph {
+							value ("#{value(this.name)} ")
+							style (Title_L)
+						}
+						cell-card {
+							slot2 {
+								content {
+									order (PrimarySecondary)
+									primary {
+										template ("#{value (this.phoneNumber)}")
+									}
+									secondary {
+										template ("Tap to call")
+									}
+								}
+							}
+							slot1 {
+								image {
+									shape (Square)
+									background-color (Transparent)
+									url {
+										template (images/phone.png)
+									}
+								}
+							}
+							on-click {
+								intent {
+									goal: CallingInfo#call
+									value: $expr(this)
+								}
+							}
+						}
+					}
+				}
+			}
+		} else {
+			list-of (this) {
+				where-each (business) {
+					cell-card {
+						on-click: view-for (business)
+						slot2 {
+							content {
+								order (PrimarySecondary)
+								primary {
+									template ("#{value (business.name)}")
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
