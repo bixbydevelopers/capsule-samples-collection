@@ -1,0 +1,26 @@
+input-view{
+	match:Video(this)
+	
+  message{
+    template ("Which of these videos would you like to share?")
+  }
+
+	render{
+		selection-of (this){
+			where-each (video){
+				image-card{
+					aspect-ratio (Sixteen_Nine)
+					image-background-color (Transparent)
+					image-object-fit (Contain)
+					text-position (Below)
+					title-area{
+						slot1{
+							text("#{value(video.title)}")
+						}
+					}
+					image-url("#{value(video.thumbnail)}")
+				}
+			}
+		}
+	}
+}

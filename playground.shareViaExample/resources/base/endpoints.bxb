@@ -1,0 +1,11 @@
+endpoints {
+	action-endpoints {
+		action-endpoint (GetVideo) {
+			local-endpoint (GetVideo.js)
+		}
+		action-endpoint (ShareVia) {
+			accepted-inputs (video, intentInfo, selectAppResult, $vivContext)
+			local-endpoint (ShareVia.js)
+		}
+	}
+}

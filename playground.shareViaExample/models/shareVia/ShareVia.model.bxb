@@ -1,0 +1,45 @@
+action (ShareVia) {
+  description (Share the gif via Android Intent)
+  type (Constructor)
+  collect {
+    input (video) {
+      type (Video)
+      min (Required) max (One)
+      default-init {
+        intent: goal: GetVideo
+      }
+    }
+
+    input (searchQuery) {
+      type (shareVia.SearchQuery)
+      min (Optional) max (One)
+      hidden
+    }
+
+    computed-input (intentInfo) {
+      type (shareVia.IntentInfo)
+      min (Required) max (One)
+      compute{
+        intent {
+          goal: shareVia.IntentInfo {
+            intentType: shareVia.IntentType(text/plain)
+            intentAction: shareVia.IntentAction(android.intent.action.SEND)
+          }
+        } 
+      }
+    }
+
+    computed-input (selectAppResult) {
+      type (shareVia.SelectAppResult)
+      min (Optional) max (One)
+      compute {
+        intent {
+          goal : shareVia.SelectAppInfo
+          value : .$expr(intentInfo)
+          value : .$expr(searchQuery)
+        }
+      }
+    }
+  }
+  output (ShareViaResult)
+}

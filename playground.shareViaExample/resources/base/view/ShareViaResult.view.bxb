@@ -1,0 +1,18 @@
+result-view {
+  match : ShareViaResult (this)
+  message("") // override empty string to avoid displaying default result dialog. If you want to debug, you can print `#{value(this.uri)}` here instead
+  app-launch {
+    payload-uri ("#{value(this.uri)}")
+  }
+  render{
+    layout{
+      section{
+        content{
+          paragraph{
+            value("Share Via view")
+          }
+        }
+      }
+    }
+  }
+}
