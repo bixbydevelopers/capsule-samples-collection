@@ -1,0 +1,14 @@
+structure (Business) {
+  description (A business)
+  property (name) {
+    type (BusinessName)
+    min (Required) max (One)
+  }
+  property (phoneNumber) {
+    type (BusinessPhone)
+    min (Required) max (One)
+  }
+  features {
+    
+  }
+}

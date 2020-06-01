@@ -1,0 +1,23 @@
+structure (Video) {
+  description (Output)
+  property (title) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (url) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (thumbnail) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (videoId) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+}

@@ -1,0 +1,11 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FindBusiness) {
+      local-endpoint (FindBusiness.js)
+    }
+    action-endpoint (ConstructCallingInfo) {
+      accepted-inputs (business)
+      local-endpoint (ConstructCallingInfo.js)
+    }
+  }
+}

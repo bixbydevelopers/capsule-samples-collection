@@ -1,0 +1,7 @@
+structure (ShareViaResult) {
+  description (__DESCRIPTION__)
+  property (uri) {
+    type (ShareViaUri)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,7 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FindBusiness){
+      local-endpoint (FindBusiness.js)
+    }
+  }
+}

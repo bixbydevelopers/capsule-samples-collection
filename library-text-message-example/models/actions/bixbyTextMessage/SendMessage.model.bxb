@@ -1,0 +1,30 @@
+  action (SendMessage) {
+    type (Search)
+
+    description (Use MessageInfo to send a message)
+
+    collect {
+      input (messageInfo) {
+        type (MessageInfo)
+        min (Required) max (One)
+        hidden
+      }
+
+      computed-input (actionResult) {
+        type(message.ActionResult)
+        min(Optional) max(One)
+        compute {
+          intent {
+            goal : message.SendMessage
+            value : $expr(messageInfo)
+          }
+        }
+      }
+    }
+
+    output (message.ActionResult) {
+      evaluate {
+        $expr(actionResult)
+      }
+    }
+  }

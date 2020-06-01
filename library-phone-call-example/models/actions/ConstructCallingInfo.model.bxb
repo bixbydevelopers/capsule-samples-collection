@@ -1,0 +1,16 @@
+action (ConstructCallingInfo) {
+  type (Constructor)
+  description (Uses a business to construct CallingInfo)
+  collect {
+    input (business) {
+      type (Business)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal:FindBusiness
+        }
+      }
+    }
+  }
+  output (CallingInfo)
+}

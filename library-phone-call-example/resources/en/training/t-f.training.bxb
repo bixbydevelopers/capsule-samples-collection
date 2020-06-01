@@ -1,0 +1,6 @@
+train (t-frkjg24gijanjwkhrqdvb3uj5) {
+  utterance ("[g:CallingInfo#call,r:FindBusiness,r:ConstructCallingInfo] Call (Tokyo Express)[v:BusinessName]")
+  plan (Y+BkkE/KrEiq1CvIyM9LdU7MyQlJLS7RAzEy89I989LyGTSwKsjPKy4pKk0uQVYpg02lU2lxZl5qcTGDAjZZt8y8FPwqYLJ+ibmpDOJlmWV6yUApPd/EbLCaoNTi0pwSBgk0rXB5Bml0GWQXE/Q8OwMjAxMDMwMLAxuQzcHAAOWzgvmMYD4Eg8RYgCpYgDxmBgYA)
+  enabled (false)
+  last-modified (1582657856478)
+}

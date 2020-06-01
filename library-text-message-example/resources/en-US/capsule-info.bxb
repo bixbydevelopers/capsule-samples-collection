@@ -1,0 +1,11 @@
+//This is a test capsule that will never be published to the marketplace, this file is not needed
+capsule-info {
+  display-name (Text Message Library Sample)
+  developer-name (Text Message Library Sample)
+  description ("Sample capsule to try the text message library")
+  dispatch-name (Text Message Library Sample)
+  search-keywords{
+    keyword (Text)
+  }
+  icon-asset (images/sms.png)
+}
