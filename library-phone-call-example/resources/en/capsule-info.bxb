@@ -1,9 +1,9 @@
 capsule-info {
-  display-name (Call Bob's Burgers)
-  developer-name (Bob's Burgers)
-  description ("Example capsule description")
-  dispatch-name (Call Bob's Burgers)
-  icon-asset (images/burger.png)
+  display-name (Call Library Sample)
+  developer-name (Viv Labs)
+  description ("Sample capsule to try the call library")
+  dispatch-name (Call Library Sample)
+  icon-asset (images/phone.png)
   search-keywords{
     keyword (Call)
   }

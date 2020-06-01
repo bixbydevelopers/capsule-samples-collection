@@ -1,7 +1,7 @@
 capsule-info {
   display-name (Bixby Developers YouTube Channel)
   developer-name (Bixby Developers YouTube Channel)
-  icon-asset (images/icons/bixby-logo-black-bg.png) // Change to your capsule's icon
+  icon-asset (images/icons/share.png) // Change to your capsule's icon
   description ("A simple Bixby Developers YouTube Channel capsule that demonstrates ShareVia")
   search-keywords {
     keyword (bixby developers)

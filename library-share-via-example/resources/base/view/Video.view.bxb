@@ -1,78 +1,80 @@
 result-view {
-	match: Video (this)
-	
-	message{
-		if (size(this) > 1){
-			template ("Here are some videos to help you learn how to build for Bixby!")
-		} else-if (size(this) == 1) {
-			template ("#{value(this.title)}")
-		}
-	}
-	render {
-		if (size(this) > 1){
-			list-of (this){
-				where-each (video){
-					image-card{
-						on-click: view-for (video)
-						aspect-ratio (Sixteen_Nine)
-						image-background-color (Transparent)
-						image-object-fit (Contain)
-						text-position (Below)
-						title-area{
-							slot1{
-								text("#{value(video.title)}")
-							}
-						}
-						image-url("#{value(video.thumbnail)}")
-					}
-				}
-			}
-		} else {
-			layout{
-				section{
-					content{
-						video{
-							youtube{
-								video-id("#{value(this.videoId)}")
-							}
-						}
-						// You don't want to have both this cell-card and the conversation driver in the same view.
-						// These are here for demonstration purposes.
-						cell-card{
-							slot1{
-								image{
-									url("/images/icons/share-icon.png")
-									shape (Square)
-								}
-							}
-							slot2{
-								content{
-									order (SecondaryPrimary)
-									primary ("Share this video")
-								}
-							}
-							on-click{
-								intent {
-									goal {
-										ShareVia @context (Continuation)
-									}
-								}
-							}
-						}
-						paragraph{
-							value("You don't want to have both this cell-card and the conversation driver. This is here for demonstration purposes.")
-							style(Legal)
-						}
-					}
-				}
-			}
-		}
-	}
-	// You don't want to have both this conversation driver and the above cell-card in the same view.
-	// These are here for demonstration purposes.
-	conversation-drivers{
-		if (size(this)==1){
-			conversation-driver("Share")
-		}		
-	}
+  match: Video (this)
+  message {
+    if (size(this) > 1) {
+      template ("Here are some videos to help you learn how to build for Bixby!")
+    }
+    else-if (size(this) == 1) {
+      template ("#{value(this.title)}")
+    }
+  }
+  render {
+    if (size(this) > 1) {
+      list-of (this) {
+        where-each (video) {
+          image-card {
+            on-click: view-for (video)
+            aspect-ratio (Sixteen_Nine)
+            image-background-color (Transparent)
+            image-object-fit (Contain)
+            text-position (Below)
+            title-area {
+              slot1 {
+                text ("#{value(video.title)}")
+              }
+            }
+            image-url ("#{value(video.thumbnail)}")
+          }
+        }
+      }
+    }
+    else {
+      layout {
+        section {
+          content {
+            video {
+              youtube {
+                video-id ("#{value(this.videoId)}")
+              }
+            }
+            // You don't want to have both this cell-card and the conversation driver in the same view.
+            // These are here for demonstration purposes.
+            cell-card {
+              slot1 {
+                image {
+                  url ("/images/icons/share-icon.png")
+                  shape (Square)
+                }
+              }
+              slot2 {
+                content {
+                  order (SecondaryPrimary)
+                  primary ("Share this video")
+                }
+              }
+              on-click {
+                intent {
+                  goal {
+                    ShareVia
+                    @context (Continuation)
+                  }
+                }
+              }
+            }
+            paragraph {
+              value ("You don't want to have both this cell-card and the conversation driver. This is here for demonstration purposes.")
+              style (Legal)
+            }
+          }
+        }
+      }
+    }
+  }
+  // You don't want to have both this conversation driver and the above cell-card in the same view.
+  // These are here for demonstration purposes.
+  conversation-drivers {
+    if (size(this)==1) {
+      conversation-driver ("Share")
+    }
+  }
 }

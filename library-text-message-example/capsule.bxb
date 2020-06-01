@@ -1,24 +1,25 @@
 capsule {
-	id (playground.textBobsBurgers)
-	version (0.1.0)
-	format (3)
-	targets {
-		target (bixby-mobile-en-US)
-	}
-	store-countries{
-		all
-	}
-	store-sections{
-		section (Communication)
-	}
-	runtime-version (7){
-		overrides{
-			no-fallback-dialog-in-views (false)
-		}
-	}
-	capsule-imports {
-		import (bixby.textMessage) {
-			as (message) version (1.0.0)
-		}
-	}
+  id (example.textMessageExample)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    section (Communication)
+  }
+  runtime-version (7) {
+    overrides {
+      no-fallback-dialog-in-views (false)
+    }
+  }
+  capsule-imports {
+    import (bixby.textMessage) {
+      as (message)
+      version (1.0.0)
+    }
+  }
 }

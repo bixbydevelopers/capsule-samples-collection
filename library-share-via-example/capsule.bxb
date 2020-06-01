@@ -1,9 +1,9 @@
 capsule {
-  id (playground.shareViaExample)
+  id (example.shareViaExample)
   version (1.0.0)
-  format(3)
-  runtime-version (7){
-    overrides{
+  format (3)
+  runtime-version (7) {
+    overrides {
       no-fallback-dialog-in-views (false)
       allow-dialogs-on-detail-pages (true)
     }
@@ -16,7 +16,8 @@ capsule {
       as (core)
     }
     import (viv.shareVia) {
-      as (shareVia) version (0.4020.9)
+      as (shareVia)
+      version (0.4020.9)
     }
   }
   default-action (GetVideo)

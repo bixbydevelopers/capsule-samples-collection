@@ -1,25 +1,28 @@
 capsule {
-	id (playground.callBobsBurgers)
-	version (0.1.1)
-	format (3)
-	targets {
-		target (bixby-mobile-en-US)
-	}
-	runtime-version (7){
-		overrides{
-		}
-	}
-	store-countries {
-		all
-	}
-	device-models {
-		all
-	}
-	store-sections{
-		section (Local)
-	}
-	default-action (FindBusiness)
-	capsule-imports {
-		import (bixby.phoneCall) { as (phone) version (1.0.2) }
-	}
+  id (example.phoneCallExample)
+  version (0.1.1)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-version (7) {
+    overrides {
+    }
+  }
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+  store-sections {
+    section (Local)
+  }
+  default-action (FindBusiness)
+  capsule-imports {
+    import (bixby.phoneCall) {
+      as (phone)
+      version (1.0.2)
+    }
+  }
 }

@@ -1,33 +1,34 @@
 action (BusinessFlowComposeMessage) {
-	description (take a recpient (could be a phone num, a business, etc) and message text, returns DraftMessageInfo)
-	type (Search)
-	collect {
-		input (business) {
-			type (Business)
-			min (Required) max (One)
-		}
-		
-		input (messageText) {
-			type (message.MessageText)
-			min (Optional) max (One) //This is optional, if not provided viv.message will prompt you
-		}
-		
-		computed-input (message) {
-			type (message.MessageInfo)
-			min (Required) max (One)
-			compute {
-				intent {
-					goal : message.ComposeMessage
-					value : $expr(business.phoneNumber.cast('message.PhoneNumber')) //I am casting this because the end user capsule might not want to extend message.PhoneNumber
-					value : $expr(business.name.cast('message.RecipientName')) //I am casting this because the end user capsule might not want to extend message.RecipientName
-					value : $expr(messageText)
-				}
-			}
-		}
-	}
-	output (MessageInfo) {
-		evaluate {
-			$expr(message)
-		}
-	}
+  description (take a recpient (could be a phone num, a business, etc) and message text, returns DraftMessageInfo)
+  type (Search)
+  collect {
+    input (business) {
+      type (Business)
+      min (Required)
+      max (One)
+    }
+    input (messageText) {
+      type (message.MessageText)
+      min (Optional)
+      max (One) //This is optional, if not provided viv.message will prompt you
+    }
+    computed-input (message) {
+      type (message.MessageInfo)
+      min (Required)
+      max (One)
+      compute {
+        intent {
+          goal: message.ComposeMessage
+          value: $expr (business.phoneNumber.cast('message.PhoneNumber')) //I am casting this because the end user capsule might not want to extend message.PhoneNumber
+          value: $expr (business.name.cast('message.RecipientName')) //I am casting this because the end user capsule might not want to extend message.RecipientName
+          value: $expr (messageText)
+        }
+      }
+    }
+  }
+  output (MessageInfo) {
+    evaluate {
+      $expr (message)
+    }
+  }
 }

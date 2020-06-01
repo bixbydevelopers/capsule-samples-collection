@@ -1,38 +1,39 @@
 action (ComposeMessage) {
-	description (take a recpient (could be a phone num, a business, etc) and message text, returns DraftMessageInfo)
-	type (Constructor)
-	collect {
-		input (phoneNumber) {
-			type (PhoneNumber)
-			min (Required) max (One)
-		}
-		
-		input (recipientName) {
-			type (BusinessName)
-			min (Optional) max (One)
-		}
-		
-		input (messageText) {
-			type (message.MessageText)
-			min (Optional) max (One) //This is optional, if not provided viv.message will prompt you
-		}
-		
-		computed-input (message) {
-			type (message.MessageInfo)
-			min (Required) max (One)
-			compute {
-				intent {
-					goal : message.ComposeMessage
-					value : $expr(phoneNumber.cast('message.PhoneNumber')) //I am casting this because the end user capsule might not want to extend message.PhoneNumber
-					value : $expr(recipientName.cast('message.RecipientName')) //I am casting this because the end user capsule might not want to extend message.RecipientName
-					value : $expr(messageText)
-				}
-			}
-		}
-	}
-	output (MessageInfo) {
-		evaluate {
-			$expr(message)
-		}
-	}
+  description (take a recpient (could be a phone num, a business, etc) and message text, returns DraftMessageInfo)
+  type (Constructor)
+  collect {
+    input (phoneNumber) {
+      type (PhoneNumber)
+      min (Required)
+      max (One)
+    }
+    input (recipientName) {
+      type (BusinessName)
+      min (Optional)
+      max (One)
+    }
+    input (messageText) {
+      type (message.MessageText)
+      min (Optional)
+      max (One) //This is optional, if not provided viv.message will prompt you
+    }
+    computed-input (message) {
+      type (message.MessageInfo)
+      min (Required)
+      max (One)
+      compute {
+        intent {
+          goal: message.ComposeMessage
+          value: $expr (phoneNumber.cast('message.PhoneNumber')) //I am casting this because the end user capsule might not want to extend message.PhoneNumber
+          value: $expr (recipientName.cast('message.RecipientName')) //I am casting this because the end user capsule might not want to extend message.RecipientName
+          value: $expr (messageText)
+        }
+      }
+    }
+  }
+  output (MessageInfo) {
+    evaluate {
+      $expr (message)
+    }
+  }
 }
