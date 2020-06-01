@@ -4,6 +4,7 @@
 
 <h1 align="Center">Phone Call Example</h1>
 </p>
+
 ## Description
 
 This capsule demonstrates how to use the Phone Call (`bixby.phoneCall`) library in a Bixby capsule.

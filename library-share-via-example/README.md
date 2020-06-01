@@ -4,6 +4,7 @@
 
 <h1 align="Center">Share Via Example</h1>
 </p>
+
 ## Description
 
 This capsule demonstrates how to use the ShareVia () library in a Bixby capsule.
