@@ -7,7 +7,7 @@
 
 ## Description
 
-This capsule demonstrates how to use the ShareVia () library in a Bixby capsule.
+This capsule demonstrates how to use the ShareVia (`viv.shareVia`) library in a Bixby capsule.
 
 `viv.shareVia` allows a capsule to use the Android share functionality. For more information, see the docs for [`viv.shareVia`](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.sharevia)
 
