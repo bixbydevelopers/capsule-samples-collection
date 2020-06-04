@@ -1,7 +1,7 @@
 result-view {
   match: Business (this)
   message {
-    template ("Tap to call Caller ID Echo")
+    template ("Tap to call Bixby Business")
   }
 
   conversation-drivers {

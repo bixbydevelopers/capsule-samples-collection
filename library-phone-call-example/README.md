@@ -17,7 +17,7 @@ To test this, open the simulator and run:
 
 `Start`
 
-You can either tap on the cell-card or run `send feedback`
+You can either tap on the cell-card or say `Call this business`
 
 To properly test this, you'll need to do on-device testing. You may edit the phone number in `FindBusiness.js` as appropriate
 

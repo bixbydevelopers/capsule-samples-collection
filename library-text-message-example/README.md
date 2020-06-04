@@ -19,7 +19,7 @@ To test this, open the simulator and run:
 
 `Start`
 
-You can either tap on the cell-card or say `test this business`
+You can either tap on one of the cell-cards or say `Send feeback`
 
 To properly test this, change the phone number in `FindBusiness.js` to a real number and use on-device testing
 
