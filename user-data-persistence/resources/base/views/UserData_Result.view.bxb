@@ -19,7 +19,6 @@ result-view {
               text {
                 value ("[#{value(userData.boss)}]")
                 style (Title_XL)
-                color (Red)
               }
             }
           }
@@ -34,8 +33,7 @@ result-view {
                 single-line {
                   text {
                     value ("[#{value(minion)}]")
-                    style (Title_M)
-                    color (Amber)
+                    style (Title_S)
                   }
                 }
               }

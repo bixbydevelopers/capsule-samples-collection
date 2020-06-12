@@ -7,7 +7,7 @@ activity-support {
   //Also determines how the system reacts during any user interactions for the given activity.
   //It is not used in this example capsule because the transaction is being simulated and does not exist
 
-  time()
+  time(now())
 
   states {
     state (Recent) {
