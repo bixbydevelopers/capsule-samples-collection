@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetLocationAndProfile) {
+      accepted-inputs (myLocation, profile)
+      local-endpoint (FindLocation.js)
+    }
+  }
+}

@@ -1,0 +1,42 @@
+action (GetLocationAndProfile) {
+  description (Finds a users location)
+  type (Constructor)
+  collect {
+    input (myLocation) {
+      type (geo.NamedPoint)
+      min (Optional)
+      max (One)
+      // Example of using a default init to get the user's location
+      // See https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.geo
+      default-init {
+        intent {
+          goal: geo.NamedPoint
+          route: geo.CurrentLocation
+        }
+      }
+    }
+    input (profile) {
+      min (Optional)
+      type (self.Profile)
+      // example of using a default-init to get user profile information
+      // See https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.self
+      default-init {
+        intent {
+          goal: self.GetProfile
+          //value: self.Imaginary(true)
+          value-set: self.RequiredField {
+            self.RequiredField(structuredName)
+          }
+        }
+      }
+    }
+  }
+  output (MyInfo) {
+    // Very simple no permission handling. Production capsules should handle more elegantly
+    on-empty {
+      halt {
+        dialog ("You must provide permissions for location and profile and have GPS enabled for this capsule to run")
+      }
+    }
+  }
+}

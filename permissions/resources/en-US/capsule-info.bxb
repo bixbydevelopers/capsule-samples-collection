@@ -1,0 +1,20 @@
+capsule-info {
+  display-name (Permissions Example)
+  developer-name (Example Developer)
+  description ("Example capsule to show how to use the Bixby permissions model")
+  dispatch-name (Permissions Example)
+  icon-asset (images/icons/permissions-icon.png)
+  requested-permissions {
+    permission (device-location-access) {
+      justification ("This capsule needs your permission to get your device location")
+    }
+    permission (self:profile){
+      justification ("This capsule needs permission to get your name")
+    }
+  }
+  search-keywords {
+    keyword (sample capsule)
+    keyword (permissions)
+  }
+  privacy-policy-url (http://my-capsule.com/privacy-policy)
+}

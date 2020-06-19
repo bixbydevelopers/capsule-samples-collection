@@ -1,0 +1,36 @@
+capsule {
+  id (example.permissions)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+    target (bixby-watch-en-US)
+  }
+  runtime-version (7)
+  default-action (GetLocationAndProfile)
+  store-sections {
+    section (TravelAndTransportation)
+  }
+  capsule-imports {
+    import (viv.geo) {
+      as (geo)
+      version (9.26.40)
+    }
+    import (viv.self) {
+      as (self)
+      version (4.0.3)
+    }
+  }
+  permissions {
+    // This capsule uses device-location-access to get the user's location
+    // and self:profile to get the users name
+    device-location-access
+    library-permission (self:profile)
+  }
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+}
