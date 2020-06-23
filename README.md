@@ -29,6 +29,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
 
+[Permissions](../../tree/master/permissions) - Granting permissions to user information e.g. location or profile
+
 [Preference Learning](../../tree/master/preference-learning) - Sample Preference Learning (Personalization)
 
 [Refreshing Content](../../tree/master/refreshing-content) - Sample Content Refresh
