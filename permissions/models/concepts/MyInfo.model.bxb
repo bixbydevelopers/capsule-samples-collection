@@ -1,0 +1,13 @@
+structure (MyInfo) {
+  description (A concept representing a name and location)
+  property (myFullName) {
+    type (self.StructuredName)
+    min (Optional)
+    max (One)
+  }
+  property (myLocation) {
+    type (geo.NamedPoint)
+    min (Optional)
+    max (One)
+  }
+}
