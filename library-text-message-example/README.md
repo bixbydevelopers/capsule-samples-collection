@@ -13,6 +13,10 @@ This capsule demonstrates how to use the textMessage (`bixby.textMessage`) libra
 
 Note: `bixby.textMessage` is designed to send a message to a particular phone number. If you want to allow users to share things, such as an image or video, you should instead use `viv.shareVia`, which allows users to choose an app and recipient when sharing.
 
+
+## Tutorial Video
+[![Watch the video](https://i.ytimg.com/vi/MHiFrEWSyp8/maxresdefault.jpg)](https://youtu.be/MHiFrEWSyp8)
+
 ## Usage
 
 To test this, open the simulator and run:
