@@ -8,7 +8,7 @@
 
 This capsule demonstrates how to use permissions to get the user's location and name (and in general how to setup permissions on Bixby)
 
-For your capsule to access sensitive data like this, you need to setup permissions and the user of your capsule needa to opt-in to these permissions
+For your capsule to access sensitive data like this, you need to setup permissions and the user of your capsule needs to opt-in to these permissions
 
 ## Usage
 
