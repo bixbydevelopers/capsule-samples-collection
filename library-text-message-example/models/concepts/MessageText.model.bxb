@@ -1,0 +1,4 @@
+text (MessageText) {
+  description (text message text)
+  extends (message.MessageText)
+}

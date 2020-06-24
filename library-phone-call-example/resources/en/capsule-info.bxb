@@ -1,0 +1,10 @@
+capsule-info {
+  display-name (Call Library Sample)
+  developer-name (Viv Labs)
+  description ("Sample capsule to try the call library")
+  dispatch-name (Call Library Sample)
+  icon-asset (images/phone.png)
+  search-keywords{
+    keyword (Call)
+  }
+}

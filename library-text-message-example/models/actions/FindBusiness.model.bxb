@@ -1,0 +1,5 @@
+action (FindBusiness) {
+  type (Search)
+  description (Finds Bob's Burgers)
+  output (Business)
+}

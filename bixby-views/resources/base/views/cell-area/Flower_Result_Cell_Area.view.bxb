@@ -9,7 +9,6 @@ result-view {
 
   render {
     list-of (flower) {
-      has-details (false)
       where-each (item) {
         cell-area {
           slot1 {

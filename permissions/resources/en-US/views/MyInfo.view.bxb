@@ -1,0 +1,38 @@
+result-view {
+  match {
+    MyInfo (myInfo)
+  }
+
+  message ("Hello [#{value(myInfo.myFullName)} - ]you are located at: [#{value(myInfo.myLocation)}]")
+  render {
+    layout {
+      section {
+        content {
+          map-card {
+            aspect-ratio (1:1)
+            title-area {
+              slot2 {
+                single-line {
+                  spacer
+                }
+              }
+            }
+            markers {
+              marker {
+                geo ("myLocation.point")
+                icon {
+                  template (/images/icons/red-marker.png)
+                }
+                width (30)
+                height (40)
+                anchor-x (5)
+                anchor-y (15)
+                rotation (0)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

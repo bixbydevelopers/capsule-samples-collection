@@ -43,6 +43,9 @@ layout-macro-def (flower-compound-card) {
           }
         }
       }
+      on-click {
+        view-for (flower)
+      }
     }
   }
 }

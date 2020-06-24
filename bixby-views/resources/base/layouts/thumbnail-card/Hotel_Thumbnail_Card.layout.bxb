@@ -26,6 +26,9 @@ layout-macro-def (hotel-thumbnail-card) {
           }
         }
       }
+      on-click {
+        view-for (hotel)
+      }
     }
   }
 }

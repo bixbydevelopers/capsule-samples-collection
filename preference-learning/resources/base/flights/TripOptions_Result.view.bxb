@@ -23,6 +23,9 @@ result-view {
             }
           }
           image-background-color (Transparent)
+          on-click {
+            view-for (item)
+          }
         }
       }
     }

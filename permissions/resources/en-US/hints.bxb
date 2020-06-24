@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint ("Start Permissions Example")
+    hint ("Talk to Permissions Example")
+    hint ("Use Permissions Example")
+  }
+}

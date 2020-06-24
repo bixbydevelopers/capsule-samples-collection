@@ -2,15 +2,12 @@ capsule {
   id (example.inputForm)
   version (0.1.0)
   format (3)
-  runtime-version (2)
+  runtime-version (7)
   targets {
     target (bixby-mobile-en-US)
     target (bixby-fridge-en-US)
     target (bixby-tv-en-US)
     target (bixby-watch-en-US)
-  }
-  capsule-imports {
-    import (viv.time) {as (time) version (3.1.48)}
   }
   store-countries {
     all

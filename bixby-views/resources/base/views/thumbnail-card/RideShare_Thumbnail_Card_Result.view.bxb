@@ -10,7 +10,6 @@ result-view {
   render {
     if (size(rideShare) > 1) {
       list-of (rideShare) {
-        has-details (true)
         where-each (item) {
           layout-macro (rideshare-thumbnail-card) {
             param (rideShare) {
