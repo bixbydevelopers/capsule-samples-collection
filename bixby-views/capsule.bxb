@@ -11,9 +11,9 @@ capsule {
   }
   capsule-imports {
     import (viv.core) {as (core)}
-    import (viv.money) {as (money) version (2.22.26)}
-    import (viv.time) {as (time) version-from (money)}
-    import (viv.geo) {as (geo) version-from (money)}
+    import (viv.money) {as (money) version (2.22.43)}
+    import (viv.time) {as (time) version (3.1.167)}
+    import (viv.geo) {as (geo) version (9.26.48)}
   }
   store-countries {
     all
