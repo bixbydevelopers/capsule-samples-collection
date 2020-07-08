@@ -9,7 +9,7 @@ capsule {
   capsule-imports {
     import (viv.money) { 
       as (money) 
-      version (2.22.26)
+      version (2.22.43)
     }
   }
   store-countries {

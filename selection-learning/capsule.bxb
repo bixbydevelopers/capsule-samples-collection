@@ -7,15 +7,8 @@ capsule {
   }
   runtime-version (2)
   capsule-imports {
-    import (viv.time) {
-      as (time) 
-      version (3.1.48)
-    }
-    
-    import (viv.money) {
-      as (money)
-      version (2.22.26)
-    }
+    import (viv.money) {as (money) version (2.22.43)}
+    import (viv.time) {as (time) version (3.1.167)}
   }
   store-countries {
     all
