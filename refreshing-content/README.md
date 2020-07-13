@@ -4,12 +4,15 @@
   <h1 align="Center">Bixby Refreshing Content</h1>
 </p>
 
+## Description
+
+This capsule demonstrates how to refresh content via a timer in a Bixby view
+
 ## Usage
 
-```
-intent: goal: CheckRideShareStatus
-```
-##
+To test this, open the simulator and run:
+
+`Check ride status`
 
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/refresh
 
