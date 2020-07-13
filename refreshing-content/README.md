@@ -8,6 +8,9 @@
 
 This capsule demonstrates how to refresh content via a timer in a Bixby view
 
+## Tutorial Video
+[![Watch the video](https://i.ytimg.com/vi/9JSlbdIpTUA/maxresdefault.jpg)](https://youtu.be/9JSlbdIpTUA)
+
 ## Usage
 
 To test this, open the simulator and run:
