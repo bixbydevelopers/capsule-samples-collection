@@ -21,6 +21,9 @@ Click on a video. Then run `Share` or click on the "Share this video" cell-card.
 
 To properly test this, you'll need to do on-device testing.
 
+## Tutorial Video
+[![Watch the video](https://i.ytimg.com/vi/zMWwAYy7bdU/hqdefault.jpg)](https://youtu.be/zMWwAYy7bdU)
+
 ---
 
 ## Additional Resources
