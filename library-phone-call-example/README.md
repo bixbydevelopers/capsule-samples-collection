@@ -22,7 +22,7 @@ You can either tap on the cell-card or say `Call this business`
 To properly test this, you'll need to do on-device testing. You may edit the phone number in `FindBusiness.js` as appropriate
 
 ## Tutorial Video
-[![Watch the video](https://i.ytimg.com/vi/dihj0Xa0TvE/maxresdefault.jpg)](https://youtu.be/dihj0Xa0TvE)
+[![Watch the video](http://i3.ytimg.com/vi/dihj0Xa0TvE/hqdefault.jpg)](https://youtu.be/dihj0Xa0TvE)
 
 ---
 
