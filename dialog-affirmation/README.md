@@ -24,7 +24,7 @@ The final sentence will start with the capitalized affirmation followed by a com
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/dialog-affirmation
 
 ## Tutorial Video on Dialog Affirmation/Randomizing Dialog
-[![Watch the video](https://i.ytimg.com/vi/6RHpci1w6FE/maxresdefault.jpg)](https://youtu.be/6RHpci1w6FE)
+[![Watch the video](https://i.ytimg.com/vi/6RHpci1w6FE/hqdefault.jpg)](https://youtu.be/6RHpci1w6FE)
 
 ---
 
