@@ -6,7 +6,7 @@
 
 </p>
 
-This capsule demonstrates how to add dialog variation in the form of affirmations at the beginning of sentences. This variation spices up the dialogs and makes Bixby sound more natural. It is best suited for use cases where the user asks Bixby to "do something".
+This capsule demonstrates how to add dialog variation in the form of affirmations at the beginning of sentences. This variation spices up the dialogs and makes Bixby sound more natural. Using dialog variation/randomizing dialog is a best practice voice user experience design.
 
 ## Usage
 
@@ -20,6 +20,11 @@ Where the `<affirmation>` comes from a random bag of words. For example:
 - Alright - 25%
 
 The final sentence will start with the capitalized affirmation followed by a comma and closing with the core text content in lower case. When there is no affirmation (None case), then the core text content will be capitalized to form a full sentence.
+
+For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/dialog-affirmation
+
+## Tutorial Video on Dialog Affirmation/Randomizing Dialog
+[![Watch the video](https://i.ytimg.com/vi/6RHpci1w6FE/maxresdefault.jpg)](https://youtu.be/6RHpci1w6FE)
 
 ---
 
