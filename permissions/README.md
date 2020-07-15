@@ -19,7 +19,7 @@ To test this, open the simulator and run:
 [Try this capsule using a device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device
 
 ## Tutorial Video
-[![Watch the video](https://i.ytimg.com/vi/so79nBjZuc0/maxresdefault.jpg)](https://youtu.be/so79nBjZuc0)
+[![Watch the video](https://i.ytimg.com/vi/so79nBjZuc0/hqdefault.jpg)](https://youtu.be/so79nBjZuc0)
 
 )
 
