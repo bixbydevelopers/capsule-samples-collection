@@ -4,56 +4,59 @@
   <h1 align="Center">Bixby Input Form</h1>
 </p>
 
+## Description
+
+This capsule demonstrates the various input form components Bixby supports
+
+
 # Usage:
 
+Open the simulator and run the appropriate phrase:
+
 ## View text inputs:
-```
-intent: goal: SubmitSurvey
-```
+
+`Show text inputs`
 
 ## Pickers
 
 ### Calendar Picker
-```
-intent: goal: RequestPTO
-```
+
+`Show calendar picker`
 
 ### Date Picker
-```
-intent: goal: DatePicker
-```
+
+`Show date picker`
 
 ### Time Picker
-```
-intent: goal: TimePicker
-```
+
+`Show time picker`
 
 ### Selection Picker
-```
-intent: goal: SelectPerson
-```
+
+`Show selection picker`
 
 ### Image Pickers
-```
-intent: goal: SelectImage
-```
-```
-intent: goal: MultiSelectImage
-```
+
+```Show image picker```
+
+or
+
+`Show multiple image picker`
 
 ### Duration Picker
-```
-intent: goal: DurationPicker
-```
+
+`Show duration picker`
 
 ### Autocomplete
-```
-show autocomplete
-```
+
+`Show autocomplete`
 
 ##
 
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/input-forms
+
+## Tutorial Video
+[![Watch the video](http://i3.ytimg.com/vi/ez3AJKIZ49g/hqdefault.jpg)](https://youtu.be/ez3AJKIZ49g)
 
 ---
 
