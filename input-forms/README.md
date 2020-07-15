@@ -37,7 +37,7 @@ Open the simulator and run the appropriate phrase:
 
 ### Image Pickers
 
-'Show image picker`
+```Show image picker```
 
 or
 
