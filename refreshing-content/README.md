@@ -17,7 +17,7 @@ To test this, open the simulator and run:
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/refresh
 
 ## Tutorial Video
-[![Watch the video](https://i.ytimg.com/vi/9JSlbdIpTUA/maxresdefault.jpg)](https://youtu.be/9JSlbdIpTUA)
+[![Watch the video](https://i.ytimg.com/vi/9JSlbdIpTUA/hqdefault.jpg)](https://youtu.be/9JSlbdIpTUA)
 
 ---
 
