@@ -21,7 +21,6 @@ To test this, open the simulator and run:
 ## Tutorial Video
 [![Watch the video](https://i.ytimg.com/vi/so79nBjZuc0/hqdefault.jpg)](https://youtu.be/so79nBjZuc0)
 
-)
 
 ---
 
