@@ -17,7 +17,7 @@ To test this, open the simulator and run:
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/user-context
 
 ## Tutorial Video
-[![Watch the video](https://i.ytimg.com/vi/q5Yphl5i52M/maxresdefault.jpg)](https://youtu.be/q5Yphl5i52M)
+[![Watch the video](https://i.ytimg.com/vi/q5Yphl5i52M/hqdefault.jpg)](https://youtu.be/q5Yphl5i52M)
 
 ---
 
