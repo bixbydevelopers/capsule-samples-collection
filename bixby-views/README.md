@@ -35,7 +35,8 @@ For more information see - https://bixbydevelopers.com/dev/docs/dev-guide/develo
 
 Be sure to use the interactive demo capabilities in the docs - this lets you change UI parameters and dynamically see the component render. Click on individual component names to use the interactive demo capabilities - https://bixbydevelopers.com/dev/docs/dev-guide/developers/building-views.components
 
-
+## Tutorial Video
+[![Watch the video](http://i3.ytimg.com/vi/Abwc1tK0uZA/hqdefault.jpg)](https://youtu.be/Abwc1tK0uZA)
 ---
 
 ## Additional Resources
