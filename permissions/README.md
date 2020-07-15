@@ -10,16 +10,18 @@ This capsule demonstrates how to use permissions to get the user's location and 
 
 For your capsule to access sensitive data like this, you need to setup permissions and the user of your capsule needs to opt-in to these permissions
 
-## Tutorial Video
-[![Watch the video](https://i.ytimg.com/vi/so79nBjZuc0/maxresdefault.jpg)](https://youtu.be/so79nBjZuc0)
-
 ## Usage
 
 To test this, open the simulator and run:
 
 `Start`
 
-[Try this capsule using a device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device)
+[Try this capsule using a device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device
+
+## Tutorial Video
+[![Watch the video](https://i.ytimg.com/vi/so79nBjZuc0/maxresdefault.jpg)](https://youtu.be/so79nBjZuc0)
+
+)
 
 ---
 
