@@ -17,7 +17,7 @@ capsule {
     }
     import (viv.shareVia) {
       as (shareVia)
-      version (0.4020.9)
+      version (0.4020.13)
     }
   }
   default-action (GetVideo)
