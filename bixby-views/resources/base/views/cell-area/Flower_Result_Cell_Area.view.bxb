@@ -10,7 +10,7 @@ result-view {
   render {
     list-of (flower) {
       where-each (item) {
-        cell-area {
+        cell-card {
           slot1 {
             image {
               url ("#{value(item.imageUrls[0])}")

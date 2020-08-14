@@ -1,6 +1,8 @@
 result-view {
   match {
-    Activity (this)
+    Activity (this){
+      min(Required) max (One)
+    }
   
   }
   message {

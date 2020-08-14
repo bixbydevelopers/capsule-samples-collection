@@ -16,8 +16,6 @@ intent {
 
 Or, Run NL: "find a ride"
 
-[Try this capsule using a device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device) to see your contact and profile locations.
-
 ---
 
 ## Additional Resources
