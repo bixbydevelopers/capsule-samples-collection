@@ -6,11 +6,8 @@ capsule {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.location) { as (location) version (1.0.44)}
+    import (viv.location) { as (location) version (1.0.45)}
     import (viv.geo) { as (geo) version-from (location)}
-  }
-  permissions {
-    user-profile-access
   }
   runtime-version (7)
   store-sections {

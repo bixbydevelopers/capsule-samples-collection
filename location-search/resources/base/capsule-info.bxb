@@ -10,9 +10,9 @@ capsule-info {
     keyword (location search)
   }
   requested-permissions {
-    permission (user-profile-access) {
-      justification ("Bixby needs your permission to suggest addresses saved in your profile and contacts.")
-    }
+    // permission (user-profile-access) {
+    //   justification ("Bixby needs your permission to suggest addresses saved in your profile and contacts.")
+    // }
   }
   privacy-policy-url (http://my-capsule.com/privacy-policy)
 }
