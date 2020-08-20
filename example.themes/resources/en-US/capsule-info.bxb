@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Theme Support)
+  developer-name (Example Developer)
+  description ("Changes the color of the icon in the capsule depending on the theme selected.")
+  dispatch-name (Theme Support)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/bixby_launcher.png)
+  search-keywords{
+    keyword (themes)
+  }
+}
