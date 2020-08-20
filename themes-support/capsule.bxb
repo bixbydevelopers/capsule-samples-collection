@@ -1,0 +1,18 @@
+capsule {
+  id (example.themes)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-version (7)
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+  store-sections{
+    section (Utilities)
+  }
+}

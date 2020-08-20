@@ -1,0 +1,9 @@
+action (ShowView) {
+  type (Search)
+  output (Result){
+    evaluate{
+      Result("")
+    }
+  }
+
+}
