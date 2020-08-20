@@ -1,7 +1,0 @@
-endpoints {
-  action-endpoints {
-    action-endpoint (ShowView) {
-      local-endpoint (ShowView.js)
-    }
-  }
-}

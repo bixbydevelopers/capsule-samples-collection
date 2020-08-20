@@ -27,7 +27,7 @@ Notice how the dark theme has a white thumbs-up icon and the light theme has a b
 
 ## Code Example
 
-Check out `resources/base/views/Result.view.bxb` lines 12-18
+Check out `resources/en-US/views/Result.view.bxb` lines 12-18
 
 ```
 image{

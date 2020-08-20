@@ -1,6 +1,5 @@
 capsule {
   id (example.themes)
-  default-action (ShowView)
   version (0.1.0)
   format (3)
   targets {
