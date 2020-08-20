@@ -31,7 +31,7 @@ Check out `resources/base/views/Result.view.bxb` lines 12-18
 
 ```
 image{
-url("/images/icons/thumbs-up-white.png"){
+  url("/images/icons/thumbs-up-white.png"){
     light-theme("/images/icons/thumbs-up-black.png")
   }
 }
