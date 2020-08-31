@@ -4,6 +4,15 @@ input-view {
   message ("Where would you like to go?")
 
   render {
+    // // Use Autocomplete for single source
+    // macro (location:Autocomplete) {
+    // // Use AutocompleteV2 for multiple sources
+    // // macro (location:AutocompleteV2) {
+    //   select-button-text {
+    //     template ("Ok")
+    //   }
+    // }
+
     auto-complete {
       type (geo.NamedPoint)
       no-result-text { template ("No results") }
@@ -17,17 +26,21 @@ input-view {
           }
         }
         label { template ("Search Results") }
-        where-each (place) { 
+        where-each (place) {
           display {
             primary-text { template ("[#{value(place.name)}]") }
             secondary-text { template ("[#{value(place.address)}]") }
           }
           on-select {
             intent {
-              goal: DestinationPoint
+              goal: geo.NamedPoint
               value: viv.core.FormElement(place)
             }
           }
+        }
+        permissions {
+          library-permission (contact:contacts)
+          library-permission (self:profile)
         }
       }
     }
