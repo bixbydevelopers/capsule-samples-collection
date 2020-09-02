@@ -1,0 +1,10 @@
+vocab (CoinSide) {
+  "heads" {
+    "heads"
+    "head"
+  }
+  "tails" {
+    "tails"
+    "tail"
+  }
+}

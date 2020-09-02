@@ -1,0 +1,29 @@
+result-view {
+  match: DummyText () {
+    // This is the key line - get it from the Intro action
+    from-output: Intro
+  }
+
+  message {
+    template ("Welcome to No Code Heads or Tails. To get started, just say Flip a Coin")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          image {
+            aspect-ratio (1:1)
+            url (/images/quarter-flip.png)
+          }
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Flip a coin")
+    }
+  }
+}

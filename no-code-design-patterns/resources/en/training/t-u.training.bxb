@@ -1,0 +1,9 @@
+train (t-usq3zoc64qvqqz7os72ylvqdy) {
+  utterance ("[g:CoinSide:prompt] (heads)[v:CoinSide:heads]")
+  plan (Y2BiUE6tSMwtyEnVy8tPzk9JzUhNTCnOLypJzMwp1nPOz8wLzkxJJU4RIxAyMPAAMRMQA9kA)
+  last-modified (1599073703867)
+}
+train (t-u4kr3ooqthfxuomzsz05kb0cb) {
+  utterance ("[g:ChooseSide] I choose (heads)[v:CoinSide:heads]")
+  last-modified (1599074195033)
+}

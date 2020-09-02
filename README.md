@@ -25,9 +25,17 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Input Forms](../../tree/master/input-forms) - Sample Input Forms
 
+[Phone Call Library](../../tree/master/library-phone-call-example) - Using the Phone Call library capsule
+
+[Share Via Library](../../tree/master/library-share-via-example) - Using the ShareVia library capsule
+
+[Text Message Library](../../tree/master/library-text-message-example) - Using the Text Message Library Capsule
+
 [Location Search](../../tree/master/location-search) - Sample Use of Locations
 
 [Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
+
+[No Code Heads and Tails](../../tree/master/no-code-heads-and-tails) - Samples of no-code model design patterns
 
 [Permissions](../../tree/master/permissions) - Granting permissions to user information e.g. location or profile
 

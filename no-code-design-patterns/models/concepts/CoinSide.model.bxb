@@ -1,0 +1,8 @@
+enum (CoinSide) {
+  description (Coin Side)
+  symbol (heads)
+  symbol (tails)
+  features {
+    transient
+  }
+}

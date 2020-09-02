@@ -1,0 +1,9 @@
+// name (SelectedSide) {
+//    description (SelectedSide)
+//  }
+
+enum (SelectedSide) {
+  description (Coin Side)
+  symbol (heads)
+  symbol (tails)
+}

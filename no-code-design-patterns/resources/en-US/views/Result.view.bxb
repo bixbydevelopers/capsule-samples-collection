@@ -1,0 +1,33 @@
+result-view {
+  match: SelectedSide (selectedSide)
+  message {
+    // Simple EL to determine message
+    if (selectedSide == 'heads') {
+      choose (Random) {
+        template ("You chose heads. It's heads, you win")
+        template ("You chose heads. It's tails, you lose")
+      }
+    }
+    else {
+      choose (Random) {
+        template ("You chose tails. It's tails, you win")
+        template ("You chose tails. It's heads, you lose")
+      }
+    }
+  }
+
+  // Note if you wanted a UI (render) here that knew whether you won or lost, you would 
+  // need some very simple JS code
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Flip again")
+    }
+    conversation-driver {
+      template ("About")
+    }
+    conversation-driver {
+      template ("Learn More")
+    }
+  }
+}

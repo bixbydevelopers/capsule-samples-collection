@@ -1,0 +1,16 @@
+result-view {
+  match: DummyText () {
+     // This is the key line - get it from the MoreInfo action
+    from-output: MoreInfo
+  }
+
+  message {
+    template ("Go to www.bixbydevelopers.com for more info")
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Flip a coin")
+    }
+  }
+}

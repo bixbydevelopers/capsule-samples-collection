@@ -1,0 +1,10 @@
+vocab (Command) {
+  "help" {
+    "help"
+    "help me"
+    "I need help"
+  }
+  "about" {
+    "about"
+  }
+}

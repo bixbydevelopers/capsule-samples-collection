@@ -1,0 +1,29 @@
+action (ChooseSide) {
+  type (Calculation)
+  description (Choose a coin side)
+  collect {
+    input (coinSide) {
+      type (CoinSide)
+      min (Required)
+      max (One)
+      default-init {
+        intent {
+          goal: CoinSide
+          // Use the values from an enum in an input view
+          // Replacement for value-set: CoinSide { CoinSide(Heads) CoinSide(Tails) }
+          value-set {
+            @prompt-behavior (AlwaysElicitation)
+            CoinSide
+          }
+        }
+      }
+    }
+
+  }
+  output (SelectedSide) {
+    evaluate {
+      // In lieu of JS code, we simply evaluate the input value
+       $expr(coinSide)
+    }
+  }
+}
