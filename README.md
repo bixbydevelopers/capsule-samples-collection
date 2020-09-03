@@ -19,9 +19,9 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Dialog Affirmation](../../tree/master/dialog-affirmation) - Dialog Variances
 
-[Error Handling](../../tree/master/error-handling) - Sample Error Handling
-
 [HTTP API Calls](../../tree/master/http-api-calls) - Sample HTTP Calls
+
+[Input Validation and Error Handling](../../tree/master/error-handling) - Sample Input Validation and Error Handling
 
 [Input Forms](../../tree/master/input-forms) - Sample Input Forms
 
@@ -35,7 +35,7 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
 
-[No Code Heads and Tails](../../tree/master/no-code-heads-and-tails) - Samples of no-code model design patterns
+[No Code Design Patterns](../../tree/master/no-code-design-patterns) - Samples of no-code model design patterns
 
 [Permissions](../../tree/master/permissions) - Granting permissions to user information e.g. location or profile
 

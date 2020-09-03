@@ -1,30 +1,40 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby Error Handling</h1>
+  <h1 align="Center">Bixby Input Validation and Error Handling</h1>
 </p>
 
-### Halt sample
-intent {
-  goal: GetResultHalt
-}
+## Description
 
+This capsule demonstrates how do nput validation and handle errors with Bixby
 
-### Drop sample
-intent {
-  goal: GetResultDrop
-  value: Integer(1)
-}
+## Usage - Input Validation
 
+To see Bixby input validation in action, open in the simulator and run
 
-### Replan sample
-intent {
-  goal: GetResultReplan
-}
+`Validate Number`
 
-##
+Then enter:
 
-For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/error-handling
+* `101` to see a halt + dialog (stops the capsule with a message)
+* `42` to see a replan (re-execute the action with different input)
+* `19` to see an error message and reprompt
+* `9` to see a sucessful input
+
+For more information see - [https://bixbydevelopers.com/dev/docs/dev-guide/developers/customizing-plan.effects#validating-input](https://bixbydevelopers.com/dev/docs/dev-guide/developers/customizing-plan.effects#validating-input)
+
+#### Tutorial Video on Input Validation
+[![Watch the video](https://i.ytimg.com/vi/RMGhEERNW6c/hqdefault.jpg)](https://youtu.be/RMGhEERNW6c)
+
+## Usage - Error Handling
+
+To see Bixby error handing in action, open in the simulator and run
+
+* `Show halt example` to see a halt (stop capsule) example
+* `Show replan example` to see a replan example
+* `Show drop input 1 example` to see an input drop example
+
+For more information see - [https://bixbydevelopers.com/dev/docs/dev-guide/developers/modeling.modeling-actions#error-handling](https://bixbydevelopers.com/dev/docs/dev-guide/developers/modeling.modeling-actions#error-handling)
 
 ---
 

@@ -1,11 +1,12 @@
 capsule {
-  id (example.errorHandling)
+  id (example.inputvalAnderrorhandling)
   version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (2)
+  runtime-version (7) {
+  }
   store-countries {
     all
   }
