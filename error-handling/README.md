@@ -36,6 +36,10 @@ To see Bixby error handing in action, open in the simulator and run
 
 For more information see - [https://bixbydevelopers.com/dev/docs/dev-guide/developers/modeling.modeling-actions#error-handling](https://bixbydevelopers.com/dev/docs/dev-guide/developers/modeling.modeling-actions#error-handling)
 
+#### Tutorial Video on Error Handling
+[![Watch the video](https://i.ytimg.com/vi/9obLHJK7X4E/hqdefault.jpg)](https://youtu.be/9obLHJK7X4E)
+
+
 ---
 
 ## Additional Resources
