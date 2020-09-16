@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: MyDateTimeExpression (this)
+  template("#{size(this)} result#{size(this) == 1? ' ' : 's '}came back for your query:")
+}

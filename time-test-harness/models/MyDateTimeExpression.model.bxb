@@ -1,0 +1,8 @@
+structure (MyDateTimeExpression) {
+  extends (time.DateTimeExpression)
+
+  property (context){
+    type (Context)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (EchoDateTimeExpression) {
+      accepted-inputs (dateTimeExpression, $vivContext)
+      local-endpoint (EchoDateTimeExpression.js)
+    }
+  }
+}

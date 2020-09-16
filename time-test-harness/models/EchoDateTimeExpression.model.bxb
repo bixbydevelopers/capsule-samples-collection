@@ -1,0 +1,11 @@
+action (EchoDateTimeExpression) {
+  type (Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (dateTimeExpression) {
+      type (time.DateTimeExpression)
+      min (Optional) max (Many)
+    }
+  }
+  output (MyDateTimeExpression)
+}
