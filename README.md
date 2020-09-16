@@ -35,7 +35,7 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
 
-[No Code Design Patterns](../../tree/master/no-code-design-patterns) - Samples of no-code model design patterns
+[No Code Design Patterns](../../tree/master/no-code-design-patterns) - Samples of no-code Bixby design patterns
 
 [Permissions](../../tree/master/permissions) - Granting permissions to user information e.g. location or profile
 
