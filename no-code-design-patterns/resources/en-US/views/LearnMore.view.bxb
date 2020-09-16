@@ -1,7 +1,7 @@
 result-view {
   match: DummyText () {
      // This is the key line - get it from the MoreInfo action
-    from-output: MoreInfo
+    from-output: LearnMore
   }
 
   message {

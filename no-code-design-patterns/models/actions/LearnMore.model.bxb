@@ -1,4 +1,4 @@
-action (MoreInfo) {
+action (LearnMore) {
   type (Calculation)
    output (DummyText) {
      // empty evaluate shows view without calling js
