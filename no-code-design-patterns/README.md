@@ -29,6 +29,9 @@ In more complex capsules, functionality like help may often be implemented using
 
 Try this capsule using a [device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device)
 
+## Tutorial Video
+[![Watch the video](http://i3.ytimg.com/vi/t7PU8jmk6Bk/hqdefault.jpg)](https://youtu.be/t7PU8jmk6Bk)
+
 Capsule Icon made by [mynamepong](https://www.flaticon.com/authors/mynamepong) on [Flaticon](https://www.flaticon.com/)
 
 ---
