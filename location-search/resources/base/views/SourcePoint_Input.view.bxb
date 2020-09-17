@@ -1,0 +1,39 @@
+input-view {
+  match: SourcePoint
+
+  message ("Where would you like to be picked up?")
+
+  render {
+    auto-complete {
+      type (geo.NamedPoint)
+      no-result-text { template ("No results") }
+      placeholder { template ("Search for locations") }
+      source {
+        collect-with (query) {
+          intent {
+            goal: location.Autosuggest
+            value: location.SearchTerm$expr (query)
+            value: location.IsFuzzyMatchAddressType(true)
+          }
+        }
+        label { template ("Search Results") }
+        where-each (place) {
+          display {
+            primary-text { template ("[#{value(place.name)}]") }
+            secondary-text { template ("[#{value(place.address)}]") }
+          }
+          on-select {
+            intent {
+              goal: geo.NamedPoint
+              value: viv.core.FormElement(place)
+            }
+          }
+        }
+        permissions {
+          library-permission (contact:contacts)
+          library-permission (self:profile)
+        }
+      }
+    }
+  }
+}

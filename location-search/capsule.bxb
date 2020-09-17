@@ -1,6 +1,5 @@
 capsule {
   id (example.locationSearch)
-  // id (viv.spotify)
   version (1.0.2)
   format (3)
   targets {
