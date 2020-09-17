@@ -1,7 +1,7 @@
 input-view {
-  match: DestinationPoint
+  match: SourcePoint
 
-  message ("Where would you like to go?")
+  message ("Where would you like to be picked up?")
 
   render {
     macro (location:Autocomplete) {
