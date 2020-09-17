@@ -1,0 +1,21 @@
+result-view {
+  match: Command (command) {
+  }
+
+  // Using the command pattern to determine what to show
+  message {
+    if (command == 'help') {
+      // Example of getting the value from the match
+      template ("You said #{value (command)} and wanted help")
+    }
+    else-if (command == 'about') {
+      template ("You said about and wanted about info")
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Flip a coin")
+    }
+  }
+}

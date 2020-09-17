@@ -19,15 +19,23 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Dialog Affirmation](../../tree/master/dialog-affirmation) - Dialog Variances
 
-[Error Handling](../../tree/master/error-handling) - Sample Error Handling
-
 [HTTP API Calls](../../tree/master/http-api-calls) - Sample HTTP Calls
 
+[Input Validation and Error Handling](../../tree/master/error-handling) - Sample Input Validation and Error Handling
+
 [Input Forms](../../tree/master/input-forms) - Sample Input Forms
+
+[Phone Call Library](../../tree/master/library-phone-call-example) - Using the Phone Call library capsule
+
+[Share Via Library](../../tree/master/library-share-via-example) - Using the ShareVia library capsule
+
+[Text Message Library](../../tree/master/library-text-message-example) - Using the Text Message Library Capsule
 
 [Location Search](../../tree/master/location-search) - Sample Use of Locations
 
 [Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
+
+[No Code Design Patterns](../../tree/master/no-code-design-patterns) - Samples of no-code Bixby design patterns
 
 [Permissions](../../tree/master/permissions) - Granting permissions to user information e.g. location or profile
 

@@ -11,7 +11,7 @@ result-view {
     if (size(rideShare) > 1) {
       list-of (rideShare) {
         where-each (item) {
-          thumbnail-area {
+          thumbnail-card {
             image-url {
               template ("[#{value(item.images.url)}]")
             }

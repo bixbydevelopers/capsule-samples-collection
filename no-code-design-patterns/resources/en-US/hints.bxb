@@ -1,0 +1,11 @@
+hints {
+  uncategorized {
+    hint (Start Heads or Tails)
+    hint (Ask Heads or Tails to flip a coin)
+    hint (I choose Heads in Heads or Tails)
+  }
+}
+
+
+
+

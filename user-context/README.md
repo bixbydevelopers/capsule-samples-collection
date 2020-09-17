@@ -4,11 +4,20 @@
   <h1 align="Center">Bixby User Context</h1>
 </p>
 
-Execute the following query to see `$vivContext` in action: "Show user context"
+## Description
 
-##
+This capsule demonstrates how to get User information (timezone, device type, handsfree, bixbyUserId etc) in a Bixby Capsule
+
+## Usage
+
+To test this, open the simulator and run:
+
+`Show user Context`
 
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/user-context
+
+## Tutorial Video
+[![Watch the video](https://i.ytimg.com/vi/q5Yphl5i52M/hqdefault.jpg)](https://youtu.be/q5Yphl5i52M)
 
 ---
 

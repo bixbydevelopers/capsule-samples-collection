@@ -1,33 +1,33 @@
 result-view {
   match {
-    Activity (this) {
-      min (Required)
-      max (One)
-      from-output: CheckRideShareStatus (check)
+    Activity (this){
+      min(Required) max (One)
     }
+  
   }
   message {
     if (this.countdown != 0) {
-      template ("Your ride will arrive in #{value(this.countdown)} seconds.") 
-    } else {
+      template ("Your ride will arrive in #{value(this.countdown)} seconds.")
+    }
+    else {
       template ("I hope you are enjoying your ride")
     }
   }
   refresh {
-  if (this.countdown != 0) {
-    spec {
-      delay-seconds (5)
-      with-request {
-        intent {
-          goal: CheckRideShareStatus
-          value {
-            $expr (this)
+    if (this.countdown != 0) {
+      spec {
+        delay-seconds (5)
+        with-request {
+          intent {
+            goal: CheckRideShareStatus
+            value {
+              $expr (this)
+            }
           }
         }
       }
     }
   }
-}
   render {
     layout-macro (activity-map-macro) {
       param (activity) {

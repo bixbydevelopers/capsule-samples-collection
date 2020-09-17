@@ -1,11 +1,8 @@
 structure (Activity) {
-  features {
-    pre-commit-state
-    activity
-  }
   property (countdown) {
     type (Countdown)
     min (Required) max (One)
+    visibility (Private)
   }
   property (rideShare) {
     type (RideShare)

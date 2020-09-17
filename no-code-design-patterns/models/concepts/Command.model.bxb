@@ -1,0 +1,5 @@
+enum (Command) {
+  description (Command)
+  symbol (help)
+  symbol (about)
+}

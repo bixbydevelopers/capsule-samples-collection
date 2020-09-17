@@ -8,6 +8,7 @@ result-view {
           image-aspect-ratio (1:1)
           image-position (End)
           image-object-position (Center)
+          image-object-fit (Contain)
           image-url {
             template ("[#{value (item.logo.url)}]")
           }

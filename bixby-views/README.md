@@ -6,24 +6,26 @@
 
 ## Usage
 
-| nl(Show an image card) | nl(Show a thumbnail card) | nl(Show a compound card) | nl(Show an image carousel) |
+To see the various Bixby views components, open the simulator and run:
+
+| Show an image card | Show a thumbnail card | Show a compound card | Show an image carousel |
 | --- | --- | --- | --- |
 | ![an image card screenshot](screenshots/Image_card_Bixby_Voice.jpg) | ![a thumbnail card screenshot](screenshots/Thumbnail_card_Bixby_Voice.jpg) | ![a compound card screenshot](screenshots/Compound_card_Bixby_Voice.png) | ![an image carousel screenshot](screenshots/Image_carousel_Bixby_Voice.jpg) |
 
-| nl(Show an image list) | nl(Show a cell area) | nl(Show a cell card) | nl(Show an input cell) |
+| Show an image list | Show a cell area | Show a cell card | Show an input cell |
 | --- | --- | --- | --- |
  | ![an image list screenshot](screenshots/Image_list_Bixby_Voice.jpg) | ![a cell area screenshot](screenshots/Cell_area_Bixby_Voice.png) | ![a cell card screenshot](screenshots/Cell_card_Bixby_Voice.jpg) | ![an input cell screenshot](screenshots/Input_cell_Bixby_Voice.jpg) |
 
 
-| nl(Show a partition) | nl(Show a map) | nl(Show a title area) | nl(Show a title card) | nl(Show an hbox) |
+| Show a partition | Show a map | Show a title area | Show a title card | Show an hbox |
 | --- | --- | --- | --- | --- |
 | ![a partition screenshot](screenshots/Partition_Bixby_Voice.jpg) | ![a map screenshot](screenshots/Map_Bixby_Voice.jpg) | ![a title area screenshot](screenshots/Title_area_Bixby_Voice.jpg) | ![a title card screenshot](screenshots/Title_card_Bixby_Voice.jpg) | ![an hbox screenshot](screenshots/Hbox_Bixby_Voice.jpg) |
 
-| nl(Show an image) | nl(Show a video) | nl(Show a progress bar) | nl(Show a header) | nl (Show an image list of) |
+| Show an image | Show a video | Show a progress bar | Show a header | Show an image list of |
 | --- | --- | --- | --- | --- |
 | ![an image screenshot](screenshots/Image_Bixby_Voice.png) | ![a video screenshot](screenshots/Video_Bixby_Voice.png) | ![a progress bar screenshot](screenshots/Progress_Bar_Bixby_Voice.png) | ![a header screenshot](screenshots/Header_Bixby_Voice.png) | ![an image list of](screenshots/Image_List_Of_Bixby_Voice.png) |
 
-| nl(Show a header with an image area) | nl (Show a single line) | nl (Show a thumbnail area)
+| Show a header with an image area | Show a single line | Show a thumbnail area
 | --- | --- | --- |
 | ![a header with image area screenshot](screenshots/Header_Image_Area_Bixby_Voice.png) | ![a single line screenshot](screenshots/Single_Line_Bixby_Voice.png) |  ![a thumbnail area screenshot](screenshots/Thumbnail_Area_Bixby_Voice.png)
 
@@ -31,6 +33,10 @@
 
 For more information see - https://bixbydevelopers.com/dev/docs/dev-guide/developers/building-views
 
+Be sure to use the interactive demo capabilities in the docs - this lets you change UI parameters and dynamically see the component render. Click on individual component names to use the interactive demo capabilities - https://bixbydevelopers.com/dev/docs/dev-guide/developers/building-views.components
+
+## Tutorial Video
+[![Watch the video](http://i3.ytimg.com/vi/Abwc1tK0uZA/hqdefault.jpg)](https://youtu.be/Abwc1tK0uZA)
 ---
 
 ## Additional Resources

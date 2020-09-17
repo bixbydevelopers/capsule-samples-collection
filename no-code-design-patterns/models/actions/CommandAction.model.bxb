@@ -1,0 +1,16 @@
+action (CommandAction) {
+  type (Calculation)
+  collect {
+    input (command) {
+      type (Command)
+      min (Required)
+      max (One)
+    }
+  }
+  // Passing the input text to the output
+  output (Command) {
+    evaluate {
+      $expr (command)
+    }
+  }
+}

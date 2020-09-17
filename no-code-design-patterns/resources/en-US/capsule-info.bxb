@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (No Code Heads or Tails)
+  developer-name (Roger Kibbe - @rogerkibbe)
+  description ("Sample no code capsule")
+  dispatch-name (Heads or Tails)
+  icon-asset (images/flip-icon-from-mynamepong-on-flaticon.png)
+  search-keywords {
+    keyword (heads)
+    keyword (tails)
+  }
+}

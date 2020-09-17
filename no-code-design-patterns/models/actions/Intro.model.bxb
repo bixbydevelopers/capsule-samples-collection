@@ -1,0 +1,7 @@
+action (Intro) {
+  type (Calculation)
+   output (DummyText) {
+     // empty evaluate shows view without calling js
+     evaluate {}
+   }
+}

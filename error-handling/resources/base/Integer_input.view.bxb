@@ -1,5 +1,10 @@
 input-view {
   match: Integer
+
+  message {
+    template ("Please enter a number")
+  }
+
   render {
     form {
       on-submit {

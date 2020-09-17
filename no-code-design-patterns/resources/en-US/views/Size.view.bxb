@@ -1,0 +1,46 @@
+input-view {
+  match: CoinSide (coinSide)
+
+  message {
+    template ("Choose a side")
+  }
+
+  render {
+    selection-of (coinSide) {
+      where-each (one) {
+        cell-card {
+          on-click {
+            intent {
+              goal: CoinSide
+              value: $expr (one)
+            }
+          }
+          slot1 {
+            image {
+              url ("images/#{value(one)}.png")
+              shape (Circle)
+            }
+          }
+          slot2 {
+            content {
+              primary {
+                template ("#{value (one)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver {
+      template ("Help")
+    }
+    conversation-driver {
+      template ("About")
+    }
+    conversation-driver {
+      template ("Learn More")
+    }
+  }
+}

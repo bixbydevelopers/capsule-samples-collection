@@ -1,0 +1,35 @@
+result-view{
+  match: Result(this)
+
+  message("Change the theme in the simulator by clicking on the gear icon. Notice how the image below changes color!")
+
+  render{
+    layout{
+      section{
+        content{
+          cell-area{
+            slot1{
+              image{
+                url("/images/icons/thumbs-up-white.png"){
+                  light-theme("/images/icons/thumbs-up-black.png") 
+                  // light-theme sets a different url just for the light theme. There is also a dark-theme key to set an alternate image for the dark-theme.
+                }
+                shape (Square)
+              }
+            }
+            slot2{
+              content{
+                primary("This icon will change to black in the light theme.")
+              }
+            }
+          }
+          spacer
+          paragraph{
+            style(Detail_M)
+            value("Check out how to do this in the Result.view.bxb")
+          }
+        }
+      }
+    }
+  }
+}
