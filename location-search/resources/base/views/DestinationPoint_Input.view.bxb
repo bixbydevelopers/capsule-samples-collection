@@ -4,15 +4,6 @@ input-view {
   message ("Where would you like to go?")
 
   render {
-    // // Use Autocomplete for single source
-    // macro (location:Autocomplete) {
-    // // Use AutocompleteV2 for multiple sources
-    // // macro (location:AutocompleteV2) {
-    //   select-button-text {
-    //     template ("Ok")
-    //   }
-    // }
-
     auto-complete {
       type (geo.NamedPoint)
       no-result-text { template ("No results") }
