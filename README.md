@@ -45,7 +45,7 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Selection Learning](../../tree/master/selection-learning) - Sample Selection Learning (Personalization)
 
-[Time Test]((../../tree/master/time-test-harness) - Samples and Tests of Bixby's NLU time understanding capabilities
+[Time Test](../../tree/master/time-test-harness) - Samples and Tests of Bixby's NLU time understanding capabilities
 
 [User Context](../../tree/master/user-context) - Sample User Data Access
 
