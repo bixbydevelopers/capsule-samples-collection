@@ -1,0 +1,7 @@
+structure (Context) {
+  description (structure to hold $vivContext properties used for views)
+  property (testToday){
+    type (time.DateTime)
+    min (Optional) max (One)
+  }
+}

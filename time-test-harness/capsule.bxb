@@ -1,0 +1,26 @@
+capsule {
+  id (example.timeTestHarness)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+    target (bixby-mobile-en-GB)
+  }
+  capsule-imports {
+    import (viv.time) {
+      version (3.1.227) // Update with whatever version you'd like.
+      as (time)
+    }
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    section (GamesAndFun)
+  }
+  runtime-version (8) {
+    overrides {
+      no-fallback-dialog-in-views (false)
+    }
+  }
+}

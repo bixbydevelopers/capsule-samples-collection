@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: MyDateTimeExpression (this)
+  template("The time library could not interpret that input.")
+}

@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Time Test Harness)
+  developer-name (Example Developer)
+  description ("viv.time library test harness")
+  dispatch-name (Time Test Harness)
+  // Create and set a path for your icon asset
+  icon-asset (icon/bixby-logo.png)
+  search-keywords {
+    keyword (example)
+  }
+}

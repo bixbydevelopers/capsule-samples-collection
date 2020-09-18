@@ -1,0 +1,143 @@
+result-view {
+  match: MyDateTimeExpression (result)
+  
+  render {
+    if(exists(result)){
+      layout {
+        section {
+          content {
+            compound-card {
+              content {
+                if(exists(result[0].context.testToday)){
+                  paragraph {
+                    style(Detail_M_Soft)
+                    value("Current Time Override:")
+                  }
+                  paragraph {
+                    value ("#{dateTime(result[0].context.testToday,'E, M/d/YYYY h:mm aa')}")
+                    style (Title_M)
+                  }
+                } else {
+                  paragraph {
+                    style(Detail_M_Soft)
+                    value("Now:")
+                  }
+                  paragraph {
+                    value ("#{dateTime(now(),'E, M/d/YYYY h:mm aa')}")
+                    style (Title_M)
+                  }
+                }
+                paragraph {
+                  style(Detail_M_Soft)
+                  value("Response Type")
+                }
+                if (exists(result[0].date)){
+                  paragraph {
+                    value ("time.Date")
+                    style (Title_S)
+                  }
+                } else-if (exists(result[0].dateInterval)){
+                  paragraph {
+                    value ("time.DateInterval")
+                    style (Title_M)
+                  }
+                } else-if (exists(result[0].dateTime)){
+                  paragraph {
+                    value ("time.DateTime")
+                    style (Title_M)
+                  }
+                } else-if (exists(result[0].dateTimeInterval)){
+                  paragraph {
+                    value ("time.DateTimeInterval")
+                    style (Title_M)
+                  }
+                }
+              }
+            }
+          }
+        }
+        for-each (result){
+          as (this){
+            section {
+              title {
+                if (size(result) > 1){
+                  template ("Result #{i}:")
+                } else {
+                  template ("Result:")
+                }
+              }
+              content {
+                compound-card {
+                  content {
+                    paragraph {
+                      style(Detail_M_Soft)
+                      value("Value dialog fragment")
+                    }
+                    paragraph {
+                      value ("#{value(this)}")
+                      style (Title_M)
+                    }
+                    if (exists(this.date)) {
+                      paragraph {
+                        style(Detail_M_Soft)
+                        value("Raw Date")
+                      }
+                      paragraph {
+                        value ("#{dateTime(this.date)}")
+                        style (Title_M)
+                      }
+                    }
+                    if (exists(this.dateInterval)) {
+                      paragraph {
+                        style(Detail_M_Soft)
+                        value("Raw Date Interval")
+                      }
+                      paragraph {
+                        value ("[#{dateTime(this.dateInterval.start)}]")
+                        style (Title_S)
+                      }
+                      
+                      divider
+                      
+                      paragraph {
+                        value ("[#{dateTime(this.dateInterval.end)}]")
+                        style (Title_S)
+                      }
+                    }
+                    if (exists(this.dateTime)) {
+                      paragraph {
+                        style(Detail_M_Soft)
+                        value("Raw DateTime")
+                      }
+                      paragraph {
+                        value ("#{dateTime(this.dateTime)}")
+                        style (Title_M)
+                      }
+                    }
+                    if (exists(this.dateTimeInterval)) {
+                      paragraph {
+                        style(Detail_M_Soft)
+                        value("Raw DateTimeInterval")
+                      }
+                      paragraph {
+                        value ("[#{dateTime(this.dateTimeInterval.start)}]")
+                        style (Title_S)
+                      }
+                      
+                      divider
+                      
+                      paragraph {
+                        value ("[#{dateTime(this.dateTimeInterval.end)}]")
+                        style (Title_S)
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
