@@ -13,9 +13,11 @@ This capsule demonstrates the various input form components Bixby supports
 
 Open the simulator and run the appropriate phrase:
 
-## View text inputs:
+## View Survey (multiple different types of inputs)
 
-`Show text inputs`
+`Show Survey`
+
+The survey includes text input, validated text (email), text area, switch input, checkboxes, slider and number input
 
 ## Pickers
 

@@ -1,4 +1,4 @@
 train (t-rzgbwrj6be84e90edrvpt6n1q) {
-  utterance ([g:SubmitSurvey] Show text inputs)
-  last-modified (1594838831796)
+  utterance ([g:SubmitSurvey] Show survey)
+  last-modified (1600895638349)
 }
