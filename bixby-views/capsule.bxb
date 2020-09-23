@@ -2,7 +2,7 @@ capsule {
   id (example.commonLayouts)
   version (0.1.0)
   format (3)
-  runtime-version (7)
+  runtime-version (8)
   targets {
     target (bixby-mobile-en-US)
     target (bixby-tv-en-US)
@@ -11,9 +11,9 @@ capsule {
   }
   capsule-imports {
     import (viv.core) {as (core)}
-    import (viv.money) {as (money) version (2.22.43)}
-    import (viv.time) {as (time) version (3.1.167)}
-    import (viv.geo) {as (geo) version (9.26.48)}
+    import (viv.money) {as (money) version (2.22.51)}
+    import (viv.time) {as (time) version (3.3.7)}
+    import (viv.geo) {as (geo) version (9.27.7)}
   }
   store-countries {
     all
