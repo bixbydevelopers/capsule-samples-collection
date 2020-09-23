@@ -7,7 +7,7 @@ capsule {
   }
   runtime-version (7)
   capsule-imports {
-    import (viv.geo) {as (geo) version (9.26.48)}
+    import (viv.geo) {as (geo) version (9.27.7)}
   }
   store-countries {
     all
