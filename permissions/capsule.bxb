@@ -6,7 +6,7 @@ capsule {
     target (bixby-mobile-en-US)
     target (bixby-watch-en-US)
   }
-  runtime-version (7)
+  runtime-version (8)
   default-action (GetLocationAndProfile)
   store-sections {
     section (TravelAndTransportation)
@@ -14,11 +14,11 @@ capsule {
   capsule-imports {
     import (viv.geo) {
       as (geo)
-      version (9.26.57)
+      version (9.27.7)
     }
     import (viv.self) {
       as (self)
-      version (4.0.12)
+      version (4.0.14)
     }
   }
   permissions {
