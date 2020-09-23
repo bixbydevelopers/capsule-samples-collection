@@ -5,7 +5,7 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (7)
+  runtime-version (8)
   capsule-imports {
     import (viv.geo) {as (geo) version (9.27.7)}
   }
