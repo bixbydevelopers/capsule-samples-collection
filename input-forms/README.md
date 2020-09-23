@@ -13,7 +13,7 @@ This capsule demonstrates the various input form components Bixby supports
 
 Open the simulator and run the appropriate phrase:
 
-## View Survey (multiple different types of inputs)
+## Show Survey (multiple different types of inputs)
 
 `Show Survey`
 
