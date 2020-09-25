@@ -4,19 +4,24 @@
   <h1 align="Center">Location Search</h1>
 </p>
 
+## Description
+
 A demo of using the `location` library to suggest locations from profile, contacts and geo inside `auto-complete`.
 
-Run Intent:
+If your capsule requires an address as input, we strongly suggest using this functionality
 
-```
-intent {
-  goal: FindRideShare
-}
-```
+## Usage
 
-Or, Run NL: "find a ride"
+To test this, open the simulator and run:
 
-[Try this capsule using a device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device) to see your contact and profile locations.
+`find a ride`
+
+To fully test including contact and profile location autocomplete, you will need to [try this capsule using a device.](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device)
+
+For more information, see the [documentation](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.location)
+
+## Tutorial Video
+[![Watch the video](http://i3.ytimg.com/vi/iSstATeuGGY/hqdefault.jpg)](https://youtu.be/iSstATeuGGY)
 
 ---
 
