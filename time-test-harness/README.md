@@ -7,7 +7,11 @@
 
   ## About
   
-This test harness lets you easily simulate the behavior that a consumer of the `viv.time` library would see. For example, imagine a user asks a calendar capsule to schedule an event for next Monday. This capsule can be used to simulate the phrase "next Monday" getting resolved by `viv.time`, and returned in a structured way that the calendar capsule could then consume. 
+This test harness lets you easily simulate the behavior that a consumer of the `viv.time` library would see. 
+
+(`viv.time` library documentation: https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.datetime)
+
+For example, imagine a user asks a calendar capsule to schedule an event for next Monday. This capsule can be used to simulate the phrase "next Monday" getting resolved by `viv.time`, and returned in a structured way that the calendar capsule could then consume. 
 
 With this capsule, you can test various time-related phrases and see what DateTimeExpression value(s) (if any) are returned by the time library capsule. For a given phrase (like "tomorrow afternoon"), you can see: 
 
