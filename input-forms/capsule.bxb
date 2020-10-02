@@ -2,7 +2,7 @@ capsule {
   id (example.inputForm)
   version (0.1.0)
   format (3)
-  runtime-version (7)
+  runtime-version (8)
   targets {
     target (bixby-mobile-en-US)
     target (bixby-fridge-en-US)

@@ -16,7 +16,7 @@ capsule {
     library-permission (contact:contacts)
     library-permission (self:profile)
   }
-  runtime-version (7)
+  runtime-version (8)
   store-sections {
     section (TravelAndTransportation)
   }
