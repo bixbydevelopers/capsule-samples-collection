@@ -1,4 +1,5 @@
 train (t-og7kopsjlqplp7zh6evxappv0) {
-  utterance ([g:FindShoe] Find shoes with a simple HTTP call)
-  plan (Y2Bi4E/KrEiq1MsoKSnQC87IT2UQRhJwy8xLAQsyAiEDFANJAA==)
+  utterance ([g:FindShoe] Find shoes)
+  plan (Y2BiEEytSMwtyEnVyygpKdALzshPZRBFEXLLzEsBCzMCIQMUA0kA)
+  last-modified (1604357862358)
 }

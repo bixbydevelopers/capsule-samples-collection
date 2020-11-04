@@ -5,11 +5,16 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (2)
+  runtime-version (8) {
+    overrides {
+      no-fallback-dialog-in-views (false)
+      auto-on-click-for-list-of(true)
+    }
+  }
   capsule-imports {
-    import (viv.money) { 
-      as (money) 
-      version (2.22.43)
+    import (viv.money) {
+      as (money)
+      version (2.22.51)
     }
   }
   store-countries {

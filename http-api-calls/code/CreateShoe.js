@@ -1,6 +1,5 @@
 var http = require('http')
 var console = require('console')
-var config = require('config')
 module.exports.function = function createShoe () {
   var shoe = {
     "name": "Test Shoes",
@@ -21,7 +20,7 @@ module.exports.function = function createShoe () {
     format: 'json'
   };
 
-  var response = http.postUrl(config.get('remote.url') + '/shoes', shoe, options);
+  var response = http.postUrl('http://shoe.bixby.pro/shoes', shoe, options);
 
   console.log(response);
   return response.parsed;

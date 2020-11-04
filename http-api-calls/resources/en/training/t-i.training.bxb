@@ -1,4 +1,5 @@
 train (t-ix6ua9uuv1at1ovfb2r7xqaat) {
-  utterance ([g:CreateShoe] Create a shoe)
-  plan (Y2Bi4E/KrEiq1MsoKSnQC87IT2UQRRJwLkpNLEkFCzMCIQMUA0kA)
+  utterance ([g:CreateShoe] Create shoe)
+  plan (Y2BiEEytSMwtyEnVyygpKdALzshPZRBHEXIuSk0sSQVLMAIhAxQDSQA=)
+  last-modified (1604357870257)
 }

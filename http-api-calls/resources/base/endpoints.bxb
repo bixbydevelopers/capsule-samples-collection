@@ -13,7 +13,7 @@ endpoints {
     
     action-endpoint (FindShoeRemoteEndpoint) {
       accepted-inputs ()
-      remote-endpoint ("{remote.url}/shoes") {
+      remote-endpoint ("http://shoe.bixby.pro/shoes") {
         method (GET)
       }
     }

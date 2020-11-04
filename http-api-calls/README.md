@@ -4,44 +4,34 @@
   <h1 align="Center">HTTP API Calls</h1>
 </p>
 
-### Simple find shoe with HTTP get call
-intent {
-  goal: FindShoe
-}
+## Description
 
-### HTTP call with query param
-intent {
-  goal: FindShoeFiltering
-  value: Type(Formal)
-}
+This capsule demonstrates how to use Bixby's HTTP library to make API calls
 
-### HTTP call that returns an error
-intent {
-  goal: FindShoeError
-}
+## Usage - HTTP API Calls
 
-### HTTP use that includes headers
-intent {
-  goal: FindShoeReturnHeaders
-}
+To see Bixby http api calls in action, open in the simulator and run
 
-### HTTP post call
-intent {
-  goal: CreateShoe
-}
+`Find Shoes` - simple HTTP get call
 
-### Remote endpoint
-intent {
-  goal: FindShoeRemoteEndpoint
-}
+`Find formal shoes` - HTTP get call with parameter]
 
-### Coming soon: More complicated remote endpoint
+`Find shoes and show headers` - HTTP get call - logs will show headers
 
-##
+`Find shoes error` - HTTP get call that returns an error
+
+`Create shoe` - HTTP put call
+
+`Find shoes with remote endpoint` - Using a remote endpoint for the HTTP get call
+
+The code that makes the API calls is in `/code` - note that you do not need to use a promise or call back, the Bixby HTTP library takes care of that for you.
 
 For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/samples/http
 
-If you want to see the contents of the endpoint this capsule uses (at https://bixby-http-demo.appspot.com/), but cannot access the link, you can view the data in endpointContents.zip. You can also see the data the endpoint returned in the Debug Console, if you click on the action (i.e. FindShoe), then click on 'requests'.
+#### Tutorial Video on HTTP calls
+[![Watch the video](https://i.ytimg.com/vi/Z7J0eGmPRA4/hqdefault.jpg)](https://youtu.be/Z7J0eGmPRA4)
+
+If you want to see the contents of the endpoint this capsule uses (at http://shoe.bixby.pro/), but cannot access the link, you can view the data in endpointContents.zip. You can also see the data the endpoint returned in the Debug Console, if you click on the action (i.e. FindShoe), then click on 'requests'.
 
 ---
 

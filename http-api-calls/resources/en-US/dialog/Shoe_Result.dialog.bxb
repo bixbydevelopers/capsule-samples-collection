@@ -2,5 +2,5 @@ dialog (Result) {
   match {
     Shoe(this)
   }
-  template ("I found #{spell (size(this))}:")
+  template ("I found #{spell (size(this))} #{concept(this)}:")
 }

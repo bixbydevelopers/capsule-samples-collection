@@ -1,4 +1,5 @@
 train (t-6b3116duvu7k83jhqvwtgpl38) {
-  utterance ([g:FindShoeReturnHeaders] Find shoes and return headers)
-  plan (Y2Bi4E/KrEiq1MsoKSnQC87IT2VQQBJwy8xLAQkGpZaUFuV5pCampBYVMzACIQMUA0kA)
+  utterance ([g:FindShoeReturnHeaders] Find shoes and show headers)
+  plan (Y2BiEEytSMwtyEnVyygpKdALzshPZVBCEXLLzEsBCQellpQW5XmkJqakFhUzMAIhAxQDSQA=)
+  last-modified (1604357899085)
 }
