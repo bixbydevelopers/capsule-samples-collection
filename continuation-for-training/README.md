@@ -4,17 +4,42 @@
   <h1 align="Center">Bixby Continuation for Training</h1>
 </p>
 
-# continuation
+This capsule demonstrates several features of Bixby Natural Language Training incliuding continuations, property projections and relaxing.
+
+## Usage
+
+### Basic usage
 
 ```
-nl(Show planets)
+Show planets
 ```
 
 ```
-nl(Show Venus)
+Show Venus
 ```
 
-## Continuations
+### Continuations
+```
+Show Earth
+
+how far is it to Saturn
+
+compare the size to Neptune
+```
+
+```
+how far is Earth from Mercury?
+
+and to Mars?
+
+and from Venus? [Note: this nl works only for distance)
+```
+
+```
+how large is Saturn compared to Neptune?
+
+and to Mars?
+```
 
 ```
 nl(show red planets)
@@ -24,69 +49,49 @@ nl(how about blue planets)
 nl(how about white planets)
 ```
 
-## Property Projections
+Note that the same natural language is used for different continuations.
+
+
+### Tutorial Video on Continuations
+[![Watch the video](https://i.ytimg.com/vi/fY40KibuE5Y/hqdefault.jpg)](https://youtu.be/fY40KibuE5Y)
+
+### Property Projections
 
 ```
-nl (show Earth)
+show Earth
 
-nl (what is the distance to the sun?)
+what is the distance to the sun?
 
-nl (what is the size?)
+what is the size?
 
-nl (what is the distance of Mars to the sun?)
+what is the distance of Mars to the sun?
 
-nl (what is the size of Neptune?)
+what is the size of Neptune?
 ```
 
-## More Continuations
-
+### Sorting
 ```
-nl(Show Earth)
+show planets sorted by size
 
-nl(how far is it to Saturn)
-
-nl(compare the size to Neptune)
+show blue planets sorted by size
 ```
 
+### Relaxation
 ```
-nl(how far is Earth from Mercury?)
+show Persephone
 
-nl(and to Mars?)
+show green planets
 
-nl(and from Venus?) [Note: this nl works only for distance)
-```
-
-```
-nl(how large is Saturn compared to Neptune)?
-
-nl(and to Mars?)
+show green planets by size descending
 ```
 
-Note that the same nl is used for different continuations.
-
-## Sorting
-```
-nl(show planets sorted by size)
-
-nl(show blue planets sorted by size)
-```
-
-## Relaxation
-```
-nl (show Persephone)
-
-nl (show green planets)
-
-nl (show green planets by size descending)
-```
-
-## Default Initial Values
+### Default Initial Values
 
 Outer query:
 ```
-nl(how far is it to Mars?)
+how far is it to Mars?
 
-nl(compare the size to pluto)
+compare the size to pluto
 ```
 Note that it defaults "this planet" to Earth.
 
