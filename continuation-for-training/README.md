@@ -42,11 +42,11 @@ and to Mars?
 ```
 
 ```
-nl(show red planets)
+show red planets
 
-nl(how about blue planets)
+how about blue planets
 
-nl(how about white planets)
+how about white planets
 ```
 
 Note that the same natural language is used for different continuations.
