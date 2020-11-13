@@ -20,7 +20,7 @@ To see Bixby http api calls in action, open in the simulator and run
 
 `Find shoes error` - HTTP get call that returns an error
 
-`Create shoe` - HTTP put call
+`Create shoe` - HTTP post call
 
 `Find shoes with remote endpoint` - Using a remote endpoint for the HTTP get call
 
