@@ -1,0 +1,3 @@
+integer (ContactNumber) {
+  description (phone number)
+}

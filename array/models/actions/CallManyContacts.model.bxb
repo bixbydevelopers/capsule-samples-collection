@@ -1,0 +1,11 @@
+action (CallManyContacts) {
+  description (make a conference call with multiple contacts)
+  type (Search)
+  collect {
+    input (contacts) {
+      type (Contact)
+      min (Required) max (Many)
+    }
+  }
+  output (TextResult)
+}
