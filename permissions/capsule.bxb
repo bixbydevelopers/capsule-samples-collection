@@ -14,11 +14,11 @@ capsule {
   capsule-imports {
     import (viv.geo) {
       as (geo)
-      version (9.27.7)
+      version (9.27.15)
     }
     import (viv.self) {
       as (self)
-      version (4.0.14)
+      version (4.0.20)
     }
   }
   permissions {
