@@ -6,8 +6,9 @@ action (FindRideShare) {
       type (SourcePoint)
       min (Required) max (One)
       default-init {
-        // Note: To enable current location access, in your capsule.bxb,
-        // add 'user-profile-access' to capsule.permissions
+        // Note: To enable current location access, in your capsule.bxb:
+        // import viv.location and viv.self in capsule-imports
+        // add 'library-permission (self:profile)' to permissions
         intent {
           goal: SourcePoint
           route: geo.CurrentLocation
