@@ -1,0 +1,8 @@
+capsule-info {
+  display-name (SSML Examples)
+  developer-name (SSML Examples)
+  description ("This example capsule has some SSML Examples.")
+  dispatch-name (SSML Examples)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/bixby_launcher.png)
+}

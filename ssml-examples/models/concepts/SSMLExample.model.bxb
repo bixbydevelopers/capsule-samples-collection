@@ -1,0 +1,13 @@
+structure (SSMLExample) {
+  property (display){
+    type (viv.core.Text)
+    max (One) min (Required)
+    visibility (Private)
+  }
+  property (ssml){
+    type (viv.core.Text)
+    max (One) min (Required)
+    visibility (Private)
+  }
+  description (__DESCRIPTION__)
+}
