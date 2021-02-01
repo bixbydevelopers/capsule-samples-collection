@@ -4,6 +4,8 @@
   <h1 align="Center">Bixby SSML Examples</h1>
 </p>
 
+Video tutorial <https://youtu.be/oaGmz4TirSg>
+
 To start, just run "Start" in the simulator. Click on an SSML example to see an example. The SSML is displayed on the screen as well.
 
 SSML code is in in code/GetSSMLExamples.js
