@@ -1,0 +1,19 @@
+capsule {
+  id (example.ssml_test)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-version (8){
+    overrides{
+      allow-dialogs-on-detail-pages (true)
+    }
+  }
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+}

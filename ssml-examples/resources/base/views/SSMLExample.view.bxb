@@ -1,0 +1,43 @@
+result-view{
+  match:SSMLExample (this)
+  
+  message{
+    if (size(this) > 1){
+      template ("Tap on one of the examples below to see some SSML in action!"){
+        speech ("<speak>Tap on one of the examples below to see some <sub alias=\"speech synthesis markup language\">SSML</sub> in action!</speak>")
+      }
+    } else {
+      template ("#{title(this.display)}"){
+        speech ("#{value(this.ssml)}")
+      }
+    }
+  }
+  
+  render{
+    if (size(this) > 1){
+      list-of (this){
+        where-each (a){
+          cell-card{
+            on-click: view-for (a)
+            slot2{
+              content{
+                primary("#{value(a.display)}")
+              }
+            }
+          }
+        }
+      }
+    }
+    else{
+      layout{
+        section{
+          content{
+            paragraph{
+              value("#{value(this.ssml)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}
