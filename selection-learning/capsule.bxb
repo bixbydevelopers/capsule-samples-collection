@@ -1,14 +1,14 @@
 capsule {
   id (example.selectionLearning)
-  version (1.0.1)
+  version (1.0.2)
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (2)
+  runtime-version (9)
   capsule-imports {
-    import (viv.money) {as (money) version (2.22.43)}
-    import (viv.time) {as (time) version (3.1.167)}
+    import (viv.money) {as (money) version (2.22.56)}
+    import (viv.time) {as (time) version (3.4.10)}
   }
   store-countries {
     all
