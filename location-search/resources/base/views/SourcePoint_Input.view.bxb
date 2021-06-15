@@ -11,9 +11,6 @@ input-view {
       param (placeholder) {
         dialog-template ("Search for locations")
       }
-      param (searchResultsLabel) {
-        dialog-template ("Search Results")
-      }
       select-button-text {
         template ("Ok")
       }

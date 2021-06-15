@@ -6,7 +6,7 @@ capsule {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.location) { as (location) version (1.0.51)}
+    import (viv.location) { as (location) version (1.1.0)}
     import (viv.geo) { as (geo) version-from (location)}
     import (viv.self) { as (self) version-from (location) }
     import (bixby.contact) {as (contact) version-from (location)}
