@@ -19,7 +19,7 @@ capsule {
   capsule-imports {
     import (bixby.textMessage) {
       as (message)
-      version (1.0.4)
+      version (1.0.5)
     }
   }
 }
