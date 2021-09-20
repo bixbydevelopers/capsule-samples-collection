@@ -2,7 +2,7 @@ const audioItems = [{
     id: 1,
     stream: [
       {
-        url: "https://storage.googleapis.com/bixby-audio-player-example-files/meows/203121_777645-lq.mp3",
+        url: "https://bigsoundbank.com/UPLOAD/mp3/1901.mp3",
         format: "mp3"
       }
     ],
@@ -10,13 +10,13 @@ const audioItems = [{
     subtitle: "Meow.",
     artist: "Cool Cat",
     albumName: "Catatonic",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example-files/meows/cat-08.jpg"
+    albumArtUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1d/1-month-old_kittens_32.jpg"
   },
   {
     id: 2,
     stream: [
       {
-        url: "https://storage.googleapis.com/bixby-audio-player-example-files/meows/385892_2322725-lq.mp3",
+        url: "https://bigsoundbank.com/UPLOAD/mp3/1890.mp3",
         format: "mp3"
       }
     ],
@@ -24,20 +24,20 @@ const audioItems = [{
     subtitle: "Meow meow.",
     artist: "Tom Cat",
     albumName: "You gotta be kitten me!",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example-files/meows/cat-in-a-basket.jpg"
+    albumArtUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Juvenile_Ragdoll.jpg"
   },
   {
     id: 3,
     stream: [
       {
-        url: "https://storage.googleapis.com/bixby-audio-player-example-files/meows/211687_1979597-lq.mp3",
+        url: "https://bigsoundbank.com/UPLOAD/mp3/1891.mp3",
         format: "mp3"
       }
     ],
     title: "Mew-sic",
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example-files/meows/cat.png"
+    albumArtUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Youngkitten.JPG"
   }]
 
   exports.audioItems = audioItems
