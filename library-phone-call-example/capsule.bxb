@@ -22,7 +22,7 @@ capsule {
   capsule-imports {
     import (bixby.phoneCall) {
       as (phone)
-      version (1.0.11)
+      version (1.0.12)
     }
   }
 }
