@@ -1,0 +1,19 @@
+result-view {
+  match: DummyText () {
+    from-output: PlayVideo
+  }
+  render {
+    layout {
+      section {
+        content {
+          video {
+            vimeo {
+              video-id(525722068)
+            }
+            autoplay (true)
+          } 
+        }
+      }
+    }
+  }
+}

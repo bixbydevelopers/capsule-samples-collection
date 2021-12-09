@@ -1,0 +1,6 @@
+action (PlayLoop) {
+  type (Calculation)
+   output (DummyText) {
+     evaluate {}
+   }
+}

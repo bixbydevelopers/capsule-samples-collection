@@ -1,0 +1,20 @@
+capsule {
+  id (example.videoplayer)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+    target (bixby-fridge-en-US)
+  }
+  runtime-version (9)
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+  store-sections {
+    section(EducationAndReference)
+  }
+  default-action (PlayVideo)
+}

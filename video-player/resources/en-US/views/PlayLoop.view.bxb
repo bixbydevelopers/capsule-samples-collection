@@ -1,0 +1,21 @@
+result-view {
+  match: DummyText () {
+    from-output: PlayLoop
+  }
+  render {
+    layout {
+      section {
+        content {
+          video {
+            youtube {
+              video-id(xm_ftNUKlTs)
+            }
+            autoplay (true)
+            // Looping works best with videos you host yourself
+            loop (true)
+          } 
+        }
+      }
+    }
+  }
+}

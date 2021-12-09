@@ -1,0 +1,6 @@
+action (PlayVideo) {
+  type (Calculation)
+   output (DummyText) {
+     evaluate {}
+   }
+}

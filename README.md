@@ -51,13 +51,14 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [User Data Persistence](../../tree/master/user-data-persistence) - Sample User Data Persistence
 
+[Video Player](../../tree/master/video-player) - Using Bixby's Video Player
+
 ---
 
 ## Additional Resources
 
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
-* [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
 
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
@@ -73,7 +74,6 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 ### Bixby on Social Media
 * [@BixbyDevelopers](https://twitter.com/bixbydevelopers) - Twitter
 * [Facebook](https://facebook.com/BixbyDevelopers)
-* [Instagram](https://www.instagram.com/bixbydevelopers/)
 
 ### Need Support?
 * Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.

@@ -1,0 +1,22 @@
+result-view {
+ match: Result (result) 
+  render {
+    layout {
+      section {
+        content {
+          audio-control {
+            // album-art-url, album-name, artist and title will use AudioInfo values if present
+            album-art-url (/images/group-cats.jpeg)
+            album-name (Cat Meow)
+            artist (Cool Cat)
+            title (Meow Melody)
+            // Show skip by seconds for with 15 second skip
+            skip-by-seconds (15)
+            // Always show skip track
+            skip-track-button-visibility (AlwaysEnabled)
+          }
+        }
+      }
+    }
+  }
+}

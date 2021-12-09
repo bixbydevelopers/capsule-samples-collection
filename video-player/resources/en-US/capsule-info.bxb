@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Video Player)
+  developer-name (Roger Kibbe - @rogerkibbe)
+  description ("Sample Video Player capsule")
+  dispatch-name (Video Player)
+  icon-asset (images/video-player.png)
+  search-keywords {
+    keyword (video)
+    keyword (player)
+  }
+}

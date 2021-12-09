@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint ("Start Video Player")
+    hint ("Talk to Video Player")
+    hint ("Ask Video player to play loop")
+  }
+}
