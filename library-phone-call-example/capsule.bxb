@@ -1,6 +1,6 @@
 capsule {
   id (example.phoneCallExample)
-  version (0.1.1)
+  version (0.1.2)
   format (3)
   targets {
     target (bixby-mobile-en-US)

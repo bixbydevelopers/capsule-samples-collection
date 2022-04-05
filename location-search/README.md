@@ -18,7 +18,7 @@ To test this, open the simulator and run:
 
 To fully test including contact and profile location autocomplete, you will need to [try this capsule using a device.](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device)
 
-For more information, see the [documentation](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.location)
+For more information, see the [documentation](https://bixbydevelopers.com/dev/docs/reference/ref-topics/library.location)
 
 ## Tutorial Video
 [![Watch the video](http://i3.ytimg.com/vi/iSstATeuGGY/hqdefault.jpg)](https://youtu.be/iSstATeuGGY)
@@ -29,7 +29,7 @@ For more information, see the [documentation](https://bixbydevelopers.com/dev/do
 
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
-* [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
+
 
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule

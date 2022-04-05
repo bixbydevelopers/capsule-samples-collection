@@ -1,0 +1,7 @@
+legal{
+  country-documents{
+    privacy-policy{
+      url (http://my-capsule.com/privacy-policy)
+    }
+  }
+}

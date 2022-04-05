@@ -31,9 +31,9 @@ To see the various Bixby views components, open the simulator and run:
 
 ##
 
-For more information see - https://bixbydevelopers.com/dev/docs/dev-guide/developers/building-views
+For more information see - https://bixbydevelopers.com/dev/docs/dev-guide/developers/creating-ui.building-views.views
 
-Be sure to use the interactive demo capabilities in the docs - this lets you change UI parameters and dynamically see the component render. Click on individual component names to use the interactive demo capabilities - https://bixbydevelopers.com/dev/docs/dev-guide/developers/building-views.components
+Be sure to use the interactive demo capabilities in the docs - this lets you change UI parameters and dynamically see the component render. Click on individual component names to use the interactive demo capabilities - https://bixbydevelopers.com/dev/docs/dev-guide/developers/creating-ui.building-views.components
 
 ## Tutorial Video
 [![Watch the video](http://i3.ytimg.com/vi/Abwc1tK0uZA/hqdefault.jpg)](https://youtu.be/Abwc1tK0uZA)
@@ -43,7 +43,7 @@ Be sure to use the interactive demo capabilities in the docs - this lets you cha
 
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
-* [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
+
 
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
