@@ -53,7 +53,6 @@ Here are some examples of phrases you can say to this capsule:
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
 
-
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
 * [Design Guides](https://bixbydevelopers.com/dev/docs/dev-guide/design-guides) - Best practices for designing your capsules

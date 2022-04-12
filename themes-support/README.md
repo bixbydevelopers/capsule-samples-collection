@@ -55,7 +55,6 @@ Likewise, the `dark-theme` key (not used in this example) can be used to set an 
 
 - [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
 
-
 ### Guides & Best Practices
 
 - [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
