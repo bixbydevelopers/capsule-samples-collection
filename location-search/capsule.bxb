@@ -1,6 +1,6 @@
 capsule {
   id (example.locationSearch)
-  version (1.0.2)
+  version (1.0.3)
   format (3)
   targets {
     target (bixby-mobile-en-US)

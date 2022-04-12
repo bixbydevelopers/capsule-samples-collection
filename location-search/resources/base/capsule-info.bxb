@@ -20,5 +20,5 @@ capsule-info {
       justification ("Bixby needs your permission to suggest addresses saved in your profile.")
     }
   }
-  privacy-policy-url (http://my-capsule.com/privacy-policy)
+
 }

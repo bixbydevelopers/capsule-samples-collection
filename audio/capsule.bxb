@@ -1,6 +1,6 @@
 capsule {
   id (example.meow)
-  version (0.2.0)
+  version (0.2.1)
   format (3)
   targets {
     target (bixby-mobile-en-US)

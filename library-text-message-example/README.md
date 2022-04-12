@@ -9,7 +9,7 @@
 
 This capsule demonstrates how to use the textMessage (`bixby.textMessage`) library in a Bixby capsule.
 
-`bixby.textMessage` allows a capsule to send an SMS text message. For more information, see the docs for [bixby.textMessage](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.textmessage)
+`bixby.textMessage` allows a capsule to send an SMS text message. For more information, see the docs for [bixby.textMessage](https://bixbydevelopers.com/dev/docs/reference/ref-topics/library.textmessage)
 
 Note: `bixby.textMessage` is designed to send a message to a particular phone number. If you want to allow users to share things, such as an image or video, you should instead use `viv.shareVia`, which allows users to choose an app and recipient when sharing.
 
@@ -33,7 +33,6 @@ To properly test this, change the phone number in `FindBusiness.js` to a real nu
 
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
-* [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
 
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule

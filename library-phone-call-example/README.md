@@ -9,7 +9,7 @@
 
 This capsule demonstrates how to use the Phone Call (`bixby.phoneCall`) library in a Bixby capsule.
 
-`bixby.phoneCall` allows a capsule to call a phone number. For more information, see the docs for [`bixby.phoneCall`](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library.phonecall)
+`bixby.phoneCall` allows a capsule to call a phone number. For more information, see the docs for [`bixby.phoneCall`](https://bixbydevelopers.com/dev/docs/reference/ref-topics/library.phonecall)
 
 ## Usage
 
@@ -30,7 +30,6 @@ To properly test this, you'll need to do on-device testing. You may edit the pho
 
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
-* [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
 
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
