@@ -15,6 +15,7 @@ capsule {
   store-sections {
     section (MusicAndAudio)
   }
+  // test
   store-countries {
     all
   }
