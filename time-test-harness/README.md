@@ -8,7 +8,7 @@
   
 This test harness lets you easily simulate the behavior that a consumer of the `viv.time` library would see. 
 
-(`viv.time` library documentation: https://bixbydevelopers.com/dev/docs/reference/ref-topics/library.datetime#datetime)
+(`viv.time` library documentation: https://bixbydevelopers.com/dev/docs/reference/ref-topics/library.datetime)
 
 For example, imagine a user asks a calendar capsule to schedule an event for next Monday. This capsule can be used to simulate the phrase "next Monday" getting resolved by `viv.time`, and returned in a structured way that the calendar capsule could then consume. 
 
