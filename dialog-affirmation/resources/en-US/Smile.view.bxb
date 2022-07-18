@@ -6,7 +6,7 @@ result-view {
   }
 
   message {
-    template-macro (SMILE_RESULT)
+    macro (SMILE_RESULT)
   }
 
   render {
