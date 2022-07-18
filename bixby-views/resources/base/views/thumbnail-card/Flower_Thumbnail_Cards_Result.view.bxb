@@ -11,7 +11,7 @@ result-view {
     if (size(flower) > 1) {
       list-of (flower) {
         where-each (item) {
-          layout-macro (flower-thumbnail-card) {
+          macro (flower-thumbnail-card) {
             param (flower) {
               expression (item)
             }

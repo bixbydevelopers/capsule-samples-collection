@@ -47,7 +47,7 @@ result-view {
           }
         }
         where-each (item) {
-          layout-macro (hotel-image-card) {
+          macro (hotel-image-card) {
             param (hotel) {
               expression (item)
             }

@@ -11,7 +11,7 @@ result-view {
     if (size(hotel) > 1) {
       list-of (hotel) {
         where-each (item) {
-          layout-macro (hotel-thumbnail-card) {
+          macro (hotel-thumbnail-card) {
             param (hotel) {
               expression (item)
             }

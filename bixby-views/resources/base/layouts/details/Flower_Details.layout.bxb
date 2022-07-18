@@ -5,7 +5,7 @@ layout {
   content {
     section {
       content {
-        layout-macro (flower-compound-area) {
+        macro (flower-compound-area) {
           param (flower) { expression (flower) }
         }
       }
