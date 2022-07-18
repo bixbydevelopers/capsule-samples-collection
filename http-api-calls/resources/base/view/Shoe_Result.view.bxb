@@ -7,7 +7,7 @@ result-view {
     if ("size(this) > 1") {
       list-of (this) {
         where-each (shoe) {
-          layout-macro (shoe-summary-macro) {
+          macro (shoe-summary-macro) {
             param (shoe) {
               expression (shoe)
             }
