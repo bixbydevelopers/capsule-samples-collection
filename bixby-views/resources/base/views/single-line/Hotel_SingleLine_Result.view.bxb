@@ -11,7 +11,7 @@ result-view {
     layout {
       section {
         content {
-          layout-macro (hotel-rating) {
+          macro (hotel-rating) {
             param (rating) {
               expression (hotel.rating)
             }

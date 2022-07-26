@@ -6,7 +6,7 @@ layout-macro-def (hotel-rating) {
     }
     param (reviewCount) {
       type (HotelReviewCount)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
   }
   content {
