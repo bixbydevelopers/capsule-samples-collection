@@ -7,18 +7,22 @@ result-view {
 
   render {
     if (action.planet.name == action.targetPlanet.name) {
-      layout-macro (planet-details-macro) {
-        param (planet) {
-          expression (action.planet)
+      layout {
+        macro (planet-details-macro) {
+          param (planet) {
+            expression (action.planet)
+          }
         }
       }
     } else {
-      layout-macro (planets-distance-macro) {
-        param (planet) {
-          expression (action.planet)
-        }
-        param (targetPlanet) {
-          expression (action.targetPlanet)
+      layout {
+        macro (planets-distance-macro) {
+          param (planet) {
+            expression (action.planet)
+          }
+          param (targetPlanet) {
+            expression (action.targetPlanet)
+          }
         }
       }
     }

@@ -7,9 +7,15 @@ result-view {
   }
   
   render {
-    layout-macro (planet-distance-macro) {
-      param (planet) {
-        expression (planet)
+    layout {
+      section {
+        content {
+          macro (planet-distance-macro) {
+            param (planet) {
+              expression (planet)
+            }
+          }
+        }
       }
     }
   }

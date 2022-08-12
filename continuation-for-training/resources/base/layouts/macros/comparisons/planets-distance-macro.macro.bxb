@@ -1,4 +1,4 @@
-layout-macro-def(planets-size-macro) {
+macro-def (planets-distance-macro) {
   params {
     param (planet) {
       type (Planet)
@@ -13,14 +13,14 @@ layout-macro-def(planets-size-macro) {
   }
 
   content {
-    section {  // this macro returns a "section"
+    section {
       content {
-        layout-macro (planet-size-macro) {
+        macro (planet-distance-macro) {
           param (planet) {
             expression (planet)
           }
         }
-        layout-macro (planet-size-macro) {
+        macro (planet-distance-macro) {
           param (planet) {
             expression (targetPlanet)
           }

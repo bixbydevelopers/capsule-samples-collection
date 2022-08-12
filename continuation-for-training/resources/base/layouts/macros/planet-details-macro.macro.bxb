@@ -1,4 +1,4 @@
-layout-macro-def(planet-details-macro) {
+macro-def (planet-details-macro) {
   params {
     param (planet) {
       type (Planet)

@@ -6,7 +6,7 @@ input-view {
   render {
     selection-of (this) {
       where-each (planet) {
-        layout-macro (planet-summary-macro) {
+        macro (planet-summary-macro) {
           param (planet) {
             expression (planet)
           }
