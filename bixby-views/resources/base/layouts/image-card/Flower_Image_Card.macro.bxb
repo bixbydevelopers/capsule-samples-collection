@@ -1,4 +1,4 @@
-layout-macro-def (flower-image-card) {
+macro-def (flower-image-card) {
   params {
     param (flower) {
       type (Flower)

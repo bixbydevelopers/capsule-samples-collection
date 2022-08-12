@@ -1,4 +1,4 @@
-layout-macro-def (flower-compound-area) {
+macro-def (flower-compound-area) {
   params {
     param (flower) {
       type (Flower)
