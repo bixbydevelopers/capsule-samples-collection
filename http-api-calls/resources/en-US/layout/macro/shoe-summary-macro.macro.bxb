@@ -1,4 +1,4 @@
-layout-macro-def(shoe-summary-macro) {
+macro-def (shoe-summary-macro) {
   params {
     param (shoe) {
       type (Shoe)
