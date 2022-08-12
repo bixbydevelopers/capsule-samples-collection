@@ -1,14 +1,14 @@
-template-macro-def (SMILE_RESULT) {
+macro-def (SMILE_RESULT) {
   content: template ("#{macro('AFFIRM', macro('SMILE_ON'))}")
 }
 
 // Core text response to turning on the smile, in lower case
-template-macro-def (SMILE_ON) {
+macro-def (SMILE_ON) {
   content: template ("smile is on")
 }
 
 // Pick a random affirmation (or none) and prepend it to the core text content with the appropriate capitalization and punctuation
-template-macro-def (AFFIRM) {
+macro-def (AFFIRM) {
   params {
     param (lowerCaseText) {
       type (viv.core.Text)
@@ -23,7 +23,7 @@ template-macro-def (AFFIRM) {
 }
 
 // Pick a random affirmation from a bag of words
-template-macro-def (AFFIRMATION) {
+macro-def (AFFIRMATION) {
   content {
     choose (Random) {
       template (Okay)
