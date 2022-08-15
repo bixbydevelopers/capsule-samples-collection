@@ -9,9 +9,11 @@ result-view {
   }
 
   render {
-    layout-macro (business-details-macro) {
-      param (business) {
-        expression (business)
+    layout {
+      macro (business-details-macro) {
+        param (business) {
+          expression (business)
+        }  
       }
     }
   }
