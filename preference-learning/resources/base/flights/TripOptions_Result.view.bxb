@@ -16,7 +16,7 @@ result-view {
             slot1 {
               text {
                 value {
-                  template-macro (carrier-name) {
+                  macro (carrier-name) {
                     param (name) { expression (item.name) }
                   }
                 }

@@ -17,7 +17,7 @@ result-view {
 							content {
 								order (PrimarySecondary)
 								primary {
-									template-macro (product-name-dialog) {
+									macro (product-name-dialog) {
 										param (name) { expression (item.name) }
 									}
 								}
@@ -43,7 +43,7 @@ result-view {
 								slot1 {
 									text {
 										value {
-											template-macro (product-name-dialog) {
+											macro (product-name-dialog) {
 												param (name) { expression (flower.name) }
 											}
 										}
@@ -53,7 +53,7 @@ result-view {
                 slot2 {
                   paragraph {
                     value {
-                      template-macro (product-type-dialog) {
+                      macro (product-type-dialog) {
                         param (flower) { expression (flower) }
                       }
                     }
