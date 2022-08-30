@@ -29,9 +29,11 @@ result-view {
     }
   }
   render {
-    layout-macro (activity-map-macro) {
-      param (activity) {
-        expression (this)
+    layout {
+      macro (activity-map-macro) {
+        param (activity) {
+          expression (this)
+        }
       }
     }
   }

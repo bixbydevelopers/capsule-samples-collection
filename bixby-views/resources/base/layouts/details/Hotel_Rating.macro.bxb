@@ -1,4 +1,4 @@
-layout-macro-def (hotel-rating) {
+macro-def (hotel-rating) {
   params {
     param (rating) {
       type (HotelRating)

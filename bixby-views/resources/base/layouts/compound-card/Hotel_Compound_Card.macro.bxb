@@ -1,4 +1,4 @@
-layout-macro-def (hotel-compound-card) {
+macro-def (hotel-compound-card) {
   params {
     param (hotel) {
       type (Hotel)

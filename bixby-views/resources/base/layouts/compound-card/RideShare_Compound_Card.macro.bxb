@@ -1,4 +1,4 @@
-layout-macro-def (rideshare-compound-card) {
+macro-def (rideshare-compound-card) {
   params {
     param (rideShare) {
       type (RideShare)

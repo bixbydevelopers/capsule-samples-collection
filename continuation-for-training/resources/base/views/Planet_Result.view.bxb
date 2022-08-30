@@ -9,7 +9,7 @@ result-view {
     if (size(this) > 1) {
       list-of (this) {
         where-each (planet) {
-          layout-macro (planet-summary-macro) {
+          macro (planet-summary-macro) {
             param (planet) {
               expression (planet)
             }
@@ -17,9 +17,11 @@ result-view {
         }
       }
     } else-if (size(this) == 1) {
-      layout-macro (planet-details-macro) {
-        param (planet) {
-          expression (this)
+      layout {
+        macro (planet-details-macro) {
+          param (planet) {
+            expression (this)
+          }
         }
       }
     }

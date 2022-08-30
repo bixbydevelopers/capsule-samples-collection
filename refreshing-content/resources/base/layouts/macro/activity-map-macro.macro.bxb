@@ -1,4 +1,4 @@
-layout-macro-def(activity-map-macro) {
+macro-def(activity-map-macro) {
   params {
     param (activity) {
       type (Activity)

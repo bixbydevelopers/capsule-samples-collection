@@ -7,9 +7,11 @@ result-view {
   }
 
   render {
-    layout-macro (business-summary-macro) {
-      param (business) {
-        expression (business)
+    layout {
+      macro (business-summary-macro) {
+        param (business) {
+          expression (business)
+        }
       }
     }
   }

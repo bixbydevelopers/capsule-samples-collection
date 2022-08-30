@@ -1,4 +1,4 @@
-layout-macro-def (hotel-image-card) {
+macro-def (hotel-image-card) {
   params {
     param (hotel) {
       type (Hotel)

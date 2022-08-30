@@ -15,9 +15,11 @@ result-view {
         }
       }
     } else-if ("size(this) == 1") {
-      layout-macro (shoe-details-macro) {
-        param (shoe) {
-          expression (this)
+      layout {
+        macro (shoe-details-macro) {
+          param (shoe) {
+            expression (this)
+          }
         }
       }
     }

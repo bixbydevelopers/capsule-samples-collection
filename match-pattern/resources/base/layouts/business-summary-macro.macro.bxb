@@ -1,4 +1,4 @@
-layout-macro-def(business-summary-macro) {
+macro-def (business-summary-macro) {
   params {
     param (business) {
       type (Business)

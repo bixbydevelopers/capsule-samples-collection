@@ -1,4 +1,4 @@
-layout-macro-def (rideshare-image-card) {
+macro-def (rideshare-thumbnail-card) {
   params {
     param (rideShare) {
       type (RideShare)
@@ -6,16 +6,12 @@ layout-macro-def (rideshare-image-card) {
     }
   }
   content {
-    image-card {
-      aspect-ratio (16:9)
-      image-url {
-        template ("[#{value(rideShare.images[0].url)}]")
-      }
+    thumbnail-card {
       title-area {
         halign (Start)
         slot1 {
           text {
-            style (Title_M)
+            style (Title_S)
             value ("#{value(rideShare.productType)}")
           }
         }
@@ -31,11 +27,15 @@ layout-macro-def (rideshare-image-card) {
           single-line {
             text {
               value ("#{value(rideShare.priceRange)}")
-              style (Detail_M)
+              style (Detail_M_Soft)
             }
           }
         }
       }
+      image-url {
+        template ("[#{value(rideShare.images.url)}]")
+      }
+      image-position (End)
       on-click {
         view-for (rideShare)
       }
