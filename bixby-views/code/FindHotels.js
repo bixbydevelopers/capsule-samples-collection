@@ -1,4 +1,4 @@
-const data = require('./lib/hotels.js')
-module.exports.function = function findHotels () {
+import data from "./lib/hotels.js";
+export default function findHotels() {
   return data;
 }

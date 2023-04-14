@@ -1,12 +1,12 @@
-module.exports = [
+export default [
   {
-    name: "Best Eastern Hotels and Resorts",
+    name: 'Best Eastern Hotels and Resorts',
     rating: 4.5,
     lowRate: {
       currencyType: {
-        currencyCode: 'USD'
+        currencyCode: 'USD',
       },
-      value: 160.00
+      value: 160.0,
     },
     location: {
       longitude: -121.890735,
@@ -14,106 +14,91 @@ module.exports = [
     },
     reviewCount: 15923,
     images: [
-      { url:"/images/hotel-1.jpg"},
-      { url:"/images/hotel-2.jpeg"},
-      { url:"/images/hotel-3.jpeg"},
-      { url:"/images/hotel-4.jpeg"},
+      { url: '/images/hotel-1.jpg' },
+      { url: '/images/hotel-2.jpeg' },
+      { url: '/images/hotel-3.jpeg' },
+      { url: '/images/hotel-4.jpeg' },
     ],
-    amenities: [
-      'Wifi',
-      'Spa',
-      'Swimming Pool',
-      'Kid-friendly'
-    ]
+    amenities: ['Wifi', 'Spa', 'Swimming Pool', 'Kid-friendly'],
   },
   {
-    name: "Goodmont Hotels and Resorts",
+    name: 'Goodmont Hotels and Resorts',
     rating: 4,
     lowRate: {
       currencyType: {
-        currencyCode: 'USD'
+        currencyCode: 'USD',
       },
-      value: 210.00
+      value: 210.0,
     },
     location: {
-      longitude: -121.894200,
+      longitude: -121.8942,
       latitude: 37.334291,
     },
     reviewCount: 10587,
-    images: [
-      { url:"/images/hotel-5.jpeg"},
-    ],
+    images: [{ url: '/images/hotel-5.jpeg' }],
   },
   {
-    name: "Motel 9",
+    name: 'Motel 9',
     rating: 3.5,
     lowRate: {
       currencyType: {
-        currencyCode: 'USD'
+        currencyCode: 'USD',
       },
-      value: 110.00
+      value: 110.0,
     },
     location: {
       longitude: 127.973356107,
-      latitude: 37.559841094
+      latitude: 37.559841094,
     },
     reviewCount: 902,
-    images: [
-      { url:"/images/hotel-6.jpeg"},
-    ],
+    images: [{ url: '/images/hotel-6.jpeg' }],
   },
   {
-    name: "Vacation Inn",
+    name: 'Vacation Inn',
     rating: 3,
     lowRate: {
       currencyType: {
-        currencyCode: 'USD'
+        currencyCode: 'USD',
       },
-      value: 284.00
+      value: 284.0,
     },
     location: {
       longitude: 129.973356107,
-      latitude: 37.559841094
+      latitude: 37.559841094,
     },
     reviewCount: 3009,
-    images: [
-      { url:"/images/hotel-7.jpeg"},
-    ],
+    images: [{ url: '/images/hotel-7.jpeg' }],
   },
   {
-    name: "Share-A-Ton Hotel",
+    name: 'Share-A-Ton Hotel',
     rating: 2.5,
     lowRate: {
       currencyType: {
-        currencyCode: 'USD'
+        currencyCode: 'USD',
       },
-      value: 416.00
+      value: 416.0,
     },
     location: {
       longitude: 125.973356107,
-      latitude: 37.559841094
+      latitude: 37.559841094,
     },
     reviewCount: 608,
-    images: [
-      { url:"/images/hotel-8.jpeg"},
-    ],
+    images: [{ url: '/images/hotel-8.jpeg' }],
   },
   {
-    name: "Three Points by Share-A-Ton",
+    name: 'Three Points by Share-A-Ton',
     rating: 2,
     lowRate: {
       currencyType: {
-        currencyCode: 'USD'
+        currencyCode: 'USD',
       },
-      value: 255.00
+      value: 255.0,
     },
     location: {
       longitude: 124.973356107,
-      latitude: 37.559841094
+      latitude: 37.559841094,
     },
     reviewCount: 477,
-    images: [
-      { url:"/images/hotel-9.jpeg"},
-    ],
-  }
-]
+    images: [{ url: '/images/hotel-9.jpeg' }],
+  },
+];

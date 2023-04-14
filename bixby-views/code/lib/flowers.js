@@ -1,59 +1,59 @@
-module.exports = [
+export default [
   {
-    name: "Fields of America for Fall",
+    name: 'Fields of America for Fall',
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 39.99
+        value: 39.99,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 59.99
-      }
+        value: 59.99,
+      },
     },
     deliveryType: 'Same Day Delivery',
-    imageUrls: ["/images/fields-of-america.jpeg"],
+    imageUrls: ['/images/fields-of-america.jpeg'],
   },
   {
-    name: "Rainy Garden Basket",
+    name: 'Rainy Garden Basket',
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 39.99
+        value: 39.99,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 59.99
-      }
+        value: 59.99,
+      },
     },
     deliveryType: 'Shipped in a Gift Box',
-    imageUrls: ["/images/rainy-garden.jpeg"],
+    imageUrls: ['/images/rainy-garden.jpeg'],
   },
   {
-    name: "Spring Rose Bouquet",
+    name: 'Spring Rose Bouquet',
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 39.99
+        value: 39.99,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 66.99
-      }
+        value: 66.99,
+      },
     },
     deliveryType: 'Shipped in a Gift Box',
-    imageUrls: ["/images/roses.jpeg"],
+    imageUrls: ['/images/roses.jpeg'],
   },
-]
+];
