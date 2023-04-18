@@ -1,6 +1,6 @@
 capsule {
   id (example.phoneCallExample)
-  version (0.2.0)   // JSRS migration 
+  version (0.2.0)   //JSRS migration VCAP-24499
   format (3)
   targets {
     target (bixby-mobile-en-US)
