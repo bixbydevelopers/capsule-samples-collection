@@ -1,3 +1,3 @@
-module.exports.function = function constructCallingInfo (business) {
-  return {phoneNumber: business.phoneNumber}
+export default function constructCallingInfo({ business }) {
+  return { phoneNumber: business.phoneNumber };
 }
