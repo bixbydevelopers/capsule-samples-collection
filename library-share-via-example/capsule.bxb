@@ -1,8 +1,9 @@
 capsule {
   id (example.shareViaExample)
-  version (1.0.0)
+  version (1.1.0)   // JSRS migration VCAP-24612
   format (3)
   runtime-version (7) {
+    js-runtime-version (2)
     overrides {
       no-fallback-dialog-in-views (false)
       allow-dialogs-on-detail-pages (true)

@@ -1,6 +1,6 @@
-module.exports = [
+export default [
   {
-    "text": "Share Via can share this fact!",
-    "tags": []
-  }
-]
+    text: 'Share Via can share this fact!',
+    tags: [],
+  },
+];
