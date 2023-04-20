@@ -11,7 +11,7 @@ capsule {
   store-sections {
     section (Communication)
   }
-  runtime-version (7) {
+  runtime-version (9) {
     js-runtime-version (2)
     overrides {
       no-fallback-dialog-in-views (false)
