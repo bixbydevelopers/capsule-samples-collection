@@ -1,11 +1,13 @@
 capsule {
   id (example.meow)
-  version (0.2.1)
+  version (0.3.0)   // JSRS migration VCAP-24191
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (2)
+  runtime-version (2) {
+    js-runtime-version (2)
+  }
   capsule-imports {
     import (bixby.audioPlayer) {
       version (1.2.1)

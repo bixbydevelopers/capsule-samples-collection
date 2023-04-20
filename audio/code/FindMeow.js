@@ -1,18 +1,20 @@
-var meowAudio = require('./meowAudio.js')
+import * as meowAudio from "./meowAudio.js";
 
-module.exports.function = function findMeow(searchTerm) {
-    const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
-    let meowAudioFound = []
+export default function findMeow({ searchTerm }) {
+  const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName'];
+  let meowAudioFound = [];
 
-    if (searchTerm) {
-        searchTerm = searchTerm.toLowerCase()
-        meowAudioFound = meowAudio.audioItems.filter(function (audioItem) {
-            return keysToSearchOn.some(function (key) {
-                return audioItem[key] && audioItem[key].toLowerCase().includes(searchTerm)
-            })
-        })
-    } else {
-        meowAudioFound = meowAudio.audioItems
-    }
-    return meowAudioFound
+  if (searchTerm) {
+    searchTerm = searchTerm.toLowerCase();
+    meowAudioFound = meowAudio.audioItems.filter(function (audioItem) {
+      return keysToSearchOn.some(function (key) {
+        return (
+          audioItem[key] && audioItem[key].toLowerCase().includes(searchTerm)
+        );
+      });
+    });
+  } else {
+    meowAudioFound = meowAudio.audioItems;
+  }
+  return meowAudioFound;
 }
