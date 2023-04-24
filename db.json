@@ -1,0 +1,13 @@
+// Used by the http-api-calls capsule
+
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
