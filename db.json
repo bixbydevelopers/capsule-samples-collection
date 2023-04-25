@@ -1,11 +1,80 @@
 {
-  "posts": [
+  "shoes": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "Boots",
+      "description": "Covers the foot and the ankle and extends up the leg.",
+      "price": {
+        "value": 70,
+        "currencyType": {
+          "currencyCode": "USD",
+          "prefixSymbol": "$"
+        }
+      },
+      "type": "Boot"
+    },
+    {
+      "id": 2,
+      "name": "High Heels",
+      "description": "Raised heels, by 2 inches (5 cm) above the toes, commonly worn by women for formal occasions or social outings.",
+      "price": {
+        "value": 85,
+        "currencyType": {
+          "currencyCode": "USD",
+          "prefixSymbol": "$"
+        }
+      },
+      "photo": {
+        "images": [
+          {
+            "url": "/images/heels.jpg"
+          }
+        ]
+      },
+      "type": "Formal"
+    },
+    {
+      "id": 3,
+      "name": "Mules",
+      "description": "No fitting around the heel (i.e. they are backless).",
+      "price": {
+        "value": 65,
+        "currencyType": {
+          "currencyCode": "USD",
+          "prefixSymbol": "$"
+        }
+      },
+      "photo": {
+        "images": [
+          {
+            "url": "/images/mules.jpg"
+          }
+        ]
+      },
+      "type": "Formal"
+    },
+    {
+      "id": 4,
+      "name": "Flip Flops",
+      "description": "Type of sandal typically worn as a form of casual wear. They consist of a flat sole held loosely on the foot by a Y-shaped strap that passes between the first and second toes and around both sides of the foot.",
+      "price": {
+        "value": 30,
+        "currencyType": {
+          "currencyCode": "USD",
+          "prefixSymbol": "$"
+        }
+      },
+      "photo": {
+        "images": [
+          {
+            "url": "/images/flipflops.jpg"
+          }
+        ]
+      },
+      "type": "Sandals"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "error": {
+    "error": "error message here"
   }
 }
