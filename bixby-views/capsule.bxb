@@ -1,8 +1,10 @@
 capsule {
   id (example.commonLayouts)
-  version (0.1.1)
+  version (0.2.0)   //JSRS migration 
   format (3)
-  runtime-version (8)
+  runtime-version (8) {
+    js-runtime-version (2)
+  }
   targets {
     target (bixby-mobile-en-US)
     target (bixby-tv-en-US)
@@ -10,15 +12,26 @@ capsule {
     target (bixby-fridge-en-US)
   }
   capsule-imports {
-    import (viv.core) {as (core)}
-    import (viv.money) {as (money) version (2.22.51)}
-    import (viv.time) {as (time) version (3.3.34)}
-    import (viv.geo) {as (geo) version (9.28.2)}
+    import (viv.core) {
+      as (core)
+    }
+    import (viv.money) {
+      as (money)
+      version (2.22.56)
+    }
+    import (viv.time) {
+      as (time)
+      version (3.6.6)
+    }
+    import (viv.geo) {
+      as (geo)
+      version (10.9.6)
+    }
   }
   store-countries {
     all
   }
-  store-sections{
+  store-sections {
     section (ArtAndLifestyle)
   }
 }

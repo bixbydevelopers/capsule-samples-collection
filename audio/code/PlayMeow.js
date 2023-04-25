@@ -1,3 +1,3 @@
-export default function playMeow() {
+module.exports.function = function playMeow () {
   return 'Meow';
 }

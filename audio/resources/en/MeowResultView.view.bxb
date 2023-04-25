@@ -1,14 +1,12 @@
 result-view {
-  match: Result (result)
+ match: Result (result) 
   render {
     layout {
       section {
         content {
           audio-control {
             // album-art-url, album-name, artist and title will use AudioInfo values if present
-            album-art {
-              url (/images/group-cats.jpeg)
-            }
+            album-art-url (/images/group-cats.jpeg)
             album-name (Cat Meow)
             artist (Cool Cat)
             title (Meow Melody)

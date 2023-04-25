@@ -1,218 +1,218 @@
-module.exports = [
+export default [
   {
-    productType: "Standard",
+    productType: 'Standard',
     dropoffETA: 10,
     pickupETA: 1,
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 20
+        value: 20,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 30
-      }
+        value: 30,
+      },
     },
     images: [
       {
-        url: "/images/car-1.jpeg"
-      }
+        url: '/images/car-1.jpeg',
+      },
     ],
-    sourcePoint:  {
+    sourcePoint: {
       longitude: -121.890735,
       latitude: 37.334282,
     },
-    destinationPoint:   {
-      longitude: -121.894200,
+    destinationPoint: {
+      longitude: -121.8942,
       latitude: 37.334291,
-    }
+    },
   },
   {
-    productType: "Pool",
+    productType: 'Pool',
     dropoffETA: 20,
     pickupETA: 7,
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 5
+        value: 5,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 10
-      }
+        value: 10,
+      },
     },
     images: [
       {
-        url: "/images/car-2.jpeg"
-      }
+        url: '/images/car-2.jpeg',
+      },
     ],
-    sourcePoint:  {
+    sourcePoint: {
       longitude: -121.890735,
       latitude: 37.334282,
     },
-    destinationPoint:   {
-      longitude: -121.894200,
+    destinationPoint: {
+      longitude: -121.8942,
       latitude: 37.334291,
-    }
+    },
   },
   {
-    productType: "Deluxe",
+    productType: 'Deluxe',
     dropoffETA: 10,
     pickupETA: 5,
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 50
+        value: 50,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 100
-      }
+        value: 100,
+      },
     },
     images: [
       {
-        url: "/images/car-3.jpeg"
-      }
+        url: '/images/car-3.jpeg',
+      },
     ],
   },
   {
-    productType: "Super Deluxe",
+    productType: 'Super Deluxe',
     dropoffETA: 10,
     pickupETA: 8,
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 70
+        value: 70,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 100
-      }
+        value: 100,
+      },
     },
     images: [
       {
-        url: "/images/car-4.jpeg"
-      }
+        url: '/images/car-4.jpeg',
+      },
     ],
-    sourcePoint:  {
+    sourcePoint: {
       longitude: -121.890735,
       latitude: 37.334282,
     },
-    destinationPoint:   {
-      longitude: -121.894200,
+    destinationPoint: {
+      longitude: -121.8942,
       latitude: 37.334291,
-    }
+    },
   },
   {
-    productType: "Motorcycle",
+    productType: 'Motorcycle',
     dropoffETA: 10,
     pickupETA: 5,
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 10
+        value: 10,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 15
-      }
+        value: 15,
+      },
     },
     images: [
       {
-        url: "/images/car-5.jpeg"
-      }
+        url: '/images/car-5.jpeg',
+      },
     ],
-    sourcePoint:  {
+    sourcePoint: {
       longitude: -121.890735,
       latitude: 37.334282,
     },
-    destinationPoint:   {
-      longitude: -121.894200,
+    destinationPoint: {
+      longitude: -121.8942,
       latitude: 37.334291,
-    }
+    },
   },
   {
-    productType: "Scooter",
+    productType: 'Scooter',
     dropoffETA: 10,
     pickupETA: 1,
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 3
+        value: 3,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 4
-      }
+        value: 4,
+      },
     },
     images: [
       {
-        url: "/images/car-6.jpeg"
-      }
+        url: '/images/car-6.jpeg',
+      },
     ],
-    sourcePoint:  {
+    sourcePoint: {
       longitude: -121.890735,
       latitude: 37.334282,
     },
-    destinationPoint:   {
-      longitude: -121.894200,
+    destinationPoint: {
+      longitude: -121.8942,
       latitude: 37.334291,
-    }
+    },
   },
   {
-    productType: "Drone",
+    productType: 'Drone',
     dropoffETA: 10,
     pickupETA: 1,
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 200
+        value: 200,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: 250
-      }
+        value: 250,
+      },
     },
     images: [
       {
-        url: "/images/car-7.jpeg"
-      }
+        url: '/images/car-7.jpeg',
+      },
     ],
-    sourcePoint:  {
+    sourcePoint: {
       longitude: -121.890735,
       latitude: 37.334282,
     },
-    destinationPoint:   {
-      longitude: -121.894200,
+    destinationPoint: {
+      longitude: -121.8942,
       latitude: 37.334291,
-    }
-  }
-]
+    },
+  },
+];
