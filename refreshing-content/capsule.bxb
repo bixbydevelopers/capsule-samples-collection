@@ -11,7 +11,7 @@ capsule {
   capsule-imports {
     import (viv.geo) {
       as (geo)
-      version (9.28.2)
+      version (10.9.6)
     }
   }
   store-countries {
