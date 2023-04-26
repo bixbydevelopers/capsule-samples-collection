@@ -20,7 +20,7 @@ module.exports.function = function createShoe () {
     format: 'json'
   };
 
-  var response = http.postUrl('http://shoe.bixby.pro/shoes', shoe, options);
+  var response = http.postUrl('https://my-json-server.typicode.com/bixbydevelopers/capsule-samples-collection/shoes', shoe, options);
 
   console.log(response);
   return response.parsed;

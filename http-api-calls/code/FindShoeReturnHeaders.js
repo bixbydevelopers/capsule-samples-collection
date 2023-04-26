@@ -4,7 +4,7 @@ module.exports.function = function findShoeReturnHeaders () {
 
   // This call will throw a 500, but since we are using returnHeaders: true,
   // we must check for the error ourselves.
-  var errorResponse = http.getUrl('http://shoe.bixby.pro/error', { format: 'json', returnHeaders: true });
+  var errorResponse = http.getUrl('https://my-json-server.typicode.com/bixbydevelopers/capsule-samples-collectio', { format: 'json', returnHeaders: true });
   
   console.log(errorResponse);
   
@@ -12,7 +12,7 @@ module.exports.function = function findShoeReturnHeaders () {
     console.log("There was an error.");
   }
 
-  var successResponse = http.getUrl('http://shoe.bixby.pro/shoes', { format: 'json', returnHeaders: true });
+  var successResponse = http.getUrl('https://my-json-server.typicode.com/bixbydevelopers/capsule-samples-collection/shoes', { format: 'json', returnHeaders: true });
   
   console.log(successResponse);
   
