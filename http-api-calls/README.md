@@ -31,7 +31,7 @@ For more information see - https://bixbydevelopers.com/dev/docs/sample-capsules/
 #### Tutorial Video on HTTP calls
 [![Watch the video](https://i.ytimg.com/vi/Z7J0eGmPRA4/hqdefault.jpg)](https://youtu.be/Z7J0eGmPRA4)
 
-If you want to see the contents of the endpoint this capsule uses (at http://shoe.bixby.pro/), but cannot access the link, you can view the data in endpointContents.zip. You can also see the data the endpoint returned in the Debug Console, if you click on the action (i.e. FindShoe), then click on 'requests'.
+If you want to see the contents of the endpoint this capsule uses (at https://my-json-server.typicode.com/bixbydevelopers/capsule-samples-collection/), but cannot access the link, you can view the data in endpointContents.zip. You can also see the data the endpoint returned in the Debug Console, if you click on the action (i.e. FindShoe), then click on 'requests'.
 
 ---
 
