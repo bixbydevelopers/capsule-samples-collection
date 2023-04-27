@@ -5,7 +5,8 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (7) {
+  runtime-version (9) {
+    js-runtime-version (2)
   }
   store-countries {
     all
