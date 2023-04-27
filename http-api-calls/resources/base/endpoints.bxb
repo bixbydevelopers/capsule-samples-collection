@@ -13,7 +13,7 @@ endpoints {
     
     action-endpoint (FindShoeRemoteEndpoint) {
       accepted-inputs ()
-      remote-endpoint ("http://shoe.bixby.pro/shoes") {
+      remote-endpoint ("https://my-json-server.typicode.com/bixbydevelopers/capsule-samples-collection/shoes") {
         method (GET)
       }
     }

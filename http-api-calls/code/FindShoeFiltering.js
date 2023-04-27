@@ -9,6 +9,6 @@ module.exports.function = function findShoe (type) {
     }
   };
   // makes a GET call to /shoes?type=Formal
-  var response = http.getUrl('http://shoe.bixby.pro/shoes', options);
+  var response = http.getUrl('https://my-json-server.typicode.com/bixbydevelopers/capsule-samples-collection/shoes', options);
   return response;
 }
