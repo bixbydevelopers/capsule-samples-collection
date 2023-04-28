@@ -1,12 +1,13 @@
 capsule {
   id (example.vivContext)
-  version (1.0.0)
-  // Request access permission to $vivContext.bixbyUserId, a secure user ID that is tied to a user's account and is the same across devices. The user has the ability to reset their user ID if they desire.
+  version (1.1.0) // Request access permission to $vivContext.bixbyUserId, a secure user ID that is tied to a user's account and is the same across devices. The user has the ability to reset their user ID if they desire.
   permissions {
     bixby-user-id-access
   }
   format (3)
-  runtime-version (2)
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
   targets {
     target (bixby-mobile-en-US)
   }
