@@ -1,3 +1,3 @@
-module.exports.function = function getResult () {
-  return "This successfully returns a result."
+export default function getResult() {
+  return 'This successfully returns a result.';
 }
