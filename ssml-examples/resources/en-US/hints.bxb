@@ -1,5 +1,7 @@
 hints {
-  // uncategorized {
-  //   hint (With Example Capsule, perform an action)
-  // }
+  uncategorized {
+    hint ("With SSML Examples perform an action")
+    hint ("on SSML Examples tell me a story")
+    hint ("ask SSML Examples to tell a story")
+  }
 }
