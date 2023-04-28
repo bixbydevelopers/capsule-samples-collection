@@ -6,7 +6,7 @@ capsule {
     target (bixby-mobile-en-US)
     target (bixby-watch-en-US)
   }
-  runtime-version (8) {
+  runtime-version (9) {
     js-runtime-version (2)
   }
   default-action (GetLocationAndProfile)
