@@ -1,12 +1,13 @@
 capsule {
   id (example.ssml_test)
-  version (0.1.0)
+  version (0.2.0)   // JSRS migration VCAP-24736
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (8){
-    overrides{
+  runtime-version (9) {
+    js-runtime-version (2)
+    overrides {
       allow-dialogs-on-detail-pages (true)
     }
   }
@@ -15,5 +16,8 @@ capsule {
   }
   device-models {
     all
+  }
+  store-sections {
+    section (EducationAndReference)
   }
 }

@@ -5,4 +5,8 @@ capsule-info {
   dispatch-name (SSML Examples)
   // Set your own image for your capsule's icon
   icon-asset (images/icons/bixby_launcher.png)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (ssml)
+  }
 }
