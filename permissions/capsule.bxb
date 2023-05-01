@@ -6,7 +6,9 @@ capsule {
     target (bixby-mobile-en-US)
     target (bixby-watch-en-US)
   }
-  runtime-version (8)
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
   default-action (GetLocationAndProfile)
   store-sections {
     section (TravelAndTransportation)
@@ -14,16 +16,14 @@ capsule {
   capsule-imports {
     import (viv.geo) {
       as (geo)
-      version (9.28.2)
+      version (10.9.6)
     }
     import (viv.self) {
       as (self)
       version (4.0.25)
     }
   }
-  permissions {
-    // This capsule uses device-location-access to get the user's location
-    // and self:profile to get the users name
+  permissions { // This capsule uses device-location-access to get the user's location // and self:profile to get the users name
     device-location-access
     library-permission (self:profile)
   }
