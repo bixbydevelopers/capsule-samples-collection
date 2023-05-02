@@ -1,6 +1,6 @@
 capsule {
   id (example.timeTestHarness)
-  version (1.0.1)
+  version (1.1.0)   // JSRS migration VCAP-24744
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -8,7 +8,7 @@ capsule {
   }
   capsule-imports {
     import (viv.time) {
-      version (3.3.12) // Update with whatever version you'd like.
+      version (3.6.6) // Update with whatever version you'd like.
       as (time)
     }
   }
@@ -18,7 +18,8 @@ capsule {
   store-sections {
     section (GamesAndFun)
   }
-  runtime-version (8) {
+  runtime-version (9) {
+    js-runtime-version (2)
     overrides {
       no-fallback-dialog-in-views (false)
     }
