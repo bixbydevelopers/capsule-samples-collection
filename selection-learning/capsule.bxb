@@ -1,6 +1,6 @@
 capsule {
   id (example.selectionLearning)
-  version (1.0.2)
+  version (1.1.0)   // JSRS migration VCAP-24747
   format (3)
   targets {
     target (bixby-mobile-en-US)
