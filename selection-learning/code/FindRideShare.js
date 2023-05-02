@@ -1,13 +1,13 @@
-module.exports.function = function findRideShare () {
-  const standardRideShare = makeRideShare("Standard", 10, 5, 20, 30);
-  const poolRideShare = makeRideShare("Pool", 20, 7, 5, 10);
-  const deluxeRideShare = makeRideShare("Deluxe", 10, 5, 50, 100);
+export default function findRideShare() {
+  const standardRideShare = makeRideShare('Standard', 10, 5, 20, 30);
+  const poolRideShare = makeRideShare('Pool', 20, 7, 5, 10);
+  const deluxeRideShare = makeRideShare('Deluxe', 10, 5, 50, 100);
   const results = [];
-  results.push(standardRideShare, poolRideShare,deluxeRideShare);
+  results.push(standardRideShare, poolRideShare, deluxeRideShare);
   return results;
 }
 
-function makeRideShare (productType, dropoffETA, pickupETA, priceMin, priceMax) {
+function makeRideShare(productType, dropoffETA, pickupETA, priceMin, priceMax) {
   return {
     productType: productType,
     dropoffETA: dropoffETA,
@@ -15,17 +15,16 @@ function makeRideShare (productType, dropoffETA, pickupETA, priceMin, priceMax) 
     priceRange: {
       min: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: priceMin
+        value: priceMin,
       },
       max: {
         currencyType: {
-          currencyCode: 'USD'
+          currencyCode: 'USD',
         },
-        value: priceMax
-      }
-    }
-  }
-  
+        value: priceMax,
+      },
+    },
+  };
 }
