@@ -1,4 +1,4 @@
-var findPlanets = require('./FindPlanets')
-module.exports.function = function findThatPlanet (name, color) {
-  return findPlanets.function(name, color, null)
+import findPlanets from './FindPlanets.js';
+export default function findThatPlanet({ name, color }) {
+  return findPlanets({name, color});
 }

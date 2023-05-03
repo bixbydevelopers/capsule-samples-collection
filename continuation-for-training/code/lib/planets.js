@@ -1,132 +1,131 @@
 // Data from https://www.infoplease.com/science-health/solar-system/basic-planetary-data
 // Color data from http://curious.astro.cornell.edu/about-us/58-our-solar-system/planets-and-dwarf-planets/planet-watching/249-what-color-is-each-planet-intermediate
 // TODO move images to assets/images
-module.exports = [
+export default [
   {
-    name: "Mercury",
+    name: 'Mercury',
     distance: 36.0, // millions of miles
     periodOfRevolution: 88, // days
     size: 3032.4, // diameter in miles
-    atmosphere: "Virtually none",
+    atmosphere: 'Virtually none',
     moons: 0,
-    colors: "gray",
+    colors: 'gray',
     images: [
       {
-        url: "/images/mercury.jpg"
-      }
-    ]
+        url: '/images/mercury.jpg',
+      },
+    ],
   },
   {
-    name: "Venus",
+    name: 'Venus',
     distance: 67.24, // millions of miles
     periodOfRevolution: 224.7, // days
     size: 7519, // diameter in miles
-    atmosphere: "Carbon dioxide",
+    atmosphere: 'Carbon dioxide',
     moons: 0,
-    colors: "yellow",
+    colors: 'yellow',
     images: [
       {
-        url: "/images/venus.jpg"
-      }
-    ]
+        url: '/images/venus.jpg',
+      },
+    ],
   },
   {
-    name: "Earth",
+    name: 'Earth',
     distance: 92.9, // millions of miles
     periodOfRevolution: 365.2, // days
     size: 7926.2, // diameter in miles
-    atmosphere: "Nitrogen oxygen",
+    atmosphere: 'Nitrogen oxygen',
     moons: 1,
-    colors: ["blue", "white"],
+    colors: ['blue', 'white'],
     images: [
       {
-        url: "/images/earth.jpg"
-      }
-    ]
+        url: '/images/earth.jpg',
+      },
+    ],
   },
   {
-    name: "Mars",
+    name: 'Mars',
     distance: 141.71, // millions of miles
     periodOfRevolution: 687, // days
     size: 7519, //diameter in miles
-    atmosphere: "Carbon dioxide",
+    atmosphere: 'Carbon dioxide',
     moons: 2,
-    colors: ["red", "brown"],
+    colors: ['red', 'brown'],
     images: [
       {
-        url: "/images/mars.jpg"
-      }
-    ]
+        url: '/images/mars.jpg',
+      },
+    ],
   },
   {
-    name: "Jupiter",
+    name: 'Jupiter',
     distance: 483.88, // millions of miles
     periodOfRevolution: 4331.272, // days
     size: 88736, // diameter in miles
-    atmosphere: "Hydrogen helium",
+    atmosphere: 'Hydrogen helium',
     moons: 63,
-    colors: ["orange", "white"],
+    colors: ['orange', 'white'],
     images: [
       {
-        url: "/images/jupiter.jpg"
-      }
-    ]
+        url: '/images/jupiter.jpg',
+      },
+    ],
   },
   {
-    name: "Saturn",
+    name: 'Saturn',
     distance: 887.14, // millions of miles
     periodOfRevolution: 10758.792, // days
     size: 120660, // diameter in miles
-    atmosphere: "Hydrogen helium",
+    atmosphere: 'Hydrogen helium',
     moons: 56,
-    colors: "gold",
+    colors: 'gold',
     images: [
       {
-        url: "/images/saturn.jpg"
-      }
-    ]
+        url: '/images/saturn.jpg',
+      },
+    ],
   },
   {
-    name: "Uranus",
+    name: 'Uranus',
     distance: 1783.98, // millions of miles
     periodOfRevolution: 30676.8, // days
     size: 32193, // diameter in miles
-    atmosphere: "Helium hydrogen methane",
+    atmosphere: 'Helium hydrogen methane',
     moons: 27,
-    colors: "blue",
+    colors: 'blue',
     images: [
       {
-        url: "/images/uranus.jpg"
-      }
-    ]
+        url: '/images/uranus.jpg',
+      },
+    ],
   },
   {
-    name: "Neptune",
+    name: 'Neptune',
     distance: 2796.46, // millions of miles
     periodOfRevolution: 60258, // days
     size: 30775, // diameter in miles
-    atmosphere: "Hydrogen helium methane",
+    atmosphere: 'Hydrogen helium methane',
     moons: 13,
-    colors: "blue",
+    colors: 'blue',
     images: [
       {
-        url: "/images/neptune.jpg"
-      }
-    ]
+        url: '/images/neptune.jpg',
+      },
+    ],
   },
   {
-    name: "Pluto",
+    name: 'Pluto',
     distance: 3666, // millions of miles
     periodOfRevolution: 90569.6, // days
     size: 1423, // diameter in miles
-    atmosphere: "None detected",
+    atmosphere: 'None detected',
     moons: 3,
-    colors: "brown",
+    colors: 'brown',
     images: [
       {
-        url: "/images/pluto.jpg"
-      }
-    ]
-  
+        url: '/images/pluto.jpg',
+      },
+    ],
   },
-]
+];
