@@ -1,6 +1,6 @@
-/**  
+/**
  * restDB Implementation of Remote Database CRUD Interface
- * 
+ *
  * In the remote DB Collection, a UserData Document looks like this:
  * {
  *   _id: <dbUserId>
@@ -12,10 +12,11 @@
  *   }
  * }
  **/
-var http = require('http')
-var properties = require('./../properties.js')
+import http from 'http';
 
-module.exports = {
+import * as properties from "./../properties.js";
+
+export default {
   /**
    * DELETE UserData
    * params: userData
@@ -30,107 +31,112 @@ module.exports = {
    * UPDATE UserData if exists, otherwise CREATE UserData
    * params: bixbyUserId, userData
    */
-  putUserData: putUserData
-}
+  putUserData: putUserData,
+};
 
 function createUserData(bixbyUserId, userData) {
-  const url = properties.get("config", "baseUrl")
+  const url = properties.get('config', 'baseUrl');
   const query = {
-    apikey: properties.get("secret", "apiKey")
-  }
-  const body = {}
-  body[properties.get("config", "userIdField")] = bixbyUserId
-  body[properties.get("config", "userDataField")] = JSON.stringify(userData)
+    apikey: properties.get('secret', 'apiKey'),
+  };
+  const body = {};
+  body[properties.get('config', 'userIdField')] = bixbyUserId;
+  body[properties.get('config', 'userDataField')] = JSON.stringify(userData);
   const options = {
-    format: "json",
+    format: 'json',
     query: query,
-    cacheTime: 0
-  }
-  const response = http.postUrl(url, body, options)
+    cacheTime: 0,
+  };
+  const response = http.postUrl(url, body, options);
   if (response) {
-    userData = response[properties.get("config", "userDataField")]
-    userData.$id = response["_id"]
-    return userData
+    userData = response[properties.get('config', 'userDataField')];
+    userData.$id = response['_id'];
+    return userData;
   }
 }
 
 function deleteUserData(userData) {
-  const dbUserId = userData.$id
+  const dbUserId = userData.$id;
   if (dbUserId) {
     // Exists. Delete
-    const url = properties.get("config", "baseUrl") + "/" + dbUserId
+    const url = properties.get('config', 'baseUrl') + '/' + dbUserId;
     const query = {
-      apikey: properties.get("secret", "apiKey")
-    }
+      apikey: properties.get('secret', 'apiKey'),
+    };
     const options = {
-      format: "json",
+      format: 'json',
       query: query,
-      cacheTime: 0
-    }
-    const response = http.deleteUrl(url, {}, options)
+      cacheTime: 0,
+    };
+    const response = http.deleteUrl(url, {}, options);
     if (response) {
-      return true
+      return true;
     } else {
-      return false
+      return false;
     }
   } else {
     // Doesn't exist.
-    return
+    return;
   }
 }
 
 function getUserData(bixbyUserId) {
-  const url = properties.get("config", "baseUrl")
+  const url = properties.get('config', 'baseUrl');
   const query = {
-    apikey: properties.get("secret", "apiKey"),
-    q: "{\"" + properties.get("config", "userIdField") + "\":\"" + bixbyUserId + "\"}"
-  }
+    apikey: properties.get('secret', 'apiKey'),
+    q:
+      '{"' +
+      properties.get('config', 'userIdField') +
+      '":"' +
+      bixbyUserId +
+      '"}',
+  };
   const options = {
-    format: "json",
+    format: 'json',
     query: query,
-    cacheTime: 0
-  }
-  const response = http.getUrl(url, options)
+    cacheTime: 0,
+  };
+  const response = http.getUrl(url, options);
   if (response && response.length === 1) {
-    const userData = response[0][properties.get("config", "userDataField")]
-    userData.$id = response[0]["_id"]
-    return userData
+    const userData = response[0][properties.get('config', 'userDataField')];
+    userData.$id = response[0]['_id'];
+    return userData;
   } else {
     // Doesn't exist
-    return
+    return;
   }
 }
 
 function putUserData(bixbyUserId, userData) {
-  const dbUserId = userData.$id
-  delete userData.$id
-  delete userData.$type
+  const dbUserId = userData.$id;
+  delete userData.$id;
+  delete userData.$type;
   if (dbUserId) {
     // Already exists. Update
-    return updateUserData(bixbyUserId, dbUserId, userData)
+    return updateUserData(bixbyUserId, dbUserId, userData);
   } else {
     // New user. Create
-    return createUserData(bixbyUserId, userData)
+    return createUserData(bixbyUserId, userData);
   }
 }
 
 function updateUserData(bixbyUserId, dbUserId, userData) {
-  const url = properties.get("config", "baseUrl") + "/" + dbUserId
+  const url = properties.get('config', 'baseUrl') + '/' + dbUserId;
   const query = {
-    apikey: properties.get("secret", "apiKey")
-  }
-  const body = {}
-  body[properties.get("config", "userIdField")] = bixbyUserId
-  body[properties.get("config", "userDataField")] = JSON.stringify(userData)
+    apikey: properties.get('secret', 'apiKey'),
+  };
+  const body = {};
+  body[properties.get('config', 'userIdField')] = bixbyUserId;
+  body[properties.get('config', 'userDataField')] = JSON.stringify(userData);
   const options = {
-    format: "json",
+    format: 'json',
     query: query,
-    cacheTime: 0
-  }
-  const response = http.putUrl(url, body, options)
+    cacheTime: 0,
+  };
+  const response = http.putUrl(url, body, options);
   if (response) {
-    userData = response[properties.get("config", "userDataField")]
-    userData.$id = response["_id"]
-    return userData
+    userData = response[properties.get('config', 'userDataField')];
+    userData.$id = response['_id'];
+    return userData;
   }
 }

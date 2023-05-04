@@ -1,5 +1,5 @@
-var remoteDB = require('./lib/remoteDB.js')
+import remoteDB from "./lib/remoteDB.js";
 
-module.exports.function = function ($vivContext, userData) {
-  return remoteDB.deleteUserData(userData)
+export default function ({ $vivContext, userData }) {
+  return remoteDB.deleteUserData(userData);
 }
