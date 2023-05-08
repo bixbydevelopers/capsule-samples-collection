@@ -1,14 +1,14 @@
-var config = require('config')
-var secret = require('secret')
+import config from 'config';
+import secret from 'secret';
 
-module.exports.get = function (type, property) {
-  const override = config.get("override-properties") === "true"
+export function get(type, property) {
+  const override = config.get('override-properties') === 'true';
   switch (type) {
-    case "config":
-      return override ? config.get("config." + property) : config.get(property) 
-    case "secret":
-      return override ? config.get("secret." + property) : secret.get(property)
+    case 'config':
+      return override ? config.get('config.' + property) : config.get(property);
+    case 'secret':
+      return override ? config.get('secret.' + property) : secret.get(property);
     default:
-      throw "Unrecognized type: " + type
+      throw 'Unrecognized type: ' + type;
   }
 }

@@ -5,7 +5,9 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (2)
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
   capsule-imports {
     import (viv.core) {
       as (core)
@@ -13,7 +15,7 @@ capsule {
   }
   permissions {
     bixby-user-id-access
-  } 
+  }
   store-countries {
     all
   }
