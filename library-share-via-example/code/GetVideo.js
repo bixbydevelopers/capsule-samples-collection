@@ -1,5 +1,5 @@
-const videos = require("./lib/videos.js");
+import videos from "./lib/videos.js";
 
-exports.function = function () {
-  return videos
+export default function () {
+  return videos;
 }
