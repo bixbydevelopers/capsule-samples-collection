@@ -1,22 +1,36 @@
 capsule {
   id (example.locationSearch)
-  version (1.0.3)
+  version (1.1.0)   // JSRS migration VCAP-24705
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.location) { as (location) version (1.1.2)}
-    import (viv.geo) { as (geo) version-from (location)}
-    import (viv.self) { as (self) version-from (location) }
-    import (bixby.contact) {as (contact) version-from (location)}
+    import (viv.location) {
+      as (location)
+      version (1.1.2)
+    }
+    import (viv.geo) {
+      as (geo)
+      version-from (location)
+    }
+    import (viv.self) {
+      as (self)
+      version-from (location)
+    }
+    import (bixby.contact) {
+      as (contact)
+      version-from (location)
+    }
   }
   permissions {
     device-location-access
     library-permission (contact:contacts)
     library-permission (self:profile)
   }
-  runtime-version (8)
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
   store-sections {
     section (TravelAndTransportation)
   }

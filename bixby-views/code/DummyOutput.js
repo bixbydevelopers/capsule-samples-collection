@@ -1,3 +1,3 @@
-module.exports.function = function dummyOutput () {
-  return ''
+export default function dummyOutput() {
+  return '';
 }

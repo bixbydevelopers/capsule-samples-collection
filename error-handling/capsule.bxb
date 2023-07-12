@@ -1,11 +1,12 @@
 capsule {
   id (example.inputvalAnderrorhandling)
-  version (1.0.0)
+  version (1.1.0)   //  JSRS migration VCAP-24733
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-version (7) {
+  runtime-version (9) {
+    js-runtime-version (2)
   }
   store-countries {
     all

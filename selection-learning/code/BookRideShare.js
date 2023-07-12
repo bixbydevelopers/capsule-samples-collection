@@ -1,5 +1,5 @@
-module.exports.function = function activity (rideShare) {
+export default function activity({ rideShare }) {
   return {
-    rideShare: rideShare
-  }
+    rideShare: rideShare,
+  };
 }

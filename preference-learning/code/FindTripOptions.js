@@ -1,5 +1,5 @@
-const data = require('./lib/carriers.js');
+import data from './lib/carriers.js';
 
-module.exports.function = function findTripOptions () {
+export default function findTripOptions() {
   return data;
 }

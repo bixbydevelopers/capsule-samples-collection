@@ -1,15 +1,15 @@
-module.exports.function = function constructActivity (countdown) {
+export default function constructActivity({ countdown }) {
   return {
     countdown: countdown,
     rideShare: {
-      sourcePoint:  {
+      sourcePoint: {
         longitude: -121.890735,
         latitude: 37.334282,
       },
-      destinationPoint:   {
-        longitude: -121.894200,
+      destinationPoint: {
+        longitude: -121.8942,
         latitude: 37.334291,
-      }
-    }
-  }
+      },
+    },
+  };
 }

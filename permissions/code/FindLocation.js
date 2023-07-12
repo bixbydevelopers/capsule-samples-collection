@@ -1,7 +1,6 @@
-var console = require("console");
+import console from 'console';
 
-module.exports.function = function findLocation (myLocation, profile) {
-    
+export default function findLocation({ myLocation, profile }) {
   //console.log ("myLocation = " + JSON.stringify(myLocation))
   //console.log ("profile = " + JSON.stringify(profile))
 
@@ -13,6 +12,6 @@ module.exports.function = function findLocation (myLocation, profile) {
 
   return {
     myFullName: profile.structuredName,
-    myLocation: myLocation
-  }
+    myLocation: myLocation,
+  };
 }

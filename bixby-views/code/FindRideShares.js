@@ -1,4 +1,4 @@
-const data = require ('./lib/rideShares.js')
-module.exports.function = function findRideShares () {
+import data from "./lib/rideShares.js";
+export default function findRideShares() {
   return data;
 }

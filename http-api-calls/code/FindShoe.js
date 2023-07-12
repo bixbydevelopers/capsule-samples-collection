@@ -6,7 +6,7 @@ module.exports.function = function findShoe () {
   // from capsule.properties, this would look like this
   // var response = http.getUrl(config.get('remote.url') + '/shoes', { format: 'json' });
 
-  var response = http.getUrl('http://shoe.bixby.pro/shoes', { format: 'json' });
+  var response = http.getUrl('https://my-json-server.typicode.com/bixbydevelopers/capsule-samples-collection/shoes', { format: 'json' });
   console.log ("response = " + response)
   return response;
 }

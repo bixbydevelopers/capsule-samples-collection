@@ -1,4 +1,4 @@
-const data = require('./lib/flowers.js')
-module.exports.function = function findFlowers () {
+import data from "./lib/flowers.js";
+export default function findFlowers() {
   return data;
 }
