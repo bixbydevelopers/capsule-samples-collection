@@ -1,3 +1,0 @@
-structure (CallingInfo) {
-  extends (phone.CallingInfo)
-}

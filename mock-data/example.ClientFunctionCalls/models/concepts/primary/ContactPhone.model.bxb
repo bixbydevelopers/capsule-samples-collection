@@ -1,3 +1,0 @@
-text (ContactPhone) {
-  description (Raw phone number string)
-}

@@ -1,7 +1,0 @@
-data:
-  sixtree: |-
-    intent {
-      goal { Contacts$ref (r-QR2-0) @element (true) }
-    }
-screenshot: screenshot-2023-06-28T18-47-14.585Z-bixby-mobile-en-US-device-s.png
-type: intent

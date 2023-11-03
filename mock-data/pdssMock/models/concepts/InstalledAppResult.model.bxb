@@ -1,3 +1,0 @@
-structure (InstalledAppResult){
-  extends (installedApps.InstalledAppResult)
-}

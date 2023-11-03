@@ -1,8 +1,0 @@
-data:
-  sixtree: |-
-    intent {
-      goal { CallingInfo#call }
-      value { Contacts$ref (r-49H-0) }
-    }
-screenshot: screenshot-2023-06-28T19-01-04.731Z-bixby-mobile-en-US-device-s.png
-type: intent
