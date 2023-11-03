@@ -22,8 +22,8 @@ To see Bixby's Mock Data in action, run:
 - Simulator: Asks user to authenticate
 - Story: Skips authentication and uses the mocked token
 
-For more information about Config & Secrets Mock, see: https://corp.bixbydevelopers.com/dev/docs/dev-guide/developers/testing.stories_assertions#configs--secrets-mock
-For more information about OAuth Mock, see: https://corp.bixbydevelopers.com/dev/docs/dev-guide/developers/testing.stories_assertions#oauth-mock
+For more information about Config & Secrets Mock, see: https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.stories_assertions#configs--secrets-mock
+For more information about OAuth Mock, see: https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.stories_assertions#oauth-mock
 
 ---
 
