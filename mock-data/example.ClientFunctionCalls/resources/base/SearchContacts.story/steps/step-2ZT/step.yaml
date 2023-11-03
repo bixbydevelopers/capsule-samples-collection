@@ -1,0 +1,8 @@
+data:
+  sixtree: |-
+    intent {
+      goal { bixby.phoneCall.Confirmation }
+      value { bixby.phoneCall.Confirmation (true) }
+    }
+screenshot: screenshot-2023-06-28T19-01-09.273Z-bixby-mobile-en-US-device-s.png
+type: intent

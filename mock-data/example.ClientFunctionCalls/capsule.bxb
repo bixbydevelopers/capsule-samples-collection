@@ -1,0 +1,29 @@
+capsule {
+  id (bixby.phoneCallExample)
+  version (0.1.2)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-version (9) {
+    js-runtime-version (2)
+    overrides {
+      no-fallback-dialog-in-views (false)
+    }
+  }
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+  store-sections {
+    section (Local)
+  } 
+  capsule-imports {
+    import (bixby.phoneCall) {
+      as (phone)
+      version (1.0.12)
+    } 
+  } 
+}

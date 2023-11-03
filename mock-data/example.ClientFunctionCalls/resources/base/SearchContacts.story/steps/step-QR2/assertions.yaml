@@ -1,0 +1,5 @@
+- enabled: true
+  fatal: true
+  file: assertions/default-tests.js
+  program: mocha
+  version: '2'

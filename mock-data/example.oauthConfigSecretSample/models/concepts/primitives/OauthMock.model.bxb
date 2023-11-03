@@ -1,0 +1,3 @@
+text (OauthMock) {
+  description (Token value)
+}

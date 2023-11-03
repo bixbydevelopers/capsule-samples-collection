@@ -1,0 +1,8 @@
+train (t-itufpvbfoftxzh0l0hcefy440) {
+  utterance ("[g:GetAppFromPdss] Run scene with name (living room off)[v:bixby.bhp.SceneName]")
+  last-modified (1687276744520)
+}
+train (t-ip95pxw82rd4pz0hfgxyu08qo) {
+  utterance ("[g:GetAppFromPdss] Find in the (living room)[v:bixby.bhp.RoomName] device")
+  last-modified (1687288178052)
+}

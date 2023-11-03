@@ -1,0 +1,5 @@
+action (FindContact) {
+  type (Search)
+  description (Finds Contact)
+  output (Contacts)  
+}

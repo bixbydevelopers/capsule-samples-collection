@@ -1,0 +1,11 @@
+action (ConstructCallingInfo) {
+  type (Constructor)
+  description (Uses a contact to construct CallingInfo)
+  collect {
+    input (contacts) {
+      type (Contacts)
+      min (Required) max (One)
+    }
+  }
+  output (CallingInfo)
+}

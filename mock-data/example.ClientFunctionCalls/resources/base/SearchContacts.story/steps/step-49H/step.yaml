@@ -1,0 +1,6 @@
+data:
+  sixtree: |-
+    intent {
+      goal { Contacts$ref (r-QR2-1) @element (true) }
+    }
+type: intent

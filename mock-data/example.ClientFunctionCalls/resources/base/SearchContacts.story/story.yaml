@@ -1,0 +1,17 @@
+data:
+  deviceIsInHandsFreeMode: false
+  enhancedListNavigationSupported: false
+  geo:
+    latitude: 40.759011
+    longitude: -73.984472
+  time: '2023-06-28T16:24:57.000Z'
+  tz: America/Chicago
+steps:
+  step-QR2:
+    step-49H:
+      step-J5H:
+        step-2ZT: ~
+    step-IHL:
+      step-2M1:
+        step-PMG: ~
+version: 3

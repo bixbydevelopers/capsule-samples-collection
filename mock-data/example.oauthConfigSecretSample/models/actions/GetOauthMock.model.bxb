@@ -1,0 +1,5 @@
+action (GetOauthMock) {
+  type (Search)
+  description (Gets the mocked token when using the story, when using the simulator, prompts for authentication)
+  output (OauthMock)
+}

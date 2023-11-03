@@ -1,0 +1,7 @@
+data:
+  sixtree: |-
+    intent {
+      goal { CallingInfo#call }
+      value { Contacts$ref (r-IHL-0) }
+    }
+type: intent

@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint ("in OAuth Config and Secrets Sample Capsule goal with authorization")
+    hint ("with OAuth Config and Secrets Sample Capsule get mocked data")
+    hint ("in OAuth Config and Secrets Sample Capsule show mocked data")
+  }
+}

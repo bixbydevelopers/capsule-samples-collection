@@ -1,0 +1,11 @@
+structure (MockResult) {
+  description (Holds the value of the config and secret)
+  property (config) {
+    type (ConfigMock)
+    min (Optional) max (One)
+  }
+  property (secret) {
+    type (SecretMock)
+    min (Optional) max (One)
+  }
+}

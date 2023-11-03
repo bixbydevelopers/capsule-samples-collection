@@ -1,0 +1,11 @@
+data:
+  deviceIsInHandsFreeMode: false
+  enhancedListNavigationSupported: false
+  geo:
+    latitude: 37.334502
+    longitude: -121.890654
+  time: '2023-03-27T15:22:06.000Z'
+  tz: America/Los_Angeles
+steps:
+  step-LT2: ~
+version: 3

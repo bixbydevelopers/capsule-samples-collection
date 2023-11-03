@@ -1,0 +1,39 @@
+[
+  {
+    "fingerprint": "7db5ef4f878f3d4ad479148b47daac00",
+    "results": [
+      {
+        "@id": {
+          "@ref": 9
+        },
+        "value": {
+          "1.0.12-bixby.phoneCall.CallingInfo": {
+            "$fids": {
+              "1.0.12-bixby.phoneCall": null
+            },
+            "phoneNumber": {
+              "1.10.2-samsung.contact.PhoneNumber": {
+                "@value": "010-6686-5477",
+                "$fids": {
+                  "1.0.12-bixby.phoneCall": null
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "planNode": {
+      "@id": {
+        "@ref": 10
+      },
+      "nodeId": "1.0.12-bixby.phoneCall.FormatCallingInfo",
+      "origin": "Planner",
+      "orgId": "bixby",
+      "capsuleName": "phoneCall",
+      "capsuleVersion": "1.0.12",
+      "typeName": "FormatCallingInfo"
+    },
+    "timestamp": 1688473845945
+  }
+]

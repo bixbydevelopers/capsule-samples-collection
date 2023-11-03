@@ -1,0 +1,10 @@
+- enabled: true
+  fatal: true
+  file: assertions/default-tests.js
+  program: mocha
+  version: '2'
+- enabled: true
+  fatal: true
+  file: assertions/function-results.js
+  program: mocha
+  version: '2'

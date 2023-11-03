@@ -35,6 +35,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 
 [Match Patterns](../../tree/master/match-pattern) - Sample Match Patterns for Result Views
 
+[Mock Data](../../tree/master/mock-data) - Using Mock data
+
 [No Code Design Patterns](../../tree/master/no-code-design-patterns) - Samples of no-code Bixby design patterns
 
 [Permissions](../../tree/master/permissions) - Granting permissions to user information e.g. location or profile
@@ -69,7 +71,7 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 * [Bixby Developers YouTube Channel](https://www.youtube.com/c/bixbydevelopers) - Tutorial videos, Presentations, Capsule Demos and more
 
 ### Bixby Podcast
-* [Bixby Developers Chat](http://bixbydev.buzzsprout.com/) - Voice, Conversational AI and Bixby discussions 
+* [Bixby Developers Chat](https://open.spotify.com/show/3abrdQbOgpQBIbleWjTvci) - Voice, Conversational AI and Bixby discussions 
 
 ### Bixby on Social Media
 * [@BixbyDevelopers](https://twitter.com/bixbydevelopers) - Twitter

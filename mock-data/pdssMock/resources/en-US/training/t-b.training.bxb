@@ -1,0 +1,4 @@
+train (t-bys94byw7jepqdq2yxpdr5p8v) {
+  utterance ("[g:GetAppFromPdss] show me the devices in (my home)[v:bixby.bhp.LocationName]")
+  last-modified (1687289442014)
+}

@@ -1,0 +1,16 @@
+structure (Contacts) {
+  description (Contacts)
+
+  property (contactId){
+    type(ContactId)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (ContactName)
+    min (Required) max (One)
+  }
+  property (phoneNumber) {
+    type (ContactPhone)
+    min (Required) max (One)
+  }
+}

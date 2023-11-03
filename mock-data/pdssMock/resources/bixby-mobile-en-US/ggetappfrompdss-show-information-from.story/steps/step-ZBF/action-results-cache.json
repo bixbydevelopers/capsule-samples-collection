@@ -1,0 +1,158 @@
+[
+  {
+    "fingerprint": "021643c249588ca5189364da30b3edcf",
+    "results": [
+      {
+        "@id": {
+          "@ref": 26
+        },
+        "value": {
+          "1.0.25-bixby.pdss.InstalledAppResult": {
+            "$fids": {
+              "1.0.25-bixby.pdss": null
+            },
+            "resultCode": {
+              "1.0.25-bixby.pdss.ResultCode": {
+                "@value": "PP_0002",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            },
+            "resultMessage": {
+              "1.0.25-bixby.pdss.ResultMessage": {
+                "@value": "No Contents",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            },
+            "appNameInput": {
+              "1.0.25-bixby.pdss.ApplicationName": {
+                "@value": "air dresser",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "planNode": {
+      "@id": {
+        "@ref": 27
+      },
+      "nodeId": "1.0.25-bixby.pdss.GetAppInfo",
+      "origin": "Planner",
+      "orgId": "bixby",
+      "capsuleName": "pdss",
+      "capsuleVersion": "1.0.25",
+      "typeName": "GetAppInfo"
+    },
+    "timestamp": 1687971940061
+  },
+  {
+    "fingerprint": "1f4fd1426b774230df32915850e0e65a",
+    "results": [
+      {
+        "@id": {
+          "@ref": 28
+        },
+        "value": {
+          "1.0.25-bixby.pdss.InstalledAppResult": {
+            "$fids": {
+              "1.0.25-bixby.pdss": null
+            },
+            "resultCode": {
+              "1.0.25-bixby.pdss.ResultCode": {
+                "@value": "PP_0002",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            },
+            "resultMessage": {
+              "1.0.25-bixby.pdss.ResultMessage": {
+                "@value": "No Contents",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            },
+            "appNameInput": {
+              "1.0.25-bixby.pdss.ApplicationName": {
+                "@value": "air dresser",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "planNode": {
+      "@id": {
+        "@ref": 29
+      },
+      "nodeId": "1.0.25-bixby.pdss.GetInstalledAppInformation",
+      "origin": "Planner",
+      "orgId": "bixby",
+      "capsuleName": "pdss",
+      "capsuleVersion": "1.0.25",
+      "typeName": "GetInstalledAppInformation"
+    },
+    "timestamp": 1687971940065
+  },
+  {
+    "fingerprint": "1d9e54648a785b03a8505a732bb6866d",
+    "results": [
+      {
+        "@id": {
+          "@ref": 30
+        },
+        "value": {
+          "1.1.5-bixby.installedApps.InstalledAppResult": {
+            "resultCode": {
+              "1.0.25-bixby.pdss.ResultCode": {
+                "@value": "PP_0002",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            },
+            "resultMessage": {
+              "1.0.25-bixby.pdss.ResultMessage": {
+                "@value": "No Contents",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            },
+            "appNameInput": {
+              "1.0.25-bixby.pdss.ApplicationName": {
+                "@value": "air dresser",
+                "$fids": {
+                  "1.0.25-bixby.pdss": null
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "planNode": {
+      "@id": {
+        "@ref": 31
+      },
+      "nodeId": "1.1.5-bixby.installedApps.GetInstalledAppInformation",
+      "origin": "Planner",
+      "orgId": "bixby",
+      "capsuleName": "installedApps",
+      "capsuleVersion": "1.1.5",
+      "typeName": "GetInstalledAppInformation"
+    },
+    "timestamp": 1687971940068
+  }
+]

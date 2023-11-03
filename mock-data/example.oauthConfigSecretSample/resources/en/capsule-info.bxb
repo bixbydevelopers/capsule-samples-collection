@@ -1,0 +1,13 @@
+capsule-info {
+  display-name (OAuth Config and Secrets Sample Capsule)
+  dispatch-name (OAuth Config and Secrets Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (images/icons/bixby_launcher.png)
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  description ("A sample capsule to demonstrate story mocks")
+  search-keywords{
+    keyword (oauth mock)
+    keyword (configs mock)
+    keyword (secrets mock)
+  }
+}

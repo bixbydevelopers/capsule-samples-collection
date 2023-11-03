@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (PDSS Mock)
+  developer-name (Example Developer)
+  description ("Capsule created to explain the functionality of PDSS Mock")
+  dispatch-name (PDSS Mock)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/bixby_launcher.png)
+  search-keywords{
+    keyword (pdss mock)
+  }
+}

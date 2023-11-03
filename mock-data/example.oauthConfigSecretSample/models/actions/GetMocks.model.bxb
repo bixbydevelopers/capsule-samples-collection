@@ -1,0 +1,5 @@
+action (GetMocks) {
+  type (Search)
+  description (Gets configs & secrets from mocked data when using story; when using simulator, gets configs & secrets from DevConsole)
+  output (MockResult)
+}

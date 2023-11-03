@@ -1,0 +1,15 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetOauthMock) {
+      accepted-inputs ($vivContext)
+      local-endpoint (getOauthMock.js)
+      authorization{
+        user
+      }
+    }
+    action-endpoint (GetMocks) {
+      accepted-inputs ()
+      local-endpoint (getMocks.js)
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "iot.device": [
+    "air fryer",
+    "smartTV"
+  ],
+  "iot.room": [
+    "master room",
+    "classroom"
+  ],
+  "iot.scene": [
+    "good morning",
+    "bathroom off"
+  ],
+  "iot.location": [
+    "my basement",
+    "..."
+  ]
+}

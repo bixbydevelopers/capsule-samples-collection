@@ -1,0 +1,20 @@
+capsule {
+  id (bixby.oauthConfigSecretMock)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+  store-sections{
+    section (EducationAndReference)
+  }
+}

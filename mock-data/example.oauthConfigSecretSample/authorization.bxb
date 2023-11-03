@@ -1,0 +1,11 @@
+authorization {
+  user {
+    oauth2-authorization-code (example) {
+      authorize-endpoint (__AUTHORIZATION_ENDPOINT__)
+      client-id (__APP_PUBLIC_ID__)
+      client-secret-key (__KEY_TO_ACCESS_CLIENT_SECRET__)
+      scope (__LIST_OF_SCOPES__)
+      token-endpoint (tokenEndpoint.js)
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "fingerprint": "fdeeb3c4c43085d0f2abeee9541cdbaf",
+    "results": [
+      {
+        "@id": {
+          "@ref": 15
+        },
+        "value": {
+          "2.5415.10-viv.call.Name": {
+            "@value": "0 1 0 6 6 8 6 5 4 7 7",
+            "$fids": {
+              "2.5415.10-viv.call": null
+            }
+          }
+        }
+      }
+    ],
+    "planNode": {
+      "@id": {
+        "@ref": 16
+      },
+      "nodeId": "2.5415.10-viv.call.ConvertSpeechName",
+      "origin": "Planner",
+      "orgId": "viv",
+      "capsuleName": "call",
+      "capsuleVersion": "2.5415.10",
+      "typeName": "ConvertSpeechName"
+    },
+    "timestamp": 1687978184478
+  }
+]
