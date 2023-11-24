@@ -1,0 +1,11 @@
+action (CallOneContact) {
+  description (call a single contact)
+  type (Search)
+  collect {
+    input (contact) {
+      type (Contact)
+      min (Required) max (One)
+    }
+  }
+  output (TextResult)
+}

@@ -11,6 +11,8 @@ A collection of sample Bixby capsules which are individual capsules that show ho
 ---
 ## Capsule Samples
 
+[Array](../../tree/master/array) - Arrays and Modeling
+
 [Audio Player](../../tree/master/audio) - Audio Player
 
 [Bixby Views](../../tree/master/bixby-views) - Sample Result UI Views

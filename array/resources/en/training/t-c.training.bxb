@@ -1,0 +1,5 @@
+train (t-cr1vyax7dphkfuue8vq5qtp02) {
+  utterance ("[g:CallManyContacts] conference call (paul)[v:ContactName] (simon)[v:ContactName] (emily)[v:ContactName] and (sarah)[v:ContactName] ")
+  plan (Y+BkkEitSMwtyEnVSywqSqzUC0mtKAlKLS7NKWGQQ5VxTszJ8U3Mq3TOzytJTC4pZhBFk4eIo2tzTy2ByjhV+iXmpjJIYtVGdykOBkYGJgZmBhYGVgY2BnYgnwEuAoGMYBEGBh4oZACqZARiDqBqNgYGAA==)
+  last-modified (1559691253015)
+}

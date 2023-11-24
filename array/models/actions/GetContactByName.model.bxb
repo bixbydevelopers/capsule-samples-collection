@@ -1,0 +1,11 @@
+action (GetContactByName) {
+  description (search for contact structure by contact name)
+  type (Search)
+  collect {
+    input (name) {
+      type (ContactName)
+      min (Optional) max (Many)
+    }
+  }
+  output (Contact)
+}

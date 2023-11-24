@@ -1,0 +1,5 @@
+train (t-22osh3ydgx10mm1k227xof1yy) {
+  utterance ("[g:CallOneContact] Call (simon)[v:ContactName] and (emily)[v:ContactName]")
+  plan (Y2BnkEitSMwtyEnVSywqSqzUC0mtKAlKLS7NKWGQQZVxTszJ8c9Ldc7PK0lMLmEQRZOFCsuhCrunlkBlnCr9EnNTGSSxaqNAio2BkYGJgZmBhYEVyGaA81iALAYw5gFCBqAYI0QFAA==)
+  last-modified (1559691211840)
+}

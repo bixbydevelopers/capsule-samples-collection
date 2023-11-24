@@ -1,0 +1,13 @@
+capsule {
+  id (example.array)
+  runtime-flags {
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    concepts-inherit-super-type-features
+  }
+  version (0.2.1)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+}
